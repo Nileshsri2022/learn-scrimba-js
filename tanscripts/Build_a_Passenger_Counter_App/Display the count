@@ -1,0 +1,101 @@
+Transcript
+0:00
+Okay, so we are ready to add the final piece of the puzzle just to change the count l, that is the h two right here which currently has zero, so that reflects the new count.
+0:12
+And the new count is down here which we are logging out, so we have to do something down here at line nine, and what we're going to do is take this line right here which has just been lying here in the background all along.
+0:24
+Now, in order to properly understand this expression, I think we should break it into two.
+0:29
+Take the first part where we're actually asking for the HTML element, and the second part where we're actually modifying the HTML element.
+0:38
+So starting with the first part, I'm gonna store this in a variable called count l, like that.
+0:44
+Then do document of get element by ID, put in close parenthesis, and passing in count l.
+0:55
+This exact string right here.
+0:58
+Notice that we're using a different naming convention here in the JavaScript.
+1:02
+This is called camel case, like that, where you capitalize the first letter of the second word, but not the first letter of the first word.
+1:12
+This is how you wanna write JavaScript variables.
+1:14
+It's a very normal convention.
+1:16
+And also, if we were to try to use the same convention as we've been using in our HTML and CSS, JavaScript would actually tell us, uh-uh uh, you can't do that.
+1:25
+As you can see, we are getting a red line under this character, which is the JavaScript's way of complaining to us, because it's not a valid variable name when you use dash.
+1:33
+So we gotta remove it like that.
+1:35
+Now, as always, what do you think we should do now, now that we've taken one step into the unknown?
+1:41
+Well, of course, we're gonna use our good old friend console log, because we have to verify at every single step that we're actually on track.
+1:47
+We haven't introduced any bugs.
+1:49
+So I'll do console dot log and logging out count l.
+1:54
+And if we bring up the console, we can see actually we're getting what looks like an HTML element in the console.
+2:00
+That's pretty interesting.
+2:01
+Now it's actually not a real HTML element, it's more of a representation, it's a model of an HTML element, and it gives us a lot of other opportunities to change it using JavaScript as well.
+2:12
+But for now, it's it's perfectly fine to think of this as just, yeah, that is the element that we are seeing right here.
+2:20
+It's JavaScript's representation of that element.
+2:22
+Because remember, we said, hey, HTML document, why don't you get me the element that has the ID of Countel?
+2:31
+And the HTML is like, yeah, sure, just take it, and then you store that in the countel variable, and now you as a JavaScript developer have control over this element and you can manipulate it, which is exactly what we're going to do down here at line fourteen.
+2:46
+Because now we're going to move on to the second part of this big expression, which is modifying the element itself.
+2:51
+Dot inner text equals five, or in our case, how would we write this?
+2:56
+Well, we've turned this big thing here into this variable, so we'll use this variable and do dot innerText.
+3:06
+That is innerText like that equals, and we're not gonna set it to five because that wouldn't make any sense.
+3:13
+What are we going to set it to?
+3:14
+Think a second about that.
+3:16
+Indeed, it is the count, because we know from console logging earlier on that the count does indeed increment correctly, and now we're just saying that we want the inner text, that is the text on the inside of the tags.
+3:30
+We want it to be the count.
+3:32
+We'll run the code, hit the increment button, and yes, it works.
+3:37
+Now we are incrementing.
+3:38
+We are counting people.
+3:39
+Really good job reaching this point.
+3:41
+Your JavaScript skills are starting to become dangerous as you now know how to create interactive apps.
+3:47
+Now before we move on, there's one thing I wanna mention, which is that this get element by ID here, and this dot log, both are functions in the same way our increment function is a function.
+4:01
+Now they are hooked onto the document object and the console object, but that's just nuance, they're still functions, or methods as we call functions that are hooked on to so called objects.
+4:13
+If that sounds confusing, it's because it should be at this point because you haven't learned about objects yet and methods on objects.
+4:20
+But don't worry about that, just think of them as functions.
+4:24
+And actually, the thing we've been doing here of adding something in between the parentheses of the function when we are calling it is called to pass in arguments, which means that we are giving the function some data to work with.
+4:38
+Like here, we're specifying the ID of the element we want to grab.
+4:42
+Otherwise, if we didn't do that, this function would just be running in the wild and not know what to look for.
+4:48
+Likewise, in this dot log here, we're passing in which variable we want to log to the console.
+4:54
+If we didn't do this, the log function wouldn't know what to log.
+4:57
+So speaking in analogies, if the function is a chef that are to cook a meal for you, then the arguments you pass in are the ingredients the chef uses to cook that meal.
+5:08
+So hopefully that made everything a bit more clear.
+5:11
+Let's clean up this code and move on.
