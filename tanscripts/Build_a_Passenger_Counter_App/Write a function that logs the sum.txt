@@ -1,0 +1,51 @@
+Transcript
+0:00
+Okay.
+0:00
+Time for a new challenge.
+0:02
+So in our race car game, we have certain laps and of course we track how much time our players use to race through the laps, and here we have three lap times in the variable lap one, lap two, and lap three.
+0:15
+And the thing is, if you create a function down here on line six, it will be able to access these three variables from within the function.
+0:22
+So what I want you to do now is create a function that simply logs out the sum of all the three laps, so that'll be the total racing time for a player.
+0:32
+So you decide what name you wanna give it, just write that function that logs out the total lap time, and then run the function as well.
+0:39
+run Okay.
+0:44
+Hopefully, that went well.
+0:46
+Let's do this.
+0:47
+The function, I'm gonna call this function log lap time, open and close parenthesis.
+0:54
+In here, I can either first create a variable, let total time, for example, do lap one plus lap two plus lap three, and then console log out total lap time like that, and then log lap time invoke the function down here on line eleven.
+1:16
+If we now run the code, we could see, yes, we are logging out a hundred and three.
+1:19
+This is one way of doing it.
+1:20
+Alternatively, are I could have skipped creating this variable in here, one and simply added the variables inside of the console log.
+1:31
+It will give me, as you can see, the exact same result.
+1:34
+Now, the reason I wanted to create this variable here though, is to just show you one thing, which is that while this function could access these variables from the so called global scope, the outer scope, which is not on the inside of the function, but on the outside of it, this doesn't work the other way around.
+1:56
+If I now just try to console log total time from the outer scope, this if we run this, you can say total time is not defined.
+2:07
+That is because when you define a let variable inside of this scope, we it only exists inside of this block of code.
+2:15
+This is the scope in which the function lives, and that's why we call let variables block scoped.
+2:22
+So that might be a little bit confusing, that the lap could go from the outside of the function and to the inside of the function, but total time couldn't go from the inside of the function to the outside of the function.
+2:34
+from But don't worry too much about this.
+2:37
+JavaScript will tell you when something isn't defined, and you can be sure that you will misstep at times, but that's just a part of the process.
+2:44
+Let's now move on to the next challenge.
+2:38
+when something isn't defined, and you can be sure that you will misstep at times, but that's just a part of the process.
+2:44
+Let's now move on to the next challenge.
