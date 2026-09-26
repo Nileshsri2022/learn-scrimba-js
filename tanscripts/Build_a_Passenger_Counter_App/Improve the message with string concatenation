@@ -1,0 +1,60 @@
+
+Transcript
+0:00
+Okay.
+0:01
+Now there's one more thing you wanna do because personally, I think this welcome message could be a little bit more lively and fun, and what would help there is to add an emoji.
+0:09
+For example, this emoji right here.
+0:11
+That will look pretty nice.
+0:12
+That's why I want you to add that to the welcome element inner text.
+0:16
+However, there's a catch.
+0:18
+You are not allowed to modify the code over line nine.
+0:22
+You have to write it below.
+0:24
+So the question is, how can you add this emoji to the end here in the browser by simply writing more code, not by modifying any of the existing code?
+0:34
+And to give you a hint, you need to remember back what you did when you incremented numbers, this technique here.
+0:42
+You can do the same thing with welcome l dot inner text.
+0:45
+So go ahead and give this a shot.
+0:47
+give Okay.
+0:52
+Hopefully that went well.
+0:53
+If not, no worries.
+0:55
+We'll do this together.
+0:57
+What we're simply going to do here is instead of using count, we're going to use welcome l dot inner text.
+1:02
+And instead of the one, we're going to use an emoji.
+1:05
+So here we'll do welcome l dot inner text equals the old welcome text else inner text plus this new emoji right here.
+1:19
+And an emoji is just a string like all other characters.
+1:23
+It's just rendered out a little bit fancy.
+1:25
+So if we run this, you can see, yes, we indeed get the emoji at the end.
+1:29
+Now, before we leave, I wanna teach you a little trick because this line here is pretty clunky.
+1:35
+Writing the welcome l dot inner text twice, It's not something you'll see out in a while because there's a shorter version of writing this, and that is simply using the plus equal operator.
+1:48
+What it does, it takes the current value you have and then adds this one after it.
+1:53
+So it's the exact same thing that you were doing here.
+1:57
+It seem a bit weird to do this plus equal sign here.
+1:59
+Just try and remember that it simply takes what you have here and adds this to it.
+2:04
+So that after this line welcome dot inner text consists of the entire thing here.
