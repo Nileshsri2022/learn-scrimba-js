@@ -1,0 +1,122 @@
+
+Transcript
+0:00
+Before we can deploy to Netlify, we'll need to put our project on GitHub.
+0:03
+I'm gonna remind you how to get your project on GitHub with a quick drag and drop method right now.
+0:08
+But if you feel like you need a refresher or if you don't yet have a GitHub account, please be sure to go back and visit the first module of the front end career path for information on what GitHub is and guidance on how to create an account.
+0:20
+From my GitHub profile, I'm going to click on repositories and then new.
+0:24
+Remember that a repository is basically a folder with all of your coding files in it.
+0:29
+So I'm gonna give my repository a name and a description.
+0:33
+And by the way, I created this repo before I personalized my project, which is why it's still called passenger counter.
+0:40
+I would encourage you to give your repository a more descriptive name.
+0:43
+We can leave everything else how it is, scroll down, and click create repository.
+0:48
+Now right here it says, get started by creating a new file or uploading an existing file.
+0:53
+We want to upload an existing files.
+0:55
+And here you can drag and drop the files that you want to put in this repository.
+1:00
+You'll need to unzip the file that you downloaded from your scrim and move all of the individual files into your GitHub repo.
+1:07
+And then they will all be listed like this and we can scroll down and make a commit.
+1:12
+And you'll learn more about committing later but it basically means that we are going to make a note of the changes that we made and we're going to save those changes to our repo.
+1:20
+So I'm gonna make a note.
+1:21
+We've added all of these files via upload and I will commit those changes.
+1:26
+And now we have a brand new repo.
+1:28
+All of our files are in a GitHub repo so we can set up a Netlify account.
+1:32
+You can click on the picture or the text to go to Netlify dot com and click sign up.
+1:38
+You have several sign up options here, but I recommend signing up using GitHub just keep things super easy.
+1:44
+After you sign up, it will ask you some info.
+1:47
+You can go ahead and fill this info out however you see fit.
+1:50
+Scroll down to the bottom and click setup and continue.
+1:53
+Once we're all set up, Netlify very helpfully gives us some options for deploying a first project.
+1:59
+Click on import from Git.
+2:01
+And now we need to connect a Git provider.
+2:03
+So we want to connect our GitHub account to Netlify.
+2:06
+When I click on GitHub, it's going to ask you to authorize Netlify to connect to your GitHub account.
+2:13
+Click authorize.
+2:14
+Next, we'll pick a repository that we wanna deploy to Netlify.
+2:17
+Down here will be a list of any repositories you have.
+2:20
+I have a ton, so I'm gonna go over here and search for passenger.
+2:24
+There it is.
+2:24
+And this will take us to a page where there are a ton of settings, but we actually don't need to worry about any of these settings right now.
+2:31
+You'll learn a lot more about branches and what main means in later videos, but for right now, just leave everything the same.
+2:38
+Scroll down to the bottom, click deploy site.
+2:41
+This will take us to a deploy page.
+2:43
+So it says site deploy in progress.
+2:46
+Netlify will automatically generate a URL for us, and this is where we will be able to visit our app.
+2:52
+But also after a couple of minutes, you might wanna try refreshing the page.
+2:56
+And once it's deployed, it looks something like this.
+2:59
+And just like that, our app is deployed to the Internet.
+3:02
+And this is our URL.
+3:03
+So if we click on it, you can see our app is in fact deployed to the web.
+3:08
+Yay.
+3:09
+When you log in to Netlify, it will take you to this dashboard page and you can easily deploy any one of your repos by clicking on add new site and choosing import an existing project and picking a GitHub repo.
+3:22
+And another really cool thing is if you wanted to make changes to your counter app, you could go to GitHub and using this button, you could re upload your changed files and Netlify will automatically deploy any changes that you make.
+3:35
+It's pretty cool.
+3:36
+So for now, we are done.
+3:38
+You've deployed your first app, and that is amazing.
+3:41
+So I would really encourage you to celebrate your win.
+3:44
+Up here at the top of the window, you'll find a share solution button.
+3:48
+If you click on this, you'll be able to share your deployed project to Twitter.
+3:52
+And we've already provided you with a really handy message.
+3:55
+Just don't forget to add your Netlify URL right here.
+3:58
+Alright.
+3:58
+That's it for now.
+3:59
+It's been a pleasure.
+4:00
+I will see you later, and happy coding.
