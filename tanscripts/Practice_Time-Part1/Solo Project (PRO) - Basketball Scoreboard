@@ -1,0 +1,94 @@
+
+Transcript
+0:00
+Okay.
+0:00
+It is time to remove the training wheels and have you build your very own project from scratch.
+0:06
+And the one you're going to build is this basketball scorecard you can see on the right hand side here.
+0:12
+It is a very common app for not only basketball, but many sports because you need a way to keep track of the scores between the different teams.
+0:21
+And the requirements are that you are to build this from scratch or I write that in quotes because I've given you a little bit of a skeleton to start from.
+0:29
+I'll show you that in a bit.
+0:30
+And also you are to follow the design.
+0:33
+You will get a Figma file so that you can inspect this design right here.
+0:36
+And of course, we're going to make all of these six buttons work according to the expected behavior.
+0:42
+And that is that if you click on any of these three down here under the home column, then the home score will be incremented with the number that is on the button.
+0:51
+So if you click on two here, the home score should be incremented from twelve to fourteen.
+0:56
+Likewise, if you hit on the plus one in the guest column, then in this case, the guest score should increase from five to six.
+1:03
+So these are all the requirements.
+1:06
+However, we also have some stretch goals that you can do if you wanna go above and beyond.
+1:10
+But I want to warn you because in this JavaScript module, I haven't really taught you the concepts you need to do in order to complete these stretch goals.
+1:18
+So these are only meant for students who are actually ahead of the class and who've been doing studying on their own, and actually, it's only for those of you who find these requirements to be a bit boring.
+1:28
+So don't do these stretch goals if you are struggling.
+1:31
+But if you want to go above and beyond, you can for example add a new game button that sets both of these scores to zero, so that you can start adding scores again.
+1:40
+You can also highlight which team is leading.
+1:43
+I'm not sure how you would wanna do that, but you'll probably find a nice way to showcase that.
+1:47
+And also you can add more counters.
+1:50
+For example, which period the game is in, how many files each team has had, and even a countdown timer.
+1:55
+Though this is really complex, it's far beyond the scope of the JavaScript I've been teaching you so far, so I don't expect to see a lot of solutions with this timer implemented.
+2:04
+And also a good way to practice your overall product and design skills is to change the design.
+2:10
+Make it your own.
+2:10
+You could even turn it into a counter for a completely different type of sport, and then accommodate the buttons to whatever point system that sport has.
+2:19
+But as I said, the stretch goals are only stretch goals.
+2:22
+They are not a part of the core requirements.
+2:24
+Now as I said, there's a Figma file you can use in order to look at the design more closely.
+2:29
+Just click on this image right here and you'll be taken to that Figma file.
+2:32
+Now when you get there, you'll probably see other people interacting with the file live.
+2:38
+That's how Figma work.
+2:39
+It's a multiplayer app.
+2:40
+So what I want you to do here is click on the down arrow at the top here and choose this duplicate option as that'll give you your very own Figma file to work with.
+2:49
+And if you are a little bit confused with Figma, can click on this link right here, and then that'll take you to a quick Figma tutorial on YouTube.
+2:57
+Now if you ever get stuck and don't know what to do next, we have created a help section for you where we'll give you hints that'll hopefully get you unstuck.
+3:05
+So I'll leave you here with the requirements and the design as well.
+3:09
+You can click on this design to get to the Figma file and also here is a link to the help section I just mentioned.
+3:15
+Now as I said, I have a little bit of a skeleton for you just to make sure that you hit the gate running.
+3:20
+So as you can see in the HTML, I've created a div with a class of container that contains two direct children, which both also are divs, that then again contain their own children, which are h three elements with home and guest as the text.
+3:35
+And in the mini browser, can see that these are set up side by side as columns, which might seem a little bit weird given that divs are block level, but if you head over to the CSS file, will understand why.
+3:46
+Because I've given this container a display flex, which turns the children into columns, and then set some space around each of these two columns using the justify content property.
+3:56
+So what you can do then is start filling out each of these two columns and slowly inch your way towards this design and also towards making it feature complete.
+4:06
+Of course, you'll have to deal with JavaScript to make the buttons work and there I haven't given you any hints.
+4:11
+It is a completely blank file, but do remember that there is a huge community here at Scrimba of amazing students who love to help each other out.
+4:19
+So good luck and happy coding.
