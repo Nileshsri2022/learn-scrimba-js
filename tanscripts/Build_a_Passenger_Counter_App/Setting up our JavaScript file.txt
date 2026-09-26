@@ -1,0 +1,82 @@
+
+Transcript
+0:00
+To this lesson where we are going to take a look at the setup for our people counter app.
+0:04
+Here you can see we have a basic HTML structure, which probably looks familiar to you.
+0:09
+You can see we have the HTML tag, the head tag, and inside of the body, we only have two elements, the h one and an h two.
+0:17
+That is the title up here and our counter element.
+0:20
+We also have some styling in our index dot CSS.
+0:24
+You can check it out here.
+0:25
+This is just very basic styling that we're not going to go through because you want to get into the JavaScript as soon as possible.
+0:30
+So the first thing we're going to do actually is to simply, inside of our body tag, create a so called script tag.
+0:38
+Like that.
+0:39
+Looks just like any other HTML tag, it just says script, and inside of here, you can actually write JavaScript.
+0:47
+So inside of this tag, I'm going to write a pretty long JavaScript expression that you probably find a little bit frightening.
+0:52
+Don't worry about that.
+0:53
+You're not meant to really understand it.
+0:55
+In this lesson, I just wanna demonstrate that this works.
+0:58
+So I'm gonna start by writing document.
+1:00
+That refers to the HTML document itself.
+1:03
+And then I'll do dot and get element by ID, and then open and close parentheses.
+1:11
+Then inside of the parentheses, I'm going to copy the ID of our h two element.
+1:18
+So here we're saying, hey, HTML document, I want to get an element, and I wanna get it by its ID, and the ID is this count l.
+1:26
+So what do you think we get as a reply?
+1:28
+Well, we grab a hold of this element right here, and then we can do dot inner text.
+1:35
+Set that equal to, for example, five.
+1:38
+If I now run this code, you'll see that boom.
+1:41
+We have changed the text on the inside of the h true element, this one right here, from zero to five using JavaScript, and that opens up a whole world of opportunities.
+1:54
+It essentially gives us the power to breathe life into our application and turn it into a real world product that solves problems for people.
+2:02
+That's why this is so cool to learn.
+2:05
+However, we are not going to write our JavaScript this way here.
+2:08
+It's kind of an amateurish way to do it.
+2:10
+What we rather wanna do is create an index dot JS file.
+2:14
+Like that.
+2:14
+Here is our index dot JS file.
+2:16
+It's currently empty.
+2:18
+But what I'm gonna do is copy this line here,
+2:22
+then paste it into the index dot j s file, and now I'll add an attribute to my script tag called s r c, which is short for source.
+2:35
+And then inside of here, I'm just gonna write index dot j s.
+2:38
+We are in the HTML file, and the JavaScript file is in the same folder, so I don't need to navigate into any folder or type in a complicated path here.
+2:46
+Just write the name of the file.
+2:48
+If we now run this code again, you can see that, yes, it still works.
+2:52
+So now we have a proper setup for our app and we are ready to get started building our people counter.
+2:58
+Let's move on.
