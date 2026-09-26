@@ -1,0 +1,93 @@
+Transcript
+0:00
+Okay.
+0:00
+So let's return back to our count example.
+0:03
+Now you've learned how to initialize a variable and even how to do mathematical operations on it, with hard coded numbers and with other variables if we need that.
+0:12
+That's all great.
+0:14
+However, up until now, we've just been working on the initialization or the so called assignment of the variable.
+0:21
+What if you want to reassign it or in plain English, you wanna change the variable?
+0:26
+Well, then you can do that for example down here on line five and just to count equals three.
+0:31
+And if we now run the code, you see that we log out three as opposed to five because JavaScript starts from the top and runs down and uses the latest value it can find for any variable defined with the let keyword.
+0:44
+Now there are other types of variables that you can't reassign like this, but we'll get to that later.
+0:49
+As for now, we're just going to work with the let.
+0:53
+And you can do this as many times as you want.
+0:55
+If I wanna change it even further down down to one, you can see now that JavaScript is only taking into account the line seven reassignment of the count variable.
+1:04
+So this is all good, but it doesn't really help us if we want to increment our people entered count with one every time we, for example, click a button.
+1:12
+What we then wanna do is something like count plus one, because we wanna take the current count, keep track of how many we've counted up until now, and then just increment with one.
+1:23
+The way to do that is actually by simply doing like this.
+1:28
+Now this might look a little bit weird since we have count on both sides of the equal mark, and probably you've learned at school that the left and right hand side of the equal mark should be completely equal in mathematics.
+1:41
+However, that's not how it works in JavaScript.
+1:43
+Here we are assigning this variable to take on this value.
+1:47
+So first you wanna calculate the value and the value is this point five plus one.
+1:53
+Well, then count now will be equal to six.
+1:58
+Let's run this code and see that it works.
+2:00
+Yes.
+2:01
+And let's say we wanted to increment it by two, then we do two, and now it's seven because five plus two is seven.
+2:09
+Do the same thing again.
+2:11
+This time we can increment it with ten.
+2:13
+Now we're up at seventeen and minus that with two again, and then we're down at fifteen.
+2:19
+I think you get the point.
+2:20
+Now I have a challenge for you.
+2:23
+Okay.
+2:23
+So you are to create a variable bonus points.
+2:26
+So this could, for example, be a game where your bonus points goes up and down, and I want you to initialize it as fifty, and then increase it to a hundred, decrease it down to twenty five, and then finally increase it up to seventy again.
+2:38
+And you are to use the same technique that we used here with the count, where you reassign the variable to the old value of the variable and then adding or subtracting a value.
+2:48
+And I want you to console log the value after each step.
+2:52
+So go ahead and do this right now, and then I will show you the solution as well.
+3:00
+Okay.
+3:01
+Hopefully, this went well.
+3:03
+Let's do this together.
+3:04
+We'll start with let bonus points be fifty.
+3:09
+I'm still logging it out, and then we're going to do bonus points equals bonus points plus fifty because we wanna get to a hundred.
+3:17
+Again, console logging it.
+3:19
+Next up, bonus points equals bonus points minus seventy five because we wanna get down to twenty five, logging it out again.
+3:28
+Finally, bonus points equals bonus points.
+3:32
+Now we need to increase it with forty five Get to seventy.
+3:37
+Let's comment out this code up here and run the code, bring up the console, and yes, fifty, a hundred, twenty five, seventy.
+3:44
+Great job.
+3:45
+Let's move on.
