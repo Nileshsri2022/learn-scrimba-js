@@ -1,0 +1,23 @@
+Transcript
+0:00
+Your very first exposure to JavaScript will come through building a passenger counter app.
+0:05
+Now you might ask yourself, why on earth should we build a passenger counter app?
+0:10
+What's the point of that?
+0:11
+Well, you'd be surprised.
+0:13
+Because when I was nineteen, right around this time, my full time job was to count people who entered the subway.
+0:18
+So every day I would stand outside in the cold and be like, oh, so there's one, two, three, four, five, six people entering the subway this morning.
+0:27
+How interesting.
+0:28
+Then I would bring up my pen and paper and note down the number six, which at times was really cold.
+0:33
+So it would have been so much better if I had a little people counter app on my Nokia phone so that I could just tap these buttons while having the phone in my pocket.
+0:42
+But this was long before I learned to code, so instead we are going to build this passenger counter app together so that you will learn the basics of JavaScript and so that you are prepared in case you, one time in the future, have to stand outside in the cold counting people who enter the subway.
+0:55
+the cold counting people who enter the subway.
