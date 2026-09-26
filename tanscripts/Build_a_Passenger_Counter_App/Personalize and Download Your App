@@ -1,0 +1,124 @@
+
+Transcript
+0:00
+Hello, Scrumba student, and congrats on building your own counter app.
+0:04
+Now that you have an application to show off, I'm going to show you how to easily deploy it to the web using an awesome platform called Netlify.
+0:11
+But before we get started, let me introduce myself.
+0:14
+My name is Treasure.
+0:15
+I'm a teacher here at Scrimba, and I've been working as a developer and teaching people how to code since twenty fifteen.
+0:21
+I switched careers after going to a coding boot camp, and now I really super enjoy helping others learn to code so that they can do the same.
+0:29
+I'm located in Portland, Oregon in the US.
+0:32
+And if you want, you can follow me on Twitter.
+0:34
+Before we deploy to Netlify, I would love it if you would spend some time personalizing your app.
+0:40
+Not only is making the app your own really good practice, if getting a job is your goal, getting in the habit of personalizing the stuff that you build here in the web development career path is really gonna help you stand out.
+0:52
+So here's what I'd like you to do.
+0:54
+Change the title.
+0:56
+If you can think of a theme based around a hobby or interest you have, that would be great.
+1:00
+Find a new background image for the app.
+1:02
+And I also like you to change the font.
+1:05
+So if we go to index dot CSS, you can see there's a whole list of fonts here.
+1:11
+Whichever one you like the best, just make sure that it appears first in the list.
+1:15
+Then you can experiment with changing the appearance of the buttons by changing the colors, the widths, adding a border, things like that.
+1:22
+And finally, I would like you to wrap all of this HTML in a div and using that div to add a max width.
+1:30
+Since we're going to deploy this to the Internet and it's no longer gonna be in the mini browser, it's gonna be a lot bigger.
+1:36
+So as it stretches, we wanna make sure that the interface doesn't stretch too much.
+1:42
+So go ahead and pause the scrim try to personalize this now.
+1:45
+Really have fun with it.
+1:46
+And when you come back, I will show you how I personalized mine.
+1:52
+Okay.
+1:52
+Hopefully, app looks great.
+1:54
+Here's what I did.
+1:56
+Let me make this a little smaller first.
+1:59
+So I really like to crochet amigurumi, which are like crocheting little toys.
+2:04
+So I'm gonna make my counter app into a row counter to help keep track of rows of stitches.
+2:10
+So the first thing I'll do is I'm gonna change this h one to row counter.
+2:15
+And now around my existing HTML, I'm going to add a div with the class of container.
+2:20
+And again, the reason I'm doing this is to keep the buttons from stretching out too much and also because I'm gonna add a pretty loud background and I wanna make sure the text is still easy to read.
+2:29
+You'll see what I mean in a second.
+2:31
+So let's see how this is looking.
+2:33
+Great.
+2:34
+Now I will go to index dot CSS.
+2:36
+You can see I added a new background photos.
+2:39
+I'm going to change the background image to that.
+2:43
+The font that I want is open sans.
+2:45
+So I'm gonna go ahead and delete everything before it.
+2:48
+And it's a little hard to see, but if you look here, can see the image is So I'm gonna go ahead and add a height of a hundred viewpoint height.
+2:58
+And that is basically just so the background image will take up a hundred percent of whatever the current height of the window is.
+3:07
+Now I'll add some styles to my container class.
+3:11
+I'm going to make the background white at a max width of eighty percent.
+3:17
+So this container will take up no more than eighty percent of the current window width, and I'll do a margin auto so that it stays centered.
+3:25
+Finally, I'm going to add a three pixel solid black border and a border radius of ten pixels.
+3:35
+Alright.
+3:35
+Looking pretty decent.
+3:37
+Now I'm going to add a small border around both of the buttons.
+3:41
+I'm also gonna change the color of the buttons to something a little more vibrant to match the loud background.
+3:48
+And the last thing I'll do is target this previous entries text to make it a little bolder.
+3:54
+This all looks good to me, so let's get started deploying.
+3:57
+The first step is gonna be to download the code from the scrim to your computer.
+4:01
+So here's a quick reminder of how to do that.
+4:04
+You're gonna click on this gear and then click download a zip and now the files are on your computer.
+4:11
+Once you've downloaded the zip file, go ahead and unzip it and this is very important.
+4:15
+Make sure to delete any files you see in the unzipped folder that aren't the files that you see here.
+4:22
+You might see a file called, for example, package dot JSON or something that says config JS.
+4:28
+Make sure that you delete these files before you attempt to deploy or you may run into issues.
+4:33
+Join me in the next scrim to create a GitHub repo and deploy to Netlify.
