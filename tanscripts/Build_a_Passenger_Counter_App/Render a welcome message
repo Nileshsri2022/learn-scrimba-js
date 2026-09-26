@@ -1,0 +1,50 @@
+
+Transcript
+0:00
+Okay.
+0:00
+It's time for a challenge.
+0:02
+This time, you are going to create a feature that we already have on Scribble, because on the dashboard, we welcome our users by saying welcome back, Pierre Harald Borgan.
+0:10
+That's a normal thing a lot of apps do, so it makes sense to try to implement it.
+0:14
+And the way you want to do it is through grabbing a hold of this paragraph here, which I've given an ID of welcome dash l.
+0:21
+That is the first part of the challenge.
+0:23
+You're going to store that paragraph in a variable called welcome l using this camel case convention, and then you are to create two variables, name and greeting that contains your name and the greeting we want to render on the page.
+0:37
+In our case, that is welcome back.
+0:39
+Finally, you are going to render the entire welcome message using welcome l dot inner text.
+0:45
+dot So go ahead and give this one a shot, and then I will show you the solution when you return back to this cast.
+0:50
+to Okay.
+0:55
+Let's do this.
+0:56
+We'll start by grabbing the welcome l paragraph.
+0:59
+Do let welcome l equals document dot get element by ID, passing in the ID we have here like that.
+1:10
+Now we need to create the two variables, let name.
+1:13
+we My name is Per Harold Morgan.
+1:17
+Let greeting.
+1:18
+name.
+1:19
+I'll do welcome back.
+1:22
+And finally, rendering it out.
+1:23
+That is done by doing welcome l dot inner text finally, equals greeting plus name.
+1:35
+Now if we run this, we can see we are rendering out welcome back Pierre Harald Borgan, but there's no space between welcome back and my name, that can easily be solved by just adding a space after welcome back, or we could of course hard code it in in between these two variables when we concatenated the string as well, but that doesn't really matter that much in this case, so let's just stick with this and move on to the next lesson.
+1:53
+really matter that much in this case.
+1:55
+So let's just stick with this and move on to the next lesson.
