@@ -1,0 +1,124 @@
+
+Transcript
+0:00
+Okay.
+0:00
+In this challenge, you are going to create a very basic calculator.
+0:04
+As you can see in the mini browser here, I've set up the UI for you.
+0:08
+Here we have two buttons.
+0:10
+Here we have the numbers, eight and two, and then there's four buttons, add, subtract, divide and multiply.
+0:16
+If I try to click one of these now, nothing happens.
+0:19
+But what you then of course want to happen is that, for example, if you hit subtract, you are to take eight minus two, which is six, and then render that out in the sum here, so that it'll say sum colon six.
+0:31
+Taking a look at the HTML, we can see that the numbers at the top, num one l and num two l, that's the eight and two, are simply spans.
+0:41
+However, they are empty.
+0:42
+So how come we have content in them when they are rendered?
+0:46
+Well, is because I'm doing that in the JavaScript.
+0:48
+First defining two let variables, num one and num two, and setting them to eight and two, and then doing document, get element by ID, fetching out num one l and num two l, and setting each of their text contents to num one and num two, and that's why we're rendering out these numbers.
+1:08
+Moving on to the buttons, you can see that they are very simple, only the tag and the text.
+1:14
+I have not created the event listeners because that's your job.
+1:18
+And then finally the span with the ID of sum l is where you are going to render out the result of the calculation.
+1:25
+So summing this up, you are to create four functions here in the JavaScript file, add, subtract, divide, and multiply, and then you need to call the correct function when the user clicks on one of the buttons.
+1:36
+So obviously, when the user clicks the add button, you are to call the add function and vice versa with all the others.
+1:42
+Then inside of the functions you are to perform the given calculation, so in add you need to add num one and num two together, and subtract, you will take num one minus num two and divide, and so on.
+1:55
+Finally, render the result of the calculation in the paragraph that has the ID of sum l.
+2:01
+So go ahead and give this one a shot, and then of course return back to the screencast when you wanna see my solution.
+2:11
+Okay.
+2:12
+Let's do this.
+2:13
+I'm gonna start by creating here an onClick event handler and call this function add because when the user clicks the add button, we wanna convoke a function which are to be named add.
+2:26
+And then we need to create the function.
+2:28
+Function add.
+2:31
+Here, what do we wanna do?
+2:35
+First, we just wanna check that it works on the code.
+2:39
+Add.
+2:39
+Yes.
+2:40
+We are logging out.
+2:42
+Now then we need to grab a hold of the some paragraph.
+2:45
+So I'll do let some l equals document get element by ID.
+2:54
+And the ID is some dash l, like that.
+2:57
+Here, I'm just going to see if it works by doing sum l dot text content equals num one plus num two.
+3:09
+Rerunning the code.
+3:11
+And yes, there we can see.
+3:13
+We're rendering out ten.
+3:14
+However, we wanted to render out some colon equals ten.
+3:18
+So let's try adding that some colon plus num one plus num two.
+3:26
+Rerunning the code, hitting add, and now we have come into a situation where actually JavaScript is turning all of our three values into strings.
+3:35
+As you remember, when you add strings and numbers together, they're all turned into strings.
+3:40
+What we need to do here is first perform the calculation and then concatenate that with the string.
+3:47
+So we'll do let result equals num one plus num two because here we're only adding numbers together, and JavaScript will will treat them as numbers and thus perform a mathematical calculation and not a string concatenation.
+3:59
+So then we can replace this expression here with result.
+4:03
+Rerunning the code, clicking add, and yes, there we go.
+4:08
+Great stuff.
+4:10
+Now, I'm a little bit lazy, so I'm just gonna copy this, paste it in, and do subtract, and simply replace this with a minus.
+4:22
+Add the onclick equals subtract like that, running the code, clicking subtract, oh, sum is six.
+4:32
+Brilliant.
+4:33
+Now we'll just copy paste again, divide should get this use division symbol and multiply should use the multiplication symbol.
+4:49
+Now we only need to add the last two event handlers.
+4:55
+Divide is the name of that function,
+5:00
+space here, and multiply is the name of the final function.
+5:05
+Running the code, trying add gives ten, brilliant.
+5:08
+Subtract gives six, that's correct.
+5:10
+Divide rightfully gives four and multiply sixteen.
+5:14
+We have made a calculator.
+5:16
+Good job.
+5:17
+You have all reason to be proud of yourself now, And if you didn't manage to do this one, if you found it a bit too hard, now that you've seen the solution, just go back and try it again.
+5:24
+That's great practice and gives you the muscle memory you need.
+5:28
+And when you're ready, I'll see you in the next cast.
