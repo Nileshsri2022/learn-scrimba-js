@@ -1,0 +1,51 @@
+Transcript
+0:00
+Now before we move on, I wanna talk a little bit about what we're doing here where we're saying documents dot get element by ID.
+0:08
+Because you'll often hear developers refer to this technique as working with the DOM.
+0:14
+That's one of those three letter acronyms in web development that sounds super complicated.
+0:20
+And I was really confused about this when I was learning to code, and I want you to avoid that confusion.
+0:25
+So let's just unpack this expression.
+0:27
+It's short for document object model.
+0:30
+That sounds really fancy.
+0:32
+However, it's actually just how you use JavaScript to modify a website.
+0:36
+It's just that the people naming this wanted to give it a really abstract name.
+0:40
+give But if we look at each of the words separately, the name actually does make sense.
+0:45
+So let's do that, starting with the document.
+0:47
+Why that?
+0:48
+Well, that's because what you are interacting with is an HTML document.
+0:52
+interacting Object?
+0:53
+Well, that's because the document keyword in JavaScript is of the data type object, meaning they've taken the HTML document and shoved it into a JavaScript object.
+1:03
+Of course, that's a little bit of a simplification, but that's the essence.
+1:06
+bit So this word document is of the data type object.
+1:10
+Now you haven't learned about objects yet, though you're going to do that a little bit later.
+1:16
+Finally, there's model.
+1:17
+Model is basically a representation or a modulation, kind of like, you know, there's the real Saturn five rocket that NASA built, and then there's the Lego model.
+1:28
+And that's how it is here as well.
+1:29
+There's the real HTML element, which you've written in your dot HTML file, then there's the JavaScript model, the representation you have of this element in JavaScript.
+1:39
+Then So don't be frightened when people talk about the DOM, just in your head translate it to how to use JavaScript to modify websites.
+1:47
+just And with that out of the way, let's move on with the coding.
+1:48
+And with that out of the way, let's move on with the coding.
