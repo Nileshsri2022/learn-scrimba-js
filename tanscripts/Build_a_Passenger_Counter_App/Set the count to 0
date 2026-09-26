@@ -1,0 +1,86 @@
+
+Transcript
+0:00
+Okay.
+0:01
+So now we are going to put the final pieces in our puzzle.
+0:04
+Because we need to fix the fact that if I increment this and then hit save, and then the subway leaves the station and I'm gonna count a new group of people, then with the current solution, I will be counting further on from six like seven, eight, nine, and that's not what we want.
+0:19
+We want this one to be set back to zero every time we hit save.
+0:24
+And to do this, you need to write two lines of code.
+0:26
+And at this point, I wanna just throw you into the deep end of the pool and see how you swim.
+0:31
+So I'm not going to give you any hints or write any pseudo code or tell you where you're going to write these two lines.
+0:37
+Now you really have to think and think for yourself what do you need to do here in order to make this work.
+0:42
+And feel free to hack a little bit on it, try a solution, run the code, see how it works, console log out the values, and just hack away at it and give it your best shot.
+0:50
+And if you don't manage to do it, no worries at all because I will show you how to do it again, of course, when you return back to the screencast.
+0:57
+So then you can just try to do it again after you've seen my solution.
+1:00
+Anyway, enough talk.
+1:01
+Jump into the code here and give this a shot.
+1:08
+Okay.
+1:09
+Now let's solve this together.
+1:11
+So what we need to do is write a couple lines in this save function because this is where the magic should happen because it's when we hit the save button that we want this value to be set back to zero.
+1:23
+And how do we set this element to be zero?
+1:26
+Well, it is the count element, which we've worked with previously, and setting it to zero, we know how to do that.
+1:32
+We can do count l dot text content and set that equal to zero, like that.
+1:38
+If I rerun the code, increment, increment, increment, hit save, and yes, it's now zero.
+1:45
+But if I now try to hit the increment again, you'll see, oh, five.
+1:50
+That's weird.
+1:51
+Why is that?
+1:52
+That's because we have indeed set the text content of the count element to zero.
+1:58
+So this h two right here.
+2:00
+But in the JavaScript, we're still keeping track of the count, and that count has been incremented this point five times.
+2:08
+So what we needed to do here when we set the text content to zero is to also set the count back to zero as well, because JavaScript remembers what we've done previously unless we refresh the entire browser.
+2:21
+So even though JavaScript can see that, yeah, you are setting the text content of this element here to zero, it still keeps track of the count here, and JavaScript can't deduct that Since you wanna set this here to zero, you also want this to zero.
+2:33
+No.
+2:33
+You gotta give JavaScript very specific instructions.
+2:37
+So you need to do here, count equals zero as well.
+2:40
+Now if we run the code, bam, bam, bam, save, it's set to zero, and yes, we indeed start at zero again.
+2:50
+Oh, hey.
+2:51
+It's Gil from Scrimba.
+2:52
+I bet you didn't expect me here.
+2:54
+Per just wanted me to pop in real quick to share something important with you.
+2:57
+Thanks, Per.
+2:57
+So in this section, we started off by using the on click event handler HTML attribute to call and run functions like increment and save when their corresponding buttons get clicked.
+3:09
+This is an intuitive and straightforward way to understand how event listeners can be attached to HTML elements and grasp the basics of interactivity.
+3:18
+But in larger real world projects, mixing HTML structure and JavaScript behavior like this can lead to code that is harder to maintain and manage.
+3:28
+So keep this in mind, and real soon, we'll teach you the more recommended and maintainable approach for registering event listeners and executing JavaScript.
+3:37
+And this app is looking outstanding by the way, so great job getting this far.
