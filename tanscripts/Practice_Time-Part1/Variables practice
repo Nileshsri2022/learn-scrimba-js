@@ -1,0 +1,46 @@
+
+Transcript
+0:00
+Okay.
+0:00
+In this challenge, you are going to repeat variables.
+0:03
+So first, you are going to create two variables, first name and last name, and obviously I want you to set their values to your first name and your last name, and then concatenate the two variables into a third variable called full name, so that you have your full name.
+0:20
+Finally, log full name out to the console.
+0:23
+Go ahead and give this a shot right now, and then I will show you my solution when you return back to this screencast.
+0:34
+Okay.
+0:34
+Let's do this.
+0:35
+I'll do first name equals pair, and then I'll do let last name equals Borgen, like that.
+0:44
+Morgan Then we need to concatenate the two together.
+0:48
+Let full name equals first name plus last name, like that.
+0:56
+Finally, I wanna log it to the console, console dot log full name.
+1:01
+it Now I can run the code, and as you can see, we're logging Pierre Borgen to the console, but there's no space in between the two names.
+1:10
+So I could achieve this in a multitude of ways, either by adding a space here, this now it's better, or adding a space before Borgen, still good.
+1:22
+However, neither of these are optimal since I want the first name and last name to be the name and the name only, not an extra space.
+1:30
+So what I'll do instead is in between here, I'll add an extra space like that.
+1:36
+Running the code, there we go.
+1:38
+Now first name and last name contain only the characters of my name, but we still get the space by adding this third string here when we create full name.
+1:48
+So no matter how you did it, great job.
+1:51
+Let's move on.
+1:46
+we create full name.
+1:48
+So no matter how you did it, great job.
+1:50
+Let's move on.
