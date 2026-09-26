@@ -1,0 +1,46 @@
+
+Transcript
+0:00
+Okay.
+0:00
+So now we have to combine some of the things you've learned up until now in order to build this lap counter feature.
+0:07
+Because in our racing game, we want to keep track of how many laps a player has completed, so I've created this variable called laps completed and initialized it to zero.
+0:18
+So what I want you to do now is create a function that increments the laps completed variable with one every time you run the function.
+0:26
+Then I want you to run, or call, or invoke, or whatever you want to call it, this function three times, so that on line nine here, the value that's logged out will be three.
+0:38
+logged Now if you're wondering how to increment a variable in JavaScript, just look back a few CAS because we did that previously.
+0:46
+So now you have to combine that knowledge with your freshly acquired knowledge about writing functions.
+0:52
+Go ahead and give this your best try right now.
+0:54
+and Okay.
+1:00
+Hopefully, that went well.
+1:01
+If not, no worries.
+1:03
+Let's do this together so that you get to see how we do it.
+1:06
+New function, and I'm gonna call this function increment lap like that.
+1:11
+Open and close parenthesis, and then open and close curly brackets.
+1:15
+And here, we have to increment this variable just as we did a few casts ago by doing laps completed equals the old value of laps completed plus one like that.
+1:27
+I now run increment lap one time.
+1:31
+You'll see that we're logging out one.
+1:33
+Good stuff.
+1:34
+Let's invoke it three times, increment and there we can see we are logging out three to the console.
+1:42
+So great job doing this.
+1:44
+If you didn't manage it, just go back and try again now that you've seen my solution because it's really important that you actually write the code here so that you build up that important muscle memory.
+1:47
+you've seen my solution, because it's really important that you actually write the code here so that you build up that important muscle memory.
