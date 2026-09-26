@@ -1,0 +1,61 @@
+Transcript
+0:00
+Okay.
+0:00
+It's time for you to build some muscle memory because you are going to create a save button and a save function.
+0:06
+You're going to start with a function.
+0:08
+Here is the instructions, create a function called save, which logs out the count when it's called.
+0:14
+We're gonna modify this to do some other stuff afterwards, but as for now, I wanted to just log out the count.
+0:20
+Secondly, in the HTML, you are going to create the save button.
+0:24
+You are to set the ID as save b t n and have it call the save function when it is clicked.
+0:30
+So go ahead and do this right now and then return back to the screen cast when you wanna see my solution.
+0:36
+see Okay.
+0:41
+Hopefully, that went well.
+0:43
+Let's do this.
+0:44
+We'll do function save, open and close parenthesis, then the body of the function will the console log the count.
+0:53
+If we wanna check that this actually works now, we can call the save function, run the code, and we can see, yes, that account is indeed logged out as a consequence of us calling the function here on line fifteen.
+1:03
+Okay.
+1:04
+Let's remove that.
+1:06
+Going over to the HTML, we're going to create the save button, and we do open button tag.
+1:11
+create Then I'll just close it right away.
+1:14
+I'll write save in between the tags and give it the ID of save dot b t m.
+1:20
+Now we can actually run it to see that it renders.
+1:22
+Yes.
+1:23
+It it indeed does, see but nothing happens when we click it and that's because we have to do onclick.
+1:29
+We want to run the save function.
+1:32
+Here we have to invoke it with the open and close parenthesis, otherwise it won't call the function, So rerunning the code, hitting save, yes, there we are logging out zero because of this line.
+1:45
+Now we can increment a couple of times and see, oh, now we're logging out six.
+1:51
+Pretty nice.
+1:51
+a Now we're starting to get somewhere.
+1:54
+It's only a matter of saving the count to the website as well and rendering it out under the buttons.
+2:00
+But before that, there are some new concepts you need to learn, so I'll see you in the next cast.
+2:01
+some new concepts you need to learn.
+2:02
+So I'll see you in the next cast.
