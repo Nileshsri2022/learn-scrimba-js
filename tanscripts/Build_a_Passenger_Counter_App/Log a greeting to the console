@@ -1,0 +1,51 @@
+Transcript
+0:00
+Okay.
+0:01
+Time for another challenge.
+0:02
+You are to create two variables, name and greeting, and the name variable should store your name, and the greeting should store for example hi, my name is.
+0:11
+Then you are to create a third variable, my greeting, that concatenates the two strings.
+0:17
+And finally, log the my greeting variable to the console.
+0:20
+So this is just to give you some muscle memory.
+0:22
+Go ahead and do this right now.
+0:24
+and Okay.
+0:30
+Let's do this.
+0:30
+I'll do let name equals pair Harold Morgan, then let greeting.
+0:38
+Hi.
+0:39
+My name is, and then a space at the end.
+0:42
+And then finally, let then my greeting equals greeting plus name.
+0:49
+Then to see how this went, we do console log my greeting.
+0:53
+name.
+0:55
+Running the code.
+0:56
+Yes.
+0:57
+We get, hi.
+0:58
+My name is Pierre Harald Borgen.
+1:00
+Now notice that here, I added the space inside of one of the strings as opposed to doing something like here, that.
+1:10
+However, doing that would work the exact same way.
+1:13
+So great job solving this challenge, let's move on.
+1:10
+However, doing that would work the exact same way.
+1:13
+So great job solving this challenge.
+1:15
+Let's move on.
