@@ -1,0 +1,48 @@
+
+Transcript
+0:00
+Okay.
+0:00
+It's time for some strings and numbers repetition.
+0:04
+You are going to add a bunch of strings and numbers together and try to predict what the result is.
+0:09
+So here after each one of these lines I've added two slashes, that means that you can write your prediction.
+0:15
+Try to go through all of these and then run the code and see how you did it, and then I will give it a shot afterwards as well.
+0:22
+Good luck.
+0:27
+Okay.
+0:28
+Starting on the number two, that is a string plus a number.
+0:32
+We know that JavaScript then turns both of these into strings, so it becomes twenty two.
+0:38
+Here, eleven plus seven, that's just two numbers.
+0:42
+We get eighteen and as a number this time and not as a string.
+0:45
+as Six plus five, Six you might be fooled to think that JavaScript would treat this as a number calculation since the number is first, but no, actually the string wins and it becomes sixty five.
+0:58
+it Likewise with this one, here it's very natural to think that what you wanna do is add these two points together so that it's my points is fourteen, but no, since you have a string here, everything will be turned into a string and the result will be my points colon fifty nine.
+1:14
+points Two plus two, that's four, just a number.
+1:18
+And finally, two strings, of course, becomes a string, one one one four, like that.
+1:24
+Let's run this.
+1:25
+one And indeed, all of my predictions were correct.
+1:28
+Phew.
+1:29
+That was good.
+1:30
+Otherwise, I would lose all my integrity, so I'm really happy about that.
+1:33
+Let's move on.
+1:32
+I'm really happy about that.
+1:33
+Let's move on.
