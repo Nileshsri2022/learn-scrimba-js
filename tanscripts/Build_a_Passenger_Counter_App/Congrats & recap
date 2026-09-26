@@ -1,0 +1,60 @@
+
+Transcript
+0:00
+So you have built your very first JavaScript app from scratch.
+0:06
+Congratulations.
+0:07
+That is a huge accomplishment.
+0:09
+So give yourself a pat on the back.
+0:11
+You have really learned a lot in this section.
+0:13
+And to prove that to you, we're actually going to do a little recap so that you get to see in front of you all of the new concepts you've shoved into your brain at this point.
+0:22
+So we started out with the script tag.
+0:24
+If you remember, we had it here in the index dot HTML file, and we wrote our JavaScript internally in this file.
+0:31
+However, we realized that that wasn't the way we wanted to go, we instead pointed this script tag to a source, namely the index dot JS file so that we could write our JavaScript there instead.
+0:42
+Then we moved on quickly and learned about variables, namely the let variable, and we set its value to a number, which brings us to your very first data type, numbers.
+0:52
+You learned how to work with numbers, do mathematical operations, and even increment numbers here on line six, and also reassign the count variable to zero here on line fourteen.
+1:04
+So a lot of work with numbers in this app.
+1:06
+But you also learned about strings, was your second data type.
+1:10
+Here you added a string to build the save feature, and also you console logged out a few strings along the way with code that we've deleted now, so I added this console log here to remind you about it.
+1:20
+Because that is a truly important concept in developing, and you will use it throughout your entire career.
+1:25
+Also, another thing you will use constantly as a developer is functions.
+1:30
+You learned how to create functions like this increment and save function, and also how to call them aka invoke them from the HTML file here on the button clicks.
+1:41
+And that brings us to the next concept which you learned a ton about, which is the DOM or the document object model, or what I like to call it, how to use JavaScript to change the website.
+1:52
+So we interacted with the DOM at several places, for example up here where we did document dot get element by ID.
+1:59
+That's one you are going to get very familiar with throughout this module.
+2:03
+We passed in the ID as a string so that the JavaScript was able to head into the HTML and fetch out the content you told it to look for.
+2:13
+And another way we interacted with the DOM was through the innerText property.
+2:17
+We used that here instead of text content, but then we googled our way to the Mozilla developer network, realized that actually text content is a better solution.
+2:28
+So we learned about that, and oh my god, this is a lot of concepts to learn.
+2:33
+I can totally understand if you're a little bit overwhelmed and if you feel that you are on thin ice on a few of these concepts, that's totally okay.
+2:40
+We are going to repeat all of these things over and over again throughout the module, but don't worry about that.
+2:46
+Actually, we are going to jump directly into a section where you are going to get assignments that test you for these skills, just to give you that repetition and muscle memory you need in order to make these concepts become second nature.
+2:59
+So let's go ahead and get some repetition, and then once we've done with that, we'll move on to our next big project, the Blackjack app, which is going to be so much fun to build.
+3:09
+So I can't wait to see you there, but for now, let's jump into a few quick fire challenges.
