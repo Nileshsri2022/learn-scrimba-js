@@ -1,0 +1,61 @@
+Transcript
+0:00
+In this challenge, you are going to practice your incrementing and decrementing skills.
+0:04
+So let's say that you are building a game, and the player is collecting points, which currently are at three, and you need to create two functions, one which is called add three points, and one which is called remove one point, and of course then have these add and remove their given points from or to the my points variable.
+0:22
+So remove one point should decrease my points with one, add three points should add three points to the my points variable.
+0:31
+points And your job is to create those two functions and then call them however many times you need to call them in order for this line down here to log out the number ten.
+0:43
+So you are going to write your code in between here, you can add as many lines as you want, but when you eventually run the code myPoint should be ten and you should only have changed myPoints via calling these two functions a number of times.
+0:59
+So go ahead and give this one your best shot, and then I of course will show you the solution afterwards as well.
+1:05
+course, Okay.
+1:10
+Hopefully that went well.
+1:12
+Let's do it together.
+1:13
+We'll do function, add three points.
+1:17
+What that'll do is take my points and plus equal three.
+1:24
+Function remove one point my and that should do my point minus equal one like that.
+1:34
+Okay.
+1:35
+Now we have them, which means that we just need to call them a couple of times.
+1:38
+We are at three and we need to get it up to ten.
+1:41
+times, What I will do then is I'll first do add three points, call that three times because then we'll go up to twelve.
+1:52
+My calculation is correct.
+1:54
+Let's run this.
+1:56
+Yes.
+1:56
+We are indeed logging twelve.
+1:58
+twelve.
+1:58
+That means that we can remove one point two times.
+2:03
+That should get us to ten.
+2:05
+That Yes.
+2:06
+We are logging out ten, so we have solved the challenge.
+2:10
+Great job.
+2:04
+us to ten.
+2:05
+Yes.
+2:06
+We are logging out ten, so we have solved the challenge.
+2:10
+Great job.
