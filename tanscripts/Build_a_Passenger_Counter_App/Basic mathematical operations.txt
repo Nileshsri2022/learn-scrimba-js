@@ -1,0 +1,73 @@
+Transcript
+0:00
+Okay.
+0:00
+So let's return back to our count variable and learn some more advanced concepts, which is that you can actually use JavaScript kind of as a calculator.
+0:08
+So instead of just writing let count equals five, you can do let count equals five plus seven, for example.
+0:15
+And when you run that code, will see twelve in the console.
+0:18
+You can do minus of course, that'll result in minus two in the console, or you can even divide, that'll be zero point seven one bunch of numbers after that, and of course multiply gives us thirty five.
+0:29
+So there's a lot of mathematical operations built into JavaScript and you're not gonna learn about all of them now, because now instead of just hard coding raw numbers, let's try to use variables here instead.
+0:40
+Because oftentimes you won't see this kind of operation.
+0:42
+You'll normally see numbers represented as variables in real world code bases.
+0:48
+Removing this right here, for example, do let first batch equals five, so this was the batch of people that first entered the subway wagon, and instead of hard coding five here yet again, I'm just gonna do count equals first batch.
+1:06
+Well, what do you think will be logged out here then?
+1:09
+Quite correctly, it's five because first batch is five, count is set to the same as five.
+1:16
+And perhaps there was another batch as well.
+1:18
+Let second batch, a group of people that entered just before the doors closed.
+1:23
+Maybe that was seven people?
+1:24
+Well, then we can do count equals first batch plus second batch.
+1:30
+Yes, this works well, so this is a much more common thing to see in JavaScript, that a variable is set to the value of, for example, two other variables added together.
+1:40
+Now, I want to comment out this like that.
+1:42
+If you wonder how I did that magic of commenting out multiple lines at once, I did simply command plus k plus c or replacing this with control if you're on a Windows machine.
+1:54
+Because what I wanna do now, I wanna gather this code up here, and then I want to give you a three part challenge where you are going to convert your age into dog years.
+2:05
+So first create two variables, my age and human dog ratio, that is the ratio between human years and dog years, and for the sake of simplicity, we're gonna say that one human year is about seven dog years.
+2:19
+Now the calculation is actually a little bit more complicated than that, but that's not that important, and the important thing here is the learning.
+2:25
+So set then the human dog ratio to seven, and then multiply the two variables together and then store the result in my dog age.
+2:34
+Finally, log my dog age to the console.
+2:37
+This is great practice.
+2:38
+It's important to build up your muscle memory.
+2:40
+So go ahead and do this right now, and then return back to the screen cast when you wanna see how I solve it as well.
+2:50
+Okay.
+2:51
+Hopefully, that went well.
+2:53
+Now let's do it together.
+2:54
+Remove the console so we can get some more space here, and we'll start with my age which still is thirty five, and we'll do human dog ratio, that should be seven.
+3:08
+Finally, the my dog age should be my age multiplied with human dog ratio.
+3:17
+Let's verify that this works by logging out my dog age.
+3:23
+Play the code, and yes, we can see in the console we get two hundred and forty five.
+3:27
+My god, I would be an old dog if I was a dog.
+3:31
+I'm really glad I'm a human actually.
+3:34
+So let's move on.
