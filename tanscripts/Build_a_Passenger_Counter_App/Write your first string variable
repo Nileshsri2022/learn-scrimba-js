@@ -1,0 +1,94 @@
+
+Transcript
+0:00
+So strings are used all over the place in software.
+0:04
+Let's say that you, for example, are building an app where people can authenticate, well then most likely you have to store some kind of username for your users.
+0:13
+That would most likely be stored as a string.
+0:16
+For example, pair wrapped in double quotes.
+0:20
+Then this string, just like we did with numbers, will be stored in a variable.
+0:25
+So let username equals pair.
+0:29
+Now we can console log out username, and we get pair logged to the console.
+0:37
+Now one thing I wanna mention is that I'm using double quotes here to create this string.
+0:43
+I could use single quotes instead if I want to.
+0:47
+You can see that works.
+0:48
+However, I cannot start with a single quote and end with a double quote.
+0:52
+As you can see, now our editor tells us that this syntax is off.
+0:57
+If we try to run the code, we are getting a syntax error.
+1:01
+So you gotta stick with one or the other, and I usually use double quotes, but that's just a matter of preference.
+1:07
+If you prefer single quotes, go ahead.
+1:09
+Now I want to give you a challenge.
+1:12
+Like here, you are to create a variable message that stores the string, you have three new notifications.
+1:20
+Go ahead and do that right now.
+1:26
+Okay.
+1:27
+Hopefully, that went well.
+1:29
+Let's do this.
+1:30
+Message equals
+1:34
+this string right here.
+1:36
+Now what we want to do here is combine this string with this string because this string right here is probably the result of us checking in the database and seeing that, oh, there's three new notifications that pair hasn't seen, so render out this string right here.
+1:54
+And then, of course, we need to combine it with the name.
+1:57
+So what we wanna do is message plus username like that.
+2:03
+When we add a plus here, we so called concatenate the two strings together.
+2:07
+So let's have a look at what happens when we run the code.
+2:11
+Becomes a slightly ugly string.
+2:13
+We have three new notifications pair with no space in between the strings, so it kind of becomes like this.
+2:20
+This isn't really what we wanted.
+2:22
+What we then also can do is add a third string in between here, which includes a comma and a space.
+2:29
+Now if we run it, you have three new notifications pair, And maybe we even want to add a exclamation mark at the end like that.
+2:38
+As you can see, when we use the plus for strings, it simply concatenates the characters together.
+2:44
+Okay.
+2:45
+Now I have a new challenge for you.
+2:49
+You are to create a variable message to user that contains the message we have logged.
+2:55
+By that, I mean the entire message in here.
+2:58
+This should be a new variable.
+3:01
+And then afterwards, I would log it out just to make sure that you have configured the message to user in the correct way.
+3:08
+Go ahead and do this right now.
+3:14
+Okay.
+3:15
+To do this, you do let message to user equals message plus comma space plus username plus exclamation mark.
+3:28
+Now we can replace all of this with message to user.
+3:34
+And running the code again, we get the exact same string, which is just what we wanted.
+3:39
+Great job.
