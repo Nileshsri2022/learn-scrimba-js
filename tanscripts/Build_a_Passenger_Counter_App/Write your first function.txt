@@ -1,0 +1,34 @@
+
+Transcript
+0:00
+Okay.
+0:01
+Now it's your turn.
+0:02
+You are going to create a function that logs out the number forty two to the console, and you can decide the name of the function.
+0:09
+And when you've done that, make sure you call or invoke the function as well.
+0:13
+as So go ahead and do this right now.
+0:16
+right Okay.
+0:21
+Let's do this.
+0:23
+I'm gonna call it my call logger.
+0:26
+my Open and close brackets.
+0:28
+and And then inside of the body, do console dot log forty two.
+0:33
+Now we need to call it my logger like that.
+0:37
+We run the code.
+0:39
+And, yes, you can see we are logging forty two to the console.
+0:42
+Great job.
+0:40
+forty two to the console.
+0:42
+Great job.
