@@ -1,0 +1,36 @@
+
+Transcript
+0:00
+Okay.
+0:00
+So now it's time for us to build this little functionality here which allows us to save the number of people who have entered into the subway at each of the departures.
+0:11
+However, this requires you to work with this full paragraph which actually includes both numbers which you can see, but also like regular text, previous entries, and some symbols as well.
+0:21
+And once you move away from just straight out numbers in JavaScript, you're moving into the land of so called strings.
+0:28
+Strings is a data type in JavaScript, and in case you wondered, yes, numbers is also a data type.
+0:35
+And if you think the word string is a little bit weird, well, you can also think of this as just text.
+0:40
+The strings you work with in JavaScript are normally meant to be text that the user reads on the page.
+0:45
+Now we have been working with text here before, we've hard coded in some text here and there in the HTML, and actually as far as HTML knows, everything is strings.
+0:54
+It doesn't even know about numbers.
+0:55
+HTML can't do calculations for you.
+0:58
+So when I'm talking about strings and numbers, I'm talking about it in the context of JavaScript.
+1:03
+And even though you're probably not even aware of it, you've actually written a string already up here on line one.
+1:09
+You've wrapped the count dash l inside of two quotes, That is how you create a string in JavaScript.
+1:16
+But you've had far from enough practice to start working with strings in our people counter app, so in the next lesson, I'm going to go over the basics of it, and then you're going to solve some challenges so that we build up that muscle memory and make you capable of using strings in our app.
+1:32
+So I'll see you there.
+1:31
+in our app.
+1:32
+So I'll see you there.
