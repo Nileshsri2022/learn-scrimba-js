@@ -1,0 +1,103 @@
+Transcript
+0:00
+Okay.
+0:00
+So we have this little problem here, which is that our spaces aren't working in the way we want them to work.
+0:06
+Basically, this space here gets lost on the way somewhere.
+0:10
+I don't know where, but it happens.
+0:12
+How do we go about figuring out what's wrong?
+0:15
+Well, looking at these two lines, which is where we deal with this save element paragraph, you can think what would be a suspect?
+0:22
+Which tool that we are using would be a good suspect?
+0:26
+And I'm gonna point to this one right here, because I happen to know that that is actually the guilty one, the inner text.
+0:33
+And let's say you would guess that as well.
+0:35
+How do you go about finding another tool that doesn't work this way?
+0:39
+Well, one thing you can do is you can write inner text alternative and then MDN.
+0:45
+Put that into Google and see what it returns.
+0:48
+MDN is short for Mozilla Developer Networks, and it's a great resource.
+0:53
+So if we do that, type that into Google, you can see the very first result is node text content.
+1:00
+Okay.
+1:01
+That's interesting.
+1:02
+Let's click into that.
+1:04
+There we land on an interface you're going to get very familiar with, the MDN web docs.
+1:09
+This says node dot text content.
+1:11
+Don't worry about this node here.
+1:13
+It's kind of fancy way of saying HTML element.
+1:16
+Sort of, not entirely, but just translate it to HTML element right now, and you'll be good.
+1:22
+And then you can read the text content property of the HTML element represents the text content of the element.
+1:28
+Okay.
+1:29
+Seems pretty useful to me.
+1:31
+And then we can scroll a little bit down, and then you see they've actually listed up differences between inner text and text content.
+1:38
+And here if we scan through this, you can see that inner text only shows human readable elements, and yet again inner text is aware of styling and won't return the text of hidden elements.
+1:51
+Okay.
+1:51
+So it seems to be that the inner text somehow struggles a little bit to return things that are hidden or not human readable.
+2:00
+And like, yeah, space is certainly not that human readable as a character, so maybe we can just change it then to dot text content instead.
+2:09
+Let's try that.
+2:11
+Text content, code, increment increment increment, save.
+2:16
+Oh.
+2:18
+Oh.
+2:18
+Yes, indeed.
+2:20
+Now we get the spaces.
+2:23
+And one thing I want to highlight here is that while the Mozilla web docs is a great resource, it's very comprehensive, the language you'll see in these kinds of documentation sites is often very technical.
+2:34
+That's why I kind of skimmed through and found some hints of human readable and hidden, and I kind of didn't worry too much about going into depth.
+2:41
+And I think you as well should think when you see a page like this, don't feel that you need to understand everything.
+2:48
+And for the love of God, don't try to learn the code by just reading documentation.
+2:52
+Some people say that's a good idea, I think it's a terrible idea.
+2:56
+You want to slowly learn how to get comfortable reading documentation, but you also wanna ignore all of the complex stuff that it's very often wrapped within.
+3:03
+And there are other sites as well that explain things in various degrees of difficulty, for example, there's also something called w three schools which is very good, There's Stack Overflow and many more, and you're going to see more of this as you progress in the course as we're going to come back to this debugging concepts later on as well.
+3:19
+But as for now, we've just had a little sneak peek on the Mozilla developer network, And actually, it's kind of trash talking the dot inner text here and saying that it's also computationally expensive.
+3:30
+So to me, I've gotten enough hints that I actually wanna use dot text content instead of inner text.
+3:35
+I'm gonna change this up here as well.
+3:39
+Like that.
+3:41
+It still works.
+3:42
+Great.
+3:43
+Now our app is almost complete.
+3:45
+There's only one more thing we need to do, and we'll do that in the next cast.
