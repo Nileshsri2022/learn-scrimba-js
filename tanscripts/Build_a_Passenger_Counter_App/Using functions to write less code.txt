@@ -1,0 +1,67 @@
+Transcript
+0:00
+Okay.
+0:00
+So let's pretend that we are building a race car game.
+0:04
+So here I have some comments which are meant as pseudo code for the functionalities of the game, and the only real functional part of it is these five console logs which are counting down from five to one.
+0:14
+So we start the game by setting up the race, and then we do five four three two one.
+0:20
+If I run the code you can see that is logged to the console, that means that it's go, players are to start racing, and they would be running the race, and then their race is finished, and a winner is declared, and then of course, we are getting ready for a new race.
+0:35
+However, with the current knowledge we have about JavaScript, the way we would count down for a new race would have to be to copy all of these lines and paste them in down here, so that now when we run it, we get five four three two one printed two times to the console.
+0:51
+However, this isn't good.
+0:53
+Anytime you see these kinds of repetitions in your code, you should try to think is there any way we can extract this into a function?
+1:02
+And that is exactly what we are going to do.
+1:04
+We are going to refactor this so that it instead uses a function.
+1:08
+Another word for function could be command.
+1:10
+So we are asking JavaScript to kind of remember a command so that we can use it later on as well, and that command can be as comprehensive as you want.
+1:19
+In our case, it's going to be to count down from five to one.
+1:23
+So let's just do this to see it in action.
+1:25
+To create a function, as I talked about in the previous cast, we use the function keyword, and then the name of the function.
+1:32
+I'm gonna call this function countdown, then open and close parenthesis, and then open and close curly brackets.
+1:40
+And all of the action happens inside of the curly brackets, so I'm gonna break that into a new line, and I'm gonna copy all of these console logs, and then paste them inside here like that.
+1:52
+And here, I'm tabbing it out just to highlight that this code is inside of that function.
+1:59
+This is not something JavaScript cares about.
+2:01
+It's to make our code easy to read for humans.
+2:04
+So now I have declared our function.
+2:06
+However, if we remove this on here and now try to run the code, nothing happens because it has only been declared.
+2:15
+It hasn't been what we called invoked or also called as this code inside of here will only run if we call the function.
+2:24
+So if JavaScript was a dog, and we've taught our dog to roll around, then in order to get our dog to actually roll around, we have to say roll around.
+2:34
+Same thing here.
+2:35
+We have taught JavaScript to count down, but in order for it to actually do the counting, we have to say countdown.
+2:42
+And we do that like this, simply writing countdown with open and close parenthesis.
+2:49
+So now you can see when I run the code, it indeed does the counting, but if I comment this out, it does nothing.
+2:56
+So what I'm going to do now is I'm going to take this countdown, and I'm going to put it all the way here at the top, and then I'm going to call it when we are ready to start the first race, and then also call it when we are ready to start the second race.
+3:10
+Now if I run the code, you can see that we indeed count down two times before the first race and before the second race.
+3:17
+And this is much better than typing out all five console logs both here on line eleven and on line nineteen.
+3:25
+So we have compressed our code a lot.
+3:27
+So with this knowledge fresh in mind, let's move on to the next cast where you are to write your first function.
