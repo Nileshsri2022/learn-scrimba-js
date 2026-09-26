@@ -1,0 +1,72 @@
+
+Transcript
+0:00
+Okay.
+0:00
+Let's imagine that you are working on an e commerce website and this website sells shoes.
+0:05
+So here you can see a Nike shoe with a purchase button.
+0:09
+The HTML is located here of course with an image tag, the paragraph or the Nike shoe, the button, but then there's also an empty error paragraph.
+0:19
+And this is pretty common because in case there's an error going happening, for example, the purchase didn't go through or some kind of bug caused the operation to fail or whatever it is, we want to render something inside of this paragraph.
+0:32
+So that is your job in this challenge.
+0:34
+You are going to set up the JavaScript so that when the user clicks on the purchase button, you are to render out something went wrong, please try again in the paragraph that has the ID of error.
+0:45
+That's of course this one, and the button they will click is of course that one.
+0:50
+You can see there is some CSS here, but you're not going to worry about that because this challenge is all about the JavaScript and of course also hooking up the on click event listener on this button.
+1:02
+You should know how to do that by now and you should also know how to render text inside of a paragraph.
+1:08
+So go ahead and give this one a shot and then of course I will show you the solution afterwards as well.
+1:17
+So there are two parts to this challenge.
+1:19
+First, there's registering that the user clicks on the button, and then there is rendering out the text in the DOM.
+1:26
+So let's take first things first, the button.
+1:29
+So I'll head over to the button and do an onClick event listener, and here we need to specify which function we want to run.
+1:36
+We haven't written any function yet, so let's do that.
+1:40
+We'll do function.
+1:41
+I'll call it purchase because that's what the user is trying to do.
+1:45
+Open and close curly brackets.
+1:47
+Now I can take this function and specify that when the user clicks the button, we want to call this function.
+1:54
+Good stuff.
+1:55
+Let's just console log out button clicked on this code.
+2:02
+Try to click the button, and yes, we are rendering out button clicked.
+2:05
+Good.
+2:06
+The next step is to grab ahold of the paragraph that we are going to render text inside of.
+2:12
+So we'll do let error paragraph and do document dot get element by ID, passing in error like that.
+2:24
+And again, we can do console log just to verify that we have grabbed ahold of the right paragraph.
+2:30
+We run the code and bring up the console, and, yes, we can see that we have the paragraph.
+2:35
+Then inside of the purchase function, this is where we wanna trigger the rendering of the error text.
+2:42
+I'll do error paragraph dot text content equals this string right here.
+2:51
+Now if we rerun the code, click the purchase button, yes, something went wrong, please try again.
+2:58
+And as you can see, it's rendered out in red text, which is very common because we wanna grab the user's attention and tell them that something wrong has happened.
+3:05
+And that's of course something we have specified in the CSS, but this challenge is not about CSS, it was about JavaScript.
+3:12
+So great job solving this.
+3:13
+Let's move on.
