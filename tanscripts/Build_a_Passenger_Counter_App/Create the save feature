@@ -1,0 +1,94 @@
+
+Transcript
+0:01
+Okay.
+0:01
+So now you are going to solve a super cool challenge.
+0:04
+You're going to take everything you've learned about JavaScript up until now and use it to create this save feature.
+0:11
+You can see it says previous entries and then four five eleven with dashes that separate them, and these are of course added every time you hit the save button.
+0:21
+Now there's a dash after the three numbers as well, don't worry about that, It might look a little bit weird, but it's the easiest way to do this and we want to do it the easiest way now that you're building stuff like this first time around.
+0:33
+We don't want worry about details.
+0:34
+Make it work first, then make it better.
+0:36
+That's my philosophy, so we're just gonna make this work.
+0:39
+Okay.
+0:40
+So your three challenges are listed as comments here in the JavaScript and in the HTML, I'm going to write the paragraph for you so that you have something to work with.
+0:50
+So this is a p tag and it should say previous entries like that and I'm gonna give it an ID equals save dash l for save element.
+1:01
+Then you are going to grab the save element paragraph and store it in the variable called save l And then in the save function, which is triggered when the save button is clicked on, you are going to create a variable that contains both the count, that is the number, and the dash separator.
+1:18
+It'll look something like this, like twelve space dash space.
+1:22
+And then you are to render this newly created variable into the save element using inner text.
+1:29
+However, you must make sure that you don't delete the existing content from the save all paragraph, because you wanna concatenate the string, not wipe it out entirely and replace the paragraph with the latest entry.
+1:41
+So you gotta remember your plus equal.
+1:43
+But luckily, you know how to use plus equals, and that might be helpful in this situation.
+1:48
+Finally, one thing I want to mention is that you might struggle a little bit with the spaces here and it might end up slightly different than what you can see here.
+1:55
+And that is perfectly okay, don't worry about that.
+1:58
+In the next cast actually, we are going to do some searching online to figure out if there's some alternative methods we can do this on which will help us keep these spaces.
+2:08
+That's a critical part of web development, searching for solutions online.
+2:12
+So I've left a little gotcha for you here so we get a nice little problem to solve using Google and some online docs in the next cast.
+2:19
+So don't worry about that, just go ahead and give this your best shot, and if you need help, just revert to the screencast and I will show you the solution as well.
+2:31
+Okay.
+2:32
+Hopefully, this went well.
+2:33
+If not, no worries.
+2:35
+Let's do it together.
+2:36
+First, we are going to do let save l.
+2:39
+That'll be document dot get element by ID, and we are going to get the save dash l like that.
+2:47
+As always, I like to console log just to see that I have the correct element fetched.
+2:53
+Let's run this code, and yes, bringing up the console, we see that we have grabbed the correct element.
+2:59
+Then we can move on.
+3:00
+First, create a variable that contains both the count and the dash separator.
+3:05
+So what are we going to call this variable?
+3:07
+I intentionally didn't give you a name for it, because I want you to think what could be a suitable name for this string.
+3:13
+And there's no right or wrong answer, but one thing you could call it would be countstr, or countstr, like that.
+3:20
+So it is the count, but we've turned it into a string, so a countstring kinda makes sense.
+3:26
+And the value of it will be count plus and then the string, a lot of space, a dash, and a space.
+3:33
+Alright.
+3:34
+Three, render the variable using inner text.
+3:36
+Okay.
+3:37
+Let's do it down here.
+3:39
+We'll do save l dot inner text, and then you might have been tempted to do equal count, but that won't work.
+3:48
+Let's just try it.
+3:50
+Run the code, we increment, and we hit save.
+3:52
+Boom.
