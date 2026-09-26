@@ -1,0 +1,33 @@
+Transcript
+0:00
+In this challenge, you are going to create a function that logs out hi there Linda when called.
+0:06
+And you have to use the name and the greeting variable inside of the body of your function.
+0:11
+And also there's a comma and an exclamation mark you also have to include so that you get this exact string logged to the console.
+0:18
+So go ahead and solve this one, and then I will show you the solution afterwards as well.
+0:24
+Okay.
+0:24
+let's Let's do this.
+0:28
+Create a function.
+0:29
+I'll call it greet Linda like that.
+0:33
+Here we are going to console.
+0:34
+Log.
+0:35
+First, the greeting, then we have to plus the comma and the space, and then plus again, then the name, and then plus again, and then the exclamation mark, like that.
+0:46
+Final step to check our code, we need to run it.
+0:48
+to Greet Linda, like that, running the code, and there we see this exact string in the console.
+0:55
+Great job.
+0:54
+the console.
+0:55
+Great job.
