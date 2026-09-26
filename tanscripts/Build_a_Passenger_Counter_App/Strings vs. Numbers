@@ -1,0 +1,104 @@
+
+Transcript
+0:00
+Okay.
+0:01
+Now let's mix it up a little bit.
+0:03
+Say that my name isn't Pierre Harald Borgen, it's actually forty two.
+0:07
+A strange name, but anyway, what do you think will happen when we have one number and one string?
+0:11
+What will the result be?
+0:13
+Let's do it.
+0:14
+It's actually, hi, my name is forty two.
+0:16
+So the forty two here has actually been turned into a string that has been added into like this.
+0:22
+And that's kinda what happens.
+0:23
+In a wrestling game between a string and a number, the string always wins.
+0:27
+wins.
+0:28
+Now this was a little bit of a weird example, so let's take one that's a bit more interesting.
+0:32
+Let's try let points equals four and then let's say bonus points.
+0:39
+This is some kind of game.
+0:40
+That is ten.
+0:43
+Let total points equals points plus bonus points, total points.
+0:50
+Now, what do you think we'll log out here?
+0:53
+I'm gonna comment out this one right here.
+0:56
+Take two seconds to think about what the result will be.
+0:59
+to Okay.
+1:01
+Let's run this.
+1:02
+The result is four hundred and ten.
+1:05
+That is weird, because perhaps you expected fourteen?
+1:07
+No.
+1:08
+As I said, the string always wins.
+1:10
+So when we say four plus ten, which is the values of these variables, the four will be turned into a string, and the result when you concatenate two strings is just pretty easy to see by just removing this fluff in between them, four hundred and ten.
+1:25
+If the numbers won the wrestling game, it would be like this, and it would indeed log out fourteen.
+1:31
+But it didn't.
+1:32
+be So I'm gonna give you a couple of challenges here.
+1:36
+What do you think these four console logs will log out?
+1:38
+Take a minute to think about that, Potentially write your solutions in a cold comment either above or perhaps even after each of the lines, and then return back to the screen cast and then we'll have a look at it together.
+1:50
+and Okay.
+1:56
+Here we have a number and a number, so this will end up as a number as well.
+1:59
+Four plus five is nine as far as I can remember.
+2:01
+up Here.
+2:03
+A string plus a string.
+2:05
+Even though they are number character inside of the strings, that doesn't matter.
+2:08
+JavaScript still sees this as a string, and the result will be a string of twenty four.
+2:12
+Here, a wrestling match between a string and a number.
+2:16
+Sadly, the number always loses, so this will be fifty one.
+2:20
+And finally, again, wrestling match between a number and a string, the result is always that the string wins, this will be a hundred a hundred like that.
+2:29
+Let's run the code.
+2:30
+Yes.
+2:31
+always As you also can see from the console, the way the Scribble console highlights the difference between numbers and strings is with the color.
+2:38
+The strings are white, whereas the numbers are blue.
+2:41
+So great job.
+2:42
+Let's move on.
+2:36
+strings is with the color.
+2:38
+The strings are white whereas the numbers are blue.
+2:40
+So great job.
+2:42
+Let's move on.
