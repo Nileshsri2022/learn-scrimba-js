@@ -1,0 +1,53 @@
+Transcript
+0:00
+Okay.
+0:01
+Now you know enough JavaScript for us to move on to the HTML and build the interface for our app.
+0:08
+And it's not a lot of interface.
+0:11
+It's, uh, to begin with, just a button, and later down the line, we're gonna create another button, but it has to be written, and you are going to do that.
+0:19
+So I want you to follow these instructions.
+0:21
+You are to create an increment button, that is the text of the button, with the ID of increment dash b t n.
+0:29
+So go ahead and do this right now.
+0:31
+right Okay.
+0:37
+Hopefully, that went well.
+0:39
+Now let's do it together.
+0:40
+Button, then I'll create the closing tag inside of here.
+0:43
+I'll write increment.
+0:45
+Could have written count here, but I think increment is more of a technically descriptive word, so let's use that.
+0:51
+And ID let's increment dash b t n, like that.
+0:56
+If we b from this code, you'll see, yes, we indeed have this button and it is already styled.
+1:02
+How convenient.
+1:03
+Let's check out the CSS for that.
+1:05
+We have a general styling for buttons, which are reused across both of our buttons.
+1:10
+This is there using the button selector.
+1:12
+And then our increment button and our save button has a specific and background, each of them.
+1:17
+They are dark red and dark green.
+1:19
+Great job doing this.
+1:21
+Now the question is, how do we make this button interactive?
+1:24
+Because right now, nothing happens if I click it.
+1:27
+Well, in the next lecture, we'll go through exactly how to do that.
+1:29
+go through exactly how to do that.
