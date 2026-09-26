@@ -1,0 +1,103 @@
+Transcript
+0:00
+So today is actually a really important day in your life because you're going to write your first lines of JavaScript.
+0:07
+And that is just such a powerful thing to do because you take the first step into a world of opportunities, and it might even change your life.
+0:16
+So in a year, you might want to celebrate this day as the anniversary, the day you met JavaScript, and changed your life for the better.
+0:24
+Anyway, the line you're going to write is not this long one right here.
+0:28
+It's a little bit too difficult at the moment.
+0:30
+I'm actually gonna add a double slash in front of it like that, and you can see that grayed it out.
+0:35
+That means that JavaScript will ignore this since this is now a code comment, not real code.
+0:41
+So if we run the code here in the browser, we can see that now we are not modifying the h two tag anymore.
+0:49
+So we are ready here down at line three to write our first lines of code.
+0:54
+Now, let's think a little bit.
+0:56
+What do we need actually to build this subway passenger counter app?
+1:00
+Well, the first thing we need is some way to store the count, and that's a natural job for JavaScript, because it's kind of like the data we need to store.
+1:09
+And when you need to store data, you need to create so called variables to store the data in.
+1:15
+And I'm now going to create a variable called count, and the way we do that is we write let count equal zero.
+1:24
+So now we have a variable called count, and it holds a tiny piece of data, namely the number zero.
+1:30
+The way you can read this in English is actually let count be zero, So really natural.
+1:37
+And let's actually try and verify that actually our count variable does indeed equal zero.
+1:43
+Well, we can do that by using a tool that every single developer uses every single day.
+1:48
+It's called console dot log, and then open and close parenthesis.
+1:52
+And inside of these parenthesis you can put almost whatever you want, and in our case we are going to put this count variable here.
+2:00
+We now run the code, can see that down in the console, at the bottom, we printed out the number zero, and the console is something that the browser provides us with.
+2:10
+It's there mainly for debugging purposes, for checking our code like we are doing here, verifying that actually, yeah, I wanna take a look at that account.
+2:18
+Wanna print it out to the console and see with my own eyes that it is what I think it is, and indeed it was.
+2:24
+And this console you see here is a Brimbus implementation of the console.
+2:28
+If you wanna check out the real world console in the Chrome browser, you can for example head over to Google dot com or any page basically, and then right click and choose the inspect option.
+2:38
+When you click that, it'll open up this so called developer tools, which shows you a bunch of HTML.
+2:44
+As for now, we're not gonna worry about that.
+2:46
+Instead, just click on the console option, and that'll open up a blank console where you actually, in addition to printing out stuff, which we did down here in this Grimba console, you can write JavaScript as well.
+2:57
+So if you wanna write let count equals five, and then hit enter, then write console log and then pass in count in the parenthesis, and then hit enter, you'll see that it'll log out five as well.
+3:09
+So the console is available to you in all browsers and is a tool that developers use every single day.
+3:14
+So I'm really happy that you've learned about it this early on.
+3:17
+Now I actually have a challenge for you.
+3:20
+I want you to do two things.
+3:21
+First, you're going to create a variable called my age and then set its value to your age, and then log the my age variable to the console.
+3:31
+So go ahead and do this right now, and then I will show you how to do it as well when you come back.
+3:41
+Okay.
+3:41
+Hopefully, that went well.
+3:43
+Let's do it together.
+3:44
+I'll do let my age.
+3:46
+I happen to be thirty five at the moment.
+3:49
+Then to console log out my age, I'll do console dot log, open and close parenthesis, my age.
+3:56
+Free.
+3:57
+Run this code.
+3:58
+And see, now we are printing out both the count and also my age.
+4:03
+So we have verified that our variables indeed work as expected.
+4:07
+Before we move on, there's one thing I wanna show you, and that is to take this line, console logging of my age, and place it above the my age variable declaration, so now we try to console log my age before we define it, since JavaScript starts reading at the top and works its way downwards.
+4:25
+So what do you think then will happen if I now remove these other console logs and only keep the my age console log?
+4:32
+Just take a guess.
+4:34
+Well, what happens is that we get a reference error, cannot access my age before initialization.
+4:41
+So JavaScript actually understands what we're trying to do, that we're actually referencing a value before it has been initialized, and that simply doesn't work.
+4:50
+So now that you are aware of that, let's move on.
