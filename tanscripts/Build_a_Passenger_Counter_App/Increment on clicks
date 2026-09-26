@@ -1,0 +1,71 @@
+Transcript
+0:00
+Okay.
+0:01
+We're back at the subway counter app.
+0:03
+And as you can see, I've deleted the increment function because I want you to write it instead.
+0:07
+It's much better than me writing everything.
+0:10
+And you ought to do it as a part of turning these first three lines of pseudocode into real code.
+0:16
+So you're gonna initialize the count as zero, you're gonna listen for clicks on the increment button, and thus you have to create that function that's triggered when the increment button is clicked, and then you are going to increment the count.
+0:27
+the I'm at a final little challenge here, that is to log it out after the count variable has been incremented.
+0:34
+Go ahead and do this right now, and then afterwards, I'll, of course, show you the solution as well.
+0:38
+the Okay.
+0:43
+Hopefully, that went well.
+0:45
+Let's do this together.
+0:46
+Blue function, do increment, together.
+0:49
+open and close parenthesis, open and close curly brackets.
+0:52
+parentheses, We have the button.
+0:54
+Let's verify that it works.
+0:57
+Good thing to do after every single step so that you know if you at some point get a bug, you will have a better understanding of where it happens as you know which steps you were able to get to without triggering any bugs.
+1:07
+able So I'll do clicked, run the code, click the button.
+1:12
+Yes.
+1:13
+That works.
+1:13
+Okay.
+1:14
+Now we need to increment the count.
+1:16
+So we're going to do that inside here.
+1:18
+And of course, then we need the count initialized to begin with.
+1:22
+So count equals zero.
+1:23
+Here, as you remember, it's just as as we're simply going to do what we did up at line four.
+1:29
+We'll do count equals count plus one.
+1:33
+Now finally, console log count.
+1:36
+we'll I'm gonna remove this and run the code, hit increment.
+1:41
+Yes.
+1:42
+We see one and two and three and four.
+1:45
+Nice.
+1:46
+So then we have done these three parks and remove this helper code right here, we have the final part left, and we can finally start understanding what this weird piece of code here up on line one that we worked with in the very beginning of the course actually means.
+2:04
+piece Let's do that in the next lecture.
+2:00
+that we worked with in the very beginning of the course actually means.
+2:05
+Let's do that in the next lecture.
