@@ -1,0 +1,83 @@
+Transcript
+0:00
+Now let's take a little break from JavaScript and head over to our index dot CSS file because I want you to style our list according to the provided design.
+0:09
+And here is the provided design.
+0:11
+You can see the links have the same color as the rest of our app.
+0:14
+We don't have the bullet points, which you can see are here in the current example.
+0:20
+So I want you to fix that, and the three selectors you are to use are the UL, LI, and the anchor tag.
+0:27
+And I've set them up for you, so you just have to write a few CSS properties and values inside of these, and then once you're done, return back to the screencast, because then I also will show you my solution.
+0:44
+Okay.
+0:44
+Let's do this.
+0:45
+The first obvious thing is that our list in the design doesn't have these bullets, and the way to remove those are to do list style, and then none.
+0:56
+As you can see, they are gone.
+0:58
+Now, there is the space on the left hand side, namely the padding, which we have here, which we also want to eradicate.
+1:04
+So we'll do padding left, and set that to zero.
+1:08
+Alright.
+1:08
+Next up, the most obvious thing is the color of the anchor tags.
+1:13
+It should be the green one we have already in our app, so let's fix that.
+1:20
+We'll do this one right here and select the anchor tag.
+1:25
+Color should be that.
+1:27
+Yes.
+1:28
+Pretty good.
+1:29
+Let's compare the two now.
+1:31
+What I think is that we have some more spacing here.
+1:34
+There's more spacing between the list items, and also a little bit more spacing above the unordered list.
+1:40
+So starting with the unordered list, I think we can give a margin top of like twenty pixels, slightly down, and for the LI elements, I think we can give them also a margin top, maybe then five pixels.
+1:53
+Yeah.
+1:54
+Now they have a little bit more space in between them.
+1:57
+So I think this looks pretty good.
+1:59
+So this challenge is done, But before we move on, there's one thing I want to point out, and that is that we are using very broad selectors for our CSS.
+2:09
+We're basically selecting any unordered list or any list item or any anchor tag on the page.
+2:15
+And this comes with the consequence that if we, for example, want to add other anchor tags in our app that are outside of this list of leads, for example, let's say we added an anchor tag in the very top of our app, kind of like a navigation.
+2:30
+If we run this, you can see it says home and we add autumn lead.
+2:36
+It's in the same styling as autumn lead.
+2:39
+This might not be what we want.
+2:41
+Oftentimes, anchor tags and links will look slightly different depending on the context they are shown in.
+2:47
+What we could do to solve this problem would be to, down here, when we are flipping the color, specify that we only wanna do that if the anchor tag lives inside of a list item, and we'd solve that by doing l I and then a space and then the a.
+3:04
+Now you can see the home link has the standard styling, whereas the anchor tag in our list has our green styling.
+3:13
+So this is a way of saying only target anchor tags that lives inside of list items.
+3:19
+However, in this case, we can get away by just targeting our anchor tags as we're not planning to add any other anchor tags across the page.
+3:28
+So we can remove our home tag,
+3:33
+and then just target this list item in the easiest possible way, which is what we have here, as that's perfectly fine to do as long as we're understanding the future possible consequences of doing that.
+3:46
+And now I think we do that.
+3:48
+So let's just move on.
