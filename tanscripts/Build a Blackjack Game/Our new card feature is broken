@@ -1,0 +1,24 @@
+
+Transcript
+0:00
+The next thing I want to fix is our new card button because it's kind of broken.
+0:04
+Let's see why.
+0:05
+If I now start the game and I get two cards and I draw a third card and a fourth card and oh, I'm out of the game.
+0:12
+At this point, I shouldn't be able to draw more cards, but actually I am.
+0:15
+I can hit it and I got another ten, so I am at thirty four.
+0:18
+Shouldn't be possible to get to that number in blackjack.
+0:22
+So we need to stop it when the game is over, and also if we refresh the browser, able to I shouldn't be able to start with just one card either, but I actually can.
+0:31
+So there's two conditions we need to check, both if I'm still in the game, basically if the is alive is true, and also I can't have blackjack either.
+0:41
+Now this requires us to learn something called logical operators, which lets you combine multiple conditions inside of an if statement, so that a piece of code should only be run if multiple conditions are satisfied.
+0:54
+So let's take a little detour and learn about logical operators in the next casts.
+0:57
+next casts.
