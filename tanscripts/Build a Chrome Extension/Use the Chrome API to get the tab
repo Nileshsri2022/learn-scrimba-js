@@ -1,0 +1,104 @@
+
+Transcript
+0:00
+Okay.
+0:00
+Now that we have this little snippet of code which we copied from Stack Overflow, it would be really tempting to actually try to run it and just console log out tabs at this point, for example, just to figure out what's going on here after this function is being triggered.
+0:16
+But actually if we try to do that, run this code, hit the save tab, we'll see that we get an error.
+0:23
+Cannot read property query of undefined.
+0:25
+That's because chrome dot tabs, that's a so called API application programming interface.
+0:31
+Sounds really scary, I know, but don't worry about that now.
+0:34
+All I wanted to say that is that this is an API that is only available to us when we're running the code in the context of a Chrome extension like this, which you can see here.
+0:44
+Now we are running the code in the context of this Scrimba mini browser here, and we don't have access to the chrome dot tabs, meaning it's undefined as our error message is saying because it's trying to read the property query of something that is undefined.
+1:01
+So we actually just have to try to make sense of this code and try to configure it how we think it should be and then deploy it to see if it works out in the wild.
+1:11
+So what I'm going to do, I'll delete this console.
+1:14
+Log tabs.
+1:15
+Actually, I wanna delete everything inside of this function because we are going to figure out what we will do inside of this function on our own by looking back at Stack Overflow.
+1:26
+And also I actually want to comment out these lines of code because while it's okay to copy to get it into the codebase, I wanna write it with you to break it down step by step so that you understand it properly.
+1:39
+So with this in the background, let's rewrite it and see if we can make sense of it.
+1:44
+So the first thing we write is chrome, which is a variable that we'll have access to when we are running the Chrome extension, and that is an object, and that has a tabs key, and the tabs that is an object as well and that object has a query method like that.
+2:00
+So here we're kind of saying, hey Chrome, I want to grab a hold of your tabs or more specifically, I want to query you for some of the tabs.
+2:08
+Well, then which tabs is the next question, and we'll specify that inside of the query using an object.
+2:15
+To begin with, I'm going to say, well, I want the active tab.
+2:21
+As I'm specifying, active has to be true, and which tab is that?
+2:25
+Well, if we look back at our slide here, you can see that in this situation we have one browser window that has three tabs, but it's the LinkedIn tab that is the active one.
+2:36
+So it will give us this tab.
+2:39
+However, here we can also say that we ought to specify current window to be true as well, which is a little bit weird.
+2:45
+What does that mean?
+2:46
+Well, imagine this case, if you actually had another browser window in the background.
+2:51
+Well, the Chrome API would know about this.
+2:54
+So naturally, you'd have to specify, well, which one of the two windows are you looking for?
+2:59
+And in this case, the active window is the one in the front right here, and that is where the LinkedIn tab is located, where we have our Chrome extension open.
+3:08
+Also, have to specify, well, current window, so we need that to be true as well.
+3:15
+So here we are calling the query method and passing in an object that describes which of the tabs we want.
+3:22
+And then as we did up here where we start with a specification and then write a function as the second argument, we'll do the exact same thing in the query function as well.
+3:35
+We'll write function like that, and this function will be triggered when Chrome has found the tab we have told Chrome to look for.
+3:47
+And when Chrome triggers this function, it'll give us a tabs variable like this.
+3:52
+It's a parameter in this function.
+3:54
+So now we would get access to the tabs, and this control log would work if we were running this in the context of a Chrome extension.
+4:02
+Let's now bring down the console, break this up a little bit, because the question is here what do we want to do inside of this function?
+4:09
+Well, it's through this tabs keyword here that we will actually get a hold of the URL, the string in the address bar, so it's inside of here that we actually have to push to our my leads array, save to local storage, and call the render function.
+4:26
+So I'm actually going to copy this code and paste it in here like that.
+4:34
+And now the question is, well, what does this tabs variable include?
+4:38
+How do we navigate through the URL value inside of this variable?
+4:42
+Well, it just so happens to be that it's constructed in this exact way.
+4:48
+And how did I know that?
+4:49
+Well, because here on Stack Overflow on our question, we could see that on the question below that a person got it to work by doing var tab equals tabs zero, which is exactly what we're doing here.
+5:06
+And then on the next line, it did tab dot URL, which essentially is our dot URL here.
+5:15
+So it turns out that this is the way to get a hold of the URL.
+5:19
+But at this point, there's a little problem.
+5:22
+Since we have defined tabs here and also up here, these two variables will be in conflict with each other, and obviously, we don't need this hard coded variable anymore.
+5:33
+We wanna use whatever value we get directly from Chrome, so we can keep this and just leave this how it is.
+5:40
+Now let's clean up this a little bit, and then finally head over to manifest dot JSON because we saw in the Chrome extensions documentation that we had to add the following to our manifest file.
+5:55
+So permissions, and then that is an array, and here we specify tabs.
+6:00
+So now we are telling Chrome that we want to be able to work with the tabs in the Chrome extension, otherwise this chrome dot tabs simply wouldn't work.
+6:11
+So in the next CAS, we'll go ahead and deploy this, so that we finally get to try our entire application out in the wild.
