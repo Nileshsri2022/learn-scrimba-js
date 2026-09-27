@@ -1,0 +1,116 @@
+
+Transcript
+0:00
+Now we are going to make our delete all button actually work.
+0:04
+So you'll do that through a three part challenge, pretty big one actually, but first I'm going to give you a little mini challenge, and that is this leads from local storage here.
+0:14
+Should that be defined as a let, or do you think we should change it to a const?
+0:18
+Just look at what we're doing with it down here on line eight and line nine, where we are using it, and take your best guess as to whether we should change it or not.
+0:28
+And the answer is that, yeah, actually we do want to change this to a const, because we're not reassigning it here.
+0:34
+And if you remember from previously, it's a good practice to, if you can use const, then use const, because it enforces strictness throughout your code base.
+0:43
+When when another developer comes in here, or you in two months, and looks at this leads from local storage and see, oh, it's a const, then I know that this will not be reassigned further down in the code.
+0:53
+So that was just a little digression so that we got to clean up this little variable inconsistency here.
+0:59
+Now let's move on to the major challenge.
+1:02
+As I said, it's three part.
+1:04
+First, you are going to grab a hold of the delete button and store it in a delete BTN variable, then you are going to listen for double clicks on the delete button.
+1:14
+And if you don't know how to listen for double clicks, you should just Google it.
+1:18
+Finally, when the button has been clicked, that is double clicked, you should clear the local storage, you should clear out the my leads variable, that is this one up here, and you should also clear out the DOM, so that the user doesn't see any more leads on this unordered list.
+1:36
+So a pretty big one, but give this one a shot and return back to me when you wanna see my solution.
+1:47
+Okay.
+1:48
+Let's do this.
+1:49
+I'll start up here.
+1:50
+We'll define a const delete btn like that.
+1:54
+We'll do document dot get element by ID, passing in delete btn.
+2:02
+That is indeed what we had right here.
+2:07
+Then let's move on.
+2:09
+We are going to listen for double clicks on the delete button.
+2:12
+And how do we do that?
+2:13
+Well, let's Google it.
+2:15
+I think it's a good idea to Google add event listener, and then just double click because as you know, it's the add event listener we are using.
+2:23
+By doing this, we get the Mozilla developer docs as the first result.
+2:28
+Clicking into that, and I always scroll as fast as I can to the example, as I think it's a lot easier to learn from that rather from textual explanations.
+2:36
+Here we can see card dot add event listener DBL click.
+2:40
+Pretty nice.
+2:42
+So simply delete BTN, add event listener, and DBL click like that.
+2:53
+Let's then also do the function.
+2:56
+And now let's just console log, double click like that.
+3:01
+We'll run the code, double click on delete all, and yes, it worked.
+3:06
+If I try a single click, nothing happens.
+3:09
+But double click, yes.
+3:11
+Okay.
+3:12
+Good.
+3:13
+Three, when clicked, clear local storage, the my leads variable, and done.
+3:18
+Okay.
+3:19
+Let's do this one by one.
+3:21
+Local storage, if you remember, the way to clear that was local storage dot clear.
+3:27
+K.
+3:28
+My leads, how do we clear that one?
+3:30
+Well, we actually reassign it by doing my leads and just setting it to an empty array.
+3:37
+And then finally, clearing out the DOM.
+3:39
+How do we do that?
+3:41
+Well, actually, the trick is to simply render out the leads, which now are just an empty array.
+3:48
+So we just trigger the render leads function.
+3:51
+Render leads, like that.
+3:54
+Let's rerun this, and now try to double click on the delete all.
+4:00
+Yes.
+4:02
+Now we removed everything in the DOM, and we have cleared the local storage.
+4:07
+Our array is empty.
+4:09
+We have a working delete button.
+4:11
+We can delete this console log here.
+4:14
+Great job doing this challenge.
+4:15
+Let's move on.
