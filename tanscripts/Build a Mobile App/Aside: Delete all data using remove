@@ -1,0 +1,134 @@
+
+Transcript
+0:00
+In this aside, we're gonna look at how to delete all the data using a function called remove.
+0:05
+So here we have an app setup called chores list where you describe the chore that you need to do and then you press this button to add it to the list.
+0:13
+And that part is working beautifully.
+0:15
+As you can see, we've got two items set up inside of the chores reference in the database, vacuum floors and do laundry.
+0:22
+But this delete button is currently not doing anything but what we wanna have it do is when we double click it that it deletes all of the items inside of the chores reference.
+0:31
+So the first thing we need to do is to go up here and import that remove function.
+0:36
+Now let's call this function inside of here remove.
+0:40
+What do we feed it?
+0:41
+Well, this case, it's pretty simple.
+0:42
+We only need to feed it the reference which it needs to delete and that's exactly the whole thing that it's gonna delete from the database.
+0:50
+So in this case, this entire chores reference.
+0:52
+Okay.
+0:53
+Let's try it out now.
+0:54
+Let's cross our fingers and double click on delete all and we get an error.
+1:00
+What happened?
+1:01
+Before we take a look at the console though, let's notice that we did delete all the items from the database.
+1:07
+The database is empty right now.
+1:09
+But why do we still see the items here?
+1:12
+And which error did we get?
+1:13
+Let's have a look at that.
+1:14
+Exception was thrown by user callback.
+1:16
+Type error.
+1:17
+Cannot convert undefined or null to object.
+1:20
+Well, there's a couple of things happening here.
+1:22
+The reason we're shown the error is because the moment we double click on this button, the whole entire reference is deleted.
+1:29
+But remember, the on value function is a function that runs every time something happens to this reference in the database.
+1:35
+In this case, it was deleted and now it's trying to run all of this code when there is no snapshot.
+1:41
+A snapshot doesn't exist in this case.
+1:43
+So we need to account for that.
+1:45
+And that's also the reason that these two items are not cleared up because the onValue function is not able to change anything because it's looking for a snapshot and that doesn't exist and so this renderChoice call also fails.
+2:00
+So we need to make sure that whenever we run the remove function that we manually empty the items, which we can easily do by using the u l e l element that we have set up.
+2:11
+I'm just gonna copy it from up here and I'm gonna say let's equal that to the empty string.
+2:16
+So then we're sure that that is cleared up every time.
+2:19
+But what about this?
+2:20
+Okay.
+2:20
+So here we wanna make an if statement and say if a snapshot exists, then and only then run all of this code.
+2:29
+We don't know exactly what that is right now but let's open up the curly brackets and move this code in there in the meantime.
+2:36
+There we go.
+2:36
+Perfect.
+2:37
+Remember when I told you a couple of squirms ago that this snapshot object actually contains a lot of stuff in addition to just the snapshot values that we have here?
+2:47
+Well, another method that it contains is the snapshot exists method, which is perfect for us because that one returns true or false based on if there is a snapshot or if there isn't.
+2:58
+That's exactly what we need.
+3:00
+So I'm gonna set up a new const here just to make things a little bit tidy for us, and we're gonna say snapshot does exist and set that equal to snapshot dot exists.
+3:10
+So in this case, it's either gonna return true or false.
+3:12
+And if it returns true, we're gonna say that you should run all of this code then.
+3:17
+Okay.
+3:18
+I think that's all we need to do.
+3:19
+So now let's test this out by running the code again.
+3:22
+I'm gonna add in two items here.
+3:24
+So let's do get groceries and we'll add in clean kitchen as well.
+3:32
+Okay.
+3:32
+We've got both of those inside of the real time database as we can see.
+3:36
+And now let's see if we double click delete all.
+3:40
+There we go.
+3:41
+No error and it was removed from the app.
+3:44
+And as we can see, we have cleared both of those from our database.
+3:48
+Beautiful.
+3:49
+Now let's quickly recap before we end the scrim.
+3:51
+The first thing we did was to import the remove function and we called it with the reference in DB.
+3:58
+Then we realized that once we've deleted the reference, this on value function fails because it runs a bunch of codes that assumes that there is a snapshot.
+4:07
+So then we made it so that the code that we wrote only runs if a snapshot exists and does nothing if it doesn't.
+4:14
+And the last thing was that we manually had to clear the list within our HTML because the render function couldn't do it for us in the case of us deleting it.
+4:25
+That was a lot of stuff, so well done getting through the scrim.
+4:29
+If that was a little bit too much to take in, feel free to rewatch the scrim.
+4:33
+And when you're done, I'm gonna see you in the next one where you're gonna implement this in our leads tracker app.
+4:38
+I'll see you there.
