@@ -1,0 +1,46 @@
+
+Transcript
+0:00
+Now you are going to implement the first part of our local storage feature, and that consists of saving the my leads array to local storage.
+0:09
+So that should happen here on line eleven, right after you've pushed the new lead to the my leads array and cleared out the input field, then then we are ready to actually save it to local storage.
+0:22
+And you have to remember to use the JSON dot stringify when saving it, even though the browser we're using might be kind to us and actually do this for us if it notices that we haven't done it.
+0:33
+We want to be explicit about this so that we remind ourselves that we know the difference between working with just plain text or a proper JavaScript array.
+0:42
+So remember to do that, and once you've written your solution, you should run the code by filling out the input field and hitting the save input button because this line at the bottom of the function will also be run, and it heads into local storage and gets the item that is called my leads.
+0:59
+So if your implementation has worked, this console log should log out whatever you've saved to local storage as well because my leads is actually the key we want to use in order to save our array, so use this as the key.
+1:14
+So go ahead and do this, and I will of course show you the solution when you return back to this cast.
+1:19
+return Okay.
+1:25
+Let's do this.
+1:26
+First, we'll do local storage dot set item, and here we first need to specify what key we want to save our item under, and that is, as I said here, my leads.
+1:40
+So we'll do my leads, and then a comma, and then what we actually want to save.
+1:44
+Now you might have been tempted to simply do my leads like that, grabbing the variable called my leads, But as I said, we need to use JSON stringify to turn this into a text string.
+1:57
+So we'll do JSON dot stringify and wrap the array inside of the parentheses of the stringify method.
+2:08
+There we have it.
+2:10
+Let's run the code.
+2:11
+inside Try to add a lead, hit save input, and there we go.
+2:16
+As you can see in the console, we are indeed logging out something that looks very much like an array with one item of awesome lead, which is exactly what we wanted.
+2:26
+Great job.
+2:27
+Let's move on.
+2:21
+like an array with one item of awesome lead, which is exactly what we wanted.
+2:26
+Great job.
+2:27
+Let's move on.
