@@ -1,0 +1,130 @@
+
+Transcript
+0:00
+And we are back to our leads tracker app.
+0:02
+So the last thing remaining is to make this delete all button work.
+0:06
+So currently, we have three leads inside of the database under the leads reference as you can see here.
+0:11
+The first challenge that I have for you is to write the code so that when you double click this, all of these three are deleted.
+0:18
+Now it is gonna throw an error which we're gonna fix later and it's gonna still show the leads here but when you look in the database, it is gonna be empty.
+0:26
+So first challenge is that.
+0:28
+There you go.
+0:29
+You wanna import the remove function and call it here to delete the leads.
+0:33
+Pause and write the code for yourself, and I'll be with you in just a bit, and we'll go through it together.
+0:38
+Remember, this is supposed to only work partially and throw an error, so don't worry about that.
+0:43
+Okay.
+0:43
+I'll leave you to it then.
+0:44
+Good luck.
+0:50
+Alrighty.
+0:50
+I hope that that went well.
+0:51
+Let's look at it together.
+0:53
+So we wanna go up here and remove or import the remove function and then we can just call it here with the reference in DB which we have up here and that's exactly what it's gonna remove from the database.
+1:06
+Okay.
+1:07
+Let's run now and double click.
+1:09
+There we go.
+1:09
+We do get an error which we're gonna deal with in just a bit, but in the database, the whole thing is deleted now.
+1:16
+Okay.
+1:16
+So that's the first part done.
+1:18
+Now notice here that all the three leads are showing.
+1:21
+This is something that we manually have to write the code for to make them disappear because we can't rely on on value to do that for us.
+1:29
+Because remember, when you delete the whole thing, the on value as it is right now doesn't work, so we can't rely on the render function to do that for us.
+1:38
+So short challenge here, I want you to clear all the leads from the u l e l element that we have so that right after running this, these are cleared from the app.
+1:48
+Okay.
+1:48
+I'll be back in a couple of seconds.
+1:50
+Good luck.
+1:55
+I hope that that wasn't too bad.
+1:57
+What I wanna do here is just copy this and put that right in here, equal that to the empty string, and that's it.
+2:03
+That's all there is to that one.
+2:05
+The last thing we need to do is to go inside of the on value function and take care of that error that we got.
+2:12
+Remember?
+2:12
+Cannot convert undefined or null to object.
+2:16
+The reason that was happening was because we're running a bunch of code here when there is no snapshot which is the case when we delete it by double clicking on this button.
+2:25
+So my challenge for you is only run the code below these three lines if a snapshot exists.
+2:31
+Okay.
+2:31
+Pause, work on it by yourself, and I'll be with you in just a little bit and we'll look at it as a team.
+2:37
+Okay.
+2:37
+Good luck.
+2:42
+Okay.
+2:43
+Let's look at it together now.
+2:44
+The first thing I'm gonna do is to create a const and call it snapshot does exist and equal that to snapshot dot exist.
+2:53
+Remember this is a method that will return true or false depending on if there is a snapshot or not.
+2:58
+Once we have that, the rest of it is just enclosing the rest of the code inside of an if statement like this.
+3:06
+Actually, get rid of this, and we'll put these three lines
+3:11
+right inside of here.
+3:13
+Perfect.
+3:15
+Okay.
+3:16
+Now for the moment of truth, let's test out this whole thing.
+3:20
+But before we can do that, let's populate it with the leads again.
+3:24
+Okay.
+3:24
+Let's just check the database.
+3:26
+Yep.
+3:26
+We've got those three in there.
+3:28
+And now three two one double click and they are gone and no error.
+3:33
+And of course, in the database two, we've got it emptied.
+3:36
+Perfect.
+3:37
+Awesome, awesome job getting this far.
+3:40
+Seriously, I'm really proud of you.
+3:42
+Okay.
+3:42
+There's just a little tiny bit left, so I'll see you in the next one.
