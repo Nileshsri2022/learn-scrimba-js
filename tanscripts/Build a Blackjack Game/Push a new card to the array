@@ -1,0 +1,34 @@
+
+Transcript
+0:00
+Now that we have the first card and the second card in the cards array, we also have to, of course, add the new card to the cards array.
+0:08
+So quick little challenge, after this card has been created and it has been added to the sum, we also need to push the card to the cards array.
+0:17
+So go ahead and do this right now.
+0:19
+right Alright.
+0:25
+The way to do this is by writing cards dot push open and close parenthesis and then pass in the newly created card like that.
+0:36
+And in order to verify that this actually works, we can on the next line console log out the cards array like that.
+0:44
+Let's run this again.
+0:46
+Start game.
+0:47
+Hit new card.
+0:48
+And there we can see in the console now the cards array has been logged out with all the three cards ten, four, and six.
+0:55
+So we still aren't rendering out the third card though.
+0:59
+And to achieve that, you have to learn how to count in JavaScript, or strictly speaking, you have to learn how to write for loops.
+1:06
+So over the next few casts, we are going to take a deep dive into for loops, and then later return back to the blackjack game so that we can fix it up.
+1:15
+Let's move on.
+1:13
+so that we can fix it up.
+1:15
+Let's move on.
