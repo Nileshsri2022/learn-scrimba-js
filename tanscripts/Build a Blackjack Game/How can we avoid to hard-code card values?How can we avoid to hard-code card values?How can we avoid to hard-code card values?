@@ -1,0 +1,44 @@
+
+Transcript
+0:00
+Okay.
+0:01
+So our blackjack game is actually turning out pretty good now.
+0:04
+I can start the game.
+0:05
+I can hit a new card.
+0:06
+Twenty.
+0:07
+I can even hit yet another card.
+0:08
+Boom.
+0:09
+I'm out of the game.
+0:10
+It's it's almost fun to play, though you'll get pretty tired of it as you play it multiple times since you every single time get the exact same cards.
+0:19
+So not exactly an exciting blackjack game.
+0:21
+And of course, that is because we have hard coded the variables for our first card and second card here, and also hard coded the value for our third and fourth and every proceeding card here on line forty.
+0:33
+So we'll always get ten, four, six, six, six, six, six, and so forth.
+0:37
+forth.
+0:38
+So what we need to do is instead create a function, get random card, that returns a random number.
+0:45
+So that we instead of hard coding the number ten up here on line one, we can do get random card and call that function.
+0:53
+This function will then return a random card that the first card variable will be set to, and we can do the same with the second card, and also down here in the new card function, we can do get random card there as well.
+1:07
+This way we'd get a functional blackjack game.
+1:10
+However, there's a few things you haven't learned yet, which you need to learn in order to create this get random card function.
+1:16
+So let's rewind a little bit here, get back to the hard coded numbers, and over the next few casts, you're going to learn how to return values in functions and also how to generate random numbers inside of a function.
+1:29
+Let's go ahead and do exactly that.
+1:29
+go ahead and do exactly that.
