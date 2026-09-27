@@ -1,0 +1,123 @@
+Transcript
+0:00
+In this challenge, are going to imagine that you are working for about the hippest company I've ever seen.
+0:06
+This one right here, the Brooklyn agency, who currently consists of these super hip people right here.
+0:12
+Your job for this agency is to make their code a little bit more dynamic because now you can see that they have simply hard coded out the three team images inside of this container, but that isn't a particularly good solution because when they get a new employee, they would have to update the HTML.
+0:29
+So it's actually much better to do this using JavaScript and create a function that renders out the three team images because that sets the stage for easily connecting this data with a database so that you can just update the database in order to change team if new people join or someone quits.
+0:47
+So that is your challenge, creating a function that renders the three team images, and this function should be using a for loop, template strings, plus equals and dot inner HTML in order to solve the problem.
+1:02
+Here I have provided you with an array that contains the paths to all of the images.
+1:08
+You can see images slash hip one dot jpg and hip two and hip three, and they are located over here in the images folder, and this is actually a very common situation where you get an array of paths which point to the data you need.
+1:23
+So we could imagine that this for example had come from the database when you render the page or something like that.
+1:28
+Right now though it's just hardcoded into our JavaScript file.
+1:32
+There is a little bit of CSS here as well, but this challenge is not about CSS, it's about JavaScript, so we're just going to ignore that.
+1:38
+Just make sure that the images use this class of team img and you'll be just fine.
+1:45
+So I'm going to comment out all of these images.
+1:50
+Now we can see we cleared out the container, and I'll leave the table to you.
+1:55
+Go ahead and solve this challenge.
+2:02
+Okay.
+2:02
+Hopefully, this went well.
+2:04
+Now let's do it together.
+2:05
+I'll start by grabbing the div with the ID of container because we know we need that one.
+2:10
+Const container equals document get element by ID container, like that, and then the function.
+2:22
+I'll call it render images, like that.
+2:26
+And here, we need a for loop since we are going to loop through this array.
+2:30
+So I'll do four.
+2:32
+Let I equals zero.
+2:34
+I should be less than the length of the images array like that, and we'll increment upwards.
+2:42
+In here, we can use dot inner HTML directly.
+2:45
+Let's do that first and then refactor it a little bit after we've gotten it to work.
+2:50
+So I'll do container dot inner HTML plus equals.
+2:55
+At each step in the iteration, we need to add to the current inner HTML, not just clear it out using equals.
+3:03
+Here, we'll do m g class of see see what the class was?
+3:11
+Team dash img.
+3:12
+Okay.
+3:13
+We'll do team dash img, and the source should be each of these items right here.
+3:22
+We'll use dollar sign curly brackets to escape out of the string and use imgs passing in the current index, which starts at zero and ends at two, meaning zero one two, perfectly suitable to use in order to fetch out items from this array.
+3:41
+Closing the tag.
+3:42
+Now the final step is to make sure that we run the function, which we'll do by render images like that.
+3:50
+We'll run the code, and boom.
+3:52
+There we go.
+3:52
+We have rendered the images out.
+3:55
+Brilliant.
+3:56
+Now let's refactor this code a little bit because because there are two things I would fix up here.
+4:01
+The first thing we're going to fix is the dot inner HTML in the inside of the for loop, because here we are interacting with the DOM three times, one per each iteration of the loop, and that has a cost.
+4:13
+Manipulating the DOM has a performance cost.
+4:16
+It takes a little bit of time that we'd like to avoid if possible.
+4:20
+Now it doesn't really matter when we're only rendering out three items, so we as humans won't be able to notice the difference anyway.
+4:27
+However, it's a good practice to do it the most performant way just to know how it's done for because it comes today when you need to render out tons of things and manipulate the DOM quite a lot.
+4:36
+And then it actually might matter.
+4:38
+So let's fix this.
+4:39
+What we'll do is we'll simply create a variable up here.
+4:42
+For example, images on, and set that to an empty string.
+4:48
+Then instead of manipulating the DOM three times down here, we'll simply concatenate this string onto this string.
+4:57
+So we'll replace this entire thing with imgs dom plus equals this expression right here.
+5:05
+And now after this for loop has completed, this variable contains all the three images and it's time to do container dot inner HTML and set that equal to imgs DOM like that.
+5:20
+If we'll run the code, we see that it works in the exact same way, just as we expected.
+5:25
+So no visible change for us as humans, but we know that the performance under the hood is better since we're not doing DOM manipulations again and again.
+5:34
+We're only doing it once.
+5:36
+Okay.
+5:36
+The final thing we should add is an alt attribute because that is important for accessibility purposes so that people with, for example, screen readers can understand what the images contain.
+5:47
+And here we can do employee
+5:51
+in the company, like that.
+5:54
+Now we have solved this challenge and we've made it even better than the previous solution since we now also use an alt tag for accessibility purposes.
+6:04
+So great job.
