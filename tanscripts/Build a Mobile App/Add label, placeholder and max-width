@@ -1,0 +1,93 @@
+Transcript
+0:00
+We are so close to being done with this app.
+0:02
+But in this scrim, I wanna take a moment to make some minor adjustments just to add a couple of final touches to this app.
+0:08
+And then, of course, we're gonna go through some scrims where I show you how to turn this app into a mobile app with quotation marks, which you can put on your phone.
+0:17
+For this one, you can sit back and relax and let me do all the work.
+0:21
+So this is what our app looks like.
+0:22
+The first thing we're gonna do is to make it more clear how to do things.
+0:26
+So first thing I wanna add up here is a label label, which says enter URL.
+0:35
+There we go.
+0:36
+Perfect.
+0:37
+We're gonna style that better in just a minute.
+0:39
+And then we wanna add a placeholder so the users know exactly in which format they should put in the information there.
+0:45
+So let's add placeholder, let's and let's go with the scrimba.
+0:50
+with Here.
+0:52
+There we go.
+0:53
+And close that.
+0:55
+And there we go.
+0:55
+Looking lovely.
+0:56
+Now let's go into the CSS and add some styles to the label.
+1:01
+Let's, uh, add this nice dark green color that we're using for the border of the input field.
+1:06
+the Set that color.
+1:09
+There we are.
+1:10
+And let's make the text bold.
+1:13
+So we'll set that to nine hundred.
+1:15
+Perfect.
+1:16
+Now as this app is gonna be used on a mobile display, we don't really need this input field to be this long.
+1:22
+In fact, we wanna go into the body and change this min width into a max width body of not four hundred pixels.
+1:29
+That's a little bit too long, but let's change that to slightly more than three hundred.
+1:35
+There we go.
+1:36
+Looking much better.
+1:37
+And now let's move this whole thing into the middle, which we can easily do by going into the margin and adding an auto here.
+1:44
+There we go.
+1:45
+Let's see how it looks when we add a couple of things here.
+1:47
+how We add a lead x dot com.
+1:51
+Looking pretty good.
+1:51
+I'll add a couple more.
+1:53
+x Let's do LinkedIn.
+1:55
+pretty LinkedIn.
+1:57
+And I'll do one more, which is peer list dot I o.
+2:03
+There we go.
+2:04
+Perfect.
+2:05
+Now we're ready to put this thing on the phone.
+2:07
+That's all for this one.
+2:08
+I'll see you soon.
+2:06
+thing on the phone.
+2:07
+That's all for this one.
+2:08
+I'll see you soon.
