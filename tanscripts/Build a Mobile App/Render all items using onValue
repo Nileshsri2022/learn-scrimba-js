@@ -1,0 +1,104 @@
+
+Transcript
+0:00
+And we are back to our leads tracker app.
+0:02
+So currently, we have the leads in the database, scrimba dot com and linkedin dot com.
+0:08
+Both of those are being console logged right in here, snapshot dot val.
+0:13
+Remember, snapshot is the full object that contains everything.
+0:17
+All we need is the object that contains these two items, which is why we're using dot val.
+0:23
+But that's not good enough because in order to use the render function up here to render the leads inside of the app, we need to turn this from an object into an array.
+0:33
+And that's exactly where I want you to help me.
+0:35
+But before we do that, let me just extract this out.
+0:38
+this Delete this.
+0:40
+Put this into a cost called snapshot values and set that equal to this.
+0:45
+Now for the challenge.
+0:46
+for Alright, so the challenge is create a const called leads which is an array that contains the values inside of the snapshot values object because remember objects have keys and values and in this case the values are the leads themselves.
+1:03
+The keys are the IDs.
+1:04
+You wanna create an array that contains the values.
+1:07
+Alright.
+1:08
+Pause here.
+1:09
+Give it a go by yourself and I'll be with you in just a couple of seconds and we'll go through it together.
+1:13
+All the best.
+1:14
+it Okay.
+1:19
+Let's do this.
+1:19
+So we wanna create a const called leads and then set that equal to object dot values.
+1:27
+Remember, this is how we transform an object into an array.
+1:31
+And we're gonna feed it snapshot values and that should be it.
+1:35
+Let's just make sure that things are working by console logging this out.
+1:39
+Leads.
+1:40
+Let's run this console And we get scrumble dot com and linkedin dot com.
+1:45
+Beautiful.
+1:46
+Alright.
+1:47
+We can now get rid of the challenge description.
+1:49
+And let's get rid of this too.
+1:51
+And the last thing we need to do is to feed leads to the render function so that it will actually render the leads in here.
+1:58
+I'm gonna give this to you as an easy challenge to solve.
+2:02
+Okay.
+2:02
+So pause here, do this one, and I'll be with you in just a bit.
+2:05
+pause Okay.
+2:10
+So this one was supposed to be an easy one.
+2:12
+Let's get rid of this and we'll just do render, call that function, and feed it leads which we have here and that should be it.
+2:21
+Let's run that and we now have both leads in here.
+2:25
+Let's now try to add another lead to make sure things are working.
+2:28
+Let's do peer list dot I o.
+2:32
+Okay.
+2:32
+Save input and we get it immediately.
+2:35
+Did you see how fast that was?
+2:36
+And we of course have it in the database as well.
+2:39
+Perfect.
+2:40
+And that is all for this scrim.
+2:42
+Awesome job getting this far.
+2:44
+We just have a little bit left which is to implement how to delete these leads which is exactly what we're gonna cover next.
+2:50
+I'll see you there.
+2:46
+to implement how to delete these leads, which is exactly what we're gonna cover next.
+2:50
+I'll see you there.
