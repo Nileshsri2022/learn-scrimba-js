@@ -1,0 +1,40 @@
+
+Transcript
+0:00
+Okay.
+0:00
+We are back at our Chrome extension app and now your job is to do exactly what I did a few casts ago.
+0:06
+I replaced the text content with the inner HTML so that we could render proper LI tags instead of just plain text inside of our unordered list.
+0:15
+That is this element right here.
+0:18
+So go ahead and use your freshly acquired knowledge about inner HTML to solve this challenge.
+0:24
+solve Okay.
+0:29
+Hopefully, that went well.
+0:31
+The way to do it would be to first add a opening tag before our leads is rendered out.
+0:37
+We'll do that with a double quote and l I and then of course a plus.
+0:41
+Now we already had this empty space previously, we don't need that anymore, but we do need a closing l I tag.
+0:49
+If we now run this, you can see, oh, it doesn't work.
+0:52
+Well, that is because we're still using dot text content.
+0:55
+We have to change it to inner HTML like that.
+1:00
+Running the code.
+1:01
+There we go.
+1:02
+Three list tags rendered out exactly how we want them.
+1:06
+Let's move on.
+1:04
+exactly how we want them.
+1:06
+Let's move on.
