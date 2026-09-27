@@ -1,0 +1,82 @@
+
+Transcript
+0:00
+Now you are going to render the leads out in the unordered list we just created using the dot text content property which we've used in previous sections.
+0:10
+So you are to replace the console log here with the rendering of each item into the unordered list.
+0:17
+Now what will happen here is that you'll simply render out plain text inside of an unordered list.
+0:23
+For example, w w dot auth delete dot com.
+0:28
+If we run this, this is how it'll look.
+0:31
+And as you hopefully know, this is not how we write list items inside of an unordered list.
+0:37
+The way to do it originally is to use li elements like that.
+0:43
+You run the code so that we get this dot signaling that it's a list item.
+0:48
+However, for now, you are simply going to render out plain text inside of the unordered list.
+0:55
+So we're kind of doing it wrong first and then we'll fix it up later.
+1:01
+So just go ahead and render all the leads as plain text inside of the unordered list using dot text content even though that's not the correct way to do it.
+1:10
+But I wanted to do that first because the most important thing is to make it work, and then we make it better.
+1:16
+That's the philosophy here.
+1:18
+So I'm gonna rerun this page so that we don't have any leftovers from when we looked at the HTML.
+1:24
+Now we just have an empty unordered list.
+1:27
+Go ahead and do this right now.
+1:34
+Okay.
+1:34
+Hopefully, this went well.
+1:36
+To do it, you do ULL.
+1:38
+You'd grab a hold of the unordered list dot text content.
+1:43
+And here you might have been tempted to say equal my leads and then the index.
+1:49
+Let's see what happens if you try that.
+1:51
+Ah, it only renders out great lead, is the final one.
+1:55
+The reason for that is that at each step in the iteration of the for loop, you cleared out the entire text and assigned it to whatever lead you were looking at at that step in the iteration.
+2:07
+So for a split second, the value of the text content was awesome lead.
+2:12
+For another split second, it was epic lead.
+2:14
+And then finally, it was cleared out yet again and sat to great lead.
+2:18
+And that is what we are seeing in the browser now since the for loop then stopped.
+2:22
+It had looped through the entire loop and it then broke out of the loop.
+2:27
+So what we rather need to do is plus equals, something we also did in our poker game if you remember that.
+2:35
+That'll take the previous value and then concatenate it with the current lead we are looking at.
+2:42
+So if we run this, you can see now we have all three leads rendered out, but it looks horrible.
+2:49
+We wanna add at least a space in between them.
+2:52
+So if you remember that, you can do that with plus and then a space.
+2:57
+Now it looks slightly better if we shrink in the screen, actually break out on separate lines, but if we enlarge in the screen, they are just rendered out in one line.
+3:07
+So this is still the wrong way of doing it since we've just added plain text inside of the unordered list.
+3:14
+We wanna add list items.
+3:17
+Now we at least know how to take the data in my leads and render it out on the page, and we also know how to take whatever the user inputs into the input field and push that value into the lead.
+3:31
+So we kind of have a very simple implementation of each part of the app that we simply need to put together so that we at least have a working first version.
+3:40
+So let's continue on.
