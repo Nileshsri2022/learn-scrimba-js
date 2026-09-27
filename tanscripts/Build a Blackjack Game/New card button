@@ -1,0 +1,82 @@
+
+Transcript
+0:00
+So our game really starts taking shape now.
+0:02
+We hit the start game button, then we get the message, the cards, the sum.
+0:06
+However, a critical part of Blackjack is the ability to draw a new card from the deck.
+0:10
+So we need to start building that feature, and we are going to first begin with creating the new card button that you can see on the slide here.
+0:18
+So in this three part challenge, you are going to first head into the HTML and create that new card button, and then make it run a new card function when it's clicked.
+0:28
+And then in the JavaScript, you have to create that new card function.
+0:32
+And for now, it should just log out drawing a new card from the deck.
+0:36
+Then in the CSS, you need to make sure that when these two buttons are rendered out vertically like this, so above each other, you'll need to make sure that this small space between them is added because it won't be added by default.
+0:50
+Now if you enlarge in this browser and make it wider, they will render out besides each other, But you are not to worry about that layout.
+0:58
+So make sure that you keep this browser window a little bit narrow so that they are rendered out under each other and then make sure that you get this little gap here.
+1:08
+So this is again a very holistic challenge.
+1:12
+You are to write JavaScript, HTML, and CSS just like it is out in the real world.
+1:18
+So go ahead and give this your best shot right now.
+1:25
+Okay.
+1:26
+Hopefully, that went well.
+1:27
+If not, no worries.
+1:28
+Let's do this together.
+1:31
+In the HTML, we are starting with the button, open and closing tag, new card like that.
+1:40
+I'll just render it out.
+1:41
+Oh, there we got it actually.
+1:43
+Got them beside each other.
+1:45
+We want them vertically like this.
+1:47
+So there we can already see that we are missing the gap that we wanted.
+1:52
+But that's the CSS part of the challenge.
+1:54
+Let's continue on with the HTML and get that wrapped up.
+1:56
+We'll do on click equals and then run this new card function, which we haven't created yet, which we are going to create right now down here.
+2:08
+Function, new card, open and close parenthesis, and then the curly brackets for the body of the function inside here, logging out this string we got provided in the comment like that.
+2:22
+I'll run this code, hit new card, and indeed, we are logging it out.
+2:26
+Now final step is to add this gap right here.
+2:30
+We need to head into the CSS, and there are multiple ways to do this.
+2:34
+One way is to just say that we want any button to have a little bit of margin below them.
+2:40
+So this is about four pixels, so we could do margin bottom four pixels like that.
+2:49
+There we see that our button works.
+2:51
+Alternatively, let's say that we, in some case, end up with a situation where something comes too close to the button on the top side of it.
+2:57
+Well, maybe we need some margin on top of it as well.
+3:00
+But if I now add margin bottom and margin top of four pixels here, margin top four pixels, what you'll see is that the gap here became twice as wide because it has the top margin that pushes it down and also the start game button that uses its margin bottom to get the gap even larger.
+3:18
+So what we then instead can do is take two pixels on each.
+3:23
+Now we have something that looks very much like this, and we have created our buttons so that they always have some space below and above themselves.
+3:32
+And I think that makes a lot of sense as buttons usually want a little bit of space around them.
+3:37
+With that, let's move on.
