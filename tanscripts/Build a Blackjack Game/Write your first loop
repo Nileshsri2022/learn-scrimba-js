@@ -1,0 +1,87 @@
+Transcript
+0:00
+Okay.
+0:00
+Let's first walk through how to create a loop from scratch, and then I want you to create your own loop or at least try according to the specifications here on line three and four.
+0:10
+But to begin with, we'll create a loop that counts from zero to five.
+0:15
+So to do that, we'll do four, open and close parenthesis, and then inside of the parenthesis, we have to define our starting point, our finish line, and how big our steps will be.
+0:25
+This is done through a counter variable, so we could do let count equals zero and then semicolon to end the starting statement, because zero is where we want to start.
+0:37
+However, whereas count is a very semantically good word for this variable, a common convention in JavaScript is to use the letter I instead.
+0:47
+We could have named it whatever we want, and you can use count if you think that's easier, but I'm gonna use I from now on.
+0:54
+Then there's the finish line, which we also need to define.
+0:57
+We want to count to five, so I should be less than six, and then semicolon again.
+1:05
+So this defines that I should always be less than six, and obviously then the last point where it will stop when counting upwards is five.
+1:13
+And then finally, we have to define how big our steps should be.
+1:17
+Now I'm gonna do I plus equals one.
+1:21
+Here, we don't have to use a semicolon to end because this is the last condition.
+1:27
+Actually, I can space it out a little bit.
+1:29
+We follow the same structure for all of our conditions.
+1:33
+And then the open and closed square brackets for the body of our for loop.
+1:37
+Then inside of here, we'll do console dot log I from the code, and we can see zero one two three four five.
+1:46
+Good.
+1:47
+Okay.
+1:47
+Now that you've seen this, I want you to try to create a for loop that counts from ten up to a hundred in steps of ten.
+1:57
+So it should count ten, twenty, thirty, forty, fifty, and so on, including a hundred.
+2:02
+And I want you to use console log as I am doing here to log out the count at each step of the iteration.
+2:08
+So go ahead and do this right now.
+2:15
+Okay.
+2:16
+Hopefully, that went well.
+2:17
+If not, no worries.
+2:18
+Let's do this together.
+2:20
+Loop four.
+2:21
+Let, and here you might wonder if, well, we've already used the I variable.
+2:26
+Can we reuse it down here?
+2:28
+And the answer is yes.
+2:30
+I is only defined inside of the curly brackets of the for loop when you do it like this.
+2:35
+So outside of it, for example down here at line eight, JavaScript won't remember this I variable.
+2:41
+So whatever you've configured it to mean up here inside of the curly brackets doesn't affect whatever you set I to down here.
+2:49
+So we can do let I again equals ten.
+2:51
+That's where we wanna start.
+2:53
+I should be this time less than not a hundred because then it'll stop at ninety nine.
+2:58
+It needs to be less than a hundred and one.
+3:00
+And finally, I should not be plus equals one, but it should be plus equals ten because at each step in iteration, you wanna increase I with ten.
+3:10
+Console log I.
+3:13
+I'm going to comment this one out, run the code, and there we see.
+3:17
+Ten, twenty, thirty, forty, fifty, and so on all the way up to a hundred.
+3:22
+So great job.
