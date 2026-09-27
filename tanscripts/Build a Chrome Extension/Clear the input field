@@ -1,0 +1,70 @@
+
+Transcript
+0:00
+So while our app now works, it has a little bit of a usability issue.
+0:05
+Because if I now try to add a lead here and hit save, you can see it is indeed saved, but it still persists in the input field as well.
+0:13
+Most likely, we'd want to clear out this input field.
+0:16
+So that is what I now want you to do here on line eight, clear out the input field.
+0:20
+Though I haven't told you how to do that, and that is intentional because now I want you to Google it, and even better, I want you to try to figure out on your own what you wanna write into Google to try to solve this issue.
+0:31
+So I'm not gonna give you the text you are to paste into Google this time, you just have to try and figure that out on your own and see if you can find the answer because that's a critical skill as a developer.
+0:40
+You'll come across problems out in the wild every single day and you won't have me there to tell you what to Google.
+0:46
+So you obviously have to learn how to think of a phrase to Google yourself.
+0:49
+So go ahead and do that.
+0:50
+Try to figure out how you can clear the input field.
+0:53
+Write the code you think works, test it out, and then of course return back to the screencast when you wanna see my solution.
+0:58
+to Okay.
+1:04
+Hopefully, that went well.
+1:05
+If not, no worries.
+1:06
+Let's do this together.
+1:08
+So I would, for example, Google clear input value with JavaScript.
+1:12
+Here you can see we get a ton of results.
+1:14
+I normally jump to the Stack Overflow question, so let's click into that one.
+1:17
+You can see HTML how to clear input using JavaScript.
+1:20
+So this user is using a slightly different technique than us with a function and something called target.
+1:26
+However, most of the time, I hardly even read this.
+1:28
+I just quickly scroll down to the first answer to see if there's some kind of hint there as to what we are to do.
+1:34
+And in here, you can almost ignore all of it except for the line in the middle here that says target dot value equals an empty string.
+1:41
+That's interesting.
+1:42
+That looks like something we can use.
+1:44
+So here, perhaps we can do input l dot value and set that to an empty string.
+1:49
+Input l dot value equals like that.
+1:54
+From the code, we'll do lead three dot com, save input, and indeed, it worked.
+2:00
+So great job.
+2:02
+Let's move on.
+1:58
+Save input.
+1:58
+And indeed, it worked.
+2:00
+So great job.
+2:01
+Let's move on.
