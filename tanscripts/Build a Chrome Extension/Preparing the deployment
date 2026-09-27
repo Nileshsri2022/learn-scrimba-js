@@ -1,0 +1,107 @@
+Transcript
+0:00
+So even though we haven't completed our app yet, there's still many features left to build.
+0:05
+I wanna go ahead and deploy it right away because I just think it's so much fun to actually see your app out in the wild and that gives me a ton of motivation to continue on, which is why I often like to deploy my projects as early as possible.
+0:19
+So in this cast, we're going to prepare our first deployment so that we in the next cast actually can do the deployment and try our app out in the Chrome browser.
+0:28
+As you can see on the left hand side here, I've added a couple of new files, namely the icon dot PNG.
+0:35
+That's just a PNG image which looks like this little icon right here.
+0:39
+Pretty suitable for our app with this dollar sign as our sales representatives are to be reminded that this app will bring in more dollars for their commissions.
+0:49
+Also, you'll see a manifest dot JSON file at the bottom here, and you might wonder well, what is JSON?
+0:55
+I've never seen that before.
+0:56
+And you're right, we haven't talked about that earlier, but don't worry, it's nothing dangerous.
+1:01
+JSON is short for JavaScript Object Notation, and it's a way for us developers to store and send data.
+1:08
+And it's often used when you, for example, wanna send a piece of data from a server to a client, that is to a browser.
+1:14
+And in our case, we are using this manifest dot JSON file to configure our app and to provide metadata about it.
+1:21
+So Google Chrome will read through this and look at the name, Oh, it's called leads tracker.
+1:27
+Well then Google Chrome will give our app the name leads tracker.
+1:30
+It'll also see that the version is one point o.
+1:33
+So that the next time we deploy and we change this to for example one point one, it'll know that oh, we have updated our version.
+1:40
+And that's information that's definitely useful to know for Google Chrome.
+1:44
+One thing you might wonder here is why these key value pairs as you can see, which you hopefully recognize from JavaScript objects have keys that are wrapped in quotes.
+1:55
+Because if you remember from when we worked with JavaScript objects previously, we didn't use quotes around our keys.
+2:01
+That's something you have to do when writing JSON.
+2:04
+So don't be tempted to think that this actually is a JavaScript object right now.
+2:09
+It's not.
+2:10
+It's just plain text, but it's using the JavaScript object notation.
+2:14
+So it's mimicking JavaScript object, and you later learn how to turn a JSON object into a JavaScript object.
+2:20
+If this is a little bit confusing, don't worry about it.
+2:23
+It'll sort itself out as we look more into this.
+2:27
+Let's just move on and look at the two final key value pairs here.
+2:30
+We have manifest version, that's just telling Chrome which version of this JSON file we are using.
+2:37
+There used to be a version number one that people used and then there was a version number two, but now we have a version number three, so that's version number three.
+2:44
+And finally, there's the action.
+2:46
+And that's kind of the meat of our application.
+2:49
+It configures what happens when the user clicks on our application from the Google Chrome extensions toolbar.
+2:55
+Let me show you that.
+2:57
+Here we have Twitter, and if I click on the extensions button up here in the top right corner, this little puzzle piece, you can see it opens up all of my extensions.
+3:07
+And when I click at, for example, Grammarly for Chrome, it opens up the Grammarly extension.
+3:13
+And as you can see, it uses a little icon here as well.
+3:16
+So in the action, the default icon that you provide, this icon PNG here which points to this image file we've provided, will pop up here besides this puzzle piece button.
+3:30
+And also the default pop up, the index dot HTML that we provide inside of our action, well, it's our pop up.
+3:38
+And in our case, it'll simply be the HTML we have been building all along.
+3:42
+Now there's one thing we need to fix, which is that a Chrome extension will only be as wide as it needs to be.
+3:48
+And strictly speaking, our app doesn't need to be any wider than this because that's the width our button needs.
+3:54
+So we need to set a min width on the index dot CSS, and I'm just gonna go ahead and do that.
+3:59
+Min width of four hundred pixels for example.
+4:03
+Now you can see if we go below four hundred pixels, our input field is now outside of the app, so Google Chrome will understand that we don't want that.
+4:13
+We want our app to be like this.
+4:15
+This is the minimum size.
+4:16
+So now we finally have everything in place, your next step is to download this code.
+4:23
+You do that by clicking on the settings icon in the bottom right corner and download as zip.
+4:29
+That'll download a zipped folder.
+4:31
+You can then open that zipped folder, for example, in your dev directory and call it whatever you want.
+4:37
+Here you can see all of the files that you recognize along with a readme file which you can safely ignore or delete.
+4:43
+That's up to you.
+4:44
+And when you have that, we are ready to deploy our Chrome extension, so let's just move on to the next cast to do exactly that.
