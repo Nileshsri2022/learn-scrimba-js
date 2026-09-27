@@ -1,0 +1,48 @@
+
+Transcript
+0:00
+Okay.
+0:01
+Now that we're able to take the input value and push it into the my leads array so that we store our data, it's time to set the stage for going the other way around as well, meaning rendering out the leads.
+0:14
+And as you might remember, when you want to render all of the items of an array out, you first need to loop through that array and grab each of the items, and that's exactly what you're going to do in this challenge.
+0:26
+challenge.
+0:27
+However, to begin with, you are going to work with some dummy data just to make it a little bit easier for you.
+0:32
+So I've pasted in three dummy leads in the my leads array here.
+0:36
+So that down here starting on line twelve, you can simply write out a for loop that logs out the items in the my leads array.
+0:45
+Hopefully, you remember how to do this, and if not, no worries.
+0:49
+I will of course show you the solution afterwards as well.
+0:52
+Go ahead and give this your best shot right now.
+0:54
+right Okay.
+1:00
+Hopefully, this went well.
+1:01
+Let's do this.
+1:02
+We'll do four.
+1:03
+do Let I equals zero because we wanna start at the zero index of the myLeads array.
+1:10
+I should be less than the length of the array.
+1:13
+That's my leads dot length, and we wanna increment I upwards with one for each step.
+1:20
+Then the inside of the body of the for loop will simply console log out of the my leads using the I r iterator as the index.
+1:32
+Now we're on this code.
+1:33
+You can see in the control, yes, we are indeed logging out all three of our dummy leads.
+1:39
+Great job.
+1:35
+are indeed logging out all three of our dummy leads.
+1:39
+Great job.
