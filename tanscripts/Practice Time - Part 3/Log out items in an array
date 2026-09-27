@@ -1,0 +1,36 @@
+
+Transcript
+0:00
+In this challenge, you are going to create a function that takes a single parameter, that should be an array, and then it logs out all the items of the array to the console.
+0:10
+And I've created this my courses array here so that you can test your function.
+0:14
+Go ahead and write this function starting here on line seven, and then return back to me when you wanna see my solution.
+0:20
+my Okay.
+0:25
+Let's do this.
+0:26
+We'll do function.
+0:27
+I'll call it log items like that.
+0:30
+I'll name the parameter r.
+0:32
+the And then inside of the function, I need to write my for loop for let I equals zero.
+0:37
+I is less than r dot length, than and I plus plus.
+0:43
+and And in the body of the for loop, we'll simply do console dot log r I like that.
+0:49
+r Let's try to run the code.
+0:52
+Log items, pressing in my courses, items and we get learn CSS animations, UI design fundamentals, and intro to clean code logged to the console.
+1:04
+And these are all courses that you can take in the future when your web development skills are a little bit further down the line and you're ready to truly level up your design skills and your software craftsmanship.
+1:14
+But enough about that for now, let's just move on.
+1:15
+that for now.
+1:15
+Let's just move on.
