@@ -1,0 +1,60 @@
+
+Transcript
+0:00
+Okay.
+0:00
+It is time to deploy our application.
+0:03
+And I'm so excited about this because I just love seeing products move out into the world and start solving problems for people.
+0:10
+So let's just jump into this.
+0:13
+The first thing you need to do is to head over to chrome dash slash slash extensions.
+0:18
+That'll bring up this UI you can see right here which lists out all of your extensions.
+0:24
+Now this address here is a little bit funky so you can just copy it from the file right here and paste it into your address bar if you wanna do that.
+0:32
+And once you're there, I want you to trigger the developer mode on.
+0:35
+So just click up here in the top right corner, and then you'll see these three buttons appear, load unpacked, pack extension, and update.
+0:42
+And you are going to load an unpacked extension.
+0:46
+So click that button.
+0:48
+That'll bring up the file chooser menu.
+0:50
+There you are to navigate to the leads tracker folder that we downloaded from Scrimba in the previous cast.
+0:56
+Choose that folder and hit select, and once you've done that, boom, your lead tracker is now in the extensions interface.
+1:02
+And actually, that's it.
+1:04
+Now if we open up another tab, for example, I'll open up the LinkedIn profile of Frode, one of the co founders of Scrimba, and then I can click on the puzzle icon here in the top right corner.
+1:15
+That'll bring up all my extensions, and there we can see our lead tracker.
+1:19
+That is just so cool.
+1:20
+You can see the little icon here, and if we click it, it brings up the user interface for our app.
+1:25
+So that is amazing.
+1:27
+Now I can, for example, write in the URL we're at at the moment and hit save input and there it is saved.
+1:33
+So actually now we have something that you can take with you on every website you visit and save information.
+1:39
+But our app has a critical flaw because if I now close this app, if I click outside of our HTML file and it closes automatically and then wanna open it up again, open actually our leads have been deleted because that's just as if we were saving something through the input here and then seeing it in the list and then refreshing the page and boom, it's gone again.
+2:02
+So every time we open up our Chrome extension, it's a full refresh.
+2:07
+So we need to learn how we can store data across page refresh.
+2:11
+How do we do that?
+2:12
+That's not something you've learned yet, but it's not that hard so over the next few casts I'm gonna teach you exactly that so that our app becomes truly useful for salespeople who need to traverse the web and gather leads.
+2:25
+So let's just move on and get that sorted out.
+2:25
+let's just move on and get that sorted out.
