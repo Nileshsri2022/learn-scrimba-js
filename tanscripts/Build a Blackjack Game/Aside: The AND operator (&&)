@@ -1,0 +1,61 @@
+Transcript
+0:00
+Okay.
+0:00
+Let's learn about logical operators.
+0:02
+Here, we have a little bit of boilerplate code, namely two variables and a function, and the imagined scenario here is a course platform, much like Scrimba.
+0:12
+And what we're trying to solve is to figure out whether or not user should get a certificate.
+0:17
+That is whether or not we should call this get certificate function.
+0:21
+Because the deal is we only want to call this function if two conditions are true.
+0:26
+And that is has completed course.
+0:28
+In other words, the user has completed one hundred percent of the course, and secondly, gives certificate, that is whether or not this is the type of course makes the user eligible for a certificate.
+0:41
+Because you can imagine that very short courses doesn't give you a certificate, The course has to be of a certain size to award you with a certificate.
+0:49
+So, what we need to do is figure out how we can check if both of these conditions are true, because then and only then do we want to call this generateCertificate function.
+1:01
+You could actually achieve this with the concepts you've learned so far by simply nesting if statements.
+1:07
+For example, you could do if hasCompletedCourse equals to true, and then add the body of the if statement.
+1:16
+And then inside of the body, you could nest another if statement.
+1:20
+If gives certificate equals true, then you get so you get two ifs inside of each other, and then inside of the inner if, you do generate certificate.
+1:35
+Now if we run this code, you can see, yes, we are indeed generating the certificate.
+1:40
+And if we flip one of them to false, we are not generating the certificate, because here, this condition was not fulfilled, so neither of the code lines inside of the body was run.
+1:53
+JavaScript just jumped over the entire if statement.
+1:56
+However, this is a very clunky way of doing it.
+2:00
+Better way would be to actually remove the inner if statement.
+2:04
+For now, let's just comment it out, and then inside of the parentheses here, we can add another condition by writing a double ampersand, and then the next condition.
+2:16
+Give us certificate equals true.
+2:21
+We now move this line, this line, and uncomment this one.
+2:27
+Run this code, we see nothing happens because this condition here is false, and with the and operator both of the expressions before and after the operator need to evaluate to true for this entire expression to evaluate to true.
+2:47
+So if we flip this to true and run this, now it works.
+2:52
+But it's much better to have it on one line.
+2:55
+And a little extra thing we can do is actually omit the script equals true because now what does this and this evaluate to?
+3:06
+Well, it's simply true and true and true and true equals, well, true.
+3:14
+But as for now, in order to be explicit about the condition we are checking for, I actually wanna keep these triple equals here as well.
+3:23
+So one way to read this in plain English is if this is true and this is true, then run this code.
+3:34
+Hopefully, that makes sense because in the next cast, I'm going to give you a challenge so that you get your hands dirty with this as well.
