@@ -1,0 +1,68 @@
+
+Transcript
+0:00
+Okay.
+0:00
+Let's say that we are back at our blackjack game, and we have two variables, player name and credits.
+0:06
+The first one is a const, whereas the second one is a let.
+0:09
+Now immediately upon seeing these two variables, a developer will understand that player name is not to be reassigned, however, this developer wouldn't only think that credits can be reassigned, it would actually assume that credits are to be reassigned further down in the code.
+0:26
+So the developer would expect something like credits equals credits minus ten for example.
+0:32
+And the reason for that is that developers often use the following to decide whether or not they should use const or let.
+0:40
+So if possible, default to using const.
+0:43
+If not, use let.
+0:45
+If these two lines follow this methodology, it would mean that it simply wasn't possible to write credits as a const, because it is going to be reassigned later down in the code, and thus we skip the default of const and used let instead.
+1:00
+And this is actually the biggest benefit with const.
+1:02
+It gives us a way to quickly signalize to anyone who are reading the code what we want to do with the variables.
+1:09
+So in addition to expecting that something like this here would happen, the developer would also be very suspicious if she saw something like player name equals something else down here, because that would mean that the person writing this code mixed up their let and consts, or perhaps didn't even understand it.
+1:26
+As we know, this will give us an error.
+1:29
+So with all of this knowledge, and following this methodology, I want you to do a challenge.
+1:36
+Which of the variables below should be changed from let to const?
+1:41
+Here, the situation is an e commerce shop, where you have a base price, a discount, a shipping cost, and shipping time.
+1:47
+At some point though, the details of the shipping changes, and then you calculate the full price, and finally notify the customer.
+1:54
+So go ahead and change some of these variables to const, and then I will show you the solution afterwards as well.
+2:04
+Okay.
+2:05
+Let's do this.
+2:06
+I'm gonna start down here on where things are reassigned.
+2:10
+It's easy to see that these are reassignments since we're starting a new line with just the variable name not let in front of it.
+2:17
+So here we are reassigning shipping cost and shipping time, meaning these two can be let.
+2:23
+And this is a new variable, so actually here's the end of our code, and base price and discount, they haven't changed.
+2:30
+So they could be consts, and it says here, if possible, use consts, so default to consts.
+2:36
+So then I'll do const, and const, like that.
+2:39
+And the code works perfectly fine, I haven't broken anything.
+2:42
+Is there anything else we can do?
+2:44
+Yep, actually it is.
+2:46
+Here at full price, we see that this variable is only assigned once, it's not reassigned further down, just used here in the console log, meaning that this one also should be a const.
+2:58
+So hopefully you now understand why we want to use const and let, and if it's still a bit confusing, don't worry about it.
+3:03
+We're going to continue using these variables throughout this course, so eventually, it'll be completely natural for you to switch between these two variable types.
+3:12
+With that, let's return back to our lead tracker app.
