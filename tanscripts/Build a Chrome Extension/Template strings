@@ -1,0 +1,54 @@
+
+Transcript
+0:00
+So in order to make this expression a lot simpler, we'll use what's called template strings.
+0:05
+And to make it super clear for you the benefit of template strings, I'm actually going to comment out this current string, and then on a new line, create the template string so that you can compare the two.
+0:16
+And the way you turn a normal string into a template string is by replacing the quotes that wrap the string with backticks instead.
+0:23
+So let's do that and pay attention to what happens with the syntax highlighting of my leads and the plus operators when we do that.
+0:32
+I'm gonna do that and that.
+0:35
+As you can see, it all just became blue.
+0:38
+So now this is no longer a JavaScript expression.
+0:40
+It's just a string.
+0:42
+But we are of course going to fix that after we've looked at the first huge benefit with template strings, which is that you can break it into multiple lines, something we couldn't do with a normal double quote string up here.
+0:54
+So this gives us the opportunity to write our HTML much like our HTML looks like in an HTML file like this.
+1:00
+HTML This is a much easier expression for us humans to parse than this one up here.
+1:06
+So now we have that, it's time to take these sections here which previously rendered out the leads but now just are plain strings and simply delete them and replace them with a dollar sign, open and close curly brackets, then passing in whatever JavaScript expression we want inside there.
+1:23
+This is how you kind of escape out of the string and shove a JavaScript expression into the string.
+1:28
+My opinion, much easier than what we had here with the quote, the plus, and the expression, then another plus, then a quote.
+1:36
+Simply replace all that with plus, this.
+1:40
+And now if you wanna go even further, we can add the contents of the anchor tag in a new line so that we get this really nicely formatted expression.
+1:49
+It looks just like we would write it in the HTML file.
+1:52
+We now run this code, it save the input, it works just as it did previously.
+1:59
+But now we have removed all the ugly pluses, all of this wrestling we had to do between single quotes and double quotes and make sure that we used each of them in proper order.
+2:09
+Here, we can do whatever we want.
+2:11
+We can even replace this here with a double quote and use single quotes there.
+2:15
+While that's not a good practice, this just shows the power of the template string.
+2:19
+But now I've been writing code for far too long.
+2:22
+The point here is that you should write the code, that's what Scrimba is all about.
+2:26
+So over the next few lessons, you are going to get your hands dirty with template strings.
+2:27
+few lessons, you are going to get your hands dirty with template strings.
