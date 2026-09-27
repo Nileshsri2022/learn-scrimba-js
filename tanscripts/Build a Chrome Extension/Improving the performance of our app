@@ -1,0 +1,62 @@
+
+Transcript
+0:00
+Now it's time to improve the performance of our rendering by first creating a variable list items to hold all of the HTML, then concatenating the HTML elements onto that variable so that you, after the loop has finished, can render all of them in one go.
+0:17
+So just to go through this, this is a three part challenge where you first create the empty variable, which you should call list items, and that should eventually hold all of the HTML for the list items.
+0:28
+But to begin with, you are going to assign it to an empty string.
+0:31
+Then inside of the for loop, instead of manipulating the DOM every single time the loop runs in every iteration of the loop, you're going to rather add the item, this one right here, to the list items variable instead of using the inner HTML on the unordered list itself.
+0:47
+And then finally, after the for loop has completed, then you can take the list items which now contain all of the HTML you need, then render it inside the unordered list using inner HTML.
+0:58
+So this way, we'll make our code more performant and faster.
+1:01
+So go ahead and give this a shot right now.
+1:08
+Okay.
+1:09
+Hopefully, this went well.
+1:10
+Now let's do this.
+1:11
+First, I'll start with the list items.
+1:14
+I'm going to have to use a let for that one, but it's going to be reassigned as you know.
+1:19
+And for that, we cannot use consts.
+1:22
+So to begin with, it should be an empty string like that.
+1:25
+And here, we are going to add the items, these guys, to the list items variable instead of setting the inner HTML directly.
+1:33
+So this is simply replacing this here with list items.
+1:38
+And now after this code has been running three times, one for each lead in our array, this list items variable should contain all of the HTML we need.
+1:47
+So then we can render it out by doing u l l dot inner HTML equals list items like that.
+1:56
+Let's try this.
+1:57
+Run the code, and as you can see, we get the exact same result, meaning that it works.
+2:02
+If you're still a little bit confused of what's going on here, I recommend you to for example console.
+2:06
+Log out the value of list items so that you get to see what the value of that string is in every iteration throughout the loop.
+2:13
+And once you feel you have a good grasp of this, we'll move on to the next lesson.
+2:18
+If you find yourself struggling to remember as to whether or not the performant way was to do dot inner HTML inside of the loop or outside of the loop, you can remember this sentence, DOM manipulation comes with a cost.
+2:32
+And with that, you can ask, well, if it comes with a cost, is it best to manipulate the DOM, namely using inner HTML, three times inside of the for loop?
+2:40
+Or is it best to just do it one time outside of the for loop?
+2:44
+Well, if it has a cost, you'd prefer to do it one time than three times.
+2:48
+So just remember that DOM manipulation has a cost, and look at your code in the light of that.
+2:54
+And finally, if you are a bit confused of what's really going on under the hood with this string that we are constructing by running through our loop, what you can do is log out list items down here under line sixteen just to inspect how it looks in every iteration of the loop.
+3:10
+So feel free to jump in and do that right now, and when you are ready, I will see you in the next lesson.
