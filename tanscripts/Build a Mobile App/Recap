@@ -1,0 +1,72 @@
+
+Transcript
+0:00
+Can you believe it?
+0:01
+You just completed this entire section and proved that you're truly awesome.
+0:06
+I am so happy and proud of you.
+0:08
+Seriously, not many people make it this far, so you get a huge round of applause from me.
+0:13
+Alright.
+0:13
+Before I let you go, let's do a quick recap of the concepts we covered in this section.
+0:18
+The first thing we did was to use the new import function, which we did right at the top of the JavaScript file because we wanted to import some functionality from these two URLs.
+0:28
+And we were able to do it easily with the import statement and then specifying exactly which functions we wanted.
+0:35
+The first Firebase function we used was the initialize app function which is a setup function that we need to do always whenever we start a new Firebase project.
+0:44
+We set a const called app equal to initialize app and gave it the Firebase config object which contained the database URL for our Firebase real time database.
+0:55
+Then we use the get database function which is another setup function that we always need to do whenever we're using the Realtime Database.
+1:03
+This one takes in the app object that we've created before the database and then we need it to create a reference inside of our database.
+1:11
+We always have to do this before we can start pushing data.
+1:14
+And so we use the ref function and first we need to specify which database we're dealing with and then we need to give our reference a name, which in this case it made sense to call it leads.
+1:24
+Then we use the push function to be able to push data from our app to the Firebase real time database, and we did that by writing something here in the input field.
+1:35
+And then when we press this button, we're saying we wanna push to the reference we just created in the database, and the value is the value of the input element.
+1:43
+Next step, of course, was to use the on value function that lets us fetch a snapshot of the data from the database every time there is a change made.
+1:53
+We're calling that function right here.
+1:55
+We're first specifying which reference we wanna fetch the data from and then this is the code that gets run over and over again.
+2:01
+So we just talked about that we get the data from the database as a snapshot.
+2:06
+And the first thing we need to do is to make sure that a snapshot actually exists.
+2:10
+That's what we're doing right here.
+2:12
+And then we're saying if and only if a snapshot exists, should we run this code.
+2:19
+When we get the data from Firebase, we get it in an object form.
+2:23
+We needed to transform that from an object to an array so we could use the loop that we wrote inside of the render function before when you built this with pad in the last section.
+2:33
+We're turning it from an object to an array right here.
+2:36
+Then finally, we wanted to remove all of the data when we double clicked on this button and we were very easily able to do that by using a simple Firebase function called remove and specifying which reference to delete.
+2:49
+Then before publishing, we wanted to set the viewport inside of the HTML so that our app doesn't get shrunken when we're gonna view it on a mobile phone.
+2:58
+That's this line right here.
+3:00
+Since we're putting this on our phones, it's important that we have an icon and so we made sure to set the FAB icon by using a service called FABicon.
+3:09
+Io.
+3:09
+Finally, we set the web manifest file which added the little bit of information that we needed so that we can make this app look like a native mobile app when we put it on our phones.
+3:19
+And that is all.
+3:20
+Boy, when you list it all like that, it seems like quite a bit.
+3:23
+Once again, well done on completing this section.
