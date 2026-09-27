@@ -1,0 +1,95 @@
+Transcript
+0:00
+Next step is to actually save the URL instead of just logging it out because obviously this doesn't do the trick for our app.
+0:07
+We need to save it to local storage.
+0:09
+We need to add it to the my leads array and we also need to trigger a render so that the fictional lead here actually will be rendered on the page when the user hits the tab button.
+0:21
+So to achieve this, you basically need to do more or less the same thing that you're doing inside of the input button.
+0:27
+So hopefully, you've got this.
+0:29
+If not, no worries.
+0:30
+I will of course show you the solution when you return back to the screencast.
+0:34
+to Okay.
+0:39
+Let's do this.
+0:41
+So the first thing I want to do is push it to the my leads array.
+0:46
+So we'll do my leads dot push, and then pass in this expression right here, like that.
+0:53
+Let's here, comment out this one for now.
+0:56
+comment Next up, we need to save the my leads array to local storage.
+1:01
+Luckily though, we know how to do this.
+1:02
+That's the exact same line as we have down here.
+1:06
+Local storage dot set item, the my leads, which is the key, should be set to stringified version of the my leads array.
+1:15
+So let's just remember how this looks and rewrite it up here.
+1:19
+I wanna rewrite it because it's a little bit of a complex expression, so it's good to get that practice.
+1:24
+Local storage up set item.
+1:28
+Which item?
+1:29
+Well, it's the my leads key, which is what it's called.
+1:32
+And here we are going to set it to the my leads value.
+1:37
+However, we need to stringify this value first, so we'll do JSON dot stringify open parenthesis, close parenthesis, and a lot of spaces here so that you understand what happens.
+1:51
+This is the array and this is the stringified version of that array, So the array turned into a string.
+1:59
+You can do it like this I think.
+2:00
+Okay.
+2:01
+Looking pretty good.
+2:03
+Now, final thing we need to do is actually trigger a rerender, because we have pushed something to the my leads array.
+2:09
+Now we wanna render it out with the render function and pass in myLeads as the argument so that we actually get to see it on our page.
+2:17
+Now I'll run this code, bring up the mini browser, and hit the save tab, and there you go.
+2:23
+We got our URL rendered to the page.
+2:26
+Let's combine it with a lead as well.
+2:28
+Awesome lead.
+2:29
+Yeah.
+2:29
+There we go.
+2:29
+And delete all.
+2:30
+Oh.
+2:31
+Nice.
+2:32
+It works.
+2:33
+Really good job.
+2:23
+got our URL rendered to the page.
+2:26
+Let's combine it with a lead as well.
+2:28
+Awesome lead.
+2:28
+Yeah, there we go.
+2:29
+And delete all Oh, nice.
+2:32
+It works.
+2:33
+Really good job.
