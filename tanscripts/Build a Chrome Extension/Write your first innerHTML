@@ -1,0 +1,40 @@
+
+Transcript
+0:00
+So to help you learn inner HTML, I have a really silly example for you here.
+0:05
+Because let's say that you are working on a ecommerce website, somehow your colleague, the HTML developer has forgotten to add the buy button inside of the div container.
+0:15
+That is a crisis because your customers now can't buy your product.
+0:19
+So you as the JavaScript developer have to do that instead.
+0:23
+So you're going to use the dot inner HTML property to render out a by button inside of the div container.
+0:31
+You have to grab a hold of the div container first and then use the inner HTML.
+0:36
+And the text inside of the button should be by with an exclamation mark.
+0:40
+So go ahead and give this your best shot right now.
+0:43
+and Okay.
+0:49
+Let's do this.
+0:50
+So first, I'll look at the HTML.
+0:52
+The ID of the container is indeed container, so I'll use that.
+0:56
+The const container equals document dot get element by ID passing in container.
+1:04
+Now that we have that, we can do container dot inner HTML equals.
+1:10
+And here we'll create the button, button, buy inside of the button, and then the button closing tag.
+1:18
+If we run this, yes, we can see that we have a really neat button already styled because our CSS developer had indeed did their job, and so have you.
+1:28
+So give yourself a pat on the back for doing this, and let's move on.
+1:27
+And so have you.
+1:28
+So give yourself a pat on the back for doing this, and let's move on.
