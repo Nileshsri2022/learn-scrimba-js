@@ -1,0 +1,82 @@
+
+Transcript
+0:00
+Now we need to change our get random card function because in blackjack, the jack, queen, and king are all worth ten and the ace is worth eleven.
+0:09
+Or strictly speaking, the ace can be worth both one and eleven.
+0:13
+You get to choose as a player what suits you best is the value you use.
+0:17
+However, for the sake of simplicity, we are just going to treat the ace as eleven in our case.
+0:23
+As having a dual value for this card would add a lot of complexity to our game and it's not something I wanna focus on.
+0:29
+It's rather something you can, for example, do as a stretch goal later if you wanna modify the game at the end of this course.
+0:36
+So for now, we're going to treat our ace as eleven.
+0:39
+So this means we need to modify our get random card function.
+0:42
+If the number it returns is one, then we should change it to eleven, and likewise, if the number it returns is either eleven, twelve, or thirteen, we should rather return ten.
+0:52
+So go ahead and modify this function so that these exceptions are followed.
+1:01
+You're going to have to define a variable that this random number is stored in and also have some kind of conditional that checks for these conditions and returns the appropriate value.
+1:12
+So go ahead and give this a shot, and then I will of course show you the solution afterwards as well.
+1:21
+Okay.
+1:22
+Hopefully that went well.
+1:23
+If not, no worries, we'll do it together.
+1:26
+First, I'm going to instead of returning this directly, turn it into our random number.
+1:31
+Like that, then we need to write our conditional to account for these special cases.
+1:37
+I'm going to start from the very top and check if random number is more than ten, meaning that card is either the jack, queen, or the king.
+1:45
+So if random number is more than ten, what are we going to return then?
+1:52
+Well, then we are going to return ten because that is the value of the jack, queen, and king.
+1:58
+And I'm going to do else if, and now I'm going to count for the ace itself.
+2:02
+And for that, I'm going to use the triple equals.
+2:05
+So I'll do random number triple equals one and I'm going to return eleven.
+2:12
+Then in all other cases, you can just do else like that.
+2:15
+In all other cases it must mean that we have drawn either two, three, four, five, six, seven, eight, nine, or ten.
+2:21
+And if so, we're just gonna return that value.
+2:24
+So then we're just gonna return the random number directly like that.
+2:29
+Let's run the code.
+2:30
+Start game.
+2:31
+Okay.
+2:32
+Five five.
+2:33
+I'm gonna just hit a bunch of cards to see that we get the entire range, and indeed it seems that we does.
+2:38
+We have a two here.
+2:38
+We have an eleven here, and we have almost every single word in between.
+2:42
+I'm a hundred percent sure that if we continue hitting the new card in the long run, we'll just get random numbers across our entire defined range.
+2:50
+So great job.
+2:52
+We're almost reaching the end of our blackjack game.
+2:54
+You should really be proud of yourselves for reaching this far.
+2:57
+This is starting to get advanced.
+2:59
+There's even more to learn, so let's just keep up the pace and move on.
