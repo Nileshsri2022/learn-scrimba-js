@@ -1,0 +1,38 @@
+
+Transcript
+0:00
+Okay.
+0:00
+We are back at our Chrome extension app and now you are going to do the same thing I did before we went on our little tangent about template strings, which is to take this list items and turn the string here into the template string so that you can get rid of all of these pluses, all of these bubble quotes and also break it into multiple lines if you want.
+0:18
+So go ahead and do that right now.
+0:24
+Okay.
+0:25
+Hopefully, this went well.
+0:26
+Let's do it together.
+0:27
+Start by replacing the outer quotes with backticks, and then I'll just go ahead and break it into multiple lines to get better readability like that.
+0:37
+Now I can easily see that it's a list item which wraps an anchor tag.
+0:42
+I'm gonna put this on a new line.
+0:43
+And here we still have these clunky plus signs.
+0:47
+I'll remove all of those and wrap the JavaScript expression here in a dollar sign and the brackets like that.
+0:56
+And then do the exact same thing here.
+1:00
+Oh, like that.
+1:02
+We break this into yet another line so now it looks much better.
+1:06
+And if we run this, it still works exactly how we want it to.
+1:11
+So let's move on.
+1:09
+exactly how we want it to.
+1:11
+So let's move on.
