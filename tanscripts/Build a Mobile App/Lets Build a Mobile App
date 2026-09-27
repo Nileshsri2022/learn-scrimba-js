@@ -1,0 +1,48 @@
+
+Transcript
+0:00
+In the last section, you saved your data in the browser using local storage.
+0:05
+In this section, we're gonna take the next step and store our data in an actual database.
+0:10
+Oh, yes.
+0:12
+You heard that right.
+0:13
+The service we'll be using is called Firebase and I believe it's one of the easiest ways for beginners to start developing more powerful apps where you let your users read and write data.
+0:24
+Firebase has many things to offer but in this section, we'll be looking at the real time database.
+0:30
+A simple JSON based database where you can read and write data in real time.
+0:36
+We'll connect our code to Firebase using the database URL and then we're free to start pushing data.
+0:42
+We'll be building on the leads tracker Chrome extension you built with PAD in the last section.
+0:47
+We're gonna take that and transform it into an app we can put on our phones.
+0:52
+What?
+0:53
+A mobile app built using HTML, CSS, and JavaScript?
+0:56
+Impossible.
+0:57
+See, what we'll be building is not technically a native mobile app, but by using a specific technique, which I'll cover in this section, we can add the web app to our home screens and boom.
+1:09
+It's gonna look and feel like a native mobile app.
+1:13
+But don't tell anyone, okay?
+1:14
+My name is Raffid Hodaw and I'll be your teacher for this section.
+1:18
+You can press this image to watch a one minute video where you can get to know me better.
+1:21
+And I actually create a lot of content online so if you wanna follow me, feel free to do so on X, LinkedIn, YouTube, Instagram or visit my website.
+1:31
+And with that, I hope you're ready to build a mobile app with me using Firebase.
+1:36
+Let's do this.
+1:33
+to build a mobile app with me using Firebase.
+1:36
+Let's do this.
