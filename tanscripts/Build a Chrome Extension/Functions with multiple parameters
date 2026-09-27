@@ -1,0 +1,60 @@
+
+Transcript
+0:00
+Okay, so our function is now pretty dynamic since it can use whatever greeting value you want, so you can kind of set the tone however you want when calling the function, but we need to get back the same type of feature for the name as well.
+0:14
+So the way we can do that is by adding a second parameter, because you can have as many parameters as you want.
+0:22
+Actually, here, I can do name, and then replace this with a name like that.
+0:30
+Now if we run this, you'll see howdy undefined again, because we have only given this function one argument when we called it, but actually it expects two, both the greeting and the name.
+0:43
+So here we have to do comma, and then names for example.
+0:47
+We run the code now, you can see, howdy James.
+0:50
+So now we have a really dynamic function here.
+0:53
+So it's a pretty good function in my opinion, but there's one issue which is not related to parameters, but related to the code quality of the function body.
+1:02
+Because as you can see, while it made sense to use double quotes for strings when we started out, At this point, the expression has become a little bit clunky.
+1:12
+We have three plus signs here, and we might even get more of them as we continue on improving this function.
+1:18
+So at this point, it's time to refactor this expression into using template literals.
+1:24
+So I want you to do that now, and then we are ready to add a third parameter to our function.
+1:29
+So go ahead and change this into template literals right now.
+1:37
+Okay.
+1:38
+Hopefully, that went well.
+1:39
+The way to do it would be to add a template literal to begin with, and then one to end the string.
+1:45
+Then now we can remove all of these clunky plus signs and quotes, and here we have two variables greeting and name, which we need to escape out from the string.
+1:57
+So we'll do dollar sign, open curly bracket, closing curly bracket, dollar sign, open, and close.
+2:05
+Yes.
+2:06
+This looks better, much more readable.
+2:09
+If we run that again, you see we get the exact same result.
+2:12
+Great job.
+2:13
+And your job now is to add the ability to choose the emoji as well, meaning you should be able to run the function and pass in a third parameter which decides what kind of emoji that will be rendered to the page.
+2:26
+So go ahead and try that right now.
+2:33
+Okay.
+2:34
+The way to do it would be the same as we've done up until now, by adding a third parameter here, emoji, then replacing this hardcoded emoji with that variable escaped out from the string of course, emoji like that, and here we'll need to also now add an emoji when we are calling the function.
+2:56
+Let's try the fire one, run the code, and nice.
+3:01
+We now have a super dynamic function that we can use to create greetings of all sorts, and it's so much better than what we started out with.
+3:10
+Let's move on.
