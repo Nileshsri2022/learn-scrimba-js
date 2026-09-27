@@ -1,0 +1,50 @@
+
+Transcript
+0:00
+We've used GitHub desktop to push our project to GitHub.
+0:03
+Now let's use Netlify to deploy our project to the web.
+0:06
+Once you log in to Netlify, from your Netlify dashboard, you can click on add new site and then import an existing project.
+0:13
+Now this might look a little familiar.
+0:15
+We're going to connect a Git provider and the Git provider we're using is GitHub.
+0:20
+Then I will search for my repo and click on it and we come to a site setting page.
+0:25
+We can leave everything as it is.
+0:26
+Scroll down and click deploy site.
+0:29
+Now Netlify will begin to deploy our project and once it's done, we can click on the link and view our project up on the web.
+0:37
+Now mine is not very pretty because I'm just using example files.
+0:41
+Yours should look a lot better.
+0:42
+Now let me show you how Netlify will actually automatically deploy whenever you commit a change to your remote GitHub repo.
+0:49
+I'm gonna go back to GitHub desktop and open my project in Versus Code.
+0:53
+And then I will go into my index dot HTML and change these headers again to something else.
+0:58
+Returning to GitHub desktop, I can write a descriptive commit message, commit to main.
+1:04
+And once I have pushed that up to GitHub, I can return to my Netlify dashboard, click on my project and its link to see that it has changed.
+1:13
+Pretty awesome.
+1:14
+Now that you've built and deployed your project, I really recommend that you share it.
+1:17
+If you look up in the header here, you will see a share solution button.
+1:22
+All you have to do is click it to go to Twitter where we've already created the message for you.
+1:26
+Just don't forget to copy and paste your Netlify URL here.
+1:30
+Great work today.
+1:31
+Happy coding, and I'll see you next time.
+1:33
+you next time.
