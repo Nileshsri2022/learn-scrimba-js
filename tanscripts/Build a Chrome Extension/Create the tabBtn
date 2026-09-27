@@ -1,0 +1,72 @@
+
+Transcript
+0:00
+In this challenge, are going to set the stage for the save tab button.
+0:04
+I'm going to write the HTML for you first, and then you are going to take over and do the JavaScript part of it.
+0:10
+So you do a button like that, it should be called save tab, run this, we can see that we get the save tab button and let's give it an ID of tab dash btn like that.
+0:26
+Now you are first going to grab the save tab button and then store it in a tab btn variable, and then you are going to hook up an event listener with this button so that you listen for clicks, and when it's clicked, you are to log out my LinkedIn URL to the console.
+0:43
+And the way you grab a hold of that LinkedIn URL is through navigating into this tabs array that actually has an object as its only item, and that object has a key value pair of URL and the actual string value of the URL to my LinkedIn profile.
+1:01
+So this might sound a little bit weird, like why am I forcing you to do all this complex stuff of navigating into this array and into this object and fetching out this value right here?
+1:10
+Well, you'll understand this when we implement this with the Chrome API that actually gives us access to the current tab we're on at any given point, because then we actually have to do such a navigation.
+1:22
+So I'm just prepping you for that.
+1:24
+So you have to remember how to work with arrays and objects, that's great to get some practice on.
+1:29
+If you struggle, I will of course show you the solution as well afterwards, so go ahead now and just give this your best shot.
+1:40
+Okay.
+1:40
+Hopefully, this went well.
+1:42
+Let's do this.
+1:43
+We'll create a const tab b tab b t n and use document dot get element by ID, passing in tab dash b t n as that is the ID.
+1:55
+We gave it over in the HTML ES.
+1:59
+Down here, we need to listen for button clicks on the tab b t n.
+2:04
+We'll do add event listener.
+2:06
+First argument is click.
+2:08
+Second is a function that will be run when the button is clicked.
+2:13
+And here, let's console log out just this entire expression.
+2:17
+When you are to navigate into complex expressions like this, it's often a good idea to just take one step at a time and log out the results.
+2:25
+Let's run this, hit the save tab, and bring up the console.
+2:30
+Okay.
+2:30
+We can see now that we have our URL wrapped inside of both square brackets and curly brackets.
+2:36
+One thing we at least need to do is navigate into the first item of this array right here.
+2:43
+And how do we navigate into the first item, which also happens to be the only item?
+2:47
+Well, we simply do square brackets zero for the zeroth index.
+2:53
+Let's run this, hit save tab, and there we can see in our console we're now just logging out an object.
+2:59
+So this is an object with a key, URL, and the value which points to my LinkedIn profile.
+3:05
+How do we get a hold of that value?
+3:06
+Well, we use the dot notation, dot URL, like that.
+3:11
+Run the code again, hit save tab, and there we go.
+3:14
+We have logged out my LinkedIn URL.
+3:17
+Great job.
+3:18
+Let's move on.
