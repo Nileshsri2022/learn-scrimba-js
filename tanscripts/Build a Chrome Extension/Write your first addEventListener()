@@ -1,0 +1,49 @@
+Transcript
+0:00
+So in this challenge, you are going to practice writing event listeners using the technique you just learned.
+0:06
+So it's a three part challenge where you first are to grab the box from the DOM and store it in a variable.
+0:12
+Here you can see the box, it's just a rectangle that says open the box.
+0:15
+You can imagine that this is some kind of easter egg on a e commerce website, where if you open the box you get a coupon or something like that.
+0:23
+And as for HTML, it's just a very simple dev with an ID of box, and of course I've styled it a little bit in the CSS file, but we're not going to worry about that.
+0:32
+So when you have grabbed the box from the DOM and stored it in a variable, you are to add a click event listener to it, and then finally log out, I want to open the box when the box is clicked.
+0:42
+So So if you struggle to remember how to add an event listener using JavaScript, you can go back and rewatch how I explained that, or even better, Google it out and you should find the solution as well.
+0:53
+With that, go ahead and solve this challenge right now.
+0:55
+Okay, Okay.
+1:01
+Hopefully that went well.
+1:02
+Let's do this.
+1:04
+So we'll do let box equals document dot get element by ID, passing in box, And then to add the event listener, it's box dot add event listener, passing in first the event we want to listen for.
+1:22
+That is the click.
+1:24
+And then what do we want to trigger when the user clicks?
+1:27
+Well, it's this function right here, clicks?
+1:30
+and inside of it, we're going to console dot log.
+1:33
+I want to open the box like that.
+1:37
+Let's run the code.
+1:39
+Click the box, and yes, it works.
+1:41
+Great job.
+1:38
+code.
+1:39
+Click the box.
+1:39
+And yes, it works.
+1:41
+Great job.
