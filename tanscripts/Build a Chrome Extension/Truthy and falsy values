@@ -1,0 +1,150 @@
+
+Transcript
+0:00
+Okay.
+0:00
+So let's learn about truthy and falsy values.
+0:03
+So let's say that we for example have a slot machine app.
+0:07
+So we have const credits, that's how many credits you as a player have.
+0:13
+And then we need to check if credit is more than zero, well, then you're allowed to play the slot machine.
+0:21
+So we'll log out, let's play with a slot machine emoji.
+0:24
+And then else, this means that your credit isn't over zero, so that means that you have to be at zero, then we'll console log out, sorry, you have no credits, like that.
+0:39
+Now if we run this one time, you could see sorry, you have no credits, it's logged out because credits was zero.
+0:46
+This would evaluate to false.
+0:48
+Credits is not more than zero, meaning JavaScript would jump to the else clause.
+0:55
+However, if we change this to twelve, then this expression twelve greater than zero would evaluate to true, and this block of code would be run.
+1:08
+Now JavaScript isn't really that strict about what you shove into the condition here.
+1:13
+Actually, if we only shove in credits like that and try to run this again, you can see that we are still logging out Let's Play.
+1:21
+So even though this would be evaluated to twelve, when it's shoved into a conditional statement as this, JavaScript will then again translate twelve to true.
+1:33
+Likewise, if credits is zero and we run the code, you can see sorry you have no credits is logged out because this would be translated to zero first, and then JavaScript would say oh no, that's a false value, so I'm gonna translate that to false.
+1:51
+So where you before learned about true and false values, you now have to understand truthy and falsy values.
+2:00
+Let's try another one.
+2:01
+For example, YOLO, just a screen.
+2:04
+What do you think that will be?
+2:06
+When I run this code, what will be logged out?
+2:08
+Just take a guess.
+2:11
+Okay.
+2:11
+Let's run it.
+2:12
+We can see let's play is logged out.
+2:15
+In other words, YOLO or this string right here is a truthy value because JavaScript turns this into true in the condition.
+2:23
+And as well, if we pass in an array of random items from the code, that is also a truthy value.
+2:33
+Okay.
+2:34
+Let's try another one.
+2:36
+Let's do an empty string.
+2:38
+Run the code.
+2:39
+Oh, no.
+2:39
+That's a falsy value because it got translated into false, meaning this block of code didn't run, JavaScript jumped to the next block, the else clause, and logged out sorry you have no credits.
+2:54
+So let's go back to just adding credits here so that our if else makes sense, and then at this point you might feel that truthy and falsy values is really complex because how will you keep track of all of these truthy and falsy values?
+3:07
+It seems like there's a ton of things to remember.
+3:10
+Luckily though, it's not that hard.
+3:13
+You essentially have to remember these six values.
+3:17
+They are the falsy values in JavaScript.
+3:20
+False, zero, an empty string, null, undefined, and this weird thing right here, non, short for not a number.
+3:32
+And out in the real world, inside of conditionals, in most cases you'll work with either false, null, or undefined.
+3:39
+So actually this NaN here is rarely ever used, is why I'm not gonna talk anymore about it.
+3:45
+Null and undefined though deserves a little bit of time, because a lot of developers are confused about these two and they mix them together.
+3:52
+Now, let's look at the similarities first.
+3:54
+They are both primitive data types that just like strings, numbers, and booleans, and they're also both ways to signalize emptiness.
+4:02
+However, on high level, the core difference is that null is how you as a developer signalize emptiness, where it's undefined is how JavaScript signalizes emptiness.
+4:17
+So you will use null as a developer.
+4:19
+It's a useful tool, whereas undefined is something you'll be exposed to because JavaScript will tell you from time to time that what you're looking for is undefined.
+4:27
+Now, let's see this through the lens of an example, as that'll help us see the difference between the two.
+4:32
+Like, you'll sometimes see developers declare variables and assign them as null.
+4:37
+Let's say you are creating a live streaming app and you have current viewers, and that's set to null, meaning that no people are watching the live streams at the moment.
+4:46
+However, a bit later, a few viewers might pop up and you might wanna do current viewers equals and then an array of Jane and Nick, like that.
+4:56
+The reason this can be useful way of describing the situation in terms of how many people who are watching the stream is because you might wanna act upon whether or not there are people in the stream.
+5:06
+So if current viewers, then you might want to do something, for example, notify the livestreamers that people are watching, so go ahead and turn on your livestream.
+5:18
+So log, we have viewers like that.
+5:22
+Now this block of code will only fire if current viewers has been set to an array.
+5:28
+So now you can see it'll be logged out, and let's say you a bit later lose all the viewers and you set it to null, rerun the code, nothing happens because null is a falsy value, meaning that this will be false, whereas the array here is a truthy value.
+5:47
+So when current viewers equals that array except to true, This block of code is run.
+5:54
+Now here you can see that null is a useful way of signalizing emptiness because an empty array wouldn't do the trick if we run this code.
+6:03
+You can see we are indeed logging this code because current viewers is an empty array, which then again evaluates to true.
+6:12
+So it's better to use null here.
+6:15
+That was how you as a developer can signalize emptiness and act upon whether or not a variable is empty.
+6:22
+Let's now look at undefined, and see how JavaScript uses that to signalize emptiness as well.
+6:28
+And we can do that by simply removing everything except let current viewers.
+6:33
+We now try to console log current viewers, which has been declared, but not assigned to a value.
+6:42
+When we run this, we'll get undefined.
+6:44
+So JavaScript tells us that this variable is undefined or kind of like empty.
+6:50
+Likewise, if this, for example, was an object and you try to log out a key that doesn't exist, random key using the dot syntax, you'd also get undefined.
+7:02
+JavaScript tried to look for this, but it was completely empty.
+7:06
+Here, if it is an array with one item, and you try to look for the item at index five, run this, again JavaScript says undefined.
+7:18
+So this way, when you see either null or undefined in your codebase, it should provide you with a hint as to whether this is JavaScript trying to signalize emptiness, or if there's a developer who's written that code and has tried to signalize emptiness.
+7:32
+So that was a long walkthrough of the differences between null and undefined.
+7:36
+There's more to it also, but I don't think we need to dig deeper than this.
+7:39
+Let's wrap up this cast, and in the next one, I'm going to teach you a neat little trick to check if a value is truthy or falsy, which you can use whenever you are in doubt.
+7:49
+Then I'm going to stress test your truthy and falsy skills.
+7:53
+So let's move on.
