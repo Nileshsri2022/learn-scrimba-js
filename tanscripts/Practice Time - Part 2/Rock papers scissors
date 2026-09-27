@@ -1,0 +1,80 @@
+
+Transcript
+0:00
+Okay, now you are going to practice returning random numbers.
+0:04
+And the problem you are to solve is the rock paper scissor game.
+0:07
+If you try that, it's a game where two people choose with their hands either a rock, a paper or a scissor.
+0:13
+The way it works is that the rock will beat the scissor, but the paper will wrap itself around the rock so that the rock loses, and if the match is between the scissor and the paper, the scissor will cut the paper into pieces.
+0:27
+So if those rules were a bit confusing, don't worry about it.
+0:30
+That's not the point here.
+0:32
+Your only job is actually to create a function that returns one of the random items in this array when it's called.
+0:39
+So you need to work with math dot random in order to achieve this.
+0:43
+Go back and watch previous cast if you've forgotten about that or search for it on Google, that's even better.
+0:48
+And finally, when you have coded up your solution and want to see mine, just revert back to this screencast and I will of course show you how to do it as well.
+0:55
+do Okay.
+1:00
+Let's do this.
+1:02
+Okay, We'll call the function getHand, call and inside of it, first need to generate a random index that we're going to use in order to fetch out rock, paper, or scissor.
+1:14
+So we'll do let random index like that equals first, I'll just do math dot random like that.
+1:22
+And then actually, I'm going to return random index and then debug along the way just to be sure that I understand each step I'm taking.
+1:32
+So here, I'll console log the result of running the get hand function like that.
+1:37
+So now if we run this, we're logging out zero point zero five or zero point one or zero point zero seven or zero point ninety seven.
+1:46
+So a value between zero and one, not including one.
+1:50
+So zero point nine nine nine nine nine is the top value.
+1:53
+Okay.
+1:54
+First then what we need to do is multiply this with three.
+1:58
+Now if we run it, you see that I'm getting a value between this zero and two point nine nine nine nine nine.
+2:07
+Zero to two point nine nine nine is my current range.
+2:11
+Now the value I want is either a zero, one, or a two, so I'm not too far from this.
+2:18
+The way I can get that is by stripping away the decimals, by flooring it, in other words, math dot floor, the like that.
+2:30
+Here you can see two zero two one.
+2:33
+Yes.
+2:34
+Now we are generating random numbers between zero and two.
+2:38
+How can we use that to get back a random hand, either rock paper or scissor?
+2:44
+Well, that is simply by doing hands and then using the random index as the index.
+2:51
+Now let's run this.
+2:53
+We're getting scissor, we're getting paper, and we're getting rock.
+2:57
+Brilliant.
+2:58
+Great job.
+2:45
+hands and then using the random index as the index.
+2:51
+Now let's run this.
+2:53
+We're getting scissor, we're getting paper, and we're getting rock.
+2:57
+Brilliant.
+2:58
+Great job
