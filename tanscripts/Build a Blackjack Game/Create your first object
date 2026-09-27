@@ -1,0 +1,84 @@
+
+Transcript
+0:00
+One thing I like to do if I'm bored is to search for epic places to live on Airbnb.
+0:04
+For example, castles, like this wish list I came across right here, contains a bunch of more or less affordable castles to rent across Europe.
+0:12
+So for example, this really neat looking castle right here only costs a hundred and ninety dollars.
+0:18
+I mean, that's what people pay for like ten square meters in a hotel room in central London.
+0:22
+So pretty cool that you can rent a castle for that same price.
+0:25
+But anyway, the point being that these listings here on Airbnb most likely take advantage of the object data structure in order to store all of the data that they need to present to the user.
+0:36
+So this can also be a great exercise for you so that we can build up that object muscle memory of yours.
+0:42
+I want you to basically create an object that represents an Airbnb castle listing.
+0:47
+It should contain at least one boolean, one string, one number, and one array.
+0:52
+It can contain a bunch more if you want to, if you wanna go above and beyond.
+0:55
+However, that's the minimum requirement.
+0:58
+And at the end, I want you to log out at least two of the keys using the dot notation.
+1:03
+So go ahead and do this right now.
+1:10
+Okay.
+1:10
+Hopefully, that went well.
+1:12
+Let's do this together.
+1:13
+I'll do let.
+1:14
+Pastel equals, open and close brackets, we can use the title.
+1:20
+Live like a king in my castle, like that.
+1:24
+As for the number, I think the price, it's very natural to use.
+1:28
+Price, hundred and ninety dollars.
+1:30
+And what about the boolean?
+1:31
+Which components here naturally lend themselves well to be using a boolean data type under the hood?
+1:37
+Well, I think the fact that two of these are superhosts and the third is not, points to this being a suitable piece of data for the boolean data type, because you're either a superhost or you're not.
+1:48
+So is superhost, this one happened to be true.
+1:52
+And then finally, there's the array.
+1:54
+What kind of data here would it make sense to place inside of an array?
+1:58
+Well, it could be that these kind of bullet points here are arrays that are pulled out of the underlying data and are kind of the featured selling points that Airbnb wants to list out.
+2:10
+Or actually you can see that there's multiple images here if you see this carousel indicator.
+2:15
+So the images is very natural to have inside of an array.
+2:18
+And also the reviews, that's definitely a list of many items.
+2:22
+So doesn't matter what you choose or if you choose something completely different.
+2:26
+The point is just that I wanted you to write an array inside of an object.
+2:29
+So I'm gonna choose images like that, make that an array, and here we probably have URLs to these specific images.
+2:37
+So it might be img slash castle one dot png.
+2:43
+M g slash castle two dot png and so on and so on.
+2:48
+I won't bother writing anymore.
+2:50
+Now let's log out two of these using the dot notation console log castle dot price console log castle dot s super host.
+3:05
+We'll run this and indeed we print out a hundred and ninety and true to the console, meaning we have completed the challenge.
+3:14
+Great job solving this one.
+3:16
+Let's move on.
