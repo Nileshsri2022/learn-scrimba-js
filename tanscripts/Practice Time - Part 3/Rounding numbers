@@ -1,0 +1,53 @@
+Transcript
+0:00
+Okay.
+0:00
+Now we're going to put your googling skills to the test because in order to solve this challenge, you're going to have to use a concept I haven't yet taught you.
+0:10
+So this is going to be interesting.
+0:12
+The problem you're gonna work with is the fact that this button is terrible.
+0:17
+It is a buy button for an e commerce website and it has far too many decimal places.
+0:22
+We obviously don't wanna show this many decimals to the user.
+0:26
+So your job is to round the price in the button down to two decimal places.
+0:32
+As you can see on line five here, this is the starting point, though you will have to write your code here on line seven as that is where we're displaying the price and that is where we are to modify the number we're adding to this template literal right here.
+0:47
+So go ahead and give this one a shot and Google it if you don't know how to do it, and then I will show you the solution when you return back to me.
+0:57
+Okay.
+0:58
+Hopefully, that went well.
+1:00
+Let's do this.
+1:01
+So in Google, I would write something like round JavaScript number to two decimal places.
+1:06
+As you can see, it gives us a ton of suggestions.
+1:09
+I'm gonna jump into the Stack Overflow question.
+1:12
+Here, I'm gonna scroll down to the first answer, which has over nine hundred votes, and there we can see that the user is suggesting that we use something called dot to fixed, passing in the number two.
+1:24
+Okay.
+1:25
+That sounds very promising.
+1:26
+So let's say here on the total price, dot to fixed.
+1:31
+Open and close parenthesis and pass in the number two.
+1:34
+If we now run the code, boom.
+1:36
+There we go.
+1:37
+Our button now looks great with the beautiful number of four twenty point sixty nine.
+1:43
+Great job.
+1:41
+four twenty point sixty nine.
+1:43
+Great job.
