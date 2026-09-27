@@ -1,0 +1,54 @@
+
+Transcript
+0:00
+So now that you've learned the and operator, let's take a look at its close relative, the or operator.
+0:07
+What does that do?
+0:08
+Well, it allows you to check if either this condition is true or this condition is true.
+0:15
+And if so, the body of the if statement will be executed.
+0:20
+So if you're in a situation where we only need one of two cases to be valid, well then you wanna use the or operator.
+0:27
+As for this example, it doesn't really make sense.
+0:30
+It will now run since actually both of these are true, but if the give certificate is false, it will also run, but that doesn't make any sense because if the course doesn't give any certificate at all, you're not supposed to generate any certificates regardless of the user having completed the course.
+0:47
+So let's use another example instead.
+0:50
+Imagine here that you're building Netflix and you've just launched this amazing new documentary, the fire festival.
+0:56
+I don't know if you've seen this but it's truly amazing about a guy who creates a festival that aims to be the celebrity hotshot festival of the world but just becomes a disaster.
+1:06
+It's really good.
+1:07
+After this has been launched, you probably want to recommend it to a ton of your users, and what you want to do is you want to check if the user likes documentaries or if the user likes startups.
+1:19
+They don't have to like both, but if they like one of these themes, then most likely they will enjoy the Fyre Festival documentary.
+1:27
+So I want you now to try to use the or statement, that is the two lines you can see here, you can copy them if you want, if you don't know how to get them from your keyboard, and you're gonna use this to call recommend movie if either of the variables, that is the likes documentary or likes startups are true.
+1:44
+I'm pushing you out on thin ice here, I haven't written a complete or statement for you, but it works in just the same way as the and statement, so I think you can do it if you just give it a shot.
+1:54
+And if you don't, no worries, I will show you the solution afterwards as well.
+2:02
+Okay.
+2:03
+Let's do this.
+2:04
+We'll do let likes documentaries, set that to true, and we'll do let likes startups, set that to false, for example.
+2:17
+And if likes documentaries, if that is true, or if likes startups is true, well, then we wanna recommend this movie Like that.
+2:32
+Running the code, we can see we are recommending the movie even though this one is false.
+2:38
+Flipping both of them to false, now if I run the code, nothing happens because at least one of them needs to be true, this or this.
+2:47
+And if we make both true and run the code, then of course, if both are true, then one or the other is also true.
+2:56
+So that would satisfy the condition.
+2:58
+Great job doing this challenge.
+3:00
+Let's keep up the pace and move on.
