@@ -1,0 +1,58 @@
+
+Transcript
+0:00
+Time for a short history lesson.
+0:02
+We're living in modern times where you have so many different devices for different use cases.
+0:07
+You got this big display over here for desktop work, then you got tablets, you got phones, and you even got watches.
+0:14
+See, back in the day, that didn't used to be the case because pretty much everyone was on a display like this one, which in some ways made things very easy because you didn't have to think about how your website could look differently on different devices.
+0:27
+But of course, that's not the case right now, so we have a problem because the people that designed this stuff back in the day didn't think we would run into this problem.
+0:36
+So by default, if you're using your phone and you go to a website that doesn't account for this, you're gonna see something like this on the left side where it's impossible to read the text.
+0:45
+So you gotta zoom in.
+0:46
+But what we really want is what we can see on the right side where it's magically zoomed in just enough so that we can see everything perfectly.
+0:54
+Now thankfully, we only need one line of code in order to achieve this, and here it is right here.
+1:00
+You can get to this page by clicking here.
+1:02
+By adding this line, we're taking control of something called a viewport through the meta tag, and we're setting the width equal to the device width, which is what gets us this thing on the right side.
+1:12
+So let's copy this line of code from this page and put it right up here.
+1:17
+Now let's go through this line of code.
+1:20
+So first it says name equal viewport so we know what we're talking about in this meta tag.
+1:24
+And then we have this content equals first width.
+1:28
+The width we're setting to the device width.
+1:31
+Whether you're on a phone or a tablet, it's gonna automatically know what it is and set it equal to that.
+1:36
+And then the initial scale being one means that the website is not gonna be zoomed in or zoomed out.
+1:42
+It's gonna be set at the right initial zoom level.
+1:45
+And obviously, the user can zoom in with their fingers if they want to.
+1:48
+And that is it for this line.
+1:50
+Pretty simple line but totally changes and improves the user experience.
+1:54
+I would love to show you this in the Scrimba mini browser but unfortunately, it's not possible.
+1:59
+But if you were to download this website and run it on your phone, you'd see the difference it makes.
+2:03
+Alright.
+2:04
+That's all for this one.
+2:03
+makes.
+2:03
+Alright, that's all for this one.
