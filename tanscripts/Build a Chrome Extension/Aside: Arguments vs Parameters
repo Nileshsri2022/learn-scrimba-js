@@ -1,0 +1,67 @@
+Transcript
+0:00
+Okay.
+0:00
+Up until now, you've heard me say the words parameter when I've talked about defining variables in between the parentheses when we declare a function, and I've also said arguments when we pass in values into the function when we invoke the function.
+0:15
+And this is probably a little bit confusing, like why am I using two different words?
+0:19
+They're basically the same thing.
+0:21
+And actually, to be honest, in my experience, most developers mix up the words parameter and arguments all the time.
+0:27
+And that's totally okay.
+0:29
+Even I actually up up until this point when I decided to actually explain the difference in this course would mix the two up all the time.
+0:36
+Meaning mixing up these here values that you pass in when you call the function and these variables that you define when you write the original function.
+0:46
+So the way it works is that these are parameters and these are arguments.
+0:54
+And in order to remember the difference between these two, I found a really cool comic on the web, which pictures two people arguing in a bar, and then a bouncer coming to say, hey, take your argument outside.
+1:06
+And that gives us the hint.
+1:09
+Arguments are created on the outside of the function, whereas parameters then naturally have to be on the inside of the function.
+1:17
+So greeting and name, as you know, are only defined here on the inside of the function, but Howdy and James, they come from kind of the outside of the function, the outer scope.
+1:28
+This would perhaps be even more clear if we had a variable here which was called pi and we set it to pouty like that and then we pass in pi here.
+1:40
+Surely this high variable is on the outside of the function because in this case that is this function.
+1:49
+Lines two to four.
+1:50
+This is on line seven and line eight, so they are on the outside.
+1:53
+Likewise here, num one and num two are the parameters whereas three and four are the arguments.
+2:02
+So with this, I want you to answer these four questions with either arguments or parameters.
+2:08
+So the answer is one or the other and you are to write that here after the question mark.
+2:14
+So go ahead and do this right now.
+2:21
+Okay.
+2:22
+Hopefully, that went well.
+2:23
+What are greeting and name?
+2:25
+Greeting and name, well, is on the inside of the function, that means that they are parameters.
+2:32
+About Howdy and James, well, as we've talked about, these live on the outside.
+2:37
+When you're outside of the function, you are an argument, so they are arguments.
+2:42
+How about num one and num two?
+2:44
+Okay.
+2:45
+These are defined in the function declaration and live in the inside of the function, meaning they are parameters.
+2:52
+Three and four are on the outside of this function here, so they are arguments like that.
+3:00
+So from now on, whenever you wonder whether you should say parameter or argument, just think about this epic cartoon created by type alias and actually consider clicking on this link so that you get to check out the blog post which is really good.
+3:14
+And then to be honest, you will probably meet a lot of professional developers who can't even remember this difference, but you will.
