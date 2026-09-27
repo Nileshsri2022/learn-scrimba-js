@@ -1,0 +1,161 @@
+Transcript
+0:00
+It doesn't matter what it is, but in the beginning, we always need to do some setup, and the same is true for Firebase.
+0:06
+But here's the thing.
+0:07
+So many times, the setup can actually be the most difficult thing to understand.
+0:12
+So let's make a deal.
+0:13
+For this scrim and the next one, I want you to totally relax and let me take care of everything for you.
+0:19
+You're obviously gonna have to follow along on your end but you don't need to worry about doing any challenges for now.
+0:25
+Alright?
+0:26
+Now let's get started creating our very first Firebase project.
+0:30
+You wanna head on over to firebase dot Google dot com and press on get started.
+0:35
+I already have some Firebase projects I've worked on earlier, but in any case, you wanna go ahead and press on add project.
+0:42
+First thing we need to do is to give our project a name.
+0:45
+Let's call it leads tracker app and press continue.
+0:49
+Google Analytics is not something we're gonna be using here, so let's disable that for this project.
+0:54
+And now press create project.
+0:56
+It's gonna take a little bit of time here creating your project.
+0:59
+Just be patient and wait.
+1:01
+There we go.
+1:02
+And it's finally done.
+1:03
+Yes.
+1:04
+Let's continue.
+1:05
+This is our Firebase console.
+1:07
+You'll be able to access everything from this page.
+1:11
+And the first thing we wanna do is create a web app.
+1:14
+So you wanna go ahead and press this icon right here, and we're just gonna call our web app the same as the Firebase project, leads tracker app and then you wanna register app.
+1:24
+It's gonna take a little moment and there it is.
+1:27
+There are two different ways to do this.
+1:28
+We're gonna go for the second one, use a script tag.
+1:32
+So press on that and there we are.
+1:34
+Here's the code that will get us started.
+1:37
+Now we don't actually need all of this code so the first thing we wanna copy is this line right here.
+1:44
+With that copied, let's go into our code and we wanna go at the very top here and paste it in right at line number one.
+1:52
+And let's get rid of the semicolon at the end.
+1:54
+So what's going on here exactly?
+1:56
+Well, in order to use Firebase functionality in our project, we need to import some code that we can use in our project.
+2:04
+And that's exactly what we're doing with this line.
+2:07
+So we're saying that we wanna import some code from this location right here which as you can see just ends with dot j s which means it's a JavaScript file and we specifically want to just import this function right here.
+2:20
+So if we were to open up this file in a new tab, this is how it will look, and it's a huge file with a lot of different code.
+2:27
+But the only function that we're interested in importing right now is the initialize app function, which is a really important function that we always need whenever we're starting a new Firebase project.
+2:38
+So it's as if we copied this code and pasted it right up here so we can use this function inside of our project.
+2:45
+The second thing we need to copy is this const Firebase config line.
+2:50
+Let's copy just the first part.
+2:51
+We don't need to worry about the rest of it and paste it in right here.
+2:55
+Let's first of all close this object with a curly bracket.
+2:59
+There we go.
+2:59
+So in order for us to communicate with our Firebase project, we need to put in some configuration details right inside of this object.
+3:08
+Now as you can see, there's a whole bunch of stuff that they gave us, and if we were using some other features of Firebase, we would copy this and paste it in here.
+3:17
+But since we're only interested in using the Firebase real time database, we need to just put one piece of information here which is the database URL which we're gonna get to in the next scrim.
+3:28
+So we can leave this empty for now.
+3:30
+And the last thing we wanna copy is the very last line which is this one and we wanna put that right after here.
+3:36
+There we go.
+3:37
+So now we're creating a const variable called app which is using the initialize app function that we imported, remember, from Firebase and we're giving it the Firebase config object which is currently empty to initialize an app for us which we can easily refer to in our project by just app.
+3:57
+This is something that we always need to do whenever we're setting up something new.
+4:01
+Now again, don't worry about understanding everything here because I know there's a lot of new stuff that I just threw at you.
+4:07
+This is gonna make a lot more sense as we go on.
+4:10
+But we do wanna make sure that things are working so let me go ahead and try to console log this thing.
+4:17
+Let's cross our fingers and press run and we get an error.
+4:20
+Let's see what we get here.
+4:22
+It says cannot use import statement outside a module.
+4:25
+Did you catch that?
+4:26
+There's one thing that I forgot.
+4:28
+If you notice here, this is a script tag but it's a different kind of script tag which has an extra thing here called type equals module.
+4:36
+It turns out whenever we wanna use the import statement, meaning we wanna import some outside code, we need to make a little change to the script tag.
+4:43
+So we need to go here and we need to say type equals module.
+4:48
+And as long as we do that, then things should work.
+4:51
+So let's run it again and there we go.
+4:53
+We get something very funny and something we're not supposed to understand.
+4:58
+But as long as you can see this, means that everything is working as it should.
+5:02
+So well done.
+5:03
+One last thing I wanna show you here and press on continue to console.
+5:07
+If you somehow lost the code and wanna find it again, let me show you how to get to it.
+5:12
+You wanna go up here and press the gear icon and select project settings.
+5:17
+Then on this page you wanna scroll down and you wanna get to where you see this code and go to the middle option which is CDN and this is where you'll find that code in case you lost it.
+5:28
+That's it for this scrim.
+5:29
+Very well done.
+5:30
+I hope everything is working on your end.
+5:32
+So we now have our new Firebase project and we've done the setup in our project here.
+5:37
+Let me get rid of this console log.
+5:39
+We don't need that anymore.
+5:40
+And in the next scrim, we're gonna create our Firebase real time database and do the setup for our project.
+5:46
+I'll see you there.
