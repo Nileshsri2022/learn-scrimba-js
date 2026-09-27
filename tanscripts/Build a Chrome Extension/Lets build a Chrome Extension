@@ -1,0 +1,68 @@
+
+Transcript
+0:00
+Hey, and welcome to this section where we are going to build a Chrome extension, which is just so freaking cool.
+0:06
+Because Chrome extensions, if you haven't seen them, are programs that can enhance your browser experience in Chrome.
+0:13
+This is an example called Grammarly, I use it all the time.
+0:17
+For example, when I write tweets, it sits on top of Chrome and checks my spelling because it has access to what I do on the page, and then suggests how I should improve my spelling and my writing in general.
+0:28
+This one right here is a lifesaver, it's motion, and it saves me hours every single day by stopping me right before I try to enter, for example, Facebook, and it does this with a ton of other distracting sites as well, so that I can focus on what matters, Like for example, creating courses on Scrimba, or writing code, or doing productive stuff.
+0:46
+So, so cool.
+0:47
+If you want to check out more extensions, you can head over to chrome dot dot Google dot com slash webstore.
+0:53
+There you can search through all of them, and also if you want to open your extensions in Chrome, just click this puzzle icon in the top right corner, and you'll see all of your extensions.
+1:02
+And here you can see Leads Tracker, what's that?
+1:04
+Well, that is the one we are going to build in this section.
+1:08
+It is based on an insight I had when I worked as a developer in a company called Seneta, which is a provider of price information for people who are shipping containers, because what I saw there was that the sales team at that company spent countless hours tracking down leads or sourcing leads as they also call it, and that is looking for people online who might be interested in your product.
+1:29
+So what they do is like browse through a bunch of pages and look at people and like, no, this guy is probably not interested in our product, this one neither ah, yes, here we have a potential customer.
+1:38
+Let's save this one to our system.
+1:40
+Moving on, this person does not look like a potential customer, but this one does.
+1:43
+Yeah, and this one does as well, but this one does not look like a potential customer.
+1:48
+So what they then had to do is take these three potential customers and store them somewhere so that they could reach out to them in the next phase.
+1:54
+This is something that basically every single sales representative does, because you need people to sell to, so you need to find them somewhere.
+2:03
+So our leads tracker will be a tool for these kinds of people.
+2:07
+The way it works is that you visit a website, for example a profile on LinkedIn, and then you open up the extensions, click on the leads tracker, and there you can see you get the ability to save input, that is any URL that you pass into this input field, or hit save tab.
+2:23
+If you hit save tab, our extension heads over to this tab, grabs the URL, and saves it in a list.
+2:29
+Then you can move on to another page, for example my LinkedIn page, and then hit save tab again, and boom, there we have the URL to my profile.
+2:37
+And then moving on, this is Syndra, our CTO in Skrimba.
+2:40
+Yet again, we click save tab, and his profile URL is saved.
+2:44
+And this data is persistent, so you can close down the app or Chrome, turn off your computer, and when you come back, it's still there.
+2:50
+So that you as a sales representative, and then grab these leads and do something else with it.
+2:55
+So this is actually a pretty useful tool for sales representatives, and it's actually deployed in the browser so that you can use it in the real world.
+3:03
+And the point with this is to give you the powers to do this, to actually create Chrome extension that has value, and also give you the skills you need to deploy it to someone's browser.
+3:15
+So once you've learned this, I would really recommend you to look for opportunities, look for problems you see out in the world, maybe there's a problem you have, or or someone you study with, or someone you work with, or just a problem someone tells you about.
+3:28
+When you come across problems people have, I want you to think, can I build a Chrome extension to help solve this problem?
+3:34
+Because if you can do that, you truly have a superpower, and that'll manifest itself in opportunities that you will get throughout your career if you're just willing to use that superpower, which JavaScript and web development is.
+3:47
+So this was a long introduction.
+3:49
+I hope you are as excited as me.
+3:52
+Let's just move on and build your very first Chrome extension.
