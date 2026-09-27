@@ -1,0 +1,35 @@
+Transcript
+0:00
+Okay.
+0:00
+Let's continue on with our course platform example.
+0:04
+So in this challenge, you are to imagine that you are writing the code that is to be run after the student has struggled with the challenge for a little while, or maybe the student has clicked a button and signaled to the platform that she is stuck, and we first want to check has the student solved the challenge she's trying to solve, and has the students any hints left, because if the student has any hints left she can go and open those hints, but if she's used all of our hints and she hasn't solved the challenge yet, then we are to run this show solution function, and just show her the solution.
+0:39
+just Obviously, it just logs out a string, but you can imagine that it would show the solution.
+0:45
+So your job is to create an if statement that checks that both variables are false, I mean these two variables, and then if so, run the show solution function.
+0:56
+Go ahead and give this a shot, and then I will of course show you the solution when you return back to the screencast.
+1:02
+solution Okay.
+1:07
+The way to solve this is almost similar to what we did in the previous cast.
+1:11
+We'll do if, and then open and close parenthesis, and here we need to use a logical and operator because we're going to check if both has solved the challenge, triple equals false, check and the double ampersand pass hints left is also false.
+1:31
+false, Then if the user hasn't solved the challenge and has no hints left, it's time to give her some slack and show this solution.
+1:41
+So then we'll trigger show solution like that.
+1:45
+Let's run the code, and indeed this triggers the code because both of them are false.
+1:52
+If we try to flip one to true, then the code is not triggered.
+1:56
+We're not logging anything to the console, meaning that our logical operator that governs our if statement actually works.
+2:03
+Great job.
+1:56
+not logging anything to the console, meaning that our logical operator that governs our if statement actually works.
+2:03
+Great job.
