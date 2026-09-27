@@ -1,0 +1,66 @@
+
+Transcript
+0:00
+Okay.
+0:00
+Let's continue with our ecommerce example because it gives us a great opportunity to practice a problem that you'll see again and again in your career as a developer.
+0:10
+And that is that you expect one data type, but get another.
+0:14
+Because what happens now if I turn this total price into a string?
+0:19
+If we now run the code, you can see that we get total price dot to fixed.
+0:23
+It's not a function in the console.
+0:25
+So this to fixed method suddenly doesn't work anymore, because we got the price as a string instead of a number, and that is very common in web development.
+0:34
+This conversion that has happened here from a number to a string is not always in your control.
+0:39
+Might be that this number came from database or from another component in the app which another developer has written, and they simply didn't think about the fact that you actually expected this as a number and not a string.
+0:50
+So now you have to deal with it.
+0:52
+The toFixed method doesn't work anymore because our price has turned into a string, and it's your job to make it work.
+0:58
+Google is your friend here as well, and I would actually Google the error message if you're unsure about how to proceed with this.
+1:04
+So give this one a shot, and then I will show you the solution when you return back to me.
+1:09
+you Okay.
+1:16
+Hopefully, that went well.
+1:17
+Let's now see what happens if we Google the error message.
+1:20
+So I'll write to fixed is not a function into Google, And here, I'm actually omitting the total price from the error message because total price is the name of our variable and most likely the Stack Overflow answer we're looking for doesn't include our variable name or it definitely won't include that.
+1:36
+So I'm just googling to fix is not a function.
+1:38
+Here you can see there is indeed a Stack Overflow question, but we also have another snippet at the top here which comes from a blog.
+1:45
+So let's just click into that one.
+1:46
+Here you can see there's someone who's had this problem and they write to solve the error, either convert the value to a number before calling the toFixed method or only call the method on numbers.
+1:57
+Okay.
+1:57
+So let's scroll a little bit down to see how they've solved this in code.
+2:01
+And here, as you can see, they are wrapping their variable in a function that's called number with a capital n.
+2:06
+So let's try exactly that.
+2:09
+Number like that, open parenthesis and close it off right here, and then we call to fixed on the value that has been converted from a string to a number.
+2:18
+Let's run the code and boom, there we go.
+2:21
+We have solved this challenge.
+2:23
+Great job.
+2:20
+we go.
+2:21
+We have solved this challenge.
+2:23
+Great job.
