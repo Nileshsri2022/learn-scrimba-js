@@ -1,0 +1,42 @@
+
+Transcript
+0:00
+Okay, now we are going to move from the CSS over to the JavaScript.
+0:05
+Because we have to make our input button work.
+0:08
+And while you won't make it useful in this cast, you will at least have it log out button clicked when the user clicks it.
+0:15
+user So you know how to do this.
+0:18
+You're going to have to modify both some HTML and write a function in the JavaScript file.
+0:24
+So go ahead and do it so that when I click the save input button, the console will log out button clicked.
+0:31
+And once you are done, return back to the screencast and I will show you the solution as well.
+0:35
+Good luck.
+0:36
+show Okay.
+0:41
+Hopefully, you remembered that the way to do this is to create an onClick handler on the button.
+0:48
+There, you wanna type the name of the function you want to trigger.
+0:51
+Let's call this function save lead, for example, open and close parenthesis.
+0:55
+call Then we'll head over to the index dot j s file and create that function.
+1:01
+Function, save lead, like that.
+1:05
+And inside of it, we'll do console log save button clicked like that.
+1:11
+We'll run the code, click the button, and indeed, we are logging out button clicked.
+1:16
+Great job.
+1:12
+the code, click the button.
+1:13
+And indeed, we are logging out button clicked.
+1:16
+Great job.
