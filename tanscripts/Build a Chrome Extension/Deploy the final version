@@ -1,0 +1,60 @@
+
+Transcript
+0:00
+So let's deploy the final version of our app.
+0:03
+First, you of course have to download the zip from this scrim, and you can do that by clicking on the settings icon in the bottom right corner, and then download as zip, which we did the last time around as well.
+0:14
+And then make sure that you take these files and update the lead tracker folder that we also created in a previous cast.
+0:23
+Or if you have been working locally alongside me, you of course can skip this step.
+0:27
+step.
+0:27
+But what's important is that the same folder gets the new updated files, because then we head over to the chrome slash extensions page, there we can see our lead tracker from previously.
+0:39
+I'm gonna hit details so that we open up the page for our extension, and there you can hit update.
+0:45
+By doing that, Chrome will grab a hold of the new files and update your extension.
+0:50
+Once that's done, we can open up a new tab for example and head over to a lead we wanna track.
+0:55
+Here I've opened up scrimbus c t o's github profile, that's Syndray.
+1:00
+Let's say we wanna track this URL as a lead, then I'll hit the Chrome extension button, I'll choose my leads tracker, and here I can try save tab and boom, our Chrome extension headed over to a tab, grabbed the URL and displayed it for us.
+1:16
+That's awesome.
+1:17
+We can also try our input field by just passing in a random lead, hit the save input, and there we go.
+1:23
+It was placed here below the URL to Syndra's GitHub profile.
+1:27
+So so far so good.
+1:28
+Let's open up a whole new tab now.
+1:30
+For example, Leanne's LinkedIn profile.
+1:32
+You probably recognize Leanne from the Scribbac community as she is our community manager.
+1:37
+Let's open up the Chrome extension again and try the save tab button.
+1:41
+Yes, it worked.
+1:42
+Really good.
+1:43
+Now the final button to try is the delete all and I'll hit that, and there you go.
+1:49
+We have deleted all of our leads.
+1:50
+This is so cool.
+1:52
+We've now created a real world product that can give value to sales development representatives, or basically any person collecting leads online, which is an activity that people in almost all companies do.
+2:06
+So we have really created something of value that you can share with the world.
+2:10
+So your JavaScript skills are starting to become dangerous.
+2:08
+you can share with the world.
+2:10
+So your JavaScript skills are starting to become dangerous.
