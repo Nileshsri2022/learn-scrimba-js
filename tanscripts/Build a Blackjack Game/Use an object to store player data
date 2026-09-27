@@ -1,0 +1,84 @@
+
+Transcript
+0:00
+Okay.
+0:00
+Welcome back.
+0:01
+Now it's your time to render out the player's name and his or her chips on the page.
+0:06
+So it's a four part challenge.
+0:08
+First, you are to create a paragraph with an ID of player l.
+0:12
+player Then you are to move over to the JavaScript and create the player object here at the very top, and you are to give it two keys, name and chips.
+0:21
+Then you are to move down to where you are grabbing elements from the DOM, and then grab hold of the player l paragraph and store it in a variable called player l.
+0:30
+variable Then you are to render the player's name and chips inside of player l.
+0:35
+So pretty big challenge, but you've seen me do it before and you've practiced how to work with objects, so I think you're gonna nail this one.
+0:42
+Give it your best shot and then I will show you how to do it as well afterwards.
+0:45
+do Okay.
+0:51
+Hopefully, that went well.
+0:53
+If not, no worries.
+0:54
+Let's do it together.
+0:55
+First, we'll do a paragraph here, and we'll give it the ID of player dash l.
+1:01
+Like that.
+1:02
+Nothing happens because it's empty.
+1:04
+that.
+1:05
+Moving over to the JavaScript, we are to create the player object.
+1:09
+Let player equals, open and close curly brackets, are to define its name, close in my case, pair.
+1:19
+Use a comma to separate the items, and then chips.
+1:22
+Let's say I have two hundred dollars in chips right now.
+1:25
+let's Three, grab a hold of the player l paragraph and store it in a variable called player l.
+1:32
+Okay.
+1:32
+We know how to do that.
+1:34
+Let player l equals document dot get element by ID, passing in the player dash l, which is what we created right here.
+1:48
+At this point, let's console log out player l.
+1:52
+what And indeed we are fetching it from the DOM.
+1:57
+Finally, we are to render the player's name and chips inside of player l.
+2:01
+We know how to do that as well.
+2:03
+Player l dot text content equals, and here we have to concatenate the string, and dig into the object to find the correct values.
+2:13
+So we'll start with the player dot name plus going to have a colon and a space and then the dollar sign in front of the chips, and then do plus again, player dot chips.
+2:27
+a Now this is all set up.
+2:30
+Let's run the project and there we go.
+2:33
+We have rendered it out.
+2:35
+Great job solving this challenge.
+2:28
+Now, this is all set up.
+2:30
+Let's run the project.
+2:31
+And there we go.
+2:33
+We have rendered it out.
+2:35
+Great job solving this challenge.
