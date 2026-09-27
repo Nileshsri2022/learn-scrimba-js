@@ -1,0 +1,110 @@
+
+Transcript
+0:00
+Okay.
+0:01
+So arrays are ordered lists of items.
+0:04
+However, that's a little bit abstract, so let's instead look at a real world product and see if we can recognize any components that most likely use arrays as a data structure.
+0:15
+So here we have a LinkedIn profile.
+0:17
+This is Justin, he's a previous Scrimba student, and looking at this, there's immediately multiple components that most likely use arrays to render stuff out.
+0:27
+You can see here on the right hand side there are some promotions, actually three of them, and that's basically a list of items.
+0:34
+And while their order might be a little bit random, they still have a specific order.
+0:39
+Likewise with the people also viewed here, That's a list of four people.
+0:43
+Let's also scroll a bit down.
+0:45
+Here we can see even in the main section, there's this component that says featured, that is featured posts, and that's basically just a list of items.
+0:54
+So LinkedIn probably uses an array to describe this data in JavaScript.
+0:59
+So actually, let's just create that array.
+1:02
+Do let featured posts like that, then equals open and closed, bare brackets.
+1:09
+The first one is actually Justin sharing the Netflix clone he built through a course here on Scribble, and he actually deployed it as well.
+1:16
+So he's going above and beyond.
+1:18
+Check out my Netflix loan like that.
+1:23
+The second one is actually a link Justin has shared to source code.
+1:27
+He's pushed to GitHub, which is also a great thing to do if you wanna attract employers.
+1:31
+So here's code for my project.
+1:37
+I'm simplifying, of course, the data here because there are multiple parts of this.
+1:43
+There's an image, there's text, there's comments, and so forth, but as for now, we're just simplifying it into strings.
+1:49
+The third item here is actually Justin sharing the portfolio he has built through a Screma course as well.
+1:54
+So I've relaunched my portfolio like that.
+2:00
+There we have an array with three items.
+2:03
+Now this line is pretty long, sometimes you'll see an array formatted like this as it makes it easier to see that it is indeed three items.
+2:13
+And a key thing to observe here is that we add commas after the items, but not after the final item, so only between items basically.
+2:23
+Going back to LinkedIn, there are tons of components here that's probably utilized as arrays.
+2:29
+For example, the work experience, that's a list of previous jobs or licenses and certifications, that's a list of licenses.
+2:37
+You can see the front end path right here, and skills and endorsements.
+2:42
+So a ton of examples.
+2:43
+Now what I want you to do is to create an array that lists your experience or education or licenses or skills or something similar.
+2:52
+You are to choose what you want this array to contain, but try to think how can you best describe your either experience, education, skills, whatever in a way that would make your LinkedIn profile look tempting for recruiters, as that's a smart thing to think a little bit about already even though you're very early in your coding journey.
+3:11
+So go ahead and do that and remember that the items should just be strings just as I've done up here.
+3:17
+Go ahead and do this right now.
+3:24
+Okay.
+3:24
+Hopefully, that went well.
+3:26
+Now I'm going to do it as well.
+3:27
+So I'll do let and then experience.
+3:30
+That's what I wanna create my array about, my work experience, and I'm currently the CEO at Scrimba.
+3:36
+Before that, I was a front end developer at Suneta.
+3:40
+That's a Oslo based company for sea freight analytics.
+3:44
+And also, as you probably remember from our subway counter app, I worked as a people counter out in the cold for a company called Norstat.
+3:53
+So that is my experience.
+3:56
+Now before you move on to the next cast, I wanna highlight the importance of actually being able to describe your background and your skills in a good way on LinkedIn.
+4:06
+Justin here, the person behind the LinkedIn profile we looked at, he actually lost his job in the petroleum industry due to the coronavirus pandemic, and less than one year later, he now works as a professional software developer.
+4:18
+And as I said, he did that mostly through Scrimba, and was a super engaged student at our Discord channel.
+4:24
+And what's so cool about how he did it is that he sent out over a hundred job applications without getting much luck, but then went into optimizing his LinkedIn, and then suddenly he got two job offers.
+4:36
+And the job he got actually came through a recruiter that found his LinkedIn profile as a result of keyword searches.
+4:45
+Actually, he ended up tweaking his LinkedIn profile so that he attracted the right recruiter who got him an amazing job as a developer.
+4:53
+So I wanted to share this with you, and if you click on this image, you'll be taken to the page for the podcast interview we did with Justin so that you can listen to his story if you want to.
+5:04
+For example, when you're riding the bus or out walking or cleaning or whatever, I don't want you to interrupt the course and listen to this instead of coding.
+5:11
+It's more important that you code.
+5:13
+But you can keep it in mind for the next time that you have half an hour or something, because I think you'll learn a ton about Justin who, at the age of thirty three, did his career shift.
+5:23
+So with that little plug out of the way, let's move on.
