@@ -1,0 +1,90 @@
+
+Transcript
+0:00
+And we are back to our leads tracker app.
+0:02
+And in this scrim, we wanna write the code so that when we put something in here and press this button, it gets pushed to the real time database.
+0:09
+But before we can write any code, we wanna make sure that the security rules are set correctly.
+0:14
+So let's press rules here, and as you may remember, we set our database in locked mode, which means that both reading and writing is set to false, which means that nothing is getting past the security rules wall.
+0:27
+In this module, we're not really gonna be covering security rules so all we wanna do is click here and change both of these falses to trues so that anyone can read and write.
+0:38
+Once we've done that, let's press publish.
+0:40
+Okay.
+0:41
+That's great.
+0:42
+Perfect.
+0:42
+Let's go back to data and now let's set up the reference.
+0:45
+I'm gonna give this to you as a challenge, but first let's go ahead and import the ref function up here and this is where I want you to create a const called reference in DB and use the ref function to create a reference called leads in the database.
+1:03
+Pause here, try this out for yourself, and if you find yourself struggling a little bit, you can go back to the last scrim and take a peek at the code that I wrote there.
+1:12
+Okay?
+1:13
+With that, I'll leave you to it and I'll be back in a couple of seconds.
+1:16
+All the best.
+1:21
+Alrighty.
+1:22
+Let's do this.
+1:23
+So we're gonna go up here and we're gonna say const reference in d b.
+1:28
+Set that equal to the ref function, which we've imported up here.
+1:32
+That takes in two different things.
+1:34
+First, it takes in the database because we need to tell it exactly which database we're working with.
+1:41
+And then we just create a string called leads, which will be the name of the reference.
+1:46
+And that's it.
+1:47
+I hope that wasn't too bad.
+1:48
+Now let's remove this, and let's scroll down here.
+1:52
+So so far, we are console logging the input l dot value, but I want you to modify this line so that by using the push function, which I want you to import up here first, you push this value to the reference in the database, the leads reference.
+2:11
+Pause the squirm right here, try this out for yourself, and in just a couple of moments we're gonna solve this together.
+2:17
+Best of luck.
+2:22
+Okay.
+2:23
+Let's go up here and change this to push, but before that we have to make sure to import it from up here.
+2:30
+Let's do push and we want the reference in db and let's feed that first to the function and then set a comma in between.
+2:39
+There we go.
+2:39
+Now let's test this thing out.
+2:41
+I'm gonna say h t t p s scrimba scrimba dot com.
+2:48
+K.
+2:49
+Let's cross our fingers and hope for the best.
+2:51
+Three, one, go.
+2:52
+And there it is, right there.
+2:55
+We got the unique ID created by Firebase for us and the string that we just pushed, h t t p s squimba dot com.
+3:03
+Awesome job coming this far.
+3:05
+Our app is really starting to take shape.
+3:08
+And now that we have the adding feature added to our app, it's time to look at how we can fetch the items from the database.
+3:15
+That's coming up next.
+3:17
+I'll see you there.
