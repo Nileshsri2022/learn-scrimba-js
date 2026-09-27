@@ -1,0 +1,40 @@
+
+Transcript
+0:00
+Okay.
+0:01
+So now let's return back to the example of having cards in an array like we have in our blackjack game.
+0:07
+So here I've created an array that has three cards of the value seven, three, and nine, and I want you to create a for loop that logs out all of these cards through the console, however, not by hard coding where the loop should stop counting, but using the cards dot length property.
+0:24
+property.
+0:25
+So go ahead and do this right now, and then I will of course show you the solution as well afterwards.
+0:30
+afterwards.
+0:35
+Okay.
+0:36
+Hopefully, this went well.
+0:37
+Let's do it.
+0:38
+We'll do four, open and close parenthesis, and then let I equals zero because we're going to start at the zero index.
+0:47
+I should be less than cards dot, and I than should be increased with one at every step in the iteration.
+0:55
+Now here, for this last condition, I actually wanna show you another trick because what you can do here is actually do I plus plus.
+1:04
+do That'll do the exact same thing as this.
+1:08
+It's just syntactical sugar that JavaScript provides us with to make our code a little bit neater.
+1:13
+with So I plus plus increments I with one.
+1:17
+So now we can do console log cards then passing in the I, can run the code, and there we can see seven, three, and nine printed to the console.
+1:28
+Great job.
+1:25
+can see seven, three, and nine printed to the console.
+1:28
+Great job.
