@@ -1,0 +1,168 @@
+
+Transcript
+0:00
+You've already worked with some different types of data in JavaScript.
+0:03
+You've seen numbers and you've seen strings.
+0:07
+Now I want to add one more data type to this list because often we don't really need the almost infinite possibilities of numbers and strings of letters.
+0:15
+We actually just need two options like a light switch on or off.
+0:20
+Yes or no.
+0:21
+True or false.
+0:23
+And that brings us to the boolean.
+0:26
+The boolean is a value that can be either true or false.
+0:30
+Let's see one in action.
+0:32
+Imagine we're developing a site for an online food retailer.
+0:35
+We've collected some information about our customers eating habits, so we know what food items to show them.
+0:41
+Oftentimes when storing a boolean, we will choose a name with a verb.
+0:44
+So let's come in here.
+0:46
+I'm going to delete all of this and I'm going to set up a let with the name is vegan.
+0:52
+And I'm going to set that to true.
+0:54
+So the verb here is makes this read like a question.
+0:59
+Is the customer vegan?
+1:00
+Yes.
+1:01
+That's true.
+1:02
+And of course, it could also be false.
+1:04
+Let's just log that out quickly.
+1:06
+And when we save down in the console, we get false.
+1:10
+Let's change this to true.
+1:12
+Okay.
+1:12
+So that's working as expected and having a boolean that you can flip to true or false is really really useful and you're going to see it a lot.
+1:19
+Let's just dig a little bit deeper.
+1:22
+Our site could also allow users to use a special code to get a discount for their food order.
+1:27
+Let's set up a boolean to see if they've got a discount code or not and here the verb could be has.
+1:34
+So the question here is has the user got a discount code?
+1:37
+And at the moment the answer is yes that is set to true.
+1:41
+Now let's start to see the real power of a boolean by using this in a function.
+1:45
+I'm just going to delete our earlier example and I'm going to set up a function here called process order.
+1:53
+In the body of the function, let's use an if to check if the user has a discount code.
+1:58
+And if they do, let's just log out that the discount has been applied.
+2:03
+Okay.
+2:03
+Now if I call this function and we hit save, down in the console we get discount applied to food order.
+2:10
+So this is working because the if is checking if this is true and we know that it is true.
+2:16
+We've got it set to true right here.
+2:18
+If we set this to false, we hit save and nothing happens.
+2:23
+This code does not run and we can see that a little bit better if we add an else.
+2:28
+So if this is false, this code doesn't run.
+2:30
+This code will run.
+2:32
+Let's just log out.
+2:33
+No discount applied.
+2:35
+Again we'll save.
+2:36
+Oh and I've misspelled console.
+2:39
+There we are.
+2:39
+No discount applied.
+2:41
+Okay.
+2:41
+Now let's do something a little bit more ingenious.
+2:44
+So if this is set to true, then we process an order.
+2:47
+The discount is applied.
+2:49
+Now the discount code has been used, so we should set this boolean to false.
+2:54
+Now I'm going to call this function not once but twice.
+2:57
+Let's see what happens.
+2:59
+Okay.
+2:59
+So the first time we call the function we get discount applied to food order.
+3:03
+So what's happening there is that has discount code is true.
+3:06
+The process order function checks that.
+3:09
+It finds it's true.
+3:10
+So it logs out discount applied to food order.
+3:13
+Then it flips that boolean to false.
+3:16
+The second time we run process order, has discount code is false.
+3:20
+So this code here does not run, but this code does run.
+3:24
+So we log out, no discount applied.
+3:27
+So the boolean is working like a kind of gate.
+3:29
+It's letting you through when it's true and not when it's false.
+3:32
+It's a really, really useful data type and I think you're going to see it again very, very soon.
+3:38
+Now just to clarify, it might be a little bit strange that all we need to do is put the variable has discount code in here.
+3:45
+You might have expected that we need to ask if hasDiscountCode is triple equals to true.
+3:52
+But actually that is not necessary.
+3:55
+In JavaScript, the if statement evaluates the expression inside these parentheses I e all of this code right here and coerces it to a boolean value.
+4:05
+What does that mean?
+4:06
+It means it converts it to a boolean value true or false.
+4:10
+It does this part for you under the hood and that is why this works.
+4:14
+So actually all we need in here is the variable and if we were to come in here and replace it with something like an empty string, well in JavaScript an empty string is a falsy value and that means that the if statement will coerce this to false and this code right here will never run.
+4:33
+Let's hit save and we see no discount has been applied twice.
+4:38
+So this code never ran.
+4:39
+So just remember that JavaScript is going to do that part for you.
+4:43
+It's going to take hasDiscount code and it's going to evaluate it to true or false without you needing to do anything else.
+4:51
+Okay.
+4:52
+Hopefully that has tidied up any confusion.
+4:54
+Now let's get back to the project where you're going to see a few more booleans and get a chance to practice with them.
