@@ -1,0 +1,60 @@
+
+Transcript
+0:00
+Have you ever noticed that when you're looking at a website inside of a browser, you always have an icon up here?
+0:05
+Yeah.
+0:06
+Well, that's called a FAB icon, and it's definitely something you should spend time on adding to your website.
+0:11
+Alright.
+0:11
+So the first thing you'll need is an image you can use as your FAB icon.
+0:15
+There are not that many requirements for how it should look.
+0:17
+Just make sure that it's a square image and that it's a PNG format.
+0:21
+In this current, we're gonna be using this cute little image of a cat, which I've included for you inside of the assets folder, FAB icon dot PNG, if you'd like to use the same one.
+0:30
+Then you wanna head on over to favicon dot I o.
+0:33
+Press this page to get to it.
+0:35
+Then press p n g to I c o.
+0:37
+Then you'll be taken to this page.
+0:38
+At this point, you wanna drag and drop your image file right here.
+0:42
+And there it is.
+0:43
+We can see it down here.
+0:44
+Then you wanna go ahead and press download.
+0:47
+That downloads a zip file with all of the stuff that you need inside of it.
+0:52
+Once you've unzipped the file, you wanna make sure to add it to your folder.
+0:56
+I've already got all of the files added to this GRIM right on the left side.
+1:00
+Finally, we wanna go ahead and install this thing, which basically just means to copy this code and put it right inside of the head tag.
+1:08
+There we go.
+1:09
+Perfect.
+1:10
+Now due to the limitations of scrimba, I can't really show you this working inside of the browser, but if you're running this locally on your machine, you should be able to see the icon.
+1:19
+Another important thing to note is that we've got a bunch of different files.
+1:22
+Here you can already see that we have three different versions of the same picture.
+1:27
+The reason for that is is because depending on which device you're on, you wanna use different versions of the file for the highest quality.
+1:34
+And the very last thing you might notice is this file right here, site dot web manifest.
+1:39
+Well, this is the magical file that is gonna let us transform our website into something that looks like a native mobile app on our phones.
+1:48
+But more on that in a different scrim.
