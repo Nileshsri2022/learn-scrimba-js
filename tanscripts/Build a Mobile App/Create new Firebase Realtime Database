@@ -1,0 +1,94 @@
+
+Transcript
+0:00
+In this scrim, we're gonna create a new Firebase real time database and hook it up to our project.
+0:05
+So again, as in the last scrim, I'm gonna take you through this and you have to promise me not to worry about understanding everything.
+0:12
+Full understanding of this will come later.
+0:15
+Okay.
+0:15
+With that, let's do this.
+0:17
+So you wanna head on over to your Firebase console and then on the left side you'll see build.
+0:22
+Click on that.
+0:22
+Here are all the things that are available for you to use inside of Firebase.
+0:26
+We want to choose real time database.
+0:29
+Then let's create a new database.
+0:31
+The first thing it'll ask you is to set the real time database location.
+0:35
+Click here to open up the drop down and choose the location nearest you.
+0:39
+In my case, that's Belgium.
+0:41
+Okay.
+0:41
+Now let's press next.
+0:43
+Security rules are really important but it's not something we'll be covering in this module.
+0:48
+But in short, security rules are what ensure that we can create secure apps that not anyone can spam.
+0:55
+There are two ways to start, in locked mode or test mode.
+0:58
+We're gonna keep it in locked mode and then press enable.
+1:01
+It's gonna take a little moment.
+1:03
+There it's done and this is our real time database.
+1:06
+Let's close this.
+1:07
+Perfect.
+1:08
+And now let's press this icon to copy the reference URL.
+1:12
+With that copied, let's go into our code and this is what we wanna put inside of our Firebase config object.
+1:18
+And we wanna call this database URL colon and then let's do quotation marks and paste in that URL here.
+1:27
+And there it is.
+1:27
+The Firebase real time database is so simple to use that all we need is this URL and we're good to go.
+1:34
+Now we're not quite done yet.
+1:36
+There's two more things we need to do.
+1:38
+First one is to import another function that we're gonna need for the setup of this and we can't get it from this location.
+1:45
+Let's copy this entire line and paste it right underneath and then change this from Firebase app to Firebase database.
+1:53
+And the function we wanna import is get database.
+1:58
+Once we have that imported, let's go down here and create a new const called database, and we're gonna set that equal to get database and inside here we're gonna feed it app as an argument.
+2:13
+There we go.
+2:14
+Now let's see if things are working by again console logging this.
+2:18
+Console log database.
+2:21
+Let's cross our fingers and run.
+2:23
+There we go.
+2:24
+We get database which is exactly what tells us that things are working.
+2:28
+Again, let me just remind you that if you don't understand everything at this point, this is still part of the setup.
+2:33
+Don't worry, we're gonna get to the good stuff very soon.
+2:36
+Awesome job so far.
+2:37
+We've got our Firebase project created and we have our new database created as well.
+2:42
+Next, we're gonna set up something called an environment variable which is gonna make it super simple for us to work on this together where when you do challenges, you're running your database URL, and when I'm teaching you, I'm running mine.
+2:55
+But more about that in the next one.
