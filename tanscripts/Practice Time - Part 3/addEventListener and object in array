@@ -1,0 +1,90 @@
+
+Transcript
+0:00
+In this challenge, we are going to repeat add event listener and how to fetch out values from objects that live inside of arrays.
+0:09
+So it's a three part challenge.
+0:11
+First, you are to fetch the button from the DOM and store it in a variable.
+0:16
+The button I'm talking about is this one right here.
+0:18
+You can see it says log Jane's score.
+0:21
+It's defined here in the HTML, so maybe you have to modify that as well to give it an ID.
+0:27
+I don't know.
+0:27
+Then once you have that button stored in a variable, you are to use add event listener to listen for button clicks.
+0:34
+And when the button is clicked, you are to log out Jane's score, and you got to do it via the data array.
+0:42
+So you got to head into data, you find Jane's object, and log out to the value of her score.
+0:49
+So go ahead and give this your best shot right now.
+0:52
+and Okay.
+0:58
+Let's do this.
+1:00
+So first, we are to fetch the button, and as we saw, the button didn't have any IDs, so it'll be hard to grab it.
+1:07
+So I'll give it an ID, call it drain dash btn, like that, an And then I'll do const Jane b t n equals document dot get element by ID passing in Jane dash b t n.
+1:22
+Okay.
+1:23
+So far so good.
+1:24
+Now we need to use the Jane button to add an event listener onto it.
+1:30
+What kind of events are we listening for?
+1:32
+Well, it's click events.
+1:34
+So that's the first argument.
+1:35
+The second one is the function we wanna trigger when the button is clicked.
+1:40
+Let's verify that this works.
+1:43
+want Clicked.
+1:45
+I'll run the code.
+1:46
+is Click the button, and, yes, indeed, it works.
+1:49
+And Now we have to head into data, and data is an array.
+1:54
+So let's actually log it out first.
+1:58
+to Okay.
+2:01
+So we got an array with two objects.
+2:05
+How do we get the first object of those two?
+2:07
+Well, we know that we can use the square brackets and tags and put in the index of the item we're looking for.
+2:14
+So I'll put in zero, run the code, click the button.
+2:18
+Yes.
+2:19
+We're only logging out.
+2:20
+James object, how do we get the value of fifty two?
+2:23
+Well, we need to use the dot notation and use dot key or dot score in our case.
+2:29
+the We run the code, log, and boom.
+2:32
+We are logging out Jane's score.
+2:35
+So great job getting this far.
+2:37
+Let's move on.
+2:30
+we run the code log and boom, we are logging out Jane's score.
+2:35
+So great job getting this far.
+2:37
+Let's move on.
