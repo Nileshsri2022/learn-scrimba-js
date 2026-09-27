@@ -1,0 +1,63 @@
+Transcript
+0:00
+Okay.
+0:01
+This is so cool because now you are going to combine what you've learned about arrays and for loops with what you know about manipulating the DOM.
+0:08
+So we're going to pull the strings together and have you render out this sentence inside of this greeting l.
+0:15
+So you can see we have in our HTML just an empty paragraph which has the ID of greeting l.
+0:21
+We have fetched that element from the HTML and stored it in this greeting l variable, and your job is to render the sentence that is the array here, so you are to render all of these items inside of the array in the greeting l paragraph.
+0:36
+And the way to do that is to use a for loop to loop through it and render each of them into the greeting l using dot text content.
+0:44
+So a lot of stuff you have to keep track of here, but give it your best shot and then I of course will show you the solution when you return back to this screencast.
+0:52
+to Okay, hopefully that went well.
+0:58
+Now let's do this.
+1:00
+Before, let I equals zero because we wanna start at the zeroth index in our array.
+1:07
+We'll do I is less than sentence dot length.
+1:11
+I And then we do I plus plus because we wanna increment one time.
+1:16
+plus Here, we need to grab ahold of the greeting l and then do text content, hold and here you might have been tempted to do equal sentence, here, open and close square brackets and passing in the index.
+1:30
+That will just end up with rendering pair because first it renders low, and then it clears out all of the text content and renders the second word, but then for every single time in this loop, it clears out all the text content, and we end up with just the result after the last iteration, and that was the last word in the array.
+1:50
+So what we have to do, we have to keep the previous content intact inside of the paragraph, and as you might remember, we do that with plus equals.
+1:58
+So running the code again, yes, now it works.
+2:01
+Now though, I have a bonus challenge for you, which is the following.
+2:04
+How do you keep the spaces between the words if I remove these spaces from the array?
+2:10
+That is if I do like this, like this, like this, and like this, and we render it out, you can say, oh, we have no more spaces.
+2:18
+It looks like one long weird word.
+2:20
+How can we, on this line seven, modify it so that we get spaces between the words?
+2:25
+Go ahead and try that.
+2:26
+so Okay.
+2:32
+What we will do is we'll simply, at the end here, add a plus and concatenate our given item in the array with a space.
+2:43
+So now we add a space after each of the words.
+2:46
+If we're into this, you can see, yes, we get now the sentence exactly how we want it.
+2:52
+we Great job.
+2:53
+Let's move on.
+2:48
+yes, we get now the sentence exactly how we want it.
+2:53
+Great job.
+2:53
+Let's move on.
