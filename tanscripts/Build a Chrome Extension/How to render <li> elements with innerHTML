@@ -1,0 +1,36 @@
+
+Transcript
+0:00
+Okay.
+0:00
+Now we need to fix the fact that we are simply rendering out plain text strings like this inside of the unordered list.
+0:09
+If that's not what we want, we want to wrap them in list tags, of course, like this.
+0:16
+list So in order to do that, let's first just try to add, for example, an li opening tag before the lead and an LI closing tag after the lead.
+0:31
+To run this, you can see, oh, we simply rendered out the HTML tags as plain strings.
+0:36
+That's not what we want.
+0:37
+We want our browser to parse this as HTML so that it can really turn them into list items.
+0:43
+And the way to do that actually is simply replacing this text content property with something called inner HTML.
+0:51
+that, If we do that and run the code, you can see there.
+0:56
+Now we have them as proper list items with these bullets that are included on the default styling of list items.
+1:03
+So this means that the browser actually looked at this string right here and understood, oh, okay, this is actually the starting of a list element.
+1:12
+I'm gonna avoid rendering that out as a plain string and instead convert this entire thing to a list item.
+1:19
+So this opens up a whole new world of manipulating the DOM.
+1:24
+Suddenly, can create HTML elements with JavaScript.
+1:28
+So let's take a closer look at inner HTML and give you some practice on how to use it.
+1:26
+elements with JavaScript.
+1:28
+So let's take a closer look at inner HTML and give you some practice on how to use it.
