@@ -1,0 +1,35 @@
+Transcript
+0:00
+Okay.
+0:01
+Now it's time for some repetition.
+0:03
+You are going to do the exact same thing as I did before we had our little arrays deep dive.
+0:08
+So you're first going to create a new array cards that contain the first card and the second card.
+0:13
+And then in the render game, you are going to change line eighteen so that it refers to the cards array when rendering them out.
+0:21
+So not referring to first card and second card this way, but doing it via our freshly created cards array.
+0:28
+So go ahead and do this right now.
+0:30
+right Okay.
+0:35
+Let's do this together.
+0:36
+First, we'll do let cards equals open and closed square brackets, and then we'll set the first card as the first item in the array and the second card as the second item.
+0:48
+And as you hopefully remember, we can now refer to these values by doing cards zero and cards one, like that.
+0:58
+We'll run the code, hit start game, and yes, indeed, it works.
+1:02
+Great job.
+1:03
+Let's move on.
+1:00
+yes, indeed, it works.
+1:02
+Great job.
+1:03
+Let's move on.
