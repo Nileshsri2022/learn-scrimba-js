@@ -1,0 +1,125 @@
+Transcript
+0:00
+Okay.
+0:00
+Now I have a really cool challenge for you because you are going to create a sentence generator.
+0:06
+So it's this function right here.
+0:07
+It's called a generate sentence, and it takes two parameters, desk and r.
+0:12
+What's that?
+0:13
+Well, it is a description and an array, and it should return a string, actually it's a full sentence based upon the description you pass in and the array you pass in.
+0:24
+And it's best understood through the lens of a couple of examples.
+0:28
+If you pass in largest countries as the description, and the array China India USA as the array, that is the second parameter, then the function should return the three largest countries are China India USA.
+0:43
+Another example, if you pass in best fruits as the description, and apples bananas as the array, it should return the two best fruits are apples bananas.
+0:54
+So we actually have to construct the string, fetch out each of the items, and also the length of the array.
+1:01
+So a little bit tricky, but give it your best shot.
+1:04
+Use a for loop and also a template string to solve this.
+1:07
+And if you're stuck or wanna see my solution, just return back to the screencast and I will of course show you how to do it.
+1:19
+Okay.
+1:19
+Then let's do this.
+1:20
+I'm gonna first start by creating this string right here.
+1:23
+So let base string, that's what I'm gonna call it.
+1:28
+Use a template string and do v.
+1:31
+And then here, we can't hard code the number as it's dynamic based upon how big the array is because we're going to do r dot length.
+1:41
+And then there's a space, and then a new color sign and curly brackets.
+1:46
+And here we are to fill in the description, then r and the space.
+1:52
+Now we have the base ring.
+1:54
+What remains is simply adding each of the items to the end of this.
+1:59
+So we'll do four, let I equals zero, I is less than r dot length, incrementing upwards.
+2:08
+Then we'll do base string plus equals r then using our iterator value.
+2:16
+That'll fetch out the specific item, but also remembering to add a comma after each of the items.
+2:23
+Now let's try this.
+2:25
+Great sentence.
+2:27
+Let's do highest mountains and do Mount Everest and k two.
+2:39
+We'll store the result of this in a sentence.
+2:42
+And, of course, then we also need to return the base string like that.
+2:49
+And then finally, console log out the sentence.
+2:54
+Okay.
+2:56
+Not bad.
+2:57
+We got the two highest mountains at Mount Everest, comma, k two, comma.
+3:01
+Okay.
+3:02
+Two things to fix here.
+3:03
+First, we need a space after the comma, like that.
+3:07
+Good.
+3:08
+Secondly, we don't want a comma after the final item in the array.
+3:13
+How do we fix that?
+3:15
+What we need to do is inside of the for loop, check if we are at the last item in the array.
+3:22
+And what is the index of the last item in the array?
+3:25
+Well, it is one less than r dot length.
+3:29
+Let's do outside of the for loop, const last index equals r dot length minus one.
+3:40
+Here, we'll do if I equals last index,
+3:47
+then we are going to do like that.
+3:52
+If else, we are going to do
+3:58
+like that.
+3:59
+So what are we doing here?
+4:01
+In this situation where I am passing in heights mountains and these two mountains, the first time of the iteration I equals zero and last index equals one.
+4:13
+So going through this for loop it checks s I equals last index is zero equals one?
+4:20
+No.
+4:21
+So we're not doing this.
+4:22
+We're instead jumping to this point where we are adding the comma, but then the next time around both last index and I equals to one, so JavaScript will run this piece of code instead.
+4:34
+Let's try it to verify that it works.
+4:37
+Yes.
+4:37
+We've got it.
+4:38
+So this was a challenging one and required you to think a little bit out of the box, but that's how it is as a developer.
+4:45
+So I hope it didn't scare you too much.
+4:47
+If it did, watch it over again.
+4:49
+Try it again now that you've seen the solution, and then I will see you in the next cast.
