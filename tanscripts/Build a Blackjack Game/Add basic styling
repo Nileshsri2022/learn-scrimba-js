@@ -1,0 +1,90 @@
+
+Transcript
+0:00
+Okay.
+0:01
+Now it's time for you to style this app because as you can see, it looks kind of bad.
+0:06
+I've added a few more paragraphs here as you can see, one which says want to play around and has an ID of message shell, and then just two other paragraphs that will display the cards and the sum eventually.
+0:17
+And your job now is to take this HTML and make it look like this.
+0:21
+If we head into the index dot CSS file, you can see it says complete the CSS styling according to the provided design.
+0:27
+And here I've created two new selectors for you, the body and the message shell.
+0:32
+And the thing is you can create this entire design by only using these two selectors, so that's why I have them here for you.
+0:40
+I've also added a table dot PNG inside of an images folder that is for the xeno background that we are using here.
+0:48
+And you've learned all about how to do this styling in previous modules of the career path, so if you struggle, you can go back and rewatch some of those lectures if you want.
+0:56
+Now before you start solving this challenge, I'm going to add the font family for you because we're using the trebuchet font here, and you haven't really learned how to do that, so I'm gonna do it for you.
+1:07
+We do font family up in the body, and there I specify trebuchet.
+1:12
+And as you noticed, what happened now was that the editor gave me a bunch of other fonts as well, and this is called a font stack.
+1:20
+And the reason we use font stacks is because if your operating system doesn't have Trebuchet MS installed, well then your browser can't show that font unless you've also imported it from Google Fonts for example or included it in your project, neither of which we have done right now.
+1:36
+So if your operating system can't show Trebuchet MS, then we're telling it to look for Lucia Sans Unicode then.
+1:42
+And if you don't have that either, well, look for Lucia Grande and so on and so on.
+1:47
+So it kind of ensures that at least we'll find a somewhat similar font as it moves downwards in the stack.
+1:52
+You'll at least find a sans serif font here, is our final choice.
+1:57
+But let's stop with fonts there.
+1:58
+I don't wanna get deeper into it.
+2:00
+Now we have the Trebuchet font visible and hopefully it's visible on your end as well because Trebuchet is one of those fonts that are so called web safe, meaning that almost all operating systems have them installed, so it's safe to use.
+2:13
+Now I want you to take a look at this design and and add whatever CSS you need to the body and the message shell so that you turn this boring page into what looks much more like a real blackjack game.
+2:26
+So go ahead and do this right now.
+2:33
+Okay.
+2:33
+Hopefully, that went well.
+2:35
+I'm gonna start with the background image.
+2:36
+So I'm gonna write background image, and then fetch this table dot PNG here.
+2:42
+I can do URL, open and close parenthesis, then navigate into the images folder, and grab a hold of the table dot PNG like that.
+2:51
+Now you can see we have the nice background.
+2:54
+However, if I drag this wide, you can see that at some point, we reach the end of the image and CSS adds the image yet again after that, and we get this ugly looking line which we don't want.
+3:06
+We instead wanna use the background size property and set that to cover.
+3:11
+Now no matter how wide you make it, this image still covers the full width.
+3:16
+Okay.
+3:17
+Next step is to center this text and make it white.
+3:21
+So we can do text align center to center everything and color white like that.
+3:31
+So with this, we are turning everything into white except for the h one, which you can see here we have specifically specified that the h one should be color goldenrod, and that overwrites the color white on the body element.
+3:47
+Next up, you can see here the text is a bit bolder, so we wanna do that as well.
+3:52
+We wanna do font weight bold like that.
+3:56
+Starting to look good.
+3:59
+There's just one final thing to start.
+4:01
+You can see the message element, which is the message for the user is in italic.
+4:06
+Here it's still just normal.
+4:08
+So in the meso gel, we'll do font style and set that to italic like that.
+4:15
+And there we have a neat looking blackjack game.
+4:18
+So with that, let's move on.
