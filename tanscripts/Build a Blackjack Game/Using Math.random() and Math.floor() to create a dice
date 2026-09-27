@@ -1,0 +1,54 @@
+
+Transcript
+0:00
+Okay.
+0:01
+So just as a quick recap, math dot random gave us a number between zero and almost one, and math random times six then gave us a number between zero and almost six.
+0:13
+And now we are going to combine this with Math.
+0:15
+Floor which you learned in the previous lesson.
+0:18
+I'm going to add it here.
+0:19
+I'm going to write Math.
+0:21
+Floor and then wrap our entire previous expression inside the parentheses of Math Floor.
+0:28
+Now what I want you to do is run this code a few times and then write down possible values that random number now can hold.
+0:38
+So there's a limited number of them and your job is to figure out exactly which ones.
+0:43
+So go ahead and do this right now.
+0:45
+So Okay.
+0:50
+Hopefully, that went well.
+0:52
+Now let's run this together.
+0:54
+You can see we got four, this four, zero, one, four, zero, two, five.
+1:01
+Okay.
+1:02
+and So it seems we are getting the numbers between zero and five.
+1:08
+That actually makes a lot of sense because if we take this range here between zero and almost six and shove it into the math dot floor function, then it will basically remove all of the decimals.
+1:20
+And if we remove the decimals from from this entire range, which numbers are we then left with?
+1:25
+It's just the whole numbers from zero all the way up to five.
+1:29
+then So the right answer was zero one two three four five like that.
+1:34
+Okay.
+1:35
+Hopefully, you're still hanging on.
+1:36
+Let's move on to the final step of our dice function.
+1:34
+that.
+1:34
+Okay, hopefully you're still hanging on.
+1:36
+Let's move on to the final step of our dice function.
