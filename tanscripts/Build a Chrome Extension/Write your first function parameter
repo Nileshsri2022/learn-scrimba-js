@@ -1,0 +1,76 @@
+
+Transcript
+0:00
+Okay.
+0:00
+Let's return back to the example of greeting our users, which we've looked at earlier in the course.
+0:06
+So on Scrimba, we have this welcome back per Harold Borgen text, is visible on the dashboard.
+0:11
+And here I have the basic setup for such a feature using a function.
+0:15
+Starting from the top of the file, you can see that we are heading into the DOM and fetching a welcome element.
+0:21
+That is the HTML.
+0:23
+You can see right here this paragraph, which is completely empty at the moment.
+0:26
+And here in the greet user function, we take that welcome element and we set its text content to welcome back pair Harold Borgen with an emoji at the end.
+0:36
+If we run this, nothing happens of course, because we also have to call the function greet user like that.
+0:43
+Now if we run it, we can see that it is rendered out on the page.
+0:47
+And this is a very typical use case for a function, rendering out a specific thing.
+0:53
+However, it's a really bad function because it can only render out this string right here.
+0:58
+It can only render out my name, which is pretty silly.
+1:00
+And it should actually rather be called something like greet pair, but that would just be stupid.
+1:06
+We're going to use the greet username and rather modify the function so that it can greet whoever enters the app.
+1:13
+And the way to do that is to add a so called parameter to a function, and I can do that by writing a variable inside of the parentheses of the function declaration.
+1:23
+So here, I'll for example write name like that.
+1:27
+Now it is expected that we are to use this name variable inside of the body of the function, and indeed we are going to do that, we are going to replace this with name, like that.
+1:41
+So now we are constructing this string using the first string, then the name variable, and then the final string.
+1:49
+Now if we run this code, you'll see welcome back undefined.
+1:53
+That is because name is now undefined.
+1:56
+And can you take a guess at why?
+1:58
+Well, it is because when we call the function, we haven't passed in any names, and our function expected us to do that.
+2:06
+So here, in between the parentheses, we'll simply type a name.
+2:10
+Let's type Pierre for example, run the code, and now you can say welcome back Pierre.
+2:15
+So here, we are passing in a value into the function when we are invoking it, that value becomes the name variable inside of the body of the function, and this is then changed to pair on the fly when it is called.
+2:30
+So, now I have a challenge for you.
+2:35
+You are to give the function a parameter, which you are to call greeting that replaces the welcome back.
+2:42
+So it'll always greet me, but the greeting itself can be howdy or hello or nice to see you or basically whatever, because you will define it as a parameter in the function, and then you of course will call it with a value so that you verify for yourself that it actually works.
+2:58
+Go ahead and give this a shot.
+3:05
+Okay.
+3:05
+Hopefully, that went well.
+3:06
+The way to do this is by doing greeting here, and then removing this, but rather writing greeting here, and then a plus.
+3:17
+And here, when we call it, we can do howdy.
+3:21
+And run the code, and there you can see howdy pair Harold Borgan.
+3:25
+Great job.
+3:26
+Let's move on.
