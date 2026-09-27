@@ -1,0 +1,58 @@
+
+Transcript
+0:00
+Okay.
+0:01
+Back at our blackjack game, it's time for you to create a for loop that renders out all the cards in the cards array instead of just the two first ones, which we are doing up here.
+0:11
+here.
+0:12
+So you are going to start your for loop down here at line nineteen.
+0:15
+I'm going to help you out a little bit because we are going to keep this first setting of the text content here so that we have the default text inside of the paragraph, and then you are going to render out the cards to after this text inside of the paragraph.
+0:32
+Go ahead and create that for loop so that our blackjack game supports any number of cards inside of the cards array and will render all of them out regardless of how many it is.
+0:42
+So give it your best shot and return back to me when you wanna see my solution.
+0:46
+when Okay.
+0:51
+Hopefully that went well.
+0:53
+If not, no worries.
+0:54
+We'll do it together.
+0:55
+no We'll start with four and then open and close parenthesis, of course.
+0:59
+Inside of the parenthesis, we need to define that we want to start our incrementer at zero and we want to stop it before it reaches the length of the cards array.
+1:10
+How do we do that?
+1:11
+Well, by I is less than cards dot length.
+1:16
+And then a semicolon, and we want to increment I at every iteration.
+1:21
+The body of the for loop with curly brackets here, we are going to plus equal onto this paragraph.
+1:28
+So we'll do cards l dot text content plus equals let's start by just adding the cards and then passing in the current value of I, our iterator, by which will start at zero and to begin with, end before two.
+1:45
+So it'll be zero one and then run the code, start game, and yes, it works.
+1:50
+However, it looks like it says a hundred and four here because we haven't added a space between our numbers.
+1:57
+So the way to do that is simply by concatenating we a space after pin card.
+2:03
+Now if we run it, start game, yes, we've got it.
+2:07
+And if we hit new card, now we can see both the sum and the cards are now correct according to the state of our game.
+2:15
+Great job.
+2:15
+Let's move on.
+2:09
+both the sum and the cards are now correct according to the state of our game.
+2:15
+Great job.
+2:16
+Let's move on.
