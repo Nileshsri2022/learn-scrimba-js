@@ -1,0 +1,75 @@
+Transcript
+0:00
+Can you believe it?
+0:01
+You've made it.
+0:02
+This is the last scrim where we're gonna be writing code.
+0:05
+I am so so proud of you for doing the hard work for coming this far.
+0:09
+Seriously, you're awesome.
+0:11
+Alright.
+0:11
+Let's go into the site dot web manifest file that was generated after we used the favicon service.
+0:17
+There it is.
+0:18
+Okay.
+0:19
+I have a quick challenge for you.
+0:20
+Pause here and add the proper indentation to make it look like how JSON is supposed to look.
+0:25
+Okay?
+0:26
+I'm gonna leave you to it and be back in a couple of seconds and we'll do it together.
+0:30
+Good luck.
+0:35
+Alright, hope that wasn't too bad.
+0:37
+Let's do it together now.
+0:39
+Okay, let's just just, There we go.
+0:42
+I'm gonna fast forward through this and we're back.
+0:45
+Okay.
+0:46
+What's next?
+0:46
+Let's add the name and the short name.
+0:49
+That's gonna be leads tracker and the same thing for the short name too, leads tracker.
+0:55
+Perfect.
+0:56
+This stuff is already set, The icons.
+0:59
+And then we got the theme color which in our case should be the same as the background color.
+1:03
+That's gonna be the background color here.
+1:05
+Pretty sure that's white but let's go into the CSS to make sure.
+1:09
+Yeah.
+1:09
+We haven't set it there which means that it's white which is the default.
+1:12
+Okay, let's go back here and we can leave this as it is and of course at the end this is the display which is supposed to be standalone so it looks like a standalone native app without any of the browser stuff.
+1:24
+That is it for this one.
+1:26
+In the next scrim, we're gonna look at how to deploy this so we can finally add it to our home screen.
+1:31
+Alright.
+1:32
+I'll see you there.
+1:31
+home screen.
+1:31
+Alright.
+1:32
+I'll see you there.
