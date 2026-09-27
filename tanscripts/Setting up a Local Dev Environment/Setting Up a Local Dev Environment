@@ -1,0 +1,62 @@
+
+Transcript
+0:00
+Hello, students.
+0:01
+My name is Treasure.
+0:02
+And first of all, I wanna congratulate you on completing yet another solo project.
+0:06
+This is a huge accomplishment, so I hope that you're proud of yourself.
+0:10
+But our work is not done because now we have to get this project up on the web to share with the world.
+0:16
+Earlier in your coursework, you learned a quick way to share a project on GitHub by creating a repository or basically a folder that holds your code using this uploading an existing file link and manually dragging your project files over into GitHub.
+0:31
+And this is a perfectly fine way to get started, but I'd like to take things one step further with you today, and show you a real world way to manage your coding projects.
+0:39
+So imagine you made this scoreboard solo project for a client or an employer.
+0:44
+The employer loves your work but wants a change.
+0:47
+They want the headers to read home and away instead of home and guest.
+0:52
+So we could make these changes in a scrim and then download the files again, copy them over to GitHub again, but instead let's learn a less manual, more professional way by setting up what's called a local development environment.
+1:05
+What's a local development environment?
+1:07
+Well, a simplified answer for our purposes is that it's all the tools that you use to do web development on your local machine.
+1:15
+And that's going to include a text editor, which is a tool to edit code on your computer, and version control, a tool to keep changes updated on GitHub.
+1:24
+Now don't be scared by the term version control.
+1:27
+It basically just means keeping track of the changes you make to your coding projects.
+1:31
+The tool that we're going to use for version control is called GitHub Desktop.
+1:35
+GitHub Desktop is a tool made by GitHub that offers a really nice interface that allows you to connect and sync a repository.
+1:43
+So remember that a repository is basically a folder containing all the files and folders that your project requires.
+1:49
+So you'll have a repo that lives on your computer and a repo that lives on the Internet, and GitHub Desktop helps you keep them in sync.
+1:56
+For a code editor, we're going to install and use Visual Studio Code.
+2:00
+Versus Code is super popular and widely used and has a ton of features.
+2:05
+In its most basic form, it's not actually that much different than coding in a scrim.
+2:10
+In fact, Scrimba uses Versus Code under the hood, so it should look a little familiar to you.
+2:15
+Most of Versus Code's features are beyond the scope of what we're trying to accomplish today, but we will use it to open our code locally and make some changes.
+2:23
+Before we get started, I'd like to quickly remind you how to download your project files from a scrim.
+2:28
+So from the scrim where you've completed the scoreboard project, click on the gear, and then click on download as ZIP.
+2:36
+That downloads the files to your computer, and we will do something with these files shortly.
+2:40
+Please join me in the next scrim where I'll walk you through how to create a local repo for your project, connect it to GitHub desktop, and push it to GitHub.
+2:47
+I'll see you there.
