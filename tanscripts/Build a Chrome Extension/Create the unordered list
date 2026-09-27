@@ -1,0 +1,47 @@
+Transcript
+0:00
+Next up, we are going to transform this for loop from simply logging out the leads to actually rendering them out on the page.
+0:08
+However, in order to do that, we have to actually create that unordered list where we are to render the leads out.
+0:14
+out.
+0:14
+So you are going to do that through a two part challenge.
+0:18
+The first part is to create the unordered list element, the ul with an ID of ul dash l, that's for unordered list element.
+0:28
+And then after you've done that, return back to the JavaScript and grab this unordered list and store it in a const variable that's called oll.
+0:38
+A little bit of a weird name there, but of course also short for unordered list element with the camel case convention we're using in JavaScript.
+0:47
+case So once we've done that, we have set the stage for actually rendering the data out instead of just logging it so that we can do that in the following lessons.
+0:58
+So go ahead and solve this two part challenge right now.
+1:01
+ahead Okay.
+1:06
+Hopefully, that went well.
+1:08
+Let's do this together.
+1:09
+Okay.
+1:09
+Starting in the HTML, we need to create the unordered list, u l, we and closing the tag, giving it an ID of u l dash l.
+1:19
+That, if we run the code, nothing happens in the browser because the element is empty.
+1:24
+nothing So let's just move on to the next part.
+1:28
+Here we are to create a const, call it u l l, and set it to document dot get element by ID, passing in u l dash e l like that.
+1:41
+Now just to make sure that we've done everything correctly, let's console log out this element to from the code and there we can see it is being logged to the console.
+1:53
+Good job solving this one.
+1:54
+Let's move on.
+1:50
+it is being logged to the console.
+1:52
+Good job solving this one.
+1:54
+Let's move on.
