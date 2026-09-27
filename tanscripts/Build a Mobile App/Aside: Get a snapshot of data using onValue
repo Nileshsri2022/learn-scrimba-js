@@ -1,0 +1,124 @@
+
+Transcript
+0:00
+Now that we know how to push data to our Firebase real time database, in this scrim, we're gonna look at how we can fetch the data from the database so we can use it and show it inside of our app.
+0:10
+Alright.
+0:11
+So let me show you what we got going on here.
+0:13
+So you know, in life you can get unlucky sometimes and you can find yourself in an apartment or a house that is burnt down together with all of the valuable stuff you had in it.
+0:23
+And for those times, it's great to have a list of all the valuable things that you own so you can send it over to the insurance company and they can give you the money to buy new stuff.
+0:32
+And that's exactly what this app is supposed to help you with.
+0:34
+In here, we can add in valuable things that I own.
+0:37
+So for example, MacBook Pro.
+0:39
+And then we add to inventory.
+0:41
+Let's do one more.
+0:41
+Let me add my iPhone.
+0:46
+Perfect.
+0:46
+Both of those items are now showing up in our real time database under the products reference.
+0:53
+Let's quickly go through the code.
+0:54
+We have our Firebase setup code right up here, and then we have a reference in database which we're calling products, and this is where we're using the push function to push the value inside of the input field when we press the button to the reference in DB.
+1:09
+Alright.
+1:10
+Now how do we get the data back?
+1:12
+So let's say that this is the product section of our database with these two items inside of it, MacBook Pro and iPhone.
+1:19
+So Firebase can give us a snapshot of the data that will contain both of these items inside of it, and it can do it using a Firebase function called on value, which is a special function that sits and listens for changes to the database, which is a special Firebase function that sits and listens to changes made to the database and a change could be data added, data deleted or data updated.
+1:45
+In all of those cases we're gonna get back a snapshot.
+1:48
+Once we have that, we can do whatever we want with the data.
+1:51
+Let's look at the code for this.
+1:53
+So we're gonna go up here and import on value and let's go down here and actually call that function.
+2:00
+So this function takes in two different things.
+2:02
+First, you need to specify what part of the database we're talking about, and we do that by feeding it the reference in DB.
+2:09
+Once we know that, the second argument is actually gonna be a function.
+2:13
+Let's open that up.
+2:14
+And inside of here, we're gonna have access to the snapshot object.
+2:19
+And now that we have access to that, we can just go ahead and console log that out for now.
+2:25
+There we go.
+2:26
+Now let's see if this is working.
+2:27
+Let's run that.
+2:29
+And there we go.
+2:30
+In the console, we got both MacBook Pro and iPhone.
+2:34
+Perfect.
+2:34
+Now you might be a bit confused at this point of how this is working, but you've actually seen something like this before already.
+2:40
+Take a look at the code below.
+2:42
+Submit button, which of course is this one right here.
+2:45
+We're attaching an event listener to it and we're saying that whenever we click it, run this code.
+2:52
+Every time we click it, run this code.
+2:54
+Every single time.
+2:54
+It's the same thing that's happening here.
+2:57
+But in this case, it's sitting and listening to the database changes on Firebase's end.
+3:01
+Whenever that happens, this code is running every single time.
+3:06
+Okay.
+3:06
+I hope that makes sense.
+3:07
+Let's test this thing out by adding another item here.
+3:11
+So let me add my PlayStation
+3:15
+four.
+3:16
+Hopefully, now when we press this, we're gonna get a new console log because we just added something to the database.
+3:21
+And indeed it works.
+3:23
+Awesome.
+3:23
+The very last thing I wanna point out here is that this snapshot object contains a lot more than this object that we see here, but we don't see it inside of the Scribble console.
+3:32
+If we just want the values, then we can say snapshot dot val and then it's only gonna return us the object that contains all of the data.
+3:42
+Perfect.
+3:43
+There we go.
+3:43
+As we can see, we've got those three objects in the database as well.
+3:47
+Awesome job.
+3:48
+We just learned a key concept in Firebase which is fetching data.
+3:53
+So now that you know how to do that, I'm gonna have you have a go at it in the next scrim by implementing this in our leads tracker app.
+3:59
+I'll see you there.
