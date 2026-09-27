@@ -1,0 +1,116 @@
+
+Transcript
+0:01
+One way to think of objects is that they give you the ability to store data in-depth.
+0:06
+And with that in mind, we'll know that objects are so called complex data types, or also called composite data types, because we use numbers, strings, booleans, even arrays in order to compose objects, so they often store quite a lot of data.
+0:20
+And they can even store objects within objects.
+0:23
+That kind of nested data structure is not something you're going to think about now.
+0:27
+For now, just think of it as key value pairs.
+0:30
+And let's look this through the lens of a real world example.
+0:34
+That's always easier.
+0:35
+So here on Scribba, we represent our courses as objects.
+0:39
+As here you can see, the CSS Grid course, actually the very first course we launched back in the days, and it has a bunch of different data.
+0:46
+For example, it has the title, the number of lessons, and the creator of the course, the length of the course, and the level of it.
+0:54
+So let's actually translate this course into JavaScript, into how the data structure actually looks.
+0:59
+So we'll do let course equals open and close curly brackets.
+1:04
+Start with the title, like that, title, colon, learn CSS Grid for free.
+1:12
+Now we have one key value pair, title is the key, and the string here is the value.
+1:17
+Then the lessons, that is natural to represent as a number, so it was sixteen lessons.
+1:22
+The creator, which again is a string, that, and then we have the length, which while it says one hour here, that's actually not how we represent that data in our database and thus in this object.
+1:36
+Break it down into minutes, so perhaps this course is actually sixty three minutes, but as for the user interface, we don't go into detail that much.
+1:44
+We round it to the closest hour.
+1:46
+And finally, there's the level, and here it says intermediate.
+1:49
+That's also one of those cases where the data in the user interface differs slightly from the data in the database.
+1:55
+So our levels are represented from zero to three, where zero is for complete noobs and three are the advanced courses.
+2:02
+So the intermediate course, you can see here, we type out intermediate here if this value is set to two.
+2:09
+Now you don't have to worry about how our design and what we say to the user differs from the underlying data.
+2:15
+It's just something I wanted to give you a little heads up about because it's very normal in real world code bases.
+2:21
+Now it looks like we're kind of done here, but we're actually not because there's a lot more data for a course actually than what's represented here.
+2:28
+For example, whether or not it's free or paid, that's a boolean, so it's either true or false like that.
+2:34
+It's free.
+2:34
+True.
+2:35
+And this course is indeed free.
+2:37
+And we also have tags for courses.
+2:39
+And that's an array because we wanted to have the ability to add multiple tags to one course.
+2:44
+So we need a complex data type here as well as the value of this tags key.
+2:49
+So for example, this CSS Grid course has the tags HTML and CSS.
+2:55
+So this is a very real world example of an object.
+2:58
+Now if we want to access any of these values here, for example, the length, we do that through something we call the dot notation.
+3:06
+Course dot length, like that.
+3:10
+Console log out this and run the code, you can see that we log out sixty three.
+3:15
+So course dot length gives us back sixty three.
+3:19
+And you've used this dot notation quite a lot actually up until now.
+3:22
+And even though you probably haven't been aware of it, you have been using objects all along.
+3:27
+Like, what are we doing here?
+3:28
+Console dot log.
+3:31
+What kind of data type do you think the console is?
+3:33
+Well, it's an object.
+3:35
+And just to give you one more example, let's say we wanna log out this array here, well then we simply do course dot tags on the code, and when we open the control, we can see that we are logging out an array, because this entire array is the value that we get back when we ask for the tags.
+3:51
+Now one thing I wanna point out before we move on, that you can replace this dot with an open square bracket and then add a closing square bracket and then turn the key name into a string.
+4:04
+This is called bracket notation.
+4:07
+If we run the code, we get the exact same thing back.
+4:09
+Now there are reasons for why you sometimes wanna use bracket notation, but we're not gonna get into that right now because in the foreseeable future, you are not going to end up in a situation where you have to do that.
+4:21
+So I'm just gonna tell you now to use the dot notation.
+4:25
+It's simpler, it's shorter, less code to read, less code to write.
+4:28
+It's very understandable, and it's actually what most developers prefer to use if they get to choose.
+4:32
+So now I've been talking for far too long, I want you to write code, of course.
+4:37
+This is Scrimba.
+4:38
+That's what we're all about.
+4:39
+So in the next cast, you are going to write your own object.
+4:42
+I'll see you there.
