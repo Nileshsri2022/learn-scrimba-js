@@ -1,0 +1,57 @@
+Transcript
+0:00
+Now we need to set up the infrastructure for being able to actually save the leads that we enter into our input field.
+0:07
+And for that, we need two variables.
+0:10
+First, a my leads variable, which should be assigned to an empty array.
+0:15
+Secondly, the input l variable which should be assigned to the text input field.
+0:21
+With that, I mean the input field right here.
+0:25
+So go ahead and create these two variables right now.
+0:27
+two Okay.
+0:33
+The way to do this is let my leads equals an empty array like that.
+0:40
+an And for the input l, you probably did let input l equals document let at element by ID passing in the input l.
+0:52
+However, what I'm going to do is swap out this let with const.
+0:58
+That's weird.
+0:59
+Why am I doing that?
+1:01
+You might wonder.
+1:02
+And that is because in modern JavaScript, developers use both let and const to declare variables.
+1:09
+And now I think it's about time that you learn both of these methods.
+1:14
+So we're going to set the inputL as a const and also the inputbtn.
+1:20
+Now the main difference between const and let is that const cannot be reassigned.
+1:28
+And the name kind of hints to that.
+1:30
+It says const which is short for constant.
+1:33
+So whatever you assign it to should be constant, meaning you can't reassign it.
+1:39
+And if you don't remember what reassignment is, it's when you do input l, for example, equals constant, hello.
+1:48
+This won't work.
+1:49
+If I run this code, you can actually see assignment to constant variable.
+1:54
+I try to assign the input l, however, it's a constant, so JavaScript is saying, uh-uh, code, not allowed.
+2:02
+Now you might ask why do we need this?
+2:04
+This seems to be something that just makes it more difficult for us to code because it gives us less freedom.
+2:09
+Well, that is a very good question, so in the next cast we'll dig into exactly that so that you properly understand why you wanna use both let and const, and actually get some practice using both of these variable types.
+2:11
+next cast, we'll dig into exactly that so that you properly understand why you want to use both let and const, and actually get some practice using both of these variable types.
