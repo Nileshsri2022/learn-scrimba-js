@@ -1,0 +1,46 @@
+
+Transcript
+0:00
+Okay.
+0:00
+We are back at our lead tracking app.
+0:03
+Now, of course, you are going to do what I showed you before you learned about add event listener, which is to refactor our app so that it uses the dot add event listener when you click on the save input button.
+0:15
+Because this is Scribble, I'm not supposed to write the code.
+0:18
+So even though I've already done it, now it's your turn.
+0:21
+So go ahead and do this right now.
+0:28
+Okay.
+0:28
+Hopefully, that went well.
+0:30
+Now, I will quickly do it as well.
+0:33
+First, we need to grab a hold of the button.
+0:35
+I'm gonna grab the ID here and do let input b t n equals document dot get element by ID, passing in the ID.
+0:47
+Now that we have that, we can do input b t n dot add event listener.
+0:53
+We're going to listen for clicks.
+0:54
+we're And the code we want to run, when users click the button, is inside of the body of this function right here.
+1:02
+the So I'm gonna copy this console log, paste it in there.
+1:06
+this And now I can remove the save lead function, and I can also remove the on click attribute in the HTML like that.
+1:16
+I'll rerun the code, click save input, and indeed it works.
+1:21
+Great job.
+1:22
+Let's move on.
+1:19
+And indeed, it works.
+1:21
+Great job.
+1:22
+Let's move on.
