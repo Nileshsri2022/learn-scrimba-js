@@ -1,0 +1,45 @@
+Transcript
+0:00
+So while this way of writing event listeners, where we define a function and trigger it via the onClick attribute in the HTML works perfectly fine, out in the wild, you'll most likely see professional developers use a slightly different technique.
+0:15
+So it's important that you learn that one as well.
+0:18
+And the way we do that is by first grabbing a hold of the ID of the element we want to hook an event listener onto.
+0:26
+So I'll do let input btn equals document dot get element by ID, passing in the input b t n.
+0:37
+And then what I'll do is input b t n dot add event listener.
+0:44
+Like that.
+0:45
+Inside of the add event listener function or method, which it's also called, I'll first specify what kind of event I want to listen for.
+0:54
+And here, it is the click event.
+0:57
+And then, I'll write a comma and do something which might look a little bit weird, because now we are going to define what are we going to do when someone clicks on this input button.
+1:06
+Well, are going to invoke a function, and in order to invoke that function, we first have to write it.
+1:11
+So I'll do function.
+1:12
+Open and close parenthesis, and then the curly brackets, and break it onto a new line, And inside of this function, we can write whatever code we want to be executed when the user clicks on this input button.
+1:25
+So here, we'll do console dot log button clicked from add event listener, like that.
+1:32
+And let's change this to button clicked from on click attribute.
+1:36
+button Now if we run this code, hit the button, you can see both this line and this line is executed.
+1:43
+However, now we can actually remove this onClick event listener from our HTML, and some would say that this results in a cleaner separation of concerns where the HTML doesn't worry about any event listeners, as that's all gathered in the JavaScript.
+1:59
+So of course, then we should also remove the save lead function.
+2:03
+And we're left with this, running the code, clicking the button, and only this line triggers.
+2:10
+So in the next cast, you are going to get some practice writing this type of event listeners, so let's dive into it.
+2:06
+the button and only this line triggers.
+2:09
+So in the next cast, you are going to get some practice writing this type of event listeners.
+2:14
+So let's dive into it.
