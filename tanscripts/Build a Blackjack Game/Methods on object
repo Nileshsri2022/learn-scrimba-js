@@ -1,0 +1,46 @@
+
+Transcript
+0:00
+Now that you've learned about objects, I wanna tell you about a specific coding pattern that we've actually been using quite a lot here, but that we aren't going to implement from scratch ourselves in this module.
+0:12
+But since we still are exposed to it, I want you to understand what's going on under the hood.
+0:16
+And that pattern is to create functions inside of objects.
+0:20
+Something which we also call methods.
+0:22
+Because let's say that for example, we create another key here, which is say hello, and then a colon, and then as the value, we'll actually write a function like this.
+0:33
+We won't give it a name.
+0:35
+It'll just be an anonymous function, and inside, we'll control log JSON.
+0:40
+That's howdy in Norwegian.
+0:42
+And now if we want to invoke this function, we'll do player dot say hello, and then open and close parentheses.
+0:51
+If we run the code now, you can see indeed we are logging to the console.
+0:55
+indeed, And now the reason I wanted to show this to you is because don't you think this syntax looks a little bit familiar?
+1:02
+Like first a variable, then a dot, and then a function that you are calling with the parentheses at the end.
+1:10
+Because actually, that's the exact same thing we're doing here when we're saying document dot getElementById and the parentheses.
+1:19
+And here we're also passing in a value, but it's essentially the same thing.
+1:22
+And also here down at math dot random, also the same thing.
+1:28
+Math is an object, and random is a function on that object, also called a method.
+1:33
+same And even our good old friend console dot log is the exact same thing.
+1:40
+Object with a method.
+1:42
+So this is not something we are going to implement ourselves in this module, but I just wanted you to be aware of that so that when I speak about methods, you know that they are simply functions that are attached to objects.
+1:56
+be So with that, let's move on.
+1:50
+I speak about methods, you know that they are simply functions that are attached to objects.
+1:56
+So with that, let's move on.
