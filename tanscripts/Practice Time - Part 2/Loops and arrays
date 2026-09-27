@@ -1,0 +1,49 @@
+Transcript
+0:00
+Okay.
+0:00
+It's time to practice your for loop skills and your geography skills.
+0:05
+Because I've created this large countries array here, which contains the five largest countries in the world by population size.
+0:12
+So it's China, India, USA, Indonesia, and Pakistan.
+0:15
+And what you are to do is to use a for loop to log out the following to the world.
+0:20
+First, a sentence, the five largest countries in the world, and then each of the countries on a new line with a dash and a space in front of the country name.
+0:29
+So you are to use a for loop and loop through this array here.
+0:34
+You can't simply hard code out all of the console logs, that wouldn't serve any purpose.
+0:38
+So try to remember how to use a for loop.
+0:40
+If you can't remember it, you can look back at previous casts as we surely have gone through it, or of course, I will also show you the solution afterwards as well.
+0:48
+as Okay.
+0:53
+Let's do this.
+0:54
+I'll start with the for loop because that's the meat of this challenge for let I equals zero.
+1:02
+We'll start at zero because as you remember, arrays are zero indexed and we wanna use the index in order to fetch out each of the items.
+1:10
+So starting there and stopping before I reaches large countries dot length.
+1:19
+Length of this is five, so before it reaches five, that is four, and indeed Pakistan is the fourth index, so that should be right.
+1:28
+And we wanna increment upwards like that.
+1:31
+Here, we'll do console log, and then first the dash and the space like that, we'll concatenating this with large countries, passing in in the square brackets the greater variable I.
+1:47
+And now let's run this code and bring up the console, and indeed it looks to be working.
+1:52
+Now we only need to console log out and the five largest countries in the world like this, running the code, and yes, it works.
+2:03
+Great job.
+1:54
+log out the five largest countries in the world like this, running the code.
+2:01
+And yes, it works.
+2:03
+Great job.
