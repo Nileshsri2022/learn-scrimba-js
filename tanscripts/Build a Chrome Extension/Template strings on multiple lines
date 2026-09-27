@@ -1,0 +1,70 @@
+
+Transcript
+0:00
+Big benefit with template strings is that you can break them into multiple lines which is really handy.
+0:06
+For example, in our email case here, you'd most likely wanna write this on multiple lines like have the hey in one line and have the text in one line and then the chairs in the final line.
+0:16
+And this is possible unlike with regular strings like we're using here for my name.
+0:21
+To prove that, let's actually try to break this into another line.
+0:24
+What you see here is that we get these red underlines and the syntax highlighting has been completely broken.
+0:30
+And if we try to run this, we'll see that we get a syntax error.
+0:34
+So obviously not something we can do.
+0:36
+You have to get it back on one line.
+0:38
+But for our template strings, will work and that is the challenge as well.
+0:42
+I want you to break the email string into multiple lines, however you think it makes sense to do that.
+0:47
+Then you are to run the code to see that it works.
+0:50
+However, there's a gotcha here, which is that in the Scribba console, you will only see one line regardless of how many lines the string actually consists.
+0:59
+Here is an example where I've created this random string which is on three different lines.
+1:03
+You can see that in the Scrimba console, we're logging it out on a single line.
+1:07
+Whereas in the dev tools, which I've opened here, in the console that lives in the dev tools, it is indeed logged out over three lines.
+1:15
+So this is a quirk with the Scrimba console.
+1:18
+It's not as robust as the Chrome console, basically.
+1:21
+So for this challenge, you'll have to open up the original browser console in order to verify that you've done it correctly.
+1:27
+And if you don't know how to open the developer tools, I will show you now.
+1:31
+When you're in the scrim, move your cursor up to the header area of the scrim then right click so that you open this menu, click on inspect, that'll open up the developer tools.
+1:42
+Make sure you are on the console tab.
+1:44
+Now of course this is how it works in Chrome and I'm on a Mac computer myself so if you are on a different operating system and using a different browser, it might be slightly different ways of opening up the console, but that shouldn't be a problem.
+1:57
+If so, you just need to Google it out how to open the console on Windows using Firefox for example.
+2:04
+So go ahead now, break the email string into multiple lines, log it out, and then open the console to verify that you've done it correctly.
+2:16
+Okay.
+2:17
+Hopefully, that went well.
+2:19
+The way to do this is super simple.
+2:20
+You can just make this into a new line, this into a new line, and actually, you even do this.
+2:25
+And sometimes I even like to format this as we're writing a function body or HTML so that I tab it out so that we see it like this.
+2:32
+But you could do like this if you wanted or you could do like this.
+2:36
+I mean, the point here wasn't exactly formatted the way I would do it.
+2:39
+The point was just to break it into new lines, run the code, see that in the Screma console, it's still just one line.
+2:46
+Hopefully, you saw that when you logged it out in the original console, it became multiple lines.
+2:52
+Great job.
