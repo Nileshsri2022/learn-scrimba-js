@@ -1,0 +1,160 @@
+
+Transcript
+0:00
+Okay.
+0:01
+So now we need to enable our user to click a button to play the game, and you are going to do this through a challenge, of course.
+0:08
+And I'm really excited about this one because it includes both HTML, CSS, and JavaScript.
+0:14
+So this is the first time where you'll use all three languages to solve a problem.
+0:19
+And the reason that this is so cool is because this is how it works in real life.
+0:24
+When you get a job as a professional developer, You'll juggle between HTML, CSS and JavaScript all the time, and this is an opportunity to start practicing exactly that.
+0:34
+So it's a three part challenge starting here in the HTML where you are going to create a button that says start game, and it should call a start game function when it's clicked.
+0:46
+So obviously, then you also need to create that start game function.
+0:49
+You'll do that in the index dot j s.
+0:52
+Here we are to create the start game function and move the conditional below line eleven to twenty, that's these lines, into the body of the function so that this code is run when the button is clicked.
+1:06
+And then finally, you have to make the button look good for the user.
+1:09
+You are going to style it according to the provided design.
+1:12
+And that is exactly here.
+1:14
+You can see the start button.
+1:16
+So just click to open this slide whenever you need to take another look at it.
+1:19
+And doing this, translating a design into CSS is something the front end developers do every single day, so it's great practice.
+1:27
+I've given you three values for properties here.
+1:30
+There's the color of the text that should have this hex value.
+1:34
+The width should be a hundred and fifty pixels, and the background should be goldenrod.
+1:39
+Same as the text color on the h one.
+1:41
+This is a big one, so I can totally understand if you'll struggle a bit going through this one, but give it your best shot and then return to the screencast when you wanna see my solution.
+1:51
+Good luck.
+1:57
+Okay.
+1:58
+Hopefully, that went well.
+1:59
+Now let's do this.
+2:02
+Here, we'll do button, like that, opening tag, and then I'll do the closing tag as well.
+2:08
+And inside, we'll write start game like that.
+2:12
+Let's run the code and it looks not particularly good, but it's at least there and it's actually centered.
+2:18
+The reason for that is because here on the body, we are centering all of our text, and that also centers the button.
+2:27
+Next up, we need to call the start game function when it's clicked, and if you remember how that was, then you'd write onclick equals, and then we start game with open and close parenthesis inside of a screen right here.
+2:42
+So when the button is clicked, we're going to call or invoke the start game function.
+2:47
+Then we need to create that function, and if you remember how to do that, it is through the function keyword, function, and start game, open and close parenthesis, and then curly brackets for the body of the function.
+3:01
+Inside of here, we are going to take this code, copy it, paste it in.
+3:05
+I'm gonna give it a tab so that it looks better, like that and remove the empty lines.
+3:12
+Now we have this.
+3:13
+Let's rerun the code and see if it works.
+3:15
+Yes.
+3:16
+Previously, we got this console log just by refreshing the page, but that doesn't happen now.
+3:22
+I have to actually click the start game, then we run this, then we console log out the message.
+3:27
+Great job.
+3:28
+Now let's move on to the CSS.
+3:30
+Okay.
+3:30
+This is how we want it to look.
+3:33
+Let's take the first three provided the sign hint and see how close we get just by implementing them.
+3:38
+Text color, that is the color property.
+3:43
+Like that.
+3:44
+Hardly see it since the text is so thin, but that's okay for now.
+3:48
+Let's just set the width.
+3:51
+Width, a hundred and fifty pixels like that.
+3:54
+Okay.
+3:54
+Looks a little bit better.
+3:55
+And the background, should be goldenrod.
+3:59
+Okay.
+4:00
+So looking a little bit better, but not quite this design here.
+4:05
+As you can see, it has some space above and below the text, whereas this one is much more crammed.
+4:11
+Let's add that, and if you remember from the CSS section, you could add that space by using the padding.
+4:17
+That's padding top and padding bottom.
+4:20
+I'm gonna set five pixels.
+4:22
+Looks about right.
+4:24
+Padding bottom and do five pixels there as well.
+4:27
+Yeah.
+4:28
+Not too bad.
+4:29
+However, as I mentioned, this text is really thin and here it's much thicker.
+4:35
+So let's actually do font weight bold.
+4:40
+Yes.
+4:40
+That looks much better.
+4:42
+Now, the next thing I wanna fix is the border around the button because you can see it's totally clean here.
+4:48
+It has no border, but the default styling that our browser provides has this little border.
+4:54
+So we wanna do order none.
+4:58
+Okay.
+4:58
+Now it's actually pretty similar.
+5:01
+They're almost identical, but only one thing separates them.
+5:05
+And that is that you can see the edges are sharp on this one, whereas the edges are a bit rounder on our provided design.
+5:13
+So that is the border radius, and pretty subtle, so I'm gonna try two pixels.
+5:21
+And yes, that looks, as far as I can see, identical.
+5:26
+So this was a huge challenge, and you had to context switch between HTML, CSS, and JavaScript, so be really proud of yourself for reaching this far.
+5:35
+If you struggled and didn't really manage to get to the finish line on your own, I think you should just go back and try it again now that you've seen my solution.
+5:43
+That's a great thing to do to reinforce what you've just learned.
+5:46
+Whatever you do, I will see you in the next lesson.
