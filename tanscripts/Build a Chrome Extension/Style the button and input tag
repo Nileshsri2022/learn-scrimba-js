@@ -1,0 +1,160 @@
+
+Transcript
+0:00
+Okay.
+0:01
+Now you are going to style our app according to this design.
+0:05
+So in the CSS file, which is where you're going to work, you'll see that I've already styled the body tag a little bit.
+0:12
+Specifically, I've cleared out the margin since browsers often add a default margin to the body tag.
+0:19
+I had to set that to zero to neutralize that because I don't want any margin on the body.
+0:24
+However, I've set the padding to ten because I do want a little bit of padding.
+0:28
+You can see here on the body element that there's some space between the edges and where our elements start, that is the padding that is provided.
+0:36
+And here I've also set a font of Arial, and that is a web safe font.
+0:41
+So that one should work without, for example, using Google fonts in our project as well.
+0:46
+So just click on the slide here when you wanna see the design, and click outside of the slide when you wanna go back to the code.
+0:54
+And I've also added a little helper text here which is the hexadecimal code of the green color which you can see on the button and on the borders of the input field.
+1:04
+Now you can see on the bottom image here that I've added some text to the input field.
+1:08
+The slightly bluish color in the background here is not something you are to configure, that's just default styling that is added by the browser, so you don't have to think about that.
+1:18
+As far as you know, the background of the input element will be white.
+1:22
+Now I'm going to get you started here with making the input element full width because that's a little bit unintuitive and I wanna show it to you.
+1:30
+Because as you can see, here on the input element when we enter text into it, we have a little gap between the text and the edge of it.
+1:39
+However, in our app now, if I do it like that, you will see that there is basically no gap.
+1:45
+So we have to add a little bit of padding on the left side, let's say ten pixels, and there you can see we got the gap.
+1:53
+We want the same gap on the right hand side as well, so I'll do padding right of ten pixels as well.
+1:59
+So now we have that, and you might wonder why I started there.
+2:01
+It's a little bit weird, but let's say that we now want to provide the styling for making this input field be full width.
+2:08
+Well, then I'll do width and then set it to a hundred percent.
+2:13
+That means take up all the available space I have inside of my container.
+2:18
+And for the input field, the kind of container it lives inside of, is the body tag.
+2:25
+So that means that a hundred percent should make the input field take up the entire body, and the body has a little bit of padding as you know, so I would expect this to actually stop at the right ten pixels before the end of our browser, but actually it doesn't do that, it continues on, and actually goes past our browser, which is a little bit weird.
+2:46
+The reason is that the true width of this element now is hundred percent plus ten pixels plus ten pixels because it includes the padding left and the padding right and adds that on top of this width.
+3:03
+So that's a problem, and it results in our input field being wider than our body tag, and we don't want that.
+3:09
+So the trick I'll use to avoid that is something called box sizing.
+3:15
+And here I say, I want you to size the box along its borders.
+3:20
+I'll write border box, and there you can see.
+3:24
+Now full width includes the paddings as well.
+3:30
+The hundred percent now takes into account the paddings, and just makes sure that the entire thing spans across the entire body tag, but not overflowing it.
+3:42
+I wanted to show you that because it's not entirely intuitive.
+3:46
+Now you have what you need.
+3:48
+Your job is to use only these two selectors, the input and the button selector, and make it look like the design you can see here on the slide.
+3:56
+So go ahead and give that a shot right now.
+4:03
+Okay.
+4:04
+Hopefully, that went well.
+4:05
+Now let's do this together.
+4:07
+I'm going to continue with our input element, because here, you'll see that it's very crammed above and below the text we have written in the input field.
+4:18
+So what I can do is padding bottom also of ten pixels, and padding top also of ten pixels.
+4:29
+Now we have something that looks much more like what we have here.
+4:33
+Next up, we also need the color on the border.
+4:38
+So we'll do border, one pixel, solid, and then use this green color here like that.
+4:48
+It look good.
+4:49
+Now we can actually continue with the button.
+4:53
+The first thing is the background color, which is green.
+4:56
+Hold the background and use this green color again like that.
+5:02
+Okay.
+5:03
+Also, the text is white.
+5:06
+Color white like that.
+5:09
+Indeed, there's also padding here as well, which we need to add.
+5:12
+There's a little bit more padding on the left and right hand side.
+5:15
+Let's try padding top of ten pixels and padding bottom of ten pixels.
+5:23
+And then padding left of twenty pixels.
+5:26
+Yeah.
+5:27
+Starting to look good.
+5:28
+Padding right of twenty pixels.
+5:32
+And now I actually wanna clean up our code a little bit because you can see we're using this very verbose way of writing paddings both here and here.
+5:40
+Whereas in the body, as you have learned previously in this career path, you can use the shorthand.
+5:46
+And if all of the top, bottom, left, right are of the same value, we can just use padding.
+5:51
+So I can remove all of these and do padding ten pixels.
+5:56
+Here, it's a little bit more complex, but the top and bottom are identical and the left and right are identical.
+6:01
+What we then can use is adding and then ten pixels for the top and bottom, and then twenty pixels for the left and right.
+6:09
+So the first value kind of becomes the y axis, above and below, and the second value becomes the x axis, to the left and to the right.
+6:19
+If I remove this, you can now see that it looks identical as how we had it previously, but we've removed a ton of lines, which is good.
+6:26
+Now, uh, another thing on the button is that it has these default borders.
+6:32
+We don't want that according to our design.
+6:34
+So we'll do border none like that.
+6:39
+Now it's really starting to look similar, but there's two things.
+6:42
+We wanna bold the text, and we need a little gap between the input field and the button.
+6:48
+So font weight, set it to bold.
+6:52
+Yes.
+6:54
+And the gap between the button and the input can be added to either of the elements.
+6:59
+I'm gonna add it to the input field.
+7:01
+You do use a margin button and set it to, for example, four pixels.
+7:07
+There we go.
+7:09
+Now we have something that looks pretty much like what we have, and it's also responsive.
+7:16
+So we are ready to move on.
