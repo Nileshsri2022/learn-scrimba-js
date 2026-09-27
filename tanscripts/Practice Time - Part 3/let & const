@@ -1,0 +1,88 @@
+
+Transcript
+0:00
+In this challenge, we are going to do some let and const repetitions.
+0:04
+Because I've created this fictional game here, which has a player, an opponent, the name of the game, the points variable, and the has one variable.
+0:14
+After it's been set up, the game is played down here at line nine and ten, the player gets some point and the has one variable is flipped, and then based upon this, we log out who the winner is in this conditional statement down here.
+0:27
+Now if you try to run this code, you'll see that it actually doesn't work because I've mixed up a little bit in terms of using let and const.
+0:34
+So you need to fix that.
+0:36
+You need to go through all variables and decide if they should be let or const.
+0:40
+And then finally, I want you to change the console logs here from using double quotes to using template strings.
+0:47
+So go ahead and do this right now.
+0:49
+do Okay.
+0:56
+Hopefully, this went well.
+0:57
+Let's go through this.
+0:58
+Now what I want to start with is actually by looking at which variables that are reassigned, and that is actually just the two ones down here, points and has one.
+1:07
+There's no reassignment below and neither above.
+1:10
+That's just the initial assignments.
+1:13
+So that means that the points and has one are the ones that must be let variables.
+1:18
+Because remember, let variables can be reassigned, consts cannot.
+1:23
+So we'll do let and let, and these two need to be so.
+1:28
+That means that these three variables point to the same value throughout our entire program.
+1:34
+It'll work perfectly fine with using let, and if you prefer that, that's also okay.
+1:39
+But it is a good practice to use const when you can, to enforce a bit more strictness in the code and to hint to people who are potentially reading your code down the line that these variables won't be reassigned.
+1:51
+So actually, I'm going to do that and use const reassigned.
+1:56
+for these three variables.
+1:58
+to Now we can run the code and yeah, we can see that it actually works.
+2:02
+Perry got a hundred points and won the amazing fighter game.
+2:05
+That comes from this string right here, which we want to turn into a template string.
+2:09
+And the way we got to do that is now wrap the entire entire expression in backticks, and here we're starting off with a JavaScript variable.
+2:19
+tire So we'll escape out of the string like that.
+2:23
+off Remove all of these plus and quotes.
+2:27
+Get again out dollar sign curly brackets.
+2:31
+like And then we also need the escaping here as well.
+2:37
+get Let's run the code.
+2:42
+Ah, works just as it did previously, but now we have this much more neatly packed expression.
+2:47
+the Doing the same here.
+2:49
+as Like that and that.
+2:52
+now Like that.
+3:08
+this And that's it.
+3:09
+Great job doing this challenge.
+3:11
+Let's move on.
+2:50
+Like that and that.
+3:06
+Like that.
+3:08
+And that's it.
+3:09
+Great job doing this challenge.
+3:11
+Let's move on.
