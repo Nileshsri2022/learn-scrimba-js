@@ -1,0 +1,39 @@
+
+Transcript
+0:00
+So now we are able to set items in local storage aka we are saving leads to local storage, so that we can for example do awesome lead and epic lead and then see that yes, they are indeed logged out because we have fetched the item from local storage here, and actually you can even open up the developer tools here on Scribrba and click down to c w zero dot scribrba dot com and there you will see my leads as the key and the values as well.
+0:31
+And the reason it's c w zero dot scrimble dot com is because that's actually the domain for this mini browser under the hood.
+0:39
+However, that's Scrimble magic, Don't worry about that right now.
+0:42
+Just know that you can access it by choosing that domain.
+0:45
+Now there's one big problem here though, which is that if we now refresh this page again, boom, our leads are gone.
+0:52
+Or actually, they're not gone, they still exist down in local storage.
+0:56
+However, we haven't written the code for heading into local storage, fetching out the leads, and then displaying them when we are refreshing the entire page.
+1:04
+We're actually not doing anything.
+1:05
+We're just setting the my leads array to an empty array, and we're not even triggering the render leads.
+1:10
+So there's multiple things we need to fix up here, but we're going to start small as usual.
+1:16
+You are going to basically just try to get the leads from local storage, and then store that in a variable, which I would call leads from local storage, and then log out this variable.
+1:27
+So now I'm going to close the console, and before you go, I want to remind you about the JSON dot parse method that you learned earlier, because you want to use that to parse the string you get from local storage so that you turn it back into an array.
+1:42
+This might be a little bit difficult, but just give it your best shot, and then I will show you how to do it as well.
+1:51
+Okay.
+1:52
+Hopefully, that went well.
+1:53
+Let's do this.
+1:55
+We're going to do more or less the exact same thing we're doing here to begin with, which is basically local storage dot get item, passing in my leads.
+2:06
+However, we need to parse this, so I'll do JSON dot parse, and then parentheses around this inner expression right here, and then store this in a variable called leads from local storage like that.
+2:2
