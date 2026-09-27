@@ -1,0 +1,53 @@
+Transcript
+0:00
+Okay.
+0:01
+So now it's your turn, and you are going to make the state of our game a little bit more robust.
+0:06
+Because at this point, we're only tracking if the player actually gets blackjack.
+0:10
+If the player busts out and gets twenty two or more, we're not tracking it, and obviously we have to do that.
+0:16
+So I want you to create a variable called is alive and start by assigning it to true, and then you're going to flip that value to false inside of the appropriate code block.
+0:27
+So there's three code blocks, the if block, the else if block, and the else block.
+0:33
+And you of course then have to pick the correct code block, and then write that line of code that flips the value to false.
+0:39
+And finally, log it out to check that you're doing everything correctly.
+0:43
+So good luck, go ahead and do this, and then I will show you the solution afterwards as well.
+0:47
+the Okay, let's do this.
+0:53
+Starting up here, we're going to create a let variable called is alive and assign that to true because when you're starting out, the player is still alive, and at which point is the player no longer alive, meaning out of the game?
+1:07
+Well, that's obviously here in the else block because that's the case if the sum is twenty two or more.
+1:12
+So here we'll do is alive equals false.
+1:16
+And then finally, we'll console log is alive, like that.
+1:21
+We got true because actually we had blackjack and rightfully so, player is not dead.
+1:27
+How about if we pretend that we add a third card here?
+1:30
+It's really stupid idea.
+1:32
+Pick a third card after you've gotten blackjack, but let's just pretend that.
+1:36
+Run the code and boom.
+1:38
+False.
+1:38
+No longer alive.
+1:40
+Great job solving this challenge.
+1:42
+Let's keep up the pace and move on.
+1:39
+alive.
+1:40
+Great job solving this challenge.
+1:42
+Let's keep up the pace and move on.
