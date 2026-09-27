@@ -1,0 +1,83 @@
+Transcript
+0:01
+Now it is your turn to write an if else statement.
+0:04
+You are to check if a person is old enough to enter the nightclub, which has a lower age limit at twenty one.
+0:11
+And then you are to log a suitable message to the console in both cases.
+0:15
+And by that, I mean if the user is less than twenty one or if the user is twenty one or older.
+0:21
+So I've defined the age variable here and also written pseudocode.
+0:25
+If less than twenty one, then a suitable message would be, for example, you cannot enter the club.
+0:30
+Else, meaning all other cases, because if they're not less than twenty one, well, they have to be twenty one or above, then you are to log something like welcome.
+0:39
+Go ahead and give this a shot.
+0:40
+And if you have forgotten how to write an if else statement, just go back and rewatch the previous lesson.
+0:45
+And notice here that I don't have an else if statement in between here.
+0:50
+I only have the first if and the final else, not the else if which we had in the previous lesson.
+0:57
+And that is because I want you to think for yourself and try to figure out, well, how do you write this with only an if and an else, and not the if else in between.
+1:06
+Just give it a shot, and I will show you the solution as well when you return back to the screencast.
+1:11
+return Okay.
+1:17
+Hopefully, that went well.
+1:18
+Let's do this.
+1:20
+If less than twenty one, we have to do age is less.
+1:24
+Remember this alligator mouth here?
+1:26
+less.
+1:26
+And twenty one like that.
+1:29
+This means the person is maximum twenty years old.
+1:32
+person Then we are to do following.
+1:36
+Well, console dot log.
+1:38
+do You cannot enter the club.
+1:42
+And then we simply do else and then the open and close curly brackets.
+1:48
+And here, we can console log welcome.
+1:52
+curly Running the code, we get welcome.
+1:55
+That's correct.
+1:56
+Trying to lower the age to twenty, we get you cannot enter the club.
+2:01
+Now a final thing I wanna point out is that you could also solve this by using another comparison operator, which is the less than or equal to.
+2:10
+That means a slightly different thing though, because it checks that this value is less than or equal to twenty one.
+2:18
+So if we take this back to twenty one, and run it, you can see we get you cannot enter the club, which obviously is wrong.
+2:26
+They should be able to enter the club at this point.
+2:29
+So if we're using the smaller than or equal to operator, we have to use twenty, because then we include twenty.
+2:36
+That is an upper range that is inclusive of that number.
+2:39
+because So now, it works.
+2:43
+Whether you prefer using less than or equal to or just the less than is up to you.
+2:48
+You just need to keep in mind how that changes the entire expression.
+2:51
+With that, let's move on.
+2:47
+you, you just need to keep in mind how that changes the entire expression.
+2:51
+With that, let's move on.
