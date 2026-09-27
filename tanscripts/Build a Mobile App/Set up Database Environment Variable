@@ -1,0 +1,68 @@
+
+Transcript
+0:00
+You see this database URL right here?
+0:02
+Yeah.
+0:03
+That's my database URL.
+0:04
+But see, this is a Scribble course, which means that you are supposed to do challenges.
+0:09
+But if we leave it like this, whenever you run the code on your end, you're gonna be connected to my Firebase real time database, not yours.
+0:17
+So the way to fix this is to set up a database environment variable.
+0:21
+So the way environment variables work is that we come up with a name for the variable.
+0:25
+Let's go with database underscore URL in all caps.
+0:29
+But when the code is run inside of Screma, it's gonna be replaced by my database URL value.
+0:36
+And of course, the same is gonna happen on your side when you run the code.
+0:40
+So technically, this is just a key value pair.
+0:43
+Alright.
+0:44
+I'm gonna go ahead and set up the environment variable on my side, and here I have a guide for you that I want you to follow to set up an environment variable on your side.
+0:53
+Alright.
+0:53
+I'll give you a couple of seconds to do that, so I'll see you in a bit.
+0:56
+see Okay.
+1:01
+I hope that went well.
+1:02
+Let's go into the code and change it to the variable.
+1:05
+Let's delete this and we wanna start with process dot env for environment dot the name of the variable which was database underscore URL like so.
+1:18
+And there we go.
+1:19
+That's all there is to it.
+1:21
+Now let's make sure that this thing is working by console logging the database URL.
+1:26
+So let's take firebase config first and then we'll say dot database URL.
+1:32
+There we go.
+1:33
+Let's run that code to see what we get.
+1:36
+And there we go.
+1:37
+That's my database URL.
+1:38
+You should run the code on your side to see if you get your database URL as well.
+1:43
+That's all for this scrim.
+1:44
+Let's delete this one and now we are finally ready to start writing some code.
+1:49
+I'll see you in the next one.
+1:46
+are finally ready to start writing some code.
+1:49
+I'll see you in the next one.
