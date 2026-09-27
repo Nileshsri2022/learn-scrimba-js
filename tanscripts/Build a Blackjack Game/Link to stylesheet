@@ -1,0 +1,73 @@
+Transcript
+0:00
+Okay.
+0:01
+Now it's time to fix our biggest flaw in our blackjack game, which is that it has no user interface.
+0:06
+If we want this to be a hugely successful online blackjack game, it has to use HTML and CSS so that users can play it via a browser.
+0:15
+And I've actually set up the basics for you here.
+0:18
+You can see an HTML file with a head and a body, and then inside of the body, we have an h one with the text blackjack, and also we are linking to the JavaScript file here on line eight.
+0:29
+And as you can see, if we bring up the mini browser, this just renders out the h one tag.
+0:34
+So your job now is to link this HTML file to the CSS file.
+0:39
+You can see I've created just one CSS rule in this file, and it will be applied changing the color of the title when you manage to add a link to the CSS file here on line five.
+0:51
+So I almost every single time have to search on Google for how to link to CSS from HTML.
+0:56
+I end up at something like this.
+0:58
+something So I want you to do the same thing.
+1:01
+And one tip would be to find this w three schools right here as they often pop up on Google and contain the necessary information.
+1:08
+So go ahead and figure this out on your own, and then I will show you the solution afterwards as well.
+1:13
+solution Okay.
+1:18
+Hopefully, you nailed that one.
+1:20
+If not, no worries.
+1:21
+Let's first check out Google.
+1:24
+Then if we click into the w three schools site, you'll see the following, and it tells us that there are three ways to insert CSS, external, internal, and inline.
+1:32
+And we are using an external CSS file, we wanna scroll down to external CSS.
+1:38
+If we do that, we see the code here, and the line we are looking for is this one, link rel equals stylesheet href equals my style dot CSS.
+1:47
+sheet, Okay.
+1:48
+Good.
+1:48
+So let's do link rel, and that is short for relation.
+1:53
+So what is the relation between this HTML file and the current file you're going to point to now?
+1:58
+Well, is that the file you are pointing to is a stylesheet.
+2:02
+Because as you remember CSS is short for cascading stylesheets.
+2:06
+And then it is the href, which in our case is index dot CSS.
+2:10
+then We are in the same directory, so we don't need to navigate into a folder or anything like that.
+2:15
+We'll just write index dot CSS.
+2:18
+And the href attribute is something you should be familiar with by now, as that's also what we use when we are creating links.
+2:24
+familiar Now let's run this code.
+2:26
+Boom.
+2:26
+You can see the color has changed, meaning we are indeed importing this style sheet.
+2:32
+Great job.
+2:26
+see the color has changed, meaning we are indeed importing this style sheet.
+2:32
+Great job.
