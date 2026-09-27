@@ -1,0 +1,86 @@
+
+Transcript
+0:00
+Welcome back my friend.
+0:01
+I hope you are ready for a new challenge because that is exactly what I have in store for you now.
+0:06
+Actually, it's a three part challenge because you are going to make our program a little bit more robust in the sense that it might be that these console logs here that we're just throwing out into the void, logging to the console and forgetting all about, can be used later on down the line, or that we, for some reason, wanna keep track of them.
+0:25
+Maybe we wanna render it out with multiple locations in the app, maybe there's a notification, and there's text, there's a log of messages you've gotten, maybe we wanna repeat it, I don't know.
+0:35
+There's tons of reasons for keeping this data, and very few reasons for just logging it out.
+0:40
+We wanna keep it in a variable, just like we've done here with the has blackjack n is alive.
+0:46
+So your three part challenge is to first declare a variable called message, and then assign its value to an empty string, and then you are going to reassign the message variable to the string we're logging out.
+0:58
+Notice here that I'm using some fancy words, like I'm saying declare instead of create a variable.
+1:03
+I'm saying assign instead of set its value.
+1:06
+That's because I think you now are ready to hear some of these fancy JavaScript words, because there are subtle differences between these words.
+1:12
+Like here we are actually declaring the variable, and then we are assigning it when we set the value to true.
+1:19
+This is after all called the assignment operator in JavaScript.
+1:23
+And then naturally so, when we change a variable or assign it yet again, we reassign it.
+1:30
+So I just wanna use the correct terminology here.
+1:33
+But I think it's important that you don't get put off by all of these words and think that you have to remember them all.
+1:39
+You do not.
+1:39
+It's perfectly fine to talk about this using your own words.
+1:43
+Create, change, set the value, whatever.
+1:46
+I just want you to also be exposed to these technically correct ways of expressing it.
+1:51
+Anyway, enough talk.
+1:53
+As I said, step two, you are going to reassign the message variable to the string that we're logging out.
+1:59
+So I don't want any more console logs inside of these three code blocks, because the only code block is the one you're going to create in part three of the challenge when you are going to log out the message variable.
+2:11
+So go ahead and give this your best shot and then return back to this screen cast when you wanna see my solution.
+2:21
+Okay.
+2:22
+Hopefully, that went well.
+2:23
+If not, no worries.
+2:25
+Let's do this together.
+2:27
+First, we'll start by declaring this let variable.
+2:30
+We'll call it message, and we'll set it to an empty string.
+2:34
+Then on line eleven, thirteen, and sixteen, we need to replace the console log with a message equals, like that, and also remove this close parenthesis.
+2:45
+Do the same thing here.
+2:46
+Remove this one and the close parenthesis, and then write message equals.
+2:51
+Finally, here as well.
+2:54
+And then we are ready to log it out down here at line twenty one.
+2:58
+So I'll log out the message, run the code, and as you can see, we're logging you are out of the game.
+3:04
+That is correct because we have this really stupid move where we got blackjack, but we asked for a new card.
+3:09
+So to remove this, uh, run the code.
+3:12
+Yes.
+3:12
+You have blackjack.
+3:14
+But again, with for example fourteen, and yes, I can now draw a new card.
+3:18
+So great job reaching this far.
+3:20
+Let's move on.
