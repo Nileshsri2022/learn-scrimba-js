@@ -1,0 +1,102 @@
+
+Transcript
+0:00
+Congratulations.
+0:01
+You have reached the end of this section and actually built your own browser extension.
+0:06
+How cool is that?
+0:08
+And you should be goddamn proud of yourself for achieving that.
+0:11
+And just enjoy the fact that you've learned all of these awesome concepts that we now are going to recap.
+0:17
+So what did we learn?
+0:18
+Well, we started out with the const variable.
+0:20
+That is a critical part of JavaScript, and as you can see, once we learned it, we started using it much more than we used let.
+0:27
+For all of these DOM elements that we stored in variables, we used const, as we were not going to reassign these.
+0:34
+And speaking of DOM, we learned a lot of new things about the document object model.
+0:39
+First and foremost, the add event listener.
+0:41
+Down here at line fourteen, we hooked up an event listener with the tab button for example.
+0:46
+This gave us the benefit of not having to write the event listeners in our HTML.
+0:51
+We controlled everything in the JavaScript file, and then also we learned about inner HTML.
+0:57
+Down here at line thirty three we had to use this because the dot text content property just didn't do the trick when we want to render out list items like this.
+1:07
+And finally, we also learned input value, which is another part of working with the DOM, and that was down here when we fetched out the value which the user had entered into the input field.
+1:20
+Another thing we did is take one more step into the world of functions, namely we learned about parameters, which is what we defined here.
+1:27
+We defined a leads parameter in the render function, and that gave us the ability to use this variable inside the body of the function, and also it required us to pass in the argument of myLeads when we invoked this function.
+1:40
+This is a crucial concept to understand if you are to make functions really reusable, so I'm really happy that we went through this.
+1:48
+Next up, a super cool thing we also learned was template strings, because that gave us the ability to write strings on multiple lines, which looks much better.
+1:58
+It's easier for humans to parse, and also we could use this dollar sign and square brackets in order to escape out of the string instead of having to use these plus signs, which quickly became unmaintainable and confusing to work with.
+2:12
+And then a super cool thing we learned was local storage.
+2:15
+Here we saved things in local storage, so that we could work across page refresh.
+2:20
+This is kind of your first exposure to a database.
+2:23
+A very simple database of course, but still very much the same concept.
+2:27
+And that forced us also to learn about JSON, which is a very common way of storing data in web development.
+2:34
+You were forced to deal with this since you had to turn our array into a JSON array using JSON dot stringify, and also we had to use JSON dot parse to go the other way around.
+2:45
+When we fetched a string from local storage, and that string just happened to be a JSON array, and we could parse it and turn it into a JavaScript array using the JSON dot parse.
+2:56
+Don't worry if you are confused about JSON parse and JSON stringify, it's totally okay to search for which one does what every single time you do it.
+3:03
+I've done it again and again and again.
+3:05
+But JSON is core, and one testament of that is the fact that you were exposed to JSON also in another way, namely with the manifest dot JSON file.
+3:14
+Here we had to configure our app, and I'm actually glad that the Chrome extension required this because you will see JSON in many different scenarios as you work as a web developer.
+3:22
+Finally, one of the last things we looked into was objects in arrays, namely this tabs array here, where you actually had an array where it's first and only item was an object.
+3:35
+So you had to first fetch out the zeroth index, and then do dot URL to fetch out the URL value of that object.
+3:43
+And this is very common, objects shoved inside of arrays.
+3:47
+So it hopefully shouldn't scare you that much the next time you come across that.
+3:51
+So look at this list, it is really comprehensive, and now let's do a little thought experiment which might help you feel less overwhelmed of all the things you don't know anything about in web development and all these fancy words, because let's say that you for two weeks ago asked a developer, like, how do you create a Chrome extension?
+4:09
+And then the developer arrogantly replied to you, well, it's not hard.
+4:13
+You just add an event listener to a button, then fetch out the input dot value, take that value, store it in an object, and convert it to a JSON using JSON dot stringify, shoving it into local storage, no big deal.
+4:25
+You could just fetch it out later, then use JSON dot parse in order to get it back into a JavaScript array, and then render it out in the function, shove it in as a parameter, and just use a template string and inner HTML to display it on screen.
+4:35
+I mean, no big deal.
+4:37
+Right?
+4:39
+I mean, imagine getting such a reply.
+4:41
+You would probably feel that you would never ever learn all of this because there's so many concepts you didn't understand.
+4:48
+But actually, that reply from the developer is actually the exact thing we have done and you have gone through it.
+4:55
+So even though in and of themselves these names sound scary, you know that if you follow the right course you can learn them and you don't have to be afraid of any of the concepts you have yet to learn because whilst they sound super fancy from the outside like JSON, actually, they're not that complicated when you look into them.
+5:12
+So try to just have that confidence in yourself that you know you can learn complicated three letter acronyms so that they're nothing to be afraid of, because that'll calm you down and serve you well as you progress on this journey into web development.
+5:27
+With that, let's actually put your skills to the test now because you need some more repetition on these things, you need tons of repetition.
+5:33
+These things take a lot of time to really get into your muscle memory, And we'll start with that in the next section where you will do some quick challenges back to back.
+5:42
+Let's move on.
