@@ -1,0 +1,104 @@
+
+Transcript
+0:00
+Now that we have an app that actually works pretty well, we're going to do something we haven't done a lot throughout this course, which is to refactor our code.
+0:08
+And not only refactor it based upon a current need, we're going to refactor it based upon a hypothetical future use case.
+0:16
+So for this, we're not going to use the mini browser, so I'm just gonna minimize that one, and actually, I'm also going to take this function render leads, and move it up here right below this conditional.
+0:31
+Because it is the render leads function we're mainly going to refactor.
+0:35
+And the reason for that is the following.
+0:37
+This function now currently has a very low degree of what we would call reusability.
+0:44
+Because here, it is hard coded that whenever it's called, it's always going to look at the my leads variable, the one we've created up here, our global variable, and render out whatever exists in that array at that point in time.
+1:01
+Now let's say that we one time in the future also have another array, for example let old leads, perhaps just a bunch of slightly unimportant leads that you've shoved into this array that you don't want to render out at any given time.
+1:15
+But you wanna perhaps have the opportunity to bring them up from time to time.
+1:19
+If so, we would struggle to render them out because as I said, in our render leads function, we only care about the my leads array.
+1:28
+So what we can do instead is to make this function a bit more dynamic, and have it render out whatever array we tell it to render out.
+1:37
+And the way we do that is to pass in a variable as a so called argument when we call it.
+1:44
+So we could take myLeads here, and then pass it in like this, in between the parentheses, so that it would be possible for us to use it inside of the body of our function, but without referring to my leads directly like this.
+2:00
+Now let's just pause here for a minute before we rewrite the body of the function.
+2:04
+Just in case this seems weird, because you might feel you're walking on thin ice here, but actually you've been passing in arguments into functions when you have called them for quite a while now.
+2:15
+Because that is exactly what you're doing up here for example, the getElementById function, which you are calling and giving it the string of Inputel, so that this function, when it does its magic, and walks through the HTML file in the search of its element, knows when it hits this point, ah, here it is, this is the element I'm looking for, because Pierre told me so when he wrote this code, told me that this is indeed the ID he wants.
+2:43
+Hadn't we done that, well, the function would have been, like, blind to whatever it was looking for.
+2:49
+We wouldn't be able to recognize this element.
+2:52
+But we did, of course, give it that value, and that is also what we're doing here now.
+2:59
+We're telling render leads that we want you to render out this data right here.
+3:03
+And then to make this work, we also have to here write something like leads inside of the parentheses here as well.
+3:12
+The way this works is that when this function is called with this data passed in, this data, this array will become this variable here which is accessible inside of the body of the function.
+3:24
+So now we can replace my leads with leads here, and we can replace it here and here.
+3:33
+At this point, the body of this function has no idea and no relation to this myLeads global variable up here.
+3:41
+It only cares about what you entered into the function when you called it.
+3:46
+And now, what actually makes sense is to skip the usage of the word leads in the name of the function, because actually the function at this point doesn't even know that it's rendering out leads.
+3:57
+It could be rendering out a bunch of names of soccer teams, or a list of fruits, or whatever it is.
+4:03
+It renders out whatever you pass into it.
+4:05
+So actually what we wanna do is remove these leads here and simply call it render.
+4:11
+Now this of course requires us to do the same thing on the delete button.
+4:17
+Here we'll use the new name render, and we have just cleared out the my leads array, so it's an empty array.
+4:24
+So what we'll do is simply pass in my leads here as well.
+4:28
+And finally, on the input button, when we add new leads, we have also modified my leads array.
+4:34
+So we'll take that and paste it into the parenthesis of the function invocation, and then of course, use the updated name as well.
+4:43
+So now, we have a function called render, which can take any array you give it, and then render it out.
+4:51
+So potentially, you could give it the old leads array as well, and it's a much more dynamic and reusable function.
+4:58
+Let's try this.
+5:00
+We'll rerun the code.
+5:03
+Save awesome lead.
+5:05
+Epic lead.
+5:06
+It works.
+5:07
+And yes, the delete button also works.
+5:11
+And just as a final notice, it doesn't matter what we call this parameter here.
+5:16
+Could have called it YOLO if we wanted.
+5:19
+However, that would require us to also change this to YOLO, this to YOLO, and this to YOLO.
+5:27
+We run the code, and delete, it works, and we can delete it.
+5:33
+It works in the exact same way.
+5:36
+However, we actually want to use semantically meaningful names, so let's use leads instead like that.
+5:44
+You're probably a little bit confused right now.
+5:47
+That's totally okay.
+5:48
+Let's take a closer look at how to use arguments in functions over the next few casts.
