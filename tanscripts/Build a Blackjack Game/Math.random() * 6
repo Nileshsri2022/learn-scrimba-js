@@ -1,0 +1,40 @@
+
+Transcript
+0:00
+Okay.
+0:01
+So now we know how to create a random number between zero and up to but not including one.
+0:06
+However, it's not entirely clear how we utilize math dot random in order to create something useful, like for example a dice function.
+0:14
+So let's take this one step at a time towards creating such a function.
+0:19
+And the first step we're going to take is simply by multiplying math dot random with six.
+0:25
+random Now I want you to do the same thing that you did previously, which is to pause the screencast, run this code a few times and see what we log to the console, and then answer the following question.
+0:37
+In which range will our random number be now?
+0:41
+So from which number to which other number?
+0:44
+It used to be from zero to zero point nine nine nine nine nine.
+0:48
+Now it's something else and you have to figure that out.
+0:51
+So go ahead and do that right now.
+0:52
+and Okay.
+0:58
+The answer is that it still starts at zero, it but now goes all the way up to five point nine nine nine nine nine and a bunch of nines.
+1:07
+I'm not gonna type all of them.
+1:09
+So if math dot random gave us a number from zero to zero point nine nine nine, math dot random times six will give us a number from zero because zero times six is still zero to five point nine nine nine because zero point a bunch of nines times six is not entirely six, but it's almost six, so it's five point a bunch of nines.
+1:32
+So now we have kind of expanded our range, roughly speaking, from being between zero and one, to being between zero and six.
+1:39
+We did that by multiplying it with six.
+1:41
+Let's move on to the next step.
+1:41
+Let's move on to the next step.
