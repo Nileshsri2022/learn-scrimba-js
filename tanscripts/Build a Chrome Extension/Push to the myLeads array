@@ -1,0 +1,28 @@
+
+Transcript
+0:00
+Okay.
+0:00
+We are back in our lead tracker app, and now we need to make sure that when the user hits the save input button, a lead is pushed to the my leads array.
+0:10
+For now, you're just going to use a hard coded lead, so w w w dot awesomelead dot com for example, and that value should be pushed to my array when the input button is clicked.
+0:22
+So go ahead and give this a shot right now.
+0:25
+this Okay.
+0:30
+Hopefully, what you did was to here inside of the body of this function, write my leads dot push, and then pass in w w w dot awesome lead dot com.
+0:45
+Like that.
+0:45
+If we now also console log out the my leads array, like that, we will actually verify that it works.
+0:52
+I'll hit the save input button, and there you can see we now have one lead in the my leads array.
+0:58
+If I hit it again, we have two, and three, and four.
+1:01
+my However, it's pretty useless because we're just pushing the exact same thing to the array, so let's fix up that in the next cast.
+1:05
+exact same thing to the array.
+1:07
+So let's fix up that in the next cast.
