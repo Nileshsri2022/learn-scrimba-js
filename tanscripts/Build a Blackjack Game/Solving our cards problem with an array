@@ -1,0 +1,74 @@
+
+Transcript
+0:00
+Okay.
+0:00
+So now we need to fix up the rendering of the cards.
+0:03
+Because if I hit start game, and I get the two cards out, and then hit new card, indeed our sum increases, but our cards paragraph are displaying only two of the three cards we've pulled from the deck.
+0:15
+Because we have a ten and a four and a six, whereas we're only showing the ten and the four in the browser because that is hardcoded here to only do that.
+0:25
+No matter how many cards we pulled from the deck, this line sixteen will always just render out the first card and the second card.
+0:32
+So this line here in pseudocode says, render out first card and second card.
+0:41
+But what we instead need is something that says, render out all the cards we have regardless of how many cards.
+0:51
+If we have five cards, it should render out five cards.
+0:53
+If we have two cards, it should render out two cards.
+0:55
+But that's not possible with the current implementation.
+0:58
+And what we need is a central way of storing all of our cards.
+1:01
+We need to store all of our cards in one variable, regardless of how many cards it is.
+1:07
+And the way to do this is actually to use what's called an array, which is essentially a list of items.
+1:14
+And I'm gonna create an array here, and it's totally okay if you now feel confused.
+1:18
+I just wanna give you a little sneak peek at it before we take a deep dive and give you some practice on it.
+1:23
+I'm gonna do let cards equals and then open and close square brackets.
+1:28
+That's the notation for creating arrays.
+1:31
+And inside of these square brackets, I'm going to paste the first card, then a comma, and then the second card.
+1:38
+So this is now a cards array that includes both cards ordered by the first card first and the second card second.
+1:46
+You can call this an ordered list of items.
+1:51
+Now we down at what's line eighteen now?
+1:54
+And replace the first card by referring to the array instead and doing open and close square bracket and zero.
+2:03
+Don't worry about that.
+2:04
+You'll understand that in a minute.
+2:06
+Let's just now do the same things for the second card.
+2:09
+Then we'll do cards open and closed square brackets and one.
+2:15
+So this is referring to this one right here, and one is referring to this item right here.
+2:22
+And that is because arrays are so called zero indexed.
+2:26
+They start at zero and one, and if we add a third card here that would be index number two.
+2:33
+But we don't have a third card so let's remove that.
+2:37
+Now even though we might feel a little bit confused now, let's just run the code, hit the start game, and see, yes, that it still works.
+2:45
+So this way of doing it was the exact same as what we had previously when you just hardcoded in first card and second card like this.
+2:51
+Now this opens the possibility later down the line to render out all of our cards in a dynamic way inside of the cards element regardless of how many cards we have inside of our cards array.
+3:05
+So that was a lot of information.
+3:06
+Now we're going to take a step back, work with arrays, get your hands dirty.
+3:10
+So don't worry if you didn't quite understand this as you will surely do that after the next few lessons.
