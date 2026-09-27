@@ -1,0 +1,52 @@
+
+Transcript
+0:00
+Now you are going to practice template strings or template literals as people also call it.
+0:06
+I prefer template strings though as that's just an easier expression.
+0:09
+Your job is to take this string which is a concatenation of two hard coded strings and a variable and turn it into a template string.
+0:19
+I'm console logging it down here on line eight so that you can see results.
+0:23
+If we run it, you can see that it says, hey, James.
+0:26
+How's it going?
+0:26
+Cheers pair.
+0:28
+So go ahead and change this from a standard double quote string into a template string.
+0:32
+And then of course, I will show you the solution when you are done.
+0:35
+when Okay.
+0:40
+Hopefully, this went well.
+0:42
+Let's do this.
+0:43
+I'll start by simply replacing the first double quote with a backtick and the last double quote with a backtick.
+0:50
+Then the entire thing is a string.
+0:52
+So now if we run this, it'll say, hey, plus recipient.
+0:56
+How's it going?
+0:57
+Obviously, not what we want.
+0:58
+We want James to be logged out as well.
+1:01
+So we can remove all of this clutter, all of these plus and quotes, and do dollar sign, open and close curly brackets, and then type in recipient.
+1:11
+Run this.
+1:12
+Yes.
+1:13
+It's now a template string.
+1:14
+Great job.
+1:12
+It's now a template string.
+1:14
+Great job.
