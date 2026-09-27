@@ -1,0 +1,84 @@
+
+Transcript
+0:00
+Now that you've finally managed to work with inner HTML, I'm going to be a little bit annoying and teach you an alternative way of solving this that doesn't use inner HTML.
+0:12
+Because while I prefer to make a lot of the choices for you as to which technologies you should use to build apps, especially as a beginner, in this case, it makes sense that you learn it in two different ways even though we're only going to proceed with one way in this app, and that is the dot inner HTML.
+0:31
+But you will see this other method being used both in Scrimbus front end developer career path and out in the world.
+0:38
+So I'm gonna teach it to you.
+0:39
+The way to understand it is to break this line of code into three steps.
+0:44
+Because let's have a look at what's actually happening here.
+0:47
+So first, we are kind of creating the LI element.
+0:51
+So create element, and then we are setting the text content of that element.
+0:59
+Finally, we are taking that expression and kind of appending it to the unordered list because appending means to add something at the end of a document.
+1:12
+So append to unordered list.
+1:15
+So with this, we have the pseudocode for our solution.
+1:18
+Let's now comment out the the original way of doing it, and then write out the new way.
+1:24
+So the first thing we need to do, create the element.
+1:27
+That is done by document dot create element.
+1:33
+It looks almost like this document dot get element by ID here.
+1:38
+However, now we are creating something, not fetching.
+1:42
+And what are we creating?
+1:43
+Well, whatever we place inside of the parentheses.
+1:46
+Naturally, in our case, this would be an element, and this is how we specify it.
+1:53
+We don't need to wrap it in these HTML tag symbols.
+1:57
+Now we have created the list element, so we need to store it in a variable.
+2:01
+I'm gonna use const l I.
+2:04
+And next up, we gotta set the text content.
+2:07
+So we'll do l I dot text content equals
+2:14
+my leads I.
+2:15
+Okay.
+2:16
+Final step, appending it to the UL element.
+2:19
+Well, then we'll do ULL dot append.
+2:24
+And what do you think will append?
+2:26
+Well, the LI, of course.
+2:28
+So we'll take this and pass it in there.
+2:31
+Now if I run this code, you can see it works.
+2:35
+However, in my opinion, this is easier to understand intuitively than these three lines.
+2:44
+Because here we get to see at least the HTML element in a more humanly readable way.
+2:50
+But you will come across this method as well.
+2:53
+So now what I want you to do is basically do the same thing as I did.
+2:58
+Try to make this work with the new method and with this line of code commented out.
+3:04
+And if you need help, you can use this pseudocode to Google your way to the solution, or you can of course go back and watch how I did it.
+3:11
+But after you've done it, I'm not gonna go through it again because I've already done exactly that.
+3:16
+This is just a little digression for you to get this practice of doing it another way, and then when you're done, we are going to return back to this dot inner HTML method here from the next cast and work a little bit on the performance of our solution.
+3:30
+So give this a shot right now and then I'll see you in the next cast.
