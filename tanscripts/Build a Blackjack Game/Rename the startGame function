@@ -1,0 +1,49 @@
+Transcript
+0:00
+So the problem now is that the start game function is triggered both when we hit the start game button, which makes a lot of sense, but also when we click the new card button.
+0:10
+Because even though the new card button triggers the new card function, which is this one right here.
+0:18
+That function itself calls start game as well.
+0:21
+And while this makes sense because we wanna run this code, the fact that start game still is called start game doesn't really make sense because if another developer comes in here and looks at that code, he'll be like, why are we starting the game all over again when clicking a new card?
+0:37
+That doesn't semantically add up.
+0:40
+So what we wanna do here is actually just change the name of the start game function, for example, to render game because that's essentially what we're doing.
+0:49
+We're rendering out the current state of the game.
+0:51
+So we can do render game, just rename this one and this one to that.
+0:56
+So far so good.
+0:57
+But then the problem becomes that we're actually calling start game here, and we could do render game like this, but actually I wanna keep this start game function intact because down the line there might be some other things you wanna do in this game initialization function.
+1:13
+So I want you now to create a function that uses the name start game and then just calls or invokes render game.
+1:21
+That's all it should do so that this start game button will work because now you can see it doesn't work when I click it.
+1:29
+We're actually getting a reference error saying that start game is not defined because we're trying to call a function that no longer exists.
+1:36
+So go ahead and create the start game function here on line twelve and make it just call this render game function right here.
+1:43
+Go ahead and do this right now.
+1:45
+right Okay.
+1:50
+Hopefully, that went well.
+1:51
+The way to do it is through function and then start game, open and close parenthesis, open and close curly brackets, and inside here just call close render game like that.
+2:05
+close Let's rerun the project, hit start game, and yes, now it works again.
+2:10
+Great job.
+2:06
+the project.
+2:07
+Hit start game.
+2:08
+And yes, now it works again.
+2:10
+Great job.
