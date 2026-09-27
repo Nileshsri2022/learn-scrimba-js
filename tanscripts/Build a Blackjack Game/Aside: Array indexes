@@ -1,0 +1,104 @@
+
+Transcript
+0:00
+An important thing to know about arrays is that they are so called zero indexed.
+0:06
+And that means that you wanna grab the first item of the array, you do it through using the zero index, not the first index.
+0:15
+And let me show you what that means in practice.
+0:18
+Featured posts, that's our array, and I wanna grab the first item, the checkout my Netflix clone.
+0:25
+I'll do that through open and close square brackets and then passing in the number zero.
+0:30
+If I now control log this and we run the code, you can see, yes, that we are indeed logging out that string.
+0:38
+So this isn't entirely intuitive since we as humans normally start counting at one, but in a race you start counting at zero.
+0:45
+So if this is the zeroth index, which index does this item have?
+0:53
+Take a guess.
+0:55
+Well, it has the index of two, even though it is the third item.
+1:00
+I run the code.
+1:01
+You can now see that passing in two logs out I've just relaunched my portfolio.
+1:06
+So here is the zero index.
+1:09
+This is the first, and here is the second.
+1:12
+Now with this in mind, I want you to practice this.
+1:16
+So you are to take my experience array here and log out the following to the console and in this order.
+1:25
+So you are to start with the front end developer in Aseneta, then the people counter, and then CEO at Scriba.
+1:30
+So first this one, then this one, and then the first one.
+1:35
+So you have to write three console logs and place them in order here starting from line eighteen so that I'm sure that you actually understand the concept of arrays being zero indexed.
+1:47
+I'm gonna comment out this one right here so it doesn't disturb you.
+1:50
+Now go ahead and solve this challenge.
+1:57
+Okay.
+1:58
+Hopefully, that went well.
+2:00
+Let's do this together.
+2:02
+Going to do console log.
+2:05
+I want the front end developer at Sonera.
+2:07
+That is not the first, but the second item.
+2:11
+And in terms of indexes, it's the zeroth and then the first index.
+2:16
+So then I need to do experience
+2:19
+one.
+2:20
+Okay.
+2:21
+I'm gonna copy this one, paste it in again.
+2:23
+Now I'm going to log out the third item, which is the second index.
+2:28
+So that is experience two.
+2:31
+And finally, I'm going to log out this item right here that has the index of zero.
+2:36
+If I run this code, you can see in the console that we are indeed logging out the items in this order.
+2:42
+Now before we move on, I'm going to confuse you a little bit because let's actually delete all of this.
+2:49
+This, remove the console, and and just go back to this featured posts.
+2:54
+If I now do featured posts dot length and then console dot log this out, which number do you think we'll see printed to the console?
+3:07
+Take a guess.
+3:08
+Well, the answer is three.
+3:11
+And that might be a little bit confusing because I've just taught you that arrays are zero indexed.
+3:16
+So the first is zero, the second is one, the third is two.
+3:19
+So it would be natural to believe that the dot length property of this feature post is two because the final index is two.
+3:27
+But whereas indexes are zero indexed, the length is not zero indexed.
+3:34
+We count the length of an array in just the same way you would count anything in life, which is starting at the number one.
+3:41
+So that also means that the length property of an array is always one larger than the final index.
+3:48
+So this is one of those things that are a little bit unintuitive and confusing when learning JavaScript, and you probably will mix it up a couple times.
+3:56
+That's not a problem.
+3:57
+Just trust me when I say that eventually, this will become second nature for you.
+4:01
+So let's move on.
