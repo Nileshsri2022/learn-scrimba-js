@@ -1,0 +1,43 @@
+Transcript
+0:00
+Okay.
+0:00
+In this challenge you are going to practice objects and functions.
+0:04
+So first you are going to create a person object that contains three keys, name, age and country.
+0:11
+And the values of those keys should be set by using yourself as an example, so your name, your age, and your country.
+0:18
+And then you are to create a function called log data that uses this person object, it just grabs it from the global scope to then create a string in the following format.
+0:28
+Pair is thirty five years old and lives in Norway.
+0:31
+Obviously, Pair thirty five Norway are pulled from the person object directly, whereas the rest is a string that is hardcoded inside of the function.
+0:41
+a Finally, log data in order to verify that it works.
+0:45
+So go ahead and do this right now, and then I will show you the solution as well when you return back.
+0:50
+will Okay.
+0:55
+Let's do this.
+0:57
+We'll do let person equals, open and close curly brackets, name should be pair, let age thirty five, and country close Norway, like that.
+1:13
+And then the function log data, like that.
+1:17
+Here, we will console dot log wait this string, and you can see the first value is actually pulled directly from person dot name.
+1:25
+So we'll do person dot name plus and then s and then plus person dot age person then plus again, we'll years old, and lives in person dot then country.
+1:47
+Like that.
+1:48
+Now the final step is to call the function log data again, and run the code, and yes, we can see Pierre is thirty five years old and lives in Norway.
+1:58
+Great job.
+1:49
+is to call the function log beta and run the code.
+1:54
+And, yes, we can see Pierre is thirty five years old and lives in Norway.
+1:58
+Great job.
