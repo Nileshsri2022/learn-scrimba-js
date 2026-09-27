@@ -1,0 +1,82 @@
+
+Transcript
+0:00
+So I remember when I was learning this slightly clunky way of generating random numbers in JavaScript and thinking, well, why do I really need to generate random numbers?
+0:09
+Is that really such a common thing to do for developers?
+0:13
+And actually, it is.
+0:14
+Of course, there's our use case where we're building a card game.
+0:17
+Obviously, we need to have some kind of randomness in which card you get.
+0:21
+Otherwise, it would be meaningless.
+0:22
+But also imagine all games that use dices.
+0:25
+A dice is basically a physical randomness function that gives you random number between one and six.
+0:30
+But randomness isn't only important in these kind of casino ish games.
+0:34
+I would say in all computer games, randomness plays some kind of role.
+0:38
+For example, in this popular iPhone game, Crossy Road, where you are to cross a road as a duck without getting hit by a car.
+0:46
+Surely, there's some randomness underneath here which decides which cars appear on the road and also when they appear.
+0:52
+But it doesn't stop there with games.
+0:54
+Actually, cyber security, random numbers is a key component in order to authenticate yourself and generate keys as within cryptocurrencies.
+1:02
+So for example, Bitcoin uses random numbers as well.
+1:05
+So random numbers plays a role in the crypto economy as well.
+1:09
+And most importantly, we used random numbers in order to generate the suggested tweet text in our JavaScriptmas advent calendar.
+1:17
+So as you can understand, random numbers are everywhere and you need to learn the most basic way of generating that in JavaScript.
+1:25
+And that is through something that we call the math object.
+1:29
+That's something that's already provided to you in JavaScript or by the browser to be specific, and you can type math wherever you want with a capital m, then do dot random and then open and close parenthesis so that you call this function or method.
+1:46
+And don't worry if you don't quite understand what's going on under the hood here, you're not meant to do that right now.
+1:51
+All you're meant to know is that that will return a number to you, which I've now stored in a variable called random number, and then I'm logging out this random number.
+2:00
+What I want you to do now is pause this screencast and run this code a few times so that you get to see a few of the values that our random number variable can take, and then try to, as succinctly and specifically as possible, write your answer at what you think math dot random does.
+2:19
+So what does it return?
+2:20
+Try to formulate that and write it down, then return back to the screencast when you think you have the answer.
+2:32
+So the way I would write this is that it generates a random number between zero and one, and then parentheses, not inclusive of one.
+2:46
+So it generates a random number including zero and one, but not including one.
+2:51
+So from zero point zero zero zero zero zero to zero point nine nine nine nine nine nine nine nine and a bunch of nines after that.
+2:59
+So if we were to visualize this slightly, say that math dot random gives you a number from zero point zero zero zero and a bunch of zeros after that.
+3:09
+I just couldn't bother writing all of them to zero point nine nine nine nine nine nine nine nine, basically a bunch of nines as well.
+3:16
+That is the range you are given when you give JavaScript this command.
+3:21
+So if we run this, you can see we get zero point six eight and a bunch of numbers, zero point nine five and a bunch of numbers, zero point eight eight, zero point zero zero one.
+3:33
+Yeah, as you can see, we've already been almost very close to zero to very close to one.
+3:39
+Now before we go, there's one thing I need to point out, which is that the randomness here, while it looks completely random for us humans, it's not truly random.
+3:49
+There are some deterministic variables going on under the hood here.
+3:53
+And it's actually a really hard problem in computer science to generate truly random numbers.
+3:58
+But for our use cases, we're not going to worry about that.
+4:01
+As far as we care, these numbers that we generate with math dot random are more than random enough for our use case.
+4:08
+This is not a PhD in cybersecurity, but rather getting you started with web development.
+4:13
+So with that, let's move on.
