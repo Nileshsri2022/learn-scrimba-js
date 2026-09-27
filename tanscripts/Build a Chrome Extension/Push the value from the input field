@@ -1,0 +1,80 @@
+
+Transcript
+0:00
+Okay.
+0:00
+So now we are going to take whatever the user enters into the input field right here and push that value into the my leads array when the save input button is clicked.
+0:12
+clicked.
+0:13
+So push the value from the input L into the my leads array instead of the hard coded w w w dot awesome leads dot com value right here.
+0:23
+However, I haven't taught you how to actually get the value from the input L.
+0:29
+That is for example, this w w w dot example value right here.
+0:34
+So you need to Google that.
+0:36
+And that's great practice because googling is as you know something professional developers do every single day.
+0:41
+something So here is what I recommend you to Google.
+0:45
+Try to find, for example, a Stack Overflow question and see if you can figure it out on your own.
+0:50
+If you don't, no worries.
+0:52
+I will solve this for you when you return back to this cast.
+0:55
+So go ahead and do this right now.
+1:02
+Okay, hopefully this went well.
+1:04
+Let's take a look at how we can find the answer to this by googling.
+1:08
+how So we'll take the get value from input field JavaScript, which is my suggested string and just paste it into Google.
+1:15
+There you can see we are getting a ton of results.
+1:17
+The first one is w three schools.
+1:20
+I wanna go to stack overflow dot com, so I'll click here.
+1:24
+Go into Stack Overflow, then here we can see the question being asked.
+1:27
+It seems super relevant for us, and it's been viewed two and a half million times, so super relevant for a lot of other people as well.
+1:33
+Let's scroll down a little bit to the answers because that's where the juice is.
+1:38
+Here we can see there are various methods to get an input text box value directly.
+1:42
+And here, method one, that's probably what we want.
+1:44
+You can see document dot get element by ID passing in an ID and doing dot value.
+1:49
+Oh, that's pretty handy.
+1:51
+So how do we go about doing that?
+1:54
+Well, we already have the document get element by ID, and we have stored that in the input l variable, so perhaps we simply can do And input l dot value then.
+2:07
+Let's now refresh this and do w w w dot sample lead dot com.
+2:13
+Save input.
+2:14
+And yes, we can see in our console that we have pushed the value we entered into the input field.
+2:21
+Save Lead two dot com, save input, and that works as well.
+2:26
+Great job.
+2:27
+Let's move on.
+2:19
+we entered into the input field.
+2:22
+Lead to dot com, give input.
+2:24
+And that works as well.
+2:26
+Great job.
+2:27
+Let's move on.
