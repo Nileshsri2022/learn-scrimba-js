@@ -1,0 +1,75 @@
+Transcript
+0:00
+So earlier in this module, you made a Chrome extension together with p a r.
+0:04
+Remember there was a manifest file that you made?
+0:06
+Let's take a closer look.
+0:07
+So this is a JavaScript file that contains information about the Chrome extension, Things like the name, the description, the author, and the version.
+0:17
+Now this is the file that lets you hook your creation into Chrome to use it as an extension.
+0:22
+You can see a lot of that information right in here in the Chrome extension manager.
+0:27
+Now this is exactly what we need to take a web application like this one and be able to put it on our home screen and make it look and feel like a native mobile app.
+0:37
+Now the technical and fancy name for this is progressive web app.
+0:41
+A web app that looks and feels like a mobile app on your device, which is pretty cool, right?
+0:47
+And so to show you this, I've got this very simple thing set up here which I'm calling the cat app, and all it does is show you a picture of this black cat.
+0:57
+And of course I've used the favicon service that we've used earlier to generate these files that you can see on the left here.
+1:04
+Now let's take a closer look at the site dot web manifest file.
+1:08
+Okay.
+1:08
+I'm not liking this because it's not really containing any spaces so it's very hard to figure out what it is.
+1:14
+Let me snap my fingers and see you in just a second to make it look better.
+1:19
+And we are back.
+1:20
+So let's take it from the top.
+1:22
+Here we have the name and short name.
+1:24
+We're gonna set both of those equal to cat app because it's a fairly short name.
+1:29
+There we go.
+1:30
+And then we got icons here which we can see is referring to the icons that we have on the left side.
+1:36
+And you can see that these are different sizes.
+1:39
+So it's gonna figure out which one to use depending on which device we're on.
+1:43
+And then we've got the theme color which is by default set to white.
+1:47
+What is exactly that?
+1:49
+So this is how our app would look on a phone, and the theme color is what we have at the top there.
+1:54
+I've set it to red to make it stand out better, which reminds me that we actually have to change this to the right color.
+2:00
+There we go.
+2:00
+That's much better.
+2:01
+What about the background color?
+2:02
+The background color is the color that you'll see before the CSS loads and is overridden by the background color that you've set in your CSS.
+2:11
+So you generally wanna set that to the same color as your background color of the project you're working on.
+2:16
+And then finally, we have display equaling standalone, which is what ensures that our project looks like a native mobile app without any of the browser interface elements.
+2:26
+So it hides all of that.
+2:28
+That's all you really need to know for this section, but if you're interested in going further and diving deeper into how this works, you wanna press here to read this article on MDN.
+2:37
+And so that's it for this scrim.
+2:38
+Let's get back to our app.
