@@ -1,0 +1,52 @@
+
+Transcript
+0:00
+If you ever wonder whether a value is truthy or falsy, you can check it through writing boolean, open and close parenthesis, and then pass in whatever value you wanna check inside of those parenthesis.
+0:12
+those Here, we'll do hello.
+0:14
+do Let's store this in a variable called true or false.
+0:20
+Now console log true or false.
+0:24
+On the code, you can see that we get true, meaning that hello evaluates to true.
+0:29
+hello Removing the content of the string, running it again, we get false because as you hopefully remember, an empty string is a falsy value.
+0:38
+is Now with this in mind, you are going to do a set of challenges, which I said in the previous cast.
+0:44
+Here they are, it's six console logs, and inside of them, we are checking a bunch of values for their boolean value.
+0:53
+So each of these lines will log out either true or false, and your job is to hear after these two slashes, write either true or false depending on what you think will be logged out.
+1:04
+So go ahead and give this a shot right now.
+1:07
+ahead Okay.
+1:13
+Let's do this.
+1:14
+So an empty string as we remember that is a falsy value so this will log false.
+1:19
+that Here, I'm trying to trick you because zero is indeed a falsy value, but this is a string which contains one character.
+1:28
+It's not zero, so this will be true.
+1:32
+Here, a hundred, that's a truthy number.
+1:35
+No.
+1:36
+Hopefully you remember that that is a faulty value, so this will be false.
+1:40
+And here, I'm also trying to trick you, zero wrapped inside of an array, while zero is a faulty value, an array is a truthy value, so this will be true.
+1:52
+Here minus zero, zero is a falsy value and whether it's minus or plus zero doesn't change that so this should be false.
+2:01
+Let's run the code and we get false true true false, true, false, correct.
+2:08
+Now we'll return back to the Chrome extension, and you'll use these truthy and falsey skills in order to build a conditional for the leads we have stored or not stored in local storage.
+2:20
+So let's move on.
+2:13
+skills in order to build a conditional for for the leads we have stored or not stored in local storage.
+2:20
+So let's move on.
