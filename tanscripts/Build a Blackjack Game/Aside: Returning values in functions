@@ -1,0 +1,106 @@
+
+Transcript
+0:00
+Okay, let's return back to our racing game example in order to learn about returning values and functions.
+0:07
+So here we have two players who've raced through the game and player one got the time one hundred and two and player two got the time one hundred and seven.
+0:15
+And our job is to create a function that returns the fastest race time.
+0:19
+So in order to do that, we first have to do function.
+0:22
+And I'm gonna call this get fastest base time.
+0:27
+Quite a long word, but at least it's descriptive.
+0:30
+And inside of the body of the function, we have to first check which of these times were fastest.
+0:35
+So we'll do an if statement and say, if player one time is less than player two time, well then we are going to return player one time.
+0:48
+Because if it's less than player two, then it's the fastest grace time, and we are going to return it.
+0:54
+Now this return keyword here might now seem a bit weird and you probably don't understand yet what it means, but don't worry about that right now.
+1:01
+It'll be clearer as we move on.
+1:03
+And then we're going to do else if.
+1:06
+The next condition is if player two was faster than player one, that is player two time is less than player one time.
+1:15
+If so, we are going to return player two time, like that.
+1:20
+Then an else if, actually these two are equal, so none of these expressions evaluate to true.
+1:28
+Well, then the fastest time is any player's time because they have the exact same time.
+1:34
+Could either return player one time or player two time, it doesn't matter.
+1:37
+I'm just gonna return player one time.
+1:39
+Okay.
+1:40
+Now what we can do is we can do let ask this race.
+1:45
+I'm gonna call this variable at, and now I'm going to define that, declare that variable as the result of invoking this function.
+1:55
+So I'm gonna do get fastest race time like that.
+2:00
+Now the value of fastest race time will be whatever this function has returned.
+2:07
+And if we console log, pass this race time, we can see we get a hundred and two.
+2:13
+That's correct, because this function compared player one and player two, and rightfully recognized that player one was faster than player two, and thus returned player one time.
+2:24
+What you might think now is, well, we're just console logging out the value here, what's the point?
+2:29
+Why couldn't we just, instead of these returns, just do console dot log, Do that directly inside of the function.
+2:39
+Do that first and run it.
+2:41
+You can see, yes, we are now indeed running this line six here.
+2:45
+We're console logging out the value.
+2:48
+But if we down here try to see what is the value of fastest race at this point and run the code, you can see that we're getting a hundred and two first from this line, but then we're getting undefined from line sixteen because now the fastest race variable simply isn't defined because this function didn't return anything, and it's actually quite valuable to have stored the fastest race time inside of this value as opposed to just having console logged it out up here, because now we can use this variable for something else.
+3:19
+So let's do it like this and return instead, and move over and remove the parentheses as well.
+3:28
+Wondering how I got the cursor to be on multiple lines at the same time?
+3:32
+It's a trick where you first select a word and then do command d.
+3:37
+Or if you're not on a Mac, control plus d.
+3:41
+Select the word, command d one, two times, and now I've selected all of the return keywords so that I can delete them or retype them.
+3:51
+That was just a quick little tip.
+3:53
+Now it's time for a challenge.
+3:55
+So you are going to write a function that returns the total race time, then you are going to call or invoke the function, and then store the returned value in a new variable.
+4:05
+You have to decide for yourself what you wanna call that variable, and what you're gonna call this function.
+4:10
+And finally, you are going to log your variable out just to check that everything has worked.
+4:14
+So go ahead and do this right now.
+4:21
+Okay.
+4:21
+Hopefully, this went well.
+4:23
+Let's do this.
+4:24
+New function, get total race time.
+4:30
+And the way to do that is simply to return player one time plus player two time.
+4:37
+Then we can create a new variable called let total time equals get total race time.
+4:47
+Now we can console log total time.
+4:50
+Everything like that, running the code, and indeed we get two hundred and nine in the console, which sounds just about right.
+4:58
+So great job.
+4:59
+Let's move on.
