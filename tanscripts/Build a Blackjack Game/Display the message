@@ -1,0 +1,98 @@
+
+Transcript
+0:00
+Okay.
+0:01
+So now our player can click the start game button like this.
+0:04
+However, we're only logging out the message.
+0:07
+Obviously, don't wanna do that.
+0:08
+We want to display that info on the page along with, of course, information about the cards and the sum.
+0:15
+But starting with the message, I want you to solve a two part challenge.
+0:19
+First, you are going to store the message l paragraph, that is this one right here, that in a variable called message l using the camel case naming convention, and then you're going to display the message using message l dot text content.
+0:37
+Then of course you can remove the console log right here since we don't need it anymore as the message will pop up here in our app instead.
+0:44
+So go ahead and give this a shot and return back to me when you wanna see my solution.
+0:48
+return Okay.
+0:54
+So the way to do this is, if you remember, first by creating a variable with let message l, and then using the document keyword, dot get element by ID, passing in the ID, which we can see from the HTML and just copy from there actually.
+1:16
+Paste then in here.
+1:18
+As always, control logging to see that we are on the right track.
+1:23
+from Running this code and yes, there we can see we are logging out to that element.
+1:28
+that Now it's just a matter of deleting this line, code.
+1:32
+doing message l dot text content and what do we wanna set the text content to?
+1:38
+just We wanna set it to message like that.
+1:42
+If we now run the code, hit the start game button.
+1:45
+Yes.
+1:46
+There we got.
+1:46
+Do you want to draw a new card?
+1:48
+Great job.
+1:49
+Now there's one thing I wanna do before we round off.
+1:52
+That is actually to remove these emojis because when they are italicized, they don't look that good.
+1:58
+And while that isn't the most complicated thing to fix, it's not something I think you should learn right now.
+2:03
+I wanna keep up the pace.
+2:04
+And also when we see this text here rendered on the page, it's kind of our dealer speaking to us in italic text, and I don't think our dealer should show that much emotion.
+2:13
+So it makes sense to remove these emojis like this.
+2:17
+And also maybe make it a bit more neutral.
+2:19
+The dealer will just tell us that we have blackjack.
+2:21
+Won't shout out woohoo.
+2:23
+So makes more sense.
+2:25
+We're on your card.
+2:26
+Yeah.
+2:26
+Looks good.
+2:27
+If we get blackjack yeah.
+2:28
+I think that looks good.
+2:30
+So with that, let's move on.
+2:21
+blackjack.
+2:21
+Won't shout out.
+2:22
+Woo hoo.
+2:23
+So makes more sense.
+2:25
+We're on your card.
+2:26
+Yeah.
+2:26
+Looks good.
+2:26
+If we get blackjack yeah.
+2:28
+I think that looks good.
+2:30
+So with that, let's move on.
