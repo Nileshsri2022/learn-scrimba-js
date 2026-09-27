@@ -1,0 +1,79 @@
+Transcript
+0:01
+Okay.
+0:01
+So now we're back at our blackjack game and you might have noticed that we've lost the code that we previously had.
+0:06
+Well, that's the point of Scrimba.
+0:08
+You are going to write the code, not me.
+0:10
+So I want you to rewrite the conditional that I created previously, but with a slightly different take.
+0:17
+You have to follow the logic that I lay out in the pseudocode here.
+0:21
+So you have to use in the first if clause, the less than or equal to operator.
+0:27
+So you have to set it to less than or equal to twenty.
+0:29
+And then in the else if clause, you can use the strictly equal to check if the sum is exactly twenty one.
+0:35
+And finally, you're going to use the else clause and not an else if on the third conditional, which I did previously.
+0:42
+So go ahead and do this and if you can't do it or wanna see my solution, just return back to the screencast and I will show you how to do it as well.
+0:50
+Good luck.
+0:50
+well.
+0:55
+Okay.
+0:56
+Let's do this.
+0:57
+First, there's the if sum is less than or equal to twenty, then we are console logging out this string right here.
+1:08
+are And then we do else if, the same as we did last time, sum triple equals twenty one.
+1:15
+as That's the blackjack case.
+1:18
+And here, I'm lazy, so I'll just copy paste this one, And and then this one in here.
+1:25
+And then finally, not doing else if and checking for the condition, but just doing the else to all other cases.
+1:33
+And then pasting in this, you are out of the game string like that.
+1:38
+Good stuff.
+1:39
+Let's run the code.
+1:40
+And yes, we have seventeen here and we rightfully so logged out.
+1:45
+Do you want to draw a new card?
+1:46
+Good stuff.
+1:47
+If we try to hit one more time with another ten, we are out of the game.
+1:53
+Good stuff.
+1:54
+And how about a four?
+1:55
+Black tack.
+1:56
+Woo hoo.
+1:57
+Great job.
+1:58
+Let's move on.
+1:53
+stuff.
+1:54
+And how about a four?
+1:55
+Blackjack.
+1:56
+Woohoo.
+1:57
+Great job.
+1:58
+Let's move on.
