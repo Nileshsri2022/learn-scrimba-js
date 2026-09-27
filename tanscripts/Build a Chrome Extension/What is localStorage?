@@ -1,0 +1,54 @@
+
+Transcript
+0:00
+So in order to fix our problem of storing leads across page refresh, let's actually open up a browser window and see if we can find a way to do this by playing around with the developer tools.
+0:12
+So here I have wikipedia dot org.
+0:14
+I'm gonna right click and then hit the inspect so that we open the developer tools.
+0:20
+Here we're starting out at the elements, so we see the HTML elements of the page.
+0:25
+But where our action happens is over in the application tab.
+0:29
+I'm gonna click that and there you can see we get a new list of fancy words here on the left hand side, service workers, storage, local storage, cookies.
+0:38
+Some of these names you might have already heard before and they're probably a bit scary, and to be honest you don't need to know about any of them at this point.
+0:44
+What we want to look at is this one right here called local storage.
+0:48
+Because when we click that, we can see it says wikipedia dot org here, and if we click into that item as well, it opens up this table here on the right hand side where we have keys and values.
+1:00
+And that's something you probably recognize from JavaScript objects for example or even the JSON notation.
+1:06
+Here you can see that Wikipedia has created three weird looking keys and given them some values.
+1:11
+So it seems as if Wikipedia is trying to store some value about me because these values here in local storage will only be available for me.
+1:20
+They are local to me when I visit this domain.
+1:23
+This data isn't shared by default with all other users who visit Wikipedia at this point.
+1:28
+For example, you can see portal session ID, some weird long string that's probably totally unique to me.
+1:33
+But without getting into too many details here, what's important is that this is kind of like a local database that we can use.
+1:40
+So let's try to do that.
+1:41
+If we hit on the console tab and open up the console, which you've previously seen, and then type in, for example, local storage dot clear and open and close parenthesis to call that function, and then navigate back to the application tab, you can see that we have cleared out all of the key value pairs in our local storage, so we were able to interact with these values using JavaScript.
+2:04
+Going back to the console, we can yet again, for example, do local storage dot set item, and then pass in first my leads as a string, and then comma, and then I'm gonna pass in the string of the URL that we visited previously, that is Frode's LinkedIn profile, and then hit enter.
+2:22
+If we now go back to application again, you can see that we have a key value pair in our local storage.
+2:28
+The key is my leads, and the value is the URL to Frode's LinkedIn profile.
+2:33
+And what's so cool about this, if I now try to hit the refresh button, what you'll see is that yet again Wikipedia adds back these three key value pairs, but the my leads key and its value persists.
+2:46
+And that is exactly the feature we're looking for.
+2:49
+Persisting data cross page refresh.
+2:52
+So with this in mind, let's move on and try to interact with the local storage from our index dot j s file in the next cast.
+3:01
+So I'll see you there.
