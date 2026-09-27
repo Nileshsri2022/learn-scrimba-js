@@ -1,0 +1,68 @@
+
+Transcript
+0:00
+Okay.
+0:01
+Now we are going to complete our dice feature because we know that with this expression, currently, can get a whole number from zero up to five.
+0:09
+So the question then remains, how do we turn this range into rather a range between one and six, which is essentially the same as a dice.
+0:17
+And I want you to try this for yourself.
+0:20
+Try to modify the expression so that we get a range from one to six instead of zero to five.
+0:25
+Go ahead and give that a shot right now.
+0:27
+right Okay.
+0:33
+Hopefully, that went well.
+0:35
+went To understand what we need to do, we can compare each of the numbers here.
+0:39
+We can see that first number here is one, and the first number there is zero, and how do we go from zero to one?
+0:46
+We add one.
+0:48
+And the same goes for all of the numbers here.
+0:50
+How do we go from one to two?
+0:52
+Well, add one, and from five to six, we add one.
+0:55
+So basically, what we can do is just do plus one at the very end.
+0:59
+Then if we run the code, you see we get two, we get six, three, five, six, two, one.
+1:08
+Yes.
+1:08
+We indeed get the entire range of a dice.
+1:11
+So really good job reaching this far.
+1:14
+Now I only have one last challenge for you, and that is I to create a function called roll dice that returns a random number between one and six.
+1:24
+So basically, you're going to take what we've done here and wrap it into a function and then return the result.
+1:30
+Go ahead and do that.
+1:31
+function Okay.
+1:36
+To do this, I'll do function roll dice, open and close parenthesis, open and close brackets, and inside of here, I'm just going to copy this line, close paste it in, and then return just random number like that.
+1:52
+line, Now I have to remove it from up here because out here on line two, random number isn't even defined, so we can't log it out.
+2:00
+Random number is now only defined inside of the roll dice function and the value of it gets returned.
+2:07
+So if we console.
+2:10
+Log and inside of the parenthesis we call the roll dice function like that So to get, yes, a random number between one and six.
+2:22
+Really good job reaching this far.
+2:23
+This was complicated stuff, so if you feel a little bit shaky with this, that's totally okay.
+2:28
+You can go back and rewatch it and retry all of the challenges if you want to, and then when you feel ready, we'll move on and use this knowledge to make our blackjack game much better.
+2:31
+you want to.
+2:31
+And then when you feel ready, we'll move on and use this knowledge to make our blackjack game much better.
