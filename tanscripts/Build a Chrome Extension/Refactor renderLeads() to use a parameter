@@ -1,0 +1,50 @@
+
+Transcript
+0:00
+We are back at our leads tracker app, and now you are going to do what I did previously, which was to refactor the render leads function so that it takes a parameter, which I suggest you should call leads, that it uses instead of the global my leads variable.
+0:16
+This one right here.
+0:17
+So hopefully you remember how I did this or were able to wing it on your own.
+0:21
+Anyway, please also remember to update all of the function invocations across the file as well.
+0:27
+It is a good idea to update the name as well, but it's not strictly needed, so I'll leave it up to you to decide whether or not you wanna do that.
+0:33
+Just go ahead and give this a shot right now.
+0:36
+this Okay.
+0:43
+Hopefully, this went well.
+0:44
+Let's do this.
+0:45
+went So we are going to create this function so that it rather takes in a parameter here, which we are calling leads, instead of referring to the global my leads variable.
+0:58
+So then we simply need to replace my leads with what we've called our parameter like this in these three places, and that's it.
+1:06
+I also wanna remove leads from the name and then go up here, change the name, and also pass in the my leads variable.
+1:16
+the Do the same thing here, in and we've cleared out the my leads variable, passing my leads, which now is just an empty array.
+1:25
+And finally, down here, pass in my leads like that.
+1:30
+empty Let's run this to verify that it works.
+1:35
+Save input.
+1:36
+Delete all.
+1:36
+Yes.
+1:37
+Great job.
+1:38
+Let's move on.
+1:33
+verify that it works.
+1:35
+Save input, delete all Yes.
+1:37
+Great job.
+1:38
+Let's move on.
