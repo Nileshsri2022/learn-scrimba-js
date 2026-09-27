@@ -1,0 +1,75 @@
+Transcript
+0:00
+And we are back to our leads tracker app.
+0:02
+So now that you know how to use onValue to get a snapshot, I want you to implement that in this app.
+0:08
+So I'm gonna do the first part for you, which is the easy one, is just importing that from up here.
+0:13
+And now down here is where I want you to solve the challenge.
+0:17
+solve There you have it.
+0:19
+Pause here.
+0:19
+Give it a go.
+0:20
+Try to remember how to do it first.
+0:22
+And if you're having troubles, then you can go back to the last scrim and take a peek at the code.
+0:27
+But pause the scrim right here, work it out for yourself, and then I'll be with you in just a couple of seconds and we'll look at it together.
+0:34
+Okay.
+0:34
+All the best.
+0:35
+All Okay, so we have the onValue function that we wanna call and it takes in two different things.
+0:46
+First is the reference in DB, the so we know exactly where we're fetching the data from and then we have a function inside of here which has a snapshot object.
+0:59
+And this is the code that gets run over and over again whenever something new happens to the database.
+1:04
+In this case, us pushing new data to it.
+1:06
+So we wanna console.
+1:08
+Log we the snapshot every time that happens.
+1:12
+So if I run it now, hopefully, the one lead we have in there should show.
+1:17
+There we go.
+1:18
+There it is.
+1:18
+Now let's add another one in here.
+1:20
+Now And there it is once again.
+1:28
+Awesome.
+1:29
+It's working.
+1:30
+Now there's one last thing that we gotta remember.
+1:32
+This snapshot object actually contains a lot more than just the data.
+1:36
+So we wanna only get the values which we can do by saying dot val.
+1:41
+If we run that, we're gonna get the same thing in the Scrimble console, but this is actually the object that just contains the values.
+1:49
+Snapshot contains a lot more.
+1:51
+So that's the distinction between the two.
+1:53
+Okay?
+1:53
+Awesome work on that challenge.
+1:55
+Let's keep going.
+1:52
+Okay?
+1:53
+Awesome work on that challenge.
+1:55
+Let's keep going.
