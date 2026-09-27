@@ -1,0 +1,30 @@
+
+Transcript
+0:00
+Now it's time for a scary challenge because you are going to check if it is Friday the thirteenth.
+0:06
+And if so, you are going to log out this spooky face because as you might know, Friday the thirteenth is kind of a scary date if you've seen the Friday the thirteenth horror movies.
+0:17
+So you have two variables, day of month which is meant to be from either one to thirty one depending on which day of the month it is, and then a weekday variable which is meant to be Friday or Tuesday or Wednesday or any of the days in the week.
+0:31
+And if it is both Friday and the thirteenth, and only if both of those conditions are satisfied, you are to log out the spooky face.
+0:39
+So just to remind you, you have to use the logical and operator, which we learned is symbolized with these two ampersands.
+0:49
+So go ahead and give this a shot right now.
+0:51
+right Okay.
+0:56
+Let's do this.
+0:57
+We'll do if, open and close parenthesis, and here we'll do day of month triple equals thirteen if it is the thirteenth day, and if it is the weekday And of triple equals is Friday, weekday then we are going to log out the spooky emoji like that.
+1:20
+log Running the code, nothing happens because it's Friday the thirty first.
+1:24
+code, Flipping this around Friday the thirteenth, yes, we are logging out the spooky face.
+1:30
+And if we change this to Tuesday, the nothing logs out because this time the first condition was satisfied, it evaluated to true, but the second one was not satisfied, so it evaluated to false.
+1:43
+And the and operator requires that both the first and the second evaluates to true in order to execute the code in the body of the if statement.
+1:55
+So great job.
