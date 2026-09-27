@@ -1,0 +1,71 @@
+Transcript
+0:00
+Okay.
+0:00
+There's one really weird thing with our blackjack game, and that's easily exposed if we console log out the cards here at line twelve, and then refresh the page, there you can see I got two and seven, and the reason that's weird is because I haven't even clicked the start game button.
+0:16
+I kind of just entered the casino, and the casino has already decided what cards I am to be dealt.
+0:22
+That's fishy.
+0:23
+We don't want that.
+0:24
+I want the cards to be generated as I click on the start game button.
+0:27
+start So the first card and the second card should be generated inside of the start game function.
+0:33
+And thus, the cards and the sum also needs to be reassigned inside of the start game function.
+0:38
+And also, the is alive shouldn't be set to true by default.
+0:42
+Before I've even clicked the start game button, I'm not alive.
+0:45
+I'm not even playing the game.
+0:46
+I'm gonna use that as an example and set it to false first, then inside of the start game function, I'm going to do is alive equals true.
+0:56
+So now we have the correct starting state before I've entered the game up here on line six, and the correct value once I've started the game down on line twenty six.
+1:06
+So what I want you to do is make it so that the same thing happens with cards array because it should not be set here, and the first and second card shouldn't even be defined up here, and the sum should be zero by default.
+1:20
+sum So this is how the state of the game is before I've started playing the game.
+1:25
+Now what you need to do down here at line twenty three and twenty four is generate the two random numbers, then reassign the cards and the sum variables so that the game can start.
+1:36
+So you might find this a bit tricky, but do your best.
+1:39
+There's no shame in trying and failing because I will of course also show you how to do it when you return back to this cast.
+1:46
+Good luck.
+1:51
+Okay.
+1:52
+Let's do this.
+1:53
+We'll start by defining first card and second card, and they should be defined by running the get random card function.
+2:00
+That'll give them the get random card function.
+2:03
+Second card equals random card as well.
+2:06
+Now we can set the cards array to first card first and second card, and the sum to first card plus second card like that.
+2:22
+And also, actually, card get this console log back in again this and rerun the browser.
+2:28
+You can see now it's empty.
+2:30
+The casino hasn't decided which cards I am to get.
+2:32
+Very good.
+2:33
+So it start game, and there I got my blackjack.
+2:36
+Oh my god.
+2:37
+That's amazing.
+2:37
+And with that, I have nothing more to say.
+2:40
+I'll see you in the next cast.
+2:40
+see you in the next cast.
