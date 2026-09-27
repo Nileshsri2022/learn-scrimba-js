@@ -1,0 +1,88 @@
+
+Transcript
+0:00
+So now we are going to use local storage in our app, and we do that in the exact same way as we did it using the console on wikipedia dot org.
+0:09
+However, we're writing it in our JavaScript file.
+0:12
+That means that we can simply use the local storage variable.
+0:17
+That is accessible in the so called global scope, so when you're running JavaScript in a browser, you have access to this variable wherever you are.
+0:25
+We'll then do set item, open and close parenthesis, and then we'll first write the name of our item.
+0:32
+We'll call it my leads, then we'll specify the value.
+0:37
+Here I'll just do example lead dot com.
+0:43
+Well, this is the key and this is the value.
+0:46
+If I now run this code, nothing seems to have happened, but if we actually delete this entire line and even rerun the browser again so that we know that the only way to get a hold of that data would be if it is persisted in local storage.
+0:59
+And then try to do exactly that by doing local storage dot get item, passing in the name of our item, the key, and that was my leads.
+1:09
+And then we console log that out, running the code.
+1:14
+Ah, there we go.
+1:15
+Examplelead dot com is logged to the console because our browser remembers that we previously saved a lead under this name and now we can get it.
+1:24
+That is pretty cool.
+1:25
+It opens up so many possibilities.
+1:28
+Now I want you to try this.
+1:30
+You are going to solve a three part challenge.
+1:32
+First, you are to save a key value pair in local storage in the exact same way as I did, and then you are to refresh the page, and then get the value and log it out to the console.
+1:42
+Finally, I want you to clear out the local storage as well.
+1:45
+And as a little hint, I have added the three methods you are to use down here.
+1:49
+Local storage dot set item, passing in key and value.
+1:53
+Get item, passing in key, and clear which clears out the entire local storage.
+1:59
+So you need to use all of these three and one little gotcha before you take a stab at this.
+2:03
+Both the key and the value that you pass in here and here need to be strings.
+2:09
+That's a limitation with local storage, meaning you can only store strings, so it is a very primitive database, but it's what we got.
+2:17
+So give this your best shot and then return back to the screencast if you wanna see me do it yet again.
+2:27
+Okay.
+2:28
+Let's do this.
+2:29
+First, we do local storage dot set item.
+2:32
+I'm gonna call this one my name and set it to pair Harold Oregon like that.
+2:38
+I'm gonna run the code so that now, hopefully, this has been saved, meaning I can actually comment it out because we don't need it anymore.
+2:46
+Now I can do local storage dot get item and then pass in my name like that.
+2:53
+Actually, I'm gonna store this in a variable called name just as a little bonus here and then console log out the name instead of just console logging out this expression.
+3:04
+When we run this, we can say yes, we are logging out my name.
+3:08
+Good stuff.
+3:08
+Let's move on to the final part of the challenge.
+3:11
+I'm gonna comment this out and then I'm going to do local storage dot clear.
+3:16
+Now if I run the code, apparently nothing has happened, but if we now uncomment these two lines again and run it.
+3:25
+Oh, null.
+3:27
+So my name no longer exists.
+3:29
+Well, that's great because that's exactly what we try to do by clearing out local storage here on line eleven.
+3:35
+So as far as I can see, local storage really seems to do the job.
+3:38
+Let's move on and learn how to use this properly with our my leads array so that it's implemented into our app and gives us that ever so important persistence feature for our leads.
