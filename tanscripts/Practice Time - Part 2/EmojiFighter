@@ -1,0 +1,90 @@
+
+Transcript
+0:00
+If you, like me, grew up in the nineties, you might remember this game Street Fighter two on Super Nintendo.
+0:06
+It was really cool.
+0:07
+So now, I wanna create a copy of this game called emoji fighter.
+0:11
+Or actually, we won't do any fighting here.
+0:13
+We'll just set the stage for two emojis to challenge each other.
+0:17
+So the way it works is that when the user clicks on the pick fighters button, I want two random emojis to appear side by side with a Versus between them for versus.
+0:27
+As you can see, I've coded up the skeleton for you here by creating this fighters array, which contains all of our different fighters, and also fetching references to the stage and to the button.
+0:39
+And the stage is where I want you to render out the emojis, and the button is the one right here.
+0:45
+As you can see in the index JS, I've hooked it up with an event listener so that we listen for clicks, which we can verify by inside of this callback function, trigger out click, so that now if we run the code and click on the button, can see it is logged to the console.
+1:00
+So your job then is to inside of this function, write the code needed in order to pick two random emojis from this array, and then display them in the stage l.
+1:11
+Now as a little hint, if you don't know how to pick a random item from this array, do remember that you know how to generate a random number in JavaScript, and then you can use that random number as an index, which you again use to fetch out one of these emojis, as you hopefully know how to get ahold of items within arrays using the items index.
+1:33
+So just do that twice, and then render it out.
+1:36
+And if you struggle, don't worry, as always, I will show you the solution when you return back to me.
+1:41
+Good luck.
+1:47
+Okay.
+1:47
+Let's do this.
+1:48
+So now what I wanna do first is generate a number that is between zero and whatever length this fighters array is.
+1:56
+So let's just get started and do some trial and error.
+1:59
+You let random index equals math dot random, like that.
+2:06
+If we now console log that out and see that when we click on the pick fighters, we get random number between zero and one, so this range is too narrow at the moment.
+2:18
+We need something between zero and the final index here, so what I'll do is I'll multiply math random with fighters dot length like that.
+2:28
+Now if we run the code and click pick fighters, can see we get twelve point something, two point something, four point something, three point something.
+2:34
+Yeah, it actually looks pretty promising.
+2:37
+However, we don't want these decimals, so what I'll actually do, I'll floor this entire expression down to the closest whole number by doing math dot floor, and wrapping this entire expression within the parentheses of the floor method.
+2:53
+If we now run this again, and choose pick fighters, we get eight nine three five.
+2:58
+Yes, this is actually really promising.
+3:01
+So now if I instead of logging out just the random index, actually log out fighters, square bracket and then random index.
+3:09
+What do you think will happen then?
+3:11
+As you can see, we are logging out a random emoji, so now what we need to do is duplicate this line here because we want two random emojis.
+3:21
+I'll do random index one and random index two like that, and then let's actually console log out the first emoji plus v s space before and after and then plus fighters, where brackets, random index two.
+3:41
+We run the code and pick fighters, then we get an error.
+3:44
+I've done a mistake.
+3:45
+It says random index is not defined.
+3:47
+That is because I forgot to change this variable into random index one when I renamed this one because I wanted two of them.
+3:56
+So a little live debugging session right there, let's run that again.
+4:00
+Pig fighters, yes, now it works.
+4:02
+Dinosaur against a seal, we get to the console.
+4:05
+Meaning that the final thing we need to do is just replace the console log with stage l dot text content, and then set that equal to the same expression that we just logged to the console.
+4:19
+If we run the code, click pick fighters.
+4:21
+Yes.
+4:22
+There we go.
+4:22
+Robot against crab.
+4:24
+Click again, we get a spider against a dragon, and finally a robot against a dragon.
+4:29
+So great job solving this challenge.
