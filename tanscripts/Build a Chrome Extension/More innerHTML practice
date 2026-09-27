@@ -1,0 +1,52 @@
+
+Transcript
+0:00
+Okay.
+0:01
+Let's continue on with our ecommerce website.
+0:04
+Because let's say that you wanna thank the user after she's made a purchase.
+0:08
+That's not a nice thing to do.
+0:09
+So what we wanna do is that when the user has clicked the button, we are to render a paragraph under the button but still inside of the same container.
+0:19
+So this container right here in which the button is rendered inside of.
+0:23
+button And the paragraph should say thank you for buying.
+0:26
+say So I'm going to help you a little bit on the way here by creating an onClick event listener inside of the button that will try to invoke a function called buy when the button is clicked.
+0:38
+So your job then is of course to create that by function and have it render a paragraph inside of this container using dot inner HTML so that the user is thanked.
+0:49
+And one thing, we don't want to remove the button.
+0:52
+one When you render this paragraph, it should be under the button.
+0:56
+So go ahead and give this your best shot right now.
+0:59
+go Okay.
+1:04
+Let's do this.
+1:05
+We'll do function by, and then inside of the body of the function, we need to target the container yet again.
+1:12
+Container and its inner HTML.
+1:14
+to However, if we try now to just render out a paragraph like this if and run the code, click the buy button, then we lost our button because here we just cleared out the inner HTML and say we want whatever's inside of the container right now, we don't care about it.
+1:32
+We wanna set it equal to this paragraph and this paragraph only.
+1:37
+What we instead have to do is use our good old friend plus equals.
+1:40
+So now if we run this call again, hit buy, and there we go.
+1:44
+Thank you for buying neatly placed underneath the button.
+1:47
+Great job.
+1:43
+And there we go.
+1:44
+Thank you for buying neatly placed underneath the button.
+1:47
+Great job.
