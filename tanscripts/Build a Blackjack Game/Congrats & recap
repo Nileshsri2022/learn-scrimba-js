@@ -1,0 +1,79 @@
+Transcript
+0:00
+So you have built your very first JavaScript game.
+0:04
+Congrats with that.
+0:05
+This is perhaps the first of many games you're going to build, perhaps the start of a career as a game developer.
+0:10
+I don't know.
+0:11
+Anyway, give yourself a pat on the back.
+0:13
+You have learned a ton.
+0:15
+And actually, let's do a little recap, so that we remind yourself about all the awesome things you've learned throughout this section.
+0:22
+One thing which was key to our app and is key to basically every web app out there is the arrays.
+0:27
+We defined a card array, and also we reassigned the array down in the start game function where you defined it with items, and then all the way down at the new card button, you also pushed to the array.
+0:40
+So you are starting to get some serious array skills.
+0:44
+Also, we worked with objects.
+0:46
+Up here we created our player object, and the object as you remember contains key value pairs, and it's also a data type that is used in basically every single web app out there.
+0:57
+The third data type you learned was booleans, namely the true and false for the has blackjack and is alive variables.
+1:05
+We flip them around, so we set is alive to true down here, and has blackjack set to true down here, and thus creating kind of a state for our game.
+1:16
+This brings us to the next important concept you learned which is the if else statements that wrapped these booleans and so many other things.
+1:24
+This is key.
+1:25
+You cannot build apps without these kinds of conditional statements.
+1:29
+Both the if, the else if, and the else are absolutely key in any programming language.
+1:35
+And in order to make these if else statements work, we used comparison operators.
+1:40
+That's these guys in here, less than or equal to or triple equal, they helped us define the conditions as to when we wanted to render the blocks of code in the if else statement.
+1:51
+Moving on, we also did logical operators, the and operator, which checked that both this condition and this condition was true in order for us to run this code in the block of the if statement.
+2:06
+And something we also learned was the for loops.
+2:10
+It was here in the render game function where we used the for loop to loop through our cards array and render out each of the cards.
+2:18
+Again, for loop is just one of those foundational things in programming because so much of programming is evolved around looping through data and doing things based upon the data.
+2:28
+Whether that's rendering it out, making calculations, sending it off from a server to a client, or just summing it together for example, it doesn't matter, it's just something you'll do again and again, so I'm really happy that you've learned it as early as now.
+2:40
+Another useful tool you've learned is the math object, that allowed us to create this get random card function by using math dot random, which gives us a number between zero and one, and math dot floor which basically floors the numbers to the nearest whole number moving downwards.
+2:58
+And you built upon your further knowledge of functions and learned how to use return statements in functions, because in this get random card we had to return values, and that's something you didn't know before this section.
+3:10
+There's still more things to learn about functions, so we'll definitely continue on with functions in the Chrome extension we're going to build a bit later, but for now just be proud about the fact that you've at least come to the point where you can return values in function.
+3:21
+That's a big important step.
+3:23
+So with all of these things learned, I completely understand.
+3:27
+If you feel that you're a little bit on shaky ground here and at all these names basically just confuse you even more.
+3:33
+I don't think you should worry about that.
+3:34
+I would have never remembered the difference between comparison operators and logical operators when I learned JavaScript.
+3:40
+What they are called doesn't really matter.
+3:42
+The important thing is that you know how to compare two variables for example or that you know how to create a true or false variable whether that you call them booleans or true false isn't something you should be too worried about right now.
+3:55
+So even though this might look scary, try to not let it scare you.
+3:58
+Just focus on coding as much as you can because over time these concepts will mature in your mind and become second nature.
+4:06
+And actually, on that note, you are going to get some practice right away because before we jump on to the final project, the Chrome extension, I'm going to throw a few challenges on you just so that we're sure that you really understand these concepts and that you build out that ever so important muscle memory.
+4:22
+So let's go ahead and do that right now.
