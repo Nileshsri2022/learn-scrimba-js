@@ -1,0 +1,46 @@
+
+Transcript
+0:00
+Okay.
+0:00
+In this challenge, you are going to create the basic markup we need in order to start building our app.
+0:06
+So you are to create a an input element, is of type text and has the ID of input dash l.
+0:13
+And then you're gonna create a save input button, that is one the user will click in order to save the input.
+0:19
+And it should have the ID of input dash b t n.
+0:22
+And here, save input should be the text inside the button.
+0:26
+So go ahead and do this right now.
+0:28
+do Okay.
+0:33
+Let's do this.
+0:35
+I'll start with the input and give it a type of text give and ID of input l.
+0:43
+And the input element is a so called void or empty tag, meaning it only has an opening tag, so you're not supposed to create closing tag because you're not meant to write anything in between input tags.
+0:55
+not It's the user that is meant to add the input.
+0:59
+So this is how you create an input tag, which as mentioned, often called void or empty tags or you'll also hear them referred to as self closing tags.
+1:08
+Anyway, let's move on to the button.
+1:10
+New button.
+1:12
+That is not a void tag.
+1:14
+It should have a closing tag and an opening tag.
+1:18
+And in between, we are going to write save input, and the ID is set here as input dot v t n.
+1:26
+and If we now run this code, you can see, yes, indeed, have an input field and a button.
+1:32
+Great job.
+1:28
+yes, indeed, we have an input field and a button.
+1:32
+Great job.
