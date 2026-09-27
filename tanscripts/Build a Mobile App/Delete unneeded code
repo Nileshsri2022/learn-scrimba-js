@@ -1,0 +1,141 @@
+Transcript
+0:00
+In this scrim, we wanna delete the code that we don't need going forward because remember, we're turning the Chrome extension into a leads tracker app, which means, for example, that we no longer need the save tab button.
+0:11
+So let's go into the HTML file and delete this button right here.
+0:16
+There we go.
+0:17
+Let's run that.
+0:18
+And it's gone, but we do get an error because we have a bunch of JavaScript code that's associated with that button.
+0:25
+And this is where I want you to help me.
+0:27
+So the challenge is delete all the code associated with the save tab button that we just deleted.
+0:34
+So pause here, try it out for yourself, and I'll be with you in just a little moment, and we'll go through it together.
+0:40
+All the best.
+0:45
+Okay.
+0:45
+How did that go?
+0:46
+If you didn't quite get it, then don't worry.
+0:48
+Let's look at it together now.
+0:49
+So the first thing I'm looking at is this tab b t n which is referring to the HTML element that we just deleted.
+0:56
+So let's delete this one.
+0:58
+And then we have the tab b t n dot add event listener.
+1:02
+In other words, the code that's running when we click that button, which, of course, no longer exists, so we wanna delete this whole thing.
+1:10
+Is there anything else in the rest of the code?
+1:13
+Nope.
+1:13
+I don't see anything so that's it for that challenge.
+1:16
+Awesome job on completing that one.
+1:18
+Now since in this module we wanna use Firebase to store all the data, we no longer need local storage.
+1:25
+So for this next challenge, I want you to delete all of the code that's associated with local storage.
+1:33
+Okay?
+1:33
+Again pause here, work on this challenge yourself and I'll be with you in about four seconds and we'll look at it together.
+1:39
+Good luck.
+1:44
+Okay.
+1:44
+I hope that wasn't too difficult.
+1:46
+Let's take it from the top.
+1:47
+All of this, of course, is Firebase code, so we don't wanna touch that.
+1:51
+Where can we see local storage?
+1:52
+Ah, there it is.
+1:53
+Leads from local storage.
+1:55
+This is exclusively a local storage thing so we can take away this entire line.
+2:01
+There we are.
+2:01
+Then we have this if statement that uses what we just deleted.
+2:05
+So we have to delete this one too.
+2:07
+Otherwise, we're gonna get an error.
+2:09
+Let's delete that.
+2:10
+Anything else that we can see?
+2:12
+Oh, here it is.
+2:13
+Local storage dot clear.
+2:14
+We wanna remove that one as well.
+2:17
+Perfect.
+2:18
+And we got one little thing here.
+2:20
+Again, local storage.
+2:22
+This whole line can be deleted.
+2:24
+And that is it for that challenge.
+2:26
+Let's take away this.
+2:28
+Now there is one last thing that I wanna remove before we finish the scrim.
+2:32
+On this line, we can see that we have a my leads let variable that's an empty array.
+2:38
+This is where we're storing all the leads.
+2:40
+But since we're gonna be using Firebase in this module, all of the leads will be stored in a Firebase real time database.
+2:47
+So we don't actually need this array anymore.
+2:50
+So let's delete this one.
+2:51
+And then there is some more code related to that right here as well.
+2:57
+There we go.
+2:58
+We can delete this one as well, and we can delete this one.
+3:02
+Well, actually, let's turn this into a console log instead.
+3:07
+And then we can delete this one.
+3:09
+So instead of pushing it into the array, we're just gonna be console logging whatever we put in in here.
+3:15
+Okay.
+3:16
+Now let's make sure that everything is working and we have no errors when we run this project.
+3:21
+Do we have anything in the console?
+3:23
+No.
+3:23
+Nothing.
+3:24
+Perfect.
+3:25
+Great job so far.
+3:26
+Now we can finally get to the good stuff where we start using Firebase to build our new leads tracker app.
+3:33
+I'll see you in the next one.
