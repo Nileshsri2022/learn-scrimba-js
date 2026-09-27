@@ -1,0 +1,76 @@
+
+Transcript
+0:00
+Okay.
+0:01
+Now you're going to experience how powerful for loops are when combining them with arrays.
+0:07
+Because let's say that we are building a chat application, like the one that LinkedIn has which I showed you earlier, And these messages might just well be items in arrays.
+0:17
+Let's just pretend that each of these messages are exactly that and ignore all the metadata around the messages like the time and the profile picture and name and stuff like that and just pretend that we have the data structure which contains a bunch of messages inside of an array.
+0:32
+Basically, just what we have here, the exact same array we've worked with earlier as well.
+0:36
+Now pretend that this is a console based array, so everything basically need to do is log out these messages to the console.
+0:43
+But in order to do that, we can't just console log out messages because then we'll just get a long array, and that's not what we want.
+0:51
+We want each of the messages on its own line and not with the square brackets and stuff like that around.
+0:57
+So the hard way to do this is by doing like this.
+1:01
+Message one, messages two, three, like to take the index from zero to three and log all of them out.
+1:10
+There we go.
+1:11
+Now we have what looks like a chart in the console.
+1:14
+But this is a really bad way of doing it.
+1:17
+We are repeating ourselves again and again, and that's a general anti pattern.
+1:21
+There's something called dry for don't repeat yourself.
+1:28
+Don't write more code than you need to, and especially not if you're just repeating the same code.
+1:32
+And also, this doesn't scale because if I add now at the end of the array and run the code, I'm not logging out the last one.
+1:40
+I have to manually update my code.
+1:42
+So what we instead want to do is combine this array with a for loop.
+1:48
+Now let's comment out this and write four.
+1:54
+Let I equals zero, semicolon.
+1:58
+And then we want I to stop before it reaches five.
+2:03
+Then we want I to increment by one at every single iteration.
+2:08
+Now inside of this for loop, we log the value of I.
+2:14
+See in the console that we get from zero to four, and that actually resembles quite a lot what we did there.
+2:22
+However, we've even added the index of the latest item as well.
+2:26
+So how about we, instead of just logging out, I simply do messages, open square brackets, close square brackets, use the I as the index, and then run the code, and boom.
+2:40
+There we go.
+2:41
+We have all of the items logged out in order one after another.
+2:46
+Brilliant.
+2:47
+However, there's still a little problem here that if I add yet another message here, maybe an emoji, and I run the code, the emoji isn't logged to the console.
+2:56
+Then I have to change this to six again, so it's still not fully like dynamic.
+3:01
+However, I have a trick because how can I get a hold of the number six in a dynamic way?
+3:09
+Well, you might remember that a race has a property is called length, and that will refer to the actual length of the array.
+3:19
+If we use that, we can be sure that our loop counts up to the final index all the way up to the end of the array.
+3:29
+If we now run the code, yes, there we have all of our messages regardless of how long the messages array is.
+3:36
+So this was a lot of typing from my end though, so let's move on to a challenge so that you get to practice this as well.
