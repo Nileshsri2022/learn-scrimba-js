@@ -1,0 +1,50 @@
+
+Transcript
+0:00
+Okay.
+0:00
+Up until now, we've only passed in strings as arguments in our functions.
+0:05
+However, you can of course pass in whatever data type you want.
+0:08
+For example, numbers.
+0:10
+And I want you to practice that now, so I'm going to give you a challenge where you are to use numbers in a function that you have written from scratch.
+0:18
+So here you have to combine what you've previously learned about functions and arguments and see if you can connect the dots together.
+0:25
+So you are going to create a function called add that simply adds two numbers together and returns the sum.
+0:32
+So down here on line five and six, I'm calling this function and then and then logging it out.
+0:38
+I'm doing that two times, and the first time the number seven should be logged out, and the second time the number one hundred and eleven should be logged out, because I've passed in three and four the first time around, and nine and a hundred and two the second time around.
+0:52
+So these are basically your test cases.
+0:54
+So go ahead and write this function here on line three, it should have two parameters and should return the sum of those two parameters.
+1:02
+And then afterwards, I will of course show you the solution as well.
+1:05
+as Okay.
+1:11
+Hopefully, that went well.
+1:13
+Let's do this.
+1:14
+We'll do function, add, open and close parenthesis, and then the square brackets, and inside of the parenthesis, we need to define our two parameters.
+1:23
+I would call the first one num one and the second one num two.
+1:27
+And here, I'm just going to return num one plus num two, like that.
+1:32
+num If we now run this, we can see in our console we are logging out seven and a hundred and eleven.
+1:39
+Great job.
+1:40
+Let's move on.
+1:38
+hundred and eleven.
+1:39
+Great job.
+1:40
+Let's move on.
