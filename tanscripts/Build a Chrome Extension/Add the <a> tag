@@ -1,0 +1,103 @@
+kay.
+0:00
+Now our job is to make our leads list clickable because as you can see here on the LI item over in the browser, this is just plain text, whereas we want it to be a link so that after a sales representative has gathered all of the leads, she can click and check them out again at a later stage if she wants to.
+0:18
+So in order to do that, we need to wrap the lead in an anchor tag, that's the a tag inside of the list item.
+0:24
+So you need to change this expression here so that my leads is also wrapped in an anchor tag.
+0:29
+And then you need to use the href attribute to point to the specific URL, which is the same as the text you are rendering out.
+0:37
+And I also want you to make the link open in a new tab.
+0:40
+And if you don't remember how to do that, it's super easy to forget.
+0:43
+You'll just have to Google it out and figure it out on your own.
+0:46
+So go ahead and knock this one out and then return back when you wanna see my solution.
+0:55
+Okay.
+0:56
+Hopefully, that went well.
+0:57
+If not, no worries.
+0:59
+Let's do this together.
+1:00
+So we want the anchor tag on the inside of the li tag, so I'm going to add the same strings as we are creating the li elements, an anchor element as well.
+1:09
+So like that, and I'm going to set the href now just to this hashtag symbol right here, and then I'm gonna close the anchor tag on this side.
+1:21
+If we run the code, I'll add awesome lead into the input and save it.
+1:25
+There we indeed can see that we get the default link styling, so our link works.
+1:29
+Now at this point, you might wonder, well, why am I using single quotes for the value of the href?
+1:33
+Why isn't it wrapped in double quotes as you might have seen people do other places when writing HTML?
+1:39
+Well, that is because here, we are using the double quote to tell a JavaScript that we're working with a string.
+1:44
+And if we then use a double quote here as well, then we're actually ending the string here as opposed to ending it here.
+1:50
+So this is a little bit complicated.
+1:52
+We start having strings that need quotes inside them, then you have to use either single quotes on the inside and double quotes on the outside or the opposite.
+2:00
+And now this actually becomes even more complex because what we need to do is inside of here replace this hashtag with the my leads because it's going to point to that URL as well.
+2:09
+How do we do that?
+2:10
+Well, now we actually need to close off the string before the hashtag because we're going to add a JavaScript variable.
+2:17
+So then we will add the double quote, a plus sign, and then a plus again, and then a double quote yet again to start this string right here.
+2:26
+Of course, then this hashtag now serves no purpose.
+2:29
+It's just an invalid character in JavaScript.
+2:31
+We need to replace that with the my leads.
+2:33
+So we can remove this space right here.
+2:36
+Now if we actually console log out the list items, you run the code and try to save an input as well again, then you can see we are getting an expression which looks like valid HTML.
+2:50
+One more thing we need to do is to make the link open in a new tab, and I told you to Google that, so let's just do that as well.
+2:57
+And here, I would just Google Ahref open in new tab, and actually, Google is smart enough to just give us the answer at the top here.
+3:03
+You can see it's pulled up from this rapid tables dot com article, and here you can see in order to open a link in a new window or tab, add target equals underscore blank inside of the a tag.
+3:14
+Alright.
+3:15
+Well, I'll do target equals, and what kind of quotes do we need to use now on the inside of the string?
+3:20
+Well, we need to use single quotes, underscore blank.
+3:24
+Otherwise, we would have escaped out of the string again and into JavaScript land, and we don't wanna do that.
+3:29
+This is just a string, and we don't need any JavaScript variables to express it.
+3:33
+Now one thing is that when you try to click these links in the Scribba browser, even though you're using target blank, it won't work properly.
+3:40
+It'll open up a new tab which just has a super weird URL.
+3:43
+That's just a Scribba quirk, so don't worry about that.
+3:45
+If you run this code from your local computer, this anchor tag will indeed work.
+3:49
+Anyway, now we have all of this, and it works.
+3:53
+However, this string is really long and ugly in my opinion.
+3:58
+It's a complicated expression, And I would like us to simplify it and avoid using these mix of single and double quotes and all of these plus signs.
+4:08
+And maybe we also want to write this expression on multiple lines as you normally do in HTML.
+4:13
+However, that won't work.
+4:14
+As you can see, it breaks our entire code in syntax highlighting, seen by the fact that the syntax highlighting is completely off at this point.
+4:21
+So in the next cast, I'm going to teach you about template strings, which will solve exactly that.
+4:26
+So just stay tuned, I'll see you there.
