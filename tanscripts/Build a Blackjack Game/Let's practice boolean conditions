@@ -1,0 +1,100 @@
+
+Transcript
+0:00
+Now that you've learned about booleans, let's take a look back at the conditional you wrote.
+0:05
+Because one thing you probably didn't think too much about when you wrote your conditionals is that the expressions inside of the parentheses would be translated by JavaScript eventually into a boolean.
+0:19
+So it would be either true
+0:23
+or false.
+0:24
+That's always the case with expressions passed into conditionals.
+0:28
+Thus here we are comparing two numbers and one of them are either larger than the other or they are two equal numbers.
+0:36
+So the claim you come with has to be either true or false.
+0:40
+Let's try to play this out using an example.
+0:42
+For example, when you've gotten two cards, a ten and an eleven, meaning you have blackjack.
+0:47
+In that case, sum will be twenty one, and the claim you come with inside of the first if statement, obviously, that is a lie, meaning it gets evaluated to false.
+0:59
+In the second condition though, you're saying that sum is equal to twenty one, and we know we are going to translate sum into twenty one because that's what it is.
+1:09
+Here you're saying twenty one triple equals twenty one.
+1:13
+Well, yes, that is a true statement, so that becomes the true boolean.
+1:18
+Here, you can read through it.
+1:20
+If false, well, then we're gonna skip the body of this statement.
+1:24
+Else if true, yes, we like true, then we are going to execute that piece of code.
+1:29
+So this is essentially what happens when you run the code with specific values for these variables.
+1:38
+Rewinding it back, what I wanna do now is stress test your comparison and boolean skills.
+1:45
+So I'm going to paste in a bunch of control logs here, and then comment out our blackjack game.
+1:52
+Now your job is to look at each of these expressions and predict whether true or false is logged to the console.
+2:01
+So write either true or false after these two slashes on each of the lines from one to seven, and then of course, when you've given it a shot, run the code and see how it went, and then I will do the same thing afterwards as well.
+2:12
+Go ahead and do this right now.
+2:20
+Okay.
+2:20
+Let's do this.
+2:22
+First, four triple equals three.
+2:25
+Obviously, that's wrong.
+2:27
+It's gonna log out false.
+2:29
+Five is greater than two.
+2:31
+That is true.
+2:34
+And twelve is greater than twelve.
+2:36
+No.
+2:36
+Twelve is not greater than twelve.
+2:38
+It's exactly the same, so this will be a false statement.
+2:42
+Three is less than zero.
+2:44
+Again, that's also false.
+2:46
+Three is larger than or equal to three.
+2:50
+Yes, that would be a true statement, because it's not larger than, but it is equal to.
+2:56
+So true.
+2:59
+Eleven is less or equal to eleven.
+3:02
+Again, it's not less than eleven, but it is equal to eleven, so it's true.
+3:08
+And three is less or equal to two.
+3:10
+No.
+3:10
+Three is actually larger than two, meaning that this is going to be false.
+3:14
+So this is my prediction.
+3:16
+Let's run the code, bring up the console, and yes.
+3:21
+Phew.
+3:21
+I was right.
+3:23
+Very good.
+3:24
+Let's move on.
