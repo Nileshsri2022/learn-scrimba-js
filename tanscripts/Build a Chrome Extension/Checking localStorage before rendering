@@ -1,0 +1,86 @@
+
+Transcript
+0:00
+So now that we're able to check if we have any leads in our local storage, and if so, we parse those leads so that we get them as a JavaScript array, we are ready to act upon whatever data we get here.
+0:13
+And first, let's then look at what kind of data we can get, because there's essentially two situations we need to account for.
+0:20
+One is this one right here, where the myArray in local storage gives us back some data, for example this array right here.
+0:29
+If so, we have something to work with and we can render it out instantly.
+0:33
+But then there's the other situation, which is the one right here, where actually there's no data in the my leads key in local storage, and actually the key doesn't even exist.
+0:43
+If so, we know that we get back null.
+0:46
+So that is a falsy value, and this is a truthy value.
+0:50
+So then the question is, what are we going to do in these two cases?
+0:53
+Well, if the value is null, meaning that there's no leads stored in local storage, well, we're not going to do anything because there's no point trying to render out any leads if there's no leads that are saved there initially.
+1:04
+So then we're just going to ignore it, not do anything.
+1:07
+But if we find a couple of leads, if we get an array back from this expression right here, then we need to first set my leads to whatever leads we are returning back, and then call the render leads function, because the render leads function takes the leads in the my leads array and renders them out.
+1:28
+Because of course that's what we want to do.
+1:30
+We want to show the user whatever we found in local storage.
+1:33
+So here is the challenge formulated.
+1:37
+First, check if leads from local storage is truthy.
+1:40
+That's this variable right here.
+1:42
+If so, set the my leads variable, this one up here, to its value.
+1:48
+And by that I mean the value of this variable right here, the leads we have fetched out from local storage.
+1:55
+And then call render leads.
+1:57
+So this might be a little bit of a difficult challenge, but give it your best shot and then I will show you the solution as well when you return back to the screencast.
+2:10
+Okay.
+2:10
+Hopefully, this went well.
+2:12
+Let's do this.
+2:13
+We'll do if leads from local storage.
+2:17
+That's actually everything we need to do because this evaluates to either a truthy or a falsy expression, and if it's a truthy, this code will be run.
+2:27
+If it's a falsy, then JavaScript will just jump over all of these lines and continue down here on line sixteen.
+2:33
+So inside of here, we are first going to set my leads to this newly value we've just fetched out.
+2:40
+My leads equals leads from local storage, and then we are going to render leads like that.
+2:51
+If we run this now, you can see nothing happens.
+2:54
+That's because at this point, local storage is most likely null.
+2:58
+Let's just log it out to verify that.
+3:01
+Yes.
+3:01
+We're indeed logging out null.
+3:03
+What we then can do instead is actually add awesome lead and epic lead to our list.
+3:11
+Now both of these should be saved in local storage.
+3:15
+We should be in this situation right now.
+3:17
+So if I refresh, yes.
+3:21
+Now we have persisted our leads across refresh.
+3:25
+That is so cool.
+3:26
+So give yourself a pat on the back.
+3:27
+You should be so proud of yourself reaching this far.
+3:30
+You're now working with a small database basically, and that's a huge step towards becoming a professional developer.
