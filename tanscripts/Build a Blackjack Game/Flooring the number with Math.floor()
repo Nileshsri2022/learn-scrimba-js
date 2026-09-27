@@ -1,0 +1,46 @@
+
+Transcript
+0:01
+Okay.
+0:01
+So now we need to learn another method on the math object, and that is math dot floor.
+0:07
+What floor does is it takes some input, a number, and then does something with that number and returns it so that you can store that in a new variable.
+0:16
+For example, like floored number right here.
+0:18
+That is the floored version of this number.
+0:21
+So I want you to pause the screencast, run this code a few times, and answer the question, what does math do to positive numbers?
+0:30
+And the reason I'm saying positive numbers is I don't want you to add negative numbers in here because the mental model is slightly easier if you only think about positive numbers, and it's a bit easier to write a concise answer to it in my opinion.
+0:41
+And finally, I've never used math floor on negative numbers anyway.
+0:45
+It's usually used on positive numbers.
+0:47
+So try this.
+0:48
+Feel free to add a few different numbers in here and run the code.
+0:51
+And once you're ready, just type out your personal explanation of what you think Mathfloor does.
+0:56
+Go ahead and do this right now.
+0:58
+and Now, the way I think of Mathfloor is that it simply removes the decimals.
+1:08
+Because if we run this, you can see it returns three.
+1:11
+We have twelve point four, twelve.
+1:15
+Even twelve point nine nine nine nine nine nine still twelve.
+1:19
+Okay.
+1:20
+So great job.
+1:21
+With that knowledge in mind, let's move on to the next lesson.
+1:20
+So great job.
+1:21
+With that knowledge in mind, let's move on to the next lesson.
