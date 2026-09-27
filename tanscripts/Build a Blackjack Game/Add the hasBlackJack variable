@@ -1,0 +1,46 @@
+
+Transcript
+0:00
+Okay, so our game is coming along really nicely here.
+0:03
+However, there's a big problem, and that is, let's say that you are playing this game and you get blackjack, so you get a ten and an ace, and boom, you've got blackjack.
+0:12
+got Down here at line thirteen, you of course want to cash out your money.
+0:16
+You're gonna get the pot on the table.
+0:18
+However, at this point down on line thirteen, JavaScript has no way of knowing which console log it logged out.
+0:25
+It doesn't remember that.
+0:27
+So what we need to do then is introduce a new variable that keeps track of this state, can call it, the state of the game.
+0:33
+Like has the user gotten Blackjack?
+0:36
+Or maybe has the user lost?
+0:37
+Or whatever it is.
+0:38
+So what we then wanna do is for this scenario, have a variable that reflects whether or not the player has blackjack.
+0:46
+And when I say whether or not, yes or no, is there a data type in JavaScript that you think might be suitable for describing such a state?
+0:54
+If you guessed a boolean, a true or false, that is correct.
+0:58
+So what we'll do is we'll do let has blackjack like that, and set that initial value of course to false because by default you don't have blackjack.
+1:08
+to Then here inside of the else if clause that describes the blackjack case, we're simply going to reassign the has blackjack value to true instead.
+1:22
+case, Now down at line sixteen, if we log this out, the has blackjack value, and then run this code, boom.
+1:32
+You can see that we're both logging out on line nine and we have persisted the state so that line sixteen for example can start writing the code for taking the cash that's on the table that now is rightfully yours and then deposit it into your account.
+1:46
+So now we have an app that keeps track of the data of the state in a much more sensible way.
+1:52
+Now I want you of course to write this kind of logic yourself, so in the next cast I'm going to give you another challenge so that we can keep track of even more of the state of this game.
+2:02
+I'll see you there.
+1:58
+we can keep track of even more of the state of this game.
+2:02
+I'll see you there.
