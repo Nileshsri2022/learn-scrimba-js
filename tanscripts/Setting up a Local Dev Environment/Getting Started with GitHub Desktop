@@ -1,0 +1,109 @@
+Transcript
+0:00
+Let's get started by downloading GitHub Desktop.
+0:02
+So you can click on this link or on the image to go to desktop dot GitHub dot com.
+0:07
+And once you're there, we can click on download.
+0:09
+That will download a zip file to your computer, and you can follow the installation process and then sign in to GitHub desktop with your GitHub login.
+0:17
+And after you do that, your screen should look something like this with some options on the left and any existing repositories that you might have on GitHub on the right.
+0:26
+After this is all set up, here is your first challenge.
+0:29
+You'll use GitHub Desktop to create a new local repo, unzip the project files you downloaded earlier, and move those files into the new repo.
+0:37
+Here's a couple of hints on the getting started screen of GitHub Desktop.
+0:41
+There is a button called create new repository.
+0:44
+I highly suggest that you use that.
+0:46
+And your second hint is that you can use all default options.
+0:49
+So if you're not sure what an option should be, leave it how it is.
+0:53
+Go ahead and pause the scrim and give this a try, and I will be right back to walk you through it.
+1:02
+Alright.
+1:02
+We're back.
+1:03
+Hopefully, you have a shiny new repository, and here we go.
+1:07
+I'm going to start by clicking on the create a new repository on your hard drive button.
+1:11
+I can then give my repository a name and a description as well as choose where I wanna put this repository on my computer.
+1:19
+Now might be a good time to create a special folder where you'll keep all of your present and future coding projects.
+1:24
+So I've created a folder called projects, and that's where I've saved my project ZIP file.
+1:30
+That's also where I'm going to save my new repo by clicking open.
+1:33
+And I can go ahead and leave these options how they are and click create repository.
+1:37
+So now I have a new repository called Scoreboard, but there are no uncommitted changes because there's nothing in it.
+1:44
+I still need to move my project files into the repo folder that I've just created.
+1:48
+So GitHub Desktop, you'll find is super helpful.
+1:52
+Here are some friendly suggestions it says for what to do next.
+1:55
+And we have this option that says view the files of your repository in Finder.
+2:00
+So I'm gonna click this show in Finder button, and that will take me to the location on my computer where I have stored my repo.
+2:07
+So here I have my repository and my project ZIP file.
+2:11
+So I will click on the ZIP file to unzip and then copy and paste these files into my scoreboard repo.
+2:18
+So when I return to GitHub Desktop, you'll see that it has detected that I have added three files to this repository.
+2:26
+Before I can put this repository up on GitHub, I'm going to need to make what's called a commit.
+2:31
+Making a commit means that you're making a record of the changes that you've made to your project so that you or future devs you're collaborating with will know what you've done.
+2:40
+So as you can see in green are the changes that I've added.
+2:43
+And if I were to delete anything, and we'll see this later, that will show up in red.
+2:48
+To commit these files, I will need to write a commit message, And that is just a brief summary of the changes that I'm including in my commit.
+2:56
+Once I've written my commit message, I can click on commit to main.
+2:59
+Now if you don't understand what main refers to, don't worry about it.
+3:03
+It's something called a branch and you'll learn more about it later.
+3:06
+So I'm gonna click on this.
+3:08
+And now that we've committed our changes, we are ready to publish to GitHub.
+3:13
+As you can see, GitHub Desktop has very helpfully highlighted this option that says this repository is currently only available on your local machine.
+3:21
+By publishing it to GitHub, you can share it and collaborate with others.
+3:25
+So that's exactly what we wanna do.
+3:26
+Let's click on publish repository.
+3:29
+This will pop up a window where I can give my remote repository, meaning the repository that's up on GitHub, a name and a description.
+3:37
+So I'll go ahead and write those to match my local repository, and then I will unclick this box that says keep this code private because we don't wanna keep it private.
+3:46
+We wanna share it with everybody.
+3:48
+Then I can go ahead and click publish repository.
+3:52
+So now we've created a repo for our project and we have published that repo to GitHub.
+3:57
+We now have the option to view on GitHub, so let's take a look.
+4:00
+We now have this lovely new repo up on GitHub, and GitHub Desktop is set up to track any changes we make locally so that we can easily update this repo with those changes.
+4:11
+So in the next scrim, we'll use Visual Studio Code to edit project files and put those changes on GitHub.
+4:17
+I will see you there.
