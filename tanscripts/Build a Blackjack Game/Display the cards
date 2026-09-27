@@ -1,0 +1,48 @@
+
+Transcript
+0:00
+Okay.
+0:01
+Let's continue building that muscle memory of yours.
+0:03
+You are going to do almost the exact same thing as you did with the sum, but this time with the cards.
+0:08
+Because obviously, when you start the game you can see your sum now, but you can't see your cards.
+0:13
+That has to be fixed.
+0:14
+So it's the same three part challenge starting in the HTML where you are to give the cards paragraph an ID of card cell, then in the JavaScript, you are to store the cards paragraph in a variable called card cell with camel case, and then finally render it out in this format right here.
+0:32
+So go ahead and do this right now and then I will show you how I would do it when you revert back to the screen cast as well.
+0:38
+as Okay.
+0:44
+Let's do this.
+0:45
+First, giving this an ID of this card cell, of then storing the card paragraph in a variable called also cards l.
+0:57
+Let cards l in camel case this time, document dot get element by ID passing in cards dash l like that.
+1:08
+Now I'm just gonna jump straight to this line here and do cards l dot text content equals constructing the entire content of the paragraph this time, so we're clearing out the text that's already there and replacing it with a new cards colon.
+1:26
+out This will be actually cleared out and replaced using JavaScript.
+1:32
+Then plus the first card, and then I have to add a space between the first card and the second card, and then the second card like that.
+1:43
+a If I run this code, start the game, and there we go.
+1:47
+We have both of the cards rendered out.
+1:50
+Great job.
+1:51
+Let's move on.
+1:45
+the game.
+1:46
+And there we go.
+1:47
+We have both of the cards rendered out.
+1:50
+Great job.
+1:51
+Let's move on.
