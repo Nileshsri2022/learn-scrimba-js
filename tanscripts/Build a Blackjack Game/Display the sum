@@ -1,0 +1,106 @@
+
+Transcript
+0:00
+Okay.
+0:00
+So let's make our game a little bit more useful because now you can click the start game button and indeed we get the message from the dealer, but we have no idea what our sum and our cards are, so we obviously need to render that out.
+0:12
+And we're going to start with the sum.
+0:14
+So it's a three part challenge where you first have to head into the HTML, and there give the sum paragraph that is this one, an ID of sum dash l.
+0:24
+Then you are to store the sum paragraph in a variable called sum l like this in CamelCase.
+0:31
+And finally, render the sum out.
+0:33
+So here I'm talking about the actual numeric sum on the page using this format.
+0:39
+So sum colon and then the given sum you have up here.
+0:44
+So here you have to keep this text which is already in the DOM intact, but we have done that before so hopefully you'll manage it.
+0:53
+If not, no worries, you can just revert back to this screencast and I will show you how to do it as well.
+0:58
+But go ahead and give this your best shot right now.
+1:06
+Okay.
+1:06
+Let's do this.
+1:08
+First, we'll give this an ID of some dash l.
+1:13
+Moving over to the JavaScript, we'll do let some l with the camel case this time and do document of get element by ID, open and close parenthesis, and the quotes passing in the ID that we just added to the HTML element, some dash l.
+1:33
+Now just to be certain, let's just console log the sum l from the code.
+1:39
+Yes, indeed.
+1:40
+We are grabbing the element and then we need to render out the string of sum and then the actual sum which in this case is fourteen from this variable up here into the element itself.
+1:55
+And the way I'll do that is I'll use sum l and then text content which you should have seen a few times by now and set that equal to not only the sum because if we do that, let's rerun the code and start the game, then we simply just clear out the existing text, whereas we want to keep the sum there, and we can do that in multiple ways.
+2:18
+But the way I'll do it is simply just write sum, colon, a space, and then plus here.
+2:24
+So that we just reconstruct the default text as well in addition to the sum.
+2:29
+I think this is a nice way of doing it.
+2:31
+So if we run the code, start the game, yes, there we go.
+2:36
+Now before we move on, I wanna teach you about another way of grabbing elements from the DOM, because we've used getElementById a few times now, so I'm assuming you're comfortable with this technique and are ready to learn another one.
+2:50
+And that is something called the query selector.
+2:53
+And to learn that, let's comment out this one and copy it to a new line where we can change it.
+3:00
+And here, instead of get element by ID, we'll do query selector, like that.
+3:06
+Since this is a more dynamic method, we have to be a bit more specific in the value we pass into it.
+3:13
+So here, we actually have to pass in a hashtag in front of the SUML to tell the query selector that it's actually the element with the ID of SUML that we're looking for.
+3:24
+Because unlike the get element by ID, we're not specifying that it's an ID in the method name.
+3:31
+It's just called query selector, which is kind of a broader expression.
+3:35
+So query, that's another word for question, and selector, that refers to CSS selectors.
+3:41
+So we're kind of asking for an element by its selector, and then we specify the given selector inside of the parentheses.
+3:49
+So here, if we run this, start gate, the exact same thing happens.
+3:53
+Now if you've forgotten what a CSS selector is, we can head over to the CSS and it's these guys right here.
+4:00
+The body, that's just selecting the body element, this one.
+4:05
+And then there's the ID selector right here.
+4:08
+You can see we are using the hashtag.
+4:10
+Grab the message l because this paragraph has an ID of message dash l.
+4:17
+Likewise, some has an ID as well, so we're using the hashtag to tell querySelector that this some dash l comes in the form of an ID.
+4:26
+Now this means that we could change this to a class instead.
+4:34
+However, then we also have to change this hashtag and replace it with a dot.
+4:38
+Hopefully, you remember that the way to select CSS classes is by using the dot.
+4:43
+If we run this, it still works.
+4:46
+And actually, we could even pass in just the element name as well.
+4:50
+We could do body right here.
+4:53
+However, it would break our app since we're now, okay, just clearing out the entire body when we are running this piece of code down here on line eleven, because now, SUML actually refers to this entire body.
+5:09
+So as you probably understand, querySelector is very powerful, and you will see it used in a lot of tutorials here on Scriba.
+5:16
+But as for right now, I just wanted to show it to you so that you are prepared once you see it in other tutorials and out in the wild.
+5:23
+In the near future, I am going to stick with the document dot get element by ID as that does the job for us and it's also a very simple method to understand.
+5:34
+So I'd like to avoid the added complexity of jumping between get element by ID and query selector if we can.
+5:42
+With that, let's just move on.
