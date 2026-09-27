@@ -1,0 +1,52 @@
+
+Transcript
+0:00
+So far, we've only passed in numbers and strings into functions that we've practiced with in this little mini section on function parameters.
+0:08
+However, you can pass whatever variable you want actually into a function as its parameter.
+0:13
+So now I want you to create a function which is called get first, and it takes an array as its only parameter, that's why I'm writing it as a r r.
+0:23
+And this function when called should return the first item in the array.
+0:28
+So I want you to create this function and make it return the first item, and then I want you to call it, passing in an array as an argument so that you verify that it works.
+0:40
+You can do that by using, for example, control log to verify it.
+0:44
+I'm not gonna give you any starter code here.
+0:46
+You gotta write the entire thing because that helps you get the muscle memory.
+0:49
+So go ahead and give this a shot right now.
+0:51
+and Okay.
+0:58
+Hopefully, that went well.
+1:00
+If not, no worries.
+1:01
+Let's do this.
+1:02
+We'll do get first like that, r, and then the body of the function.
+1:08
+Then we need to take this r variable and return the first item.
+1:12
+We do return r, open and close square brackets, and zero inside of it.
+1:19
+Now we can do get first, open parenthesis, and pass in an array.
+1:23
+Let's say this was a Blackjack games, we're passing in the values of my cards like that.
+1:29
+blackjack If we run this, nothing seemingly will happen since we've only returned this value, we haven't logged it out.
+1:37
+Let's actually return it Since and store that value in a first card variable and then console log out first card.
+1:48
+If we run this, first card is console log as ten, and that is indeed correct.
+1:52
+Great job.
+1:48
+If we run this first card is console log as ten.
+1:51
+And that is indeed correct.
+1:52
+Great job.
