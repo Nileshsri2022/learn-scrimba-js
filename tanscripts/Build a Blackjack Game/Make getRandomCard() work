@@ -1,0 +1,76 @@
+
+Transcript
+0:00
+Okay.
+0:01
+We're back at our blackjack game and we are going to fix up this get random card function.
+0:06
+But we'll do it step by step.
+0:07
+So to begin with, I want you to make it return a random number between one and thirteen.
+0:14
+So here you can pretend that we are working with the regular values that a deck of cards usually has.
+0:20
+So with the ace being the one, the numbers from two to ten of course being their respective numbers, and then the jack being eleven, queen being twelve, and king being thirteen.
+0:30
+So from one to thirteen, like this.
+0:34
+Go ahead and give this your best shot, and then of course I will show you how to do it afterwards as well.
+0:39
+afterwards Okay.
+0:45
+Now let's do this.
+0:46
+We know that if we do math dot random, we are going to generate a number between zero point zero zero zero and a bunch of decimals after that until zero point nine nine nine and a bunch of nines after that as well.
+1:00
+So the first thing we need to do in order to get this range to look more like this one is to multiply this entire thing with thirteen.
+1:08
+Zero point zero zero zero times thirteen is still zero point zero zero zero, is still zero and zero point nine nine nine times thirteen is actually just twelve point nine nine nine or we have a bunch of nines after that as well, so we're getting to something remotely similar.
+1:25
+It's just a matter of how many nines we have after the dot.
+1:28
+But this is roughly the range we're working with with this expression right here.
+1:33
+So we wanna remove the decimals, and how do we do that?
+1:36
+Well, if you remember from previously, we can use the math dot floor function and wrap the entire thing inside of the parentheses of math dot floor.
+1:47
+So now we take this expression here, this one, floor.
+1:50
+and we then floor it, which gives you like that and like that.
+1:56
+So zero to twelve.
+1:58
+That's what we're returning here.
+2:00
+Now the question remains, how do we go from zero to twelve to one to thirteen?
+2:04
+Well, that's only a matter of adding a one to any given number.
+2:08
+Just do like that, and that should return a number between one and thirteen.
+2:12
+Let's try to start this game and pull a bunch of cards to see if we actually get the entire range.
+2:17
+and Seven four, looking good so far.
+2:19
+Ten, okay.
+2:20
+Thirteen, yes.
+2:21
+Five, a bunch of other numbers.
+2:23
+four, Getting way too many numbers here.
+2:25
+Let's get that one.
+2:27
+Yes, there we got it.
+2:28
+A one.
+2:29
+So we have the entire range from thirteen to one and just about everything in between.
+2:34
+This was not a normal blackjack round, but at least prove the point that this generates random number between one and thirteen.
+2:41
+So great job reaching this far, but of course we have to modify it because in blackjack we're not following the usual value sequence for cards, so we need to modify our function a little bit, but we'll do that in the next cast.
+2:50
+we need to modify our function a little bit, but we'll do that in the next cast.
