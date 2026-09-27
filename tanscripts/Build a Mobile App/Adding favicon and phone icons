@@ -1,0 +1,59 @@
+Transcript
+0:00
+We are getting so close to finishing this app, and so in this scrim, we wanna make sure that our app has a FAB icon and a phone icon when we later put it on our phones.
+0:09
+Okay.
+0:10
+So we wanna keep the icon dot PNG that we used in the last module, which you can find right here on the left side, icon dot p n g, and then we wanna head on over to fab icon dot I o.
+0:20
+You can press here to open it up on your end, and then we wanna choose PNG to ICO.
+0:25
+Then we wanna drag and drop the icon dot p n g right in here.
+0:29
+There it is.
+0:30
+Beautiful.
+0:30
+And then we wanna download the files.
+0:32
+There we go.
+0:33
+You're gonna get a five icon underscore I o dot zip file.
+0:36
+You wanna unzip that file, and then we wanna make sure that all those files are included in the projects folder, which I've already gone ahead and done in advance here.
+0:46
+Finally, we have some installation code that we need to copy from here, and we wanna put that right in here inside of the head tag.
+0:53
+There we go.
+0:53
+Let's indent that properly.
+0:55
+properly.
+0:56
+Perfect.
+0:57
+Alright.
+0:57
+Now before we continue, let's make sure to delete the things that we don't need.
+1:01
+We don't really need this manifest dot JSON file.
+1:04
+This is for the Chrome extension that you built with ped in the last module.
+1:07
+So we can delete this.
+1:08
+There we go.
+1:09
+Perfect.
+1:09
+Now the very last file that we have here is called site dot web manifest, and this is exactly what we're gonna cover next because this is gonna allow us to turn our web application into a mobile app.
+1:21
+Mobile with quotation marks, of course.
+1:23
+Alright.
+1:23
+Awesome job so far.
+1:24
+I'm gonna see you in the next one.
+1:25
+the next one.
