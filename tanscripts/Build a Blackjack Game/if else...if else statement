@@ -1,0 +1,80 @@
+
+Transcript
+0:00
+Let's practice if else statements a bit more.
+0:02
+Because in Norway, we have this super cool tradition where when you reach a hundred years old, you get a personal birthday card from the king.
+0:11
+This is the king, king Harald the fifth of Norway, and in this challenge, we are going to code the logic for this.
+0:17
+So here it is in pseudocode.
+0:20
+If less than a hundred, and here I'm talking about the h variable of course, then you are to log something like not eligible to the console.
+0:29
+Else if the age variable is exactly a hundred, you are to log something like here is your birthday card from the king.
+0:36
+And else in all other cases, meaning they're over a hundred years old, you get not eligible.
+0:41
+You have already gotten one, because if they're a hundred and five years old, they got their birthday card from the king five years ago.
+0:47
+Okay.
+0:48
+Go ahead and give this one a shot, and then I will show you the solution afterwards as well.
+0:57
+Okay.
+0:58
+Let's do this.
+0:59
+If age is less than a hundred, we'll console log not legible, and then we have to do the else if and specify the condition.
+1:12
+Age is exactly a hundred, then we console log, here is your birthday card from the king.
+1:19
+And else, in all other cases, the person is over a hundred years old, They have already gotten their card, their previous birthday, so not eligible.
+1:31
+Let's run the code.
+1:32
+Yes.
+1:32
+A hundred, you are getting the card at forty five.
+1:37
+You are not eligible.
+1:39
+At a hundred and forty five, you are not eligible either.
+1:43
+Finally, before you leave, let's take a closer look at this triple equals here because it might seem like a little bit of an overkill to have three equal signs after each other.
+1:53
+And that is a valid point.
+1:55
+You could use two if we run the code.
+1:58
+It still works with a hundred and forty five, and actually with a hundred as well, it would still work.
+2:03
+You are getting your birthday card.
+2:05
+However, the thing with two equals, so called double equals, is that it's a little less strict.
+2:11
+So let's say that you by mistake passed in a string here as well, which has the same value of a hundred, but it's a string and not a number.
+2:18
+If we run the code, you can see it still works.
+2:21
+However, with the triple equals running the code, then it doesn't work.
+2:26
+Now it says not eligible even though a hundred is here as a number and a hundred is here as a string.
+2:32
+So double equals ignores the fact that this is a string and this is a number.
+2:38
+Basically converts this into a number if it's a number on the left hand side as well, so that this entire thing would be true.
+2:46
+However, that's not what we want.
+2:48
+We actually want to be strict in our code, which is why I would recommend you to only use triple equals.
+2:55
+Ignore double equals.
+2:56
+This forces you as a developer to be a bit more mindful about how you are checking your conditionals.
+3:01
+You need to make sure that if you're starting out with a number up here, you're also comparing it with a number down in the conditional, but that's just good practice being thoughtful as to what kind of data type you are using in your code.
+3:15
+Just stick with triple equals and you'll be just fine.
+3:19
+With that, let's move on.
