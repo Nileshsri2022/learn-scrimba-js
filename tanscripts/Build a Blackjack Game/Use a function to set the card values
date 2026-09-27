@@ -1,0 +1,61 @@
+Transcript
+0:00
+Okay, it's time to take what you've learned about returning values and functions, and implement that technique into our app.
+0:08
+This is a three part challenge.
+0:09
+First you're going to create a function, getRandomCard, that always returns the number five, and then you are going to use getrandomcard to set the values of the first card and the second card, and then use it to set the value of the card variable down here in the newCard function as well.
+0:27
+So you are going to write your function get random card here, starting on line fourteen, and now you might think, well, that doesn't make sense because we have previously learned that if you define a variable down here on line fourteen, we can't use it up on line two and three.
+0:43
+That's at least how it is with variables you define using the let keyword.
+0:47
+That is exactly right, but when you create functions in the way we do, there's an exception.
+0:52
+So I want you to just try this and see if it works, and then I'm gonna explain afterwards why it works.
+0:58
+Go ahead and give this your best shot, and then I will show you the solution as well afterwards.
+1:07
+Okay.
+1:08
+Hopefully, that went well.
+1:09
+Now let's do this.
+1:11
+We'll do function get random card like that.
+1:16
+Then inside of the body of the function, we'll simply return five.
+1:20
+We need to use this.
+1:21
+A pair at line two, get random card, and on line three, get random card.
+1:29
+So what's happening here is that we're calling this function, it will return five, and thus second card and first card will be initialized with the value five.
+1:39
+As will our card down here, if we do get random card and call it, these two really important, otherwise it won't work, but with them, card will now have the value five.
+1:52
+So let's run our blackjack game, start the game, oh, we got two fives.
+1:56
+Ah, yet another five.
+1:58
+What's the chance?
+2:00
+Obviously, it is a hundred percent at the moment, but that doesn't matter, because we now have the setup for inside of this function, writing the logic for getting an actual random card back.
+2:11
+So that's great.
+2:13
+Finally, I promised to talk a little bit about the fact that we're creating the function down here on line fourteen, and then using it up on line two.
+2:20
+That seems to go against what we learned about variables early on.
+2:23
+However, when you write functions like this, which is called function declarations, the function gets so called hoisted to the top, meaning that it's accessible even at line one, regardless of how far down you define the function.
+2:36
+We could have written this function on line ten thousand, it would still be accessible on line one.
+2:42
+Now there are other ways of creating functions that don't give the function this extra benefit, but as for now, we're only going to write functions in this way, so don't worry about that.
+2:52
+Because now you have another thing to worry about, and that is how do we actually modify this get random function so that it actually returns a random card?
+3:00
+So from the next lesson on, we are going to dive into exactly how to do that.
+3:05
+I'll see you there.
