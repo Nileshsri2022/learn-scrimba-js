@@ -1,0 +1,101 @@
+Transcript
+0:00
+And now it's finally time for us to start pushing data to the Firebase real time database.
+0:05
+So I've already gone ahead and made this app for us to get started.
+0:09
+Let me show you.
+0:10
+So this is called the birthday app.
+0:12
+So I can enter in my name here, Raffid Huda, colon, my birthday, which is the twenty third of the first in nineteen ninety one.
+0:20
+And when we press add, right now, it console logs it because of this line right here, but we wanna push this string to the real time database.
+0:29
+So I already have the import statements set up with the database URL right here, and the app and the database is set up.
+0:36
+Let's have a look at the Firebase console.
+0:38
+This is our real time database, and we do wanna make sure that the rules are set to true and true so we can actually push to the database.
+0:47
+Now let's go back to data and now let's write the code to actually push this value to the database.
+0:53
+The very first thing we need to do is to create a reference.
+0:57
+A reference is a specific location in the database where we can push data, and it's a required step before we can start pushing data.
+1:06
+And in order to create a reference, we need to import a Firebase function that's called ref.
+1:11
+So let's do that up here.
+1:12
+Let's do comma ref, and let's put that on a new line, actually.
+1:16
+There we go.
+1:18
+Perfect.
+1:19
+Now that we have that imported, we can go down here and make another const and create a reference.
+1:25
+Let's call it reference in d b, and we'll equal that to be ref, and then first we need to feed it to the database so it knows which database we're working with.
+1:35
+And then we wanna give it the name of the reference, which in this case, because we're dealing with birthdays, let's just go ahead and call that birthdays.
+1:42
+Perfect.
+1:43
+Once that is set, we can import another function up here called push, and this is the magical function that's gonna let us push data from this input field here.
+1:53
+When we press the button, it's gonna pop up here.
+1:56
+So once that is imported, we can go down here, and actually, let's get rid of the console log, and let's replace it with push.
+2:04
+Now we can't just give it this value.
+2:07
+We also need to give it the reference so it knows where to push the data, and that's something we wanna put at the very beginning as the first argument.
+2:15
+And let's put a comma there and a space.
+2:17
+There we go.
+2:17
+Now for the moment of truth, let's run the project and let me put in my name again and my date of birth.
+2:26
+Three two one, fingers crossed, and it worked.
+2:29
+Let's have a look.
+2:30
+There it is.
+2:31
+We see that the reference was created and if we press this button, we can see the string that we just pushed with a unique ID that Firebase created for us.
+2:41
+In the world of computers, everything needs to be identified by a unique ID but luckily we're using Firebase and we don't need to worry about creating it ourselves.
+2:50
+Now if you for some reason wanted to delete this data, you could just press this trash can button.
+2:55
+Now let's try it out once more.
+2:57
+This time, I'm gonna use my dad's date of birth.
+2:59
+His name is Faz Hodah.
+3:02
+The seventh September nineteen sixty two.
+3:06
+Click add and there it is.
+3:09
+It's so cool how this works.
+3:11
+And that's how you push data to the real time database.
+3:14
+Let's quickly recap what we just did.
+3:16
+So first we created a reference in the database which in this case was called birthdays under which we can now start pushing data which we did using the push function where we first specified where we wanna push the data and then we gave it the data we wanted to push.
+3:31
+And that's it.
+3:32
+Now make sure to carefully look through this code to see if you understand it because in the next scrim you're gonna be recreating this for the leads tracker app.
+3:42
+Alright?
+3:42
+Awesome job so far.
+3:43
+I hope you found that fun.
+3:45
+I certainly did, and I'm gonna see you in the next one.
