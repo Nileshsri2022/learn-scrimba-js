@@ -1,0 +1,90 @@
+
+Transcript
+0:00
+Okay.
+0:01
+Let's make our new card function a bit more useful because now it's just rendering out this string.
+0:06
+What we wanted to do is to actually draw a new card and then add that new card to the sum and then rerun the code that is inside of the start game function so that the sum is added to the page.
+0:19
+And actually later down the line we also wanna show the new card of course, but as for now we're just going to worry about the sum.
+0:25
+So this is a three part challenge where you are to first create a card variable, and we're still just working with hard coded card variables.
+0:34
+You're just gonna code it to a number between two and eleven.
+0:38
+Then you are going to add this new card to the sum variable.
+0:42
+And the sum variable is the one up here, of course, which currently is the first card plus the second card.
+0:48
+And in this case, it'll be plus the third card as well, so you need to plus equal the sum variable.
+0:54
+And then finally, you are going to just call the startgame function.
+0:58
+Because what does the startgame function actually do?
+1:01
+Well, first, it renders out the two cards.
+1:03
+In our case now, we'll have added the third card, so this will still be wrong.
+1:08
+But line thirteen will render out actually the new sum because at this point sum will have changed since we'll have modified it down here.
+1:17
+And then it'll show the message based upon the new updated sum.
+1:21
+So actually, it seems that we can use this start game function even after we've drawn a new card, and thus we're going to rename it a bit later, but as for now, let's just keep it how it is, and your job is just to call the start game function here on line thirty three.
+1:35
+So go ahead and give this challenge your best shot and then I will show you the solution as well afterwards.
+1:45
+Okay.
+1:46
+Let's do this.
+1:47
+So we'll do let card here.
+1:50
+We'll set that to a random number between two and eleven.
+1:52
+I'll do seven.
+1:53
+And then we're going to add the new card to the sum variable.
+1:56
+If you remember how we add numbers to an existing variable, it's via the plus equal operator.
+2:01
+So we'll do sum plus equal card and then we'll call start game.
+2:07
+So start game like that.
+2:09
+Let's rerun the code.
+2:10
+First, do start game.
+2:11
+Okay.
+2:12
+Do you wanna draw a new card?
+2:13
+I happen to wanna do that so I'll hit new card and boom.
+2:16
+I drew the seven card which then made the sum reach twenty one, which then again made our dealer tell us that we got blackjack.
+2:22
+And so that is exactly what we want.
+2:25
+Now let's see what happens if we instead of a seven got an eight.
+2:29
+Right now, rerun the entire code, start game, and then hit new card.
+2:33
+Bam.
+2:33
+Then we're out of the game since we have sum equals twenty two.
+2:37
+And if we got a six instead, I'll rerun the code, start game, new card, then we still get the do you want to draw a new card text since we're still below twenty one.
+2:47
+Now I can actually hit the new card yet again and then we are out of the game.
+2:50
+Now we're at twenty six.
+2:52
+So this works for multiple cards.
+2:54
+Of course, it's only the sum that's reflected right now, not the cards, so we'll have to fix that in a bit.
+2:59
+But for now, let's just move on and first fix this little problem that the start game function name doesn't really make sense anymore since we're calling start game here at a point where the game has already started, so semantically it doesn't really add up.
+3:14
+So let's move on to the next cast.
