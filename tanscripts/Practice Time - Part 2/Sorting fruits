@@ -1,0 +1,70 @@
+
+Transcript
+0:00
+Now I have a fun little challenge for you.
+0:02
+Because you can see this fruits array here which contains emoji fruits, basically three apples and two oranges mixed together.
+0:09
+You are going to take these fruits and sort them onto the apple shelf or the orange shelf.
+0:14
+The apple shelf is the one at the top here and the orange shelf is the one at the bottom.
+0:19
+They are just simply divs that I've given a little bit of styling.
+0:23
+So you are to create a function that when called puts the apples onto the apple shelf and the oranges onto the orange shelf.
+0:31
+And you should use a for loop, a conditional statement, and the text content property to achieve this.
+0:40
+Now, one thing you might be wondering is how do you work with emojis in JavaScript?
+0:44
+And actually, you can treat these as normal strings.
+0:47
+It's just as if it said orange here instead of having the emoji.
+0:51
+So with that, I wish you good luck and I'll see you later when I'll show you my solution.
+0:56
+I'll Okay.
+1:02
+Hopefully, that went well.
+1:03
+Let's do this.
+1:05
+Blue function, I'm gonna call it sort fruit like that.
+1:08
+to And then inside of the function, we first need to loop through all of the fruits for let I equals zero, I equals less than fruit dot length, and I should be incremented upwards.
+1:23
+fruit Now inside of this, we need to check at every step in the iteration, are we dealing with an apple or are we dealing with an orange?
+1:31
+So I'll do if fruit I, that's the current fruit, triple equals, I'll and then I can just copy this apple here.
+1:42
+If it's an apple, well, then we are going to do this apple shelf dot text content.
+1:50
+apple, And here, we're not going to do just equal the apple.
+1:54
+We're going to plus equal because we wanna gather all of our apples here and not wipe them out every time we run this code.
+2:01
+Then I'm gonna do an else if fruit I triple equals this time an orange, well, then we are going to head over to the orange shelf and do text content plus equals the orange.
+2:20
+Now it would have worked perfectly fine if we just omitted this as well like that because in our array, if it isn't an apple, we know that it's an orange, but we might be getting other arrays which shall have bananas in them as well.
+2:34
+And if so, we don't want to put any bananas in the orange shelf.
+2:37
+We want to check explicitly that we are dealing with an orange before we put the fruit up on the shelf.
+2:43
+So finally, we just need to sort fruit want to run the code.
+2:47
+we Let's do that, and there we go.
+2:50
+We got three apples and two oranges neatly sorted on both of the shelves.
+2:55
+So great job.
+2:47
+to run the code.
+2:48
+Let's do that.
+2:49
+And there we go.
+2:50
+We got three apples and two oranges neatly sorted on both of the shelves.
+2:55
+So great job.
