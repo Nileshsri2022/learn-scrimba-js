@@ -1,0 +1,44 @@
+
+Transcript
+0:00
+Now you are going to take what you've learned about the logical and operator and modify this new card function so that you only allow the player to get a new card if she is alive and does not have blackjack.
+0:16
+So those are the two conditions that need to be filled for you to actually run this code.
+0:21
+So give this a shot, and I will of course show you the solution afterwards as well.
+0:26
+afterwards Okay.
+0:31
+So the way to do this is if, open and close parenthesis, and then I'm gonna actually just open the body of the conditional and paste in this code.
+0:42
+And when are we going to run this code?
+0:44
+Well, she has to be alive.
+0:46
+I'm gonna do s alive.
+0:48
+And then if that equals to true, that's the first condition.
+0:52
+equals And the second condition, which we also want to be true since we're using this logical and operator, should be that the has blackjack should equal to false, like that.
+1:07
+If is alive is true and has blackjack is false, then the dealer should be willing to give the player a new card.
+1:13
+So let's try this.
+1:15
+We'll start the game, fifteen, new card, twenty five, you're out of the game.
+1:19
+Let's try to ask the dealer if we can please get one more card.
+1:22
+Nothing happens.
+1:24
+It works.
+1:24
+Brilliant.
+1:25
+Really good job doing this challenge.
+1:22
+card.
+1:23
+Nothing happens.
+1:24
+Works brilliant, really good job doing this challenge.
