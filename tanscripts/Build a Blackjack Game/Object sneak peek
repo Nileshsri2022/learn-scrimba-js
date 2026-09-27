@@ -1,0 +1,86 @@
+
+Transcript
+0:00
+Okay.
+0:00
+So our blackjack game is almost complete.
+0:03
+There's just a tiny little feature I would like to add as well.
+0:06
+Because if you've ever played online blackjack or poker, what you normally see is your own name and your credits or your chips somewhere on the screen.
+0:15
+So So what I mean by that is something along the lines of this.
+0:19
+Like that.
+0:20
+So you see your name and how many credits you have or chips or whatever.
+0:24
+And this is nice because then it's possible to later implement the concept of winning, of increasing your chips, and of losing as you are betting or playing rounds are critical components of any blackjack game.
+0:36
+However, I wouldn't wanna hard code it in the HTML like this.
+0:39
+We of course wanna represent this data in our JavaScript as that gives us the ability to change it.
+0:44
+Now I'm gonna just show you how we could do this to begin with by first giving this an ID of player dash l and removing the contents of it.
+0:57
+Then in the JavaScript, we could do let player name equals pair and let player chips equals hundred and forty five, for example.
+1:12
+And then we could grab the element, player l equals document dot get element by ID, passing in the ID we just created, and then do the PlayerL dot text content, which you know by now, your name, colon, and a space, and then a dollar sign, and then plus the player tips like that.
+1:35
+If we now run this, you can see, yes, that we render it in the exact same way.
+1:40
+However, now we've come into a situation where two values that are inherently connected together, like the player and his chips, which currently live in two different variables.
+1:53
+What would make more sense in this situation would be to somehow combine this into a single unity, and that is where so called objects come into play.
+2:03
+That is another data type which resembles arrays a little bit, but they are also different in some fundamental ways.
+2:10
+But they are kind of also buckets where you store data.
+2:13
+So in our case, we would perhaps wanna create a player object in which we can store both the player's name and the chips.
+2:21
+So I'm gonna show you how to do this.
+2:23
+You might feel a little bit confused as you see it, but over the next few casts, you're going to practice objects yourself.
+2:29
+So what I'll do, I'll write let player equals open and closed curly brackets.
+2:36
+You've seen these before.
+2:37
+They're used often in JavaScript, But when you see them in a context like this, after the assignment operator, they mean that we are creating an object.
+2:45
+And inside of here, what I essentially wanna do is add this data right here.
+2:52
+However, you can see that something is wrong here with all these red lines.
+2:56
+That's because the syntax for creating items inside of our object is different from how we define variables.
+3:04
+First of all, we don't use the let keyword in front of the names.
+3:08
+And secondly, we replace the assignment with colon.
+3:14
+And thirdly, just as we have in arrays, we separate the items with commas, but we don't do that on the last item.
+3:23
+Finally, here it would make sense to omit the player as we've already used that name as the name of the entire object.
+3:31
+So we can just rather do name, and I'm not gonna capitalize it, and chips like that.
+3:39
+Now we have taken our two variables and grouped them together in this little bucket which we are calling player.
+3:45
+And the way we now can refer to these values, pair and a hundred and forty five, is by using the first the object name, player, and then the given key.
+3:56
+And that is the name, as this is called a key and its value.
+4:01
+So name is the key and pair is the value.
+4:03
+Also, chips is a key and a hundred and forty five is a value.
+4:07
+So to replace player chips with a reference to the chips inside of the player object, we will instead do player dot chips.
+4:16
+If I run this code, you can see we get the exact same result.
+4:20
+You're probably a little bit confused now, so don't worry if you think this was hard.
+4:25
+Over the next few casts, you are going to practice objects for yourself so that this becomes muscle memory and second nature to you.
+4:33
+Let's move on.
