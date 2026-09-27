@@ -1,0 +1,84 @@
+
+Transcript
+0:00
+Drumroll, please, because it's finally time for us to deploy our app to Netlify so we can share it with the whole world.
+0:06
+The very first thing we need to make sure of is to go into the JavaScript file and change this process dot e n v dot database URL to the actual database URL.
+0:17
+Remember, this only works within Scrimba.
+0:20
+So let's change that to our Firebase database URL.
+0:23
+Let me go ahead and do that here as well.
+0:25
+well.
+0:27
+Perfect.
+0:28
+Once we've done that, we need to download the files to our local machine.
+0:32
+Now if you've been following along locally, you already have this.
+0:36
+But if you've been using Squimba, let me just remind you that you wanna go to the bottom right gear icon and then press download as zip.
+0:44
+Perfect.
+0:44
+Then it's gonna ask you to give it a name.
+0:46
+Let's just give it the name leads tracker app and save that.
+0:51
+Perfect.
+0:52
+Then you should get a zip file and you wanna go ahead and unzip that file.
+0:56
+So you have all of these files inside of that folder.
+0:59
+Perfect.
+1:00
+Now that we've got that ready, let's head on over to netlify dot com and log in.
+1:05
+Most of you are probably using GitHub to log in, but I'm actually using my Scriba email, so I'm gonna log in with email and add in my credentials and press log in.
+1:13
+Perfect.
+1:14
+Then you should see something like this.
+1:16
+Then you wanna go down to the right to where it says add new site and choose deploy manually.
+1:23
+This is gonna let us drag and drop our folder which is the easiest way to deploy a website using Netlify.
+1:29
+So let's drag our newly created folder on here.
+1:32
+There it is uploading and boom, we're inside of our site.
+1:36
+Currently it has this randomized name which we do wanna change.
+1:40
+So let's press on options and then choose deploy settings and then go to general and then scroll down a little bit and change site name.
+1:50
+And let's try to do leads tracker app.
+1:52
+Hopefully that hasn't already been used by someone else.
+1:55
+Damn it.
+1:56
+Okay.
+1:57
+I'm just gonna add Hoda at the end which is my last name and then save.
+2:01
+Perfect.
+2:02
+And now let's open up a new tab and go to the URL which is gonna be leads tracker app hoda dot netlify dot app.
+2:09
+And there it is right there, accessible by anyone anywhere in the world.
+2:14
+I don't know about you, but it's always so satisfying to get your finished projects deployed.
+2:19
+Okay.
+2:19
+Now that we're done with that, the very last step is to put this bad boy on our home screen, which we'll cover next.
+2:26
+I'll see you there.
+2:24
+screen, which we'll cover next.
+2:26
+I'll see you there.
