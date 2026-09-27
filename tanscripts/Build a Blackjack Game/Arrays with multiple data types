@@ -1,0 +1,65 @@
+Transcript
+0:00
+Okay, up until now, our arrays have either included only strings or only numbers.
+0:07
+However, they're not limited to that.
+0:09
+You can actually put any data type you want into an array, and you can mix as much as you want.
+0:14
+you So you can think of an arrays as kind of a composition of multiple data types and their values.
+0:21
+So this is why arrays are what we call a composite data type.
+0:25
+You can say it's composed by its items if you need it to make semantically sense.
+0:29
+make And you'll often hear this also referred to as complex data types.
+0:34
+That is arrays and also for example objects which you are going to learn about later.
+0:38
+They stand in contrast to the primitive data types you have worked with up until now.
+0:43
+with The three primitives you have learned are strings, numbers, and booleans, because they are more primitive than arrays.
+0:51
+They are not composed of many other data types, which arrays often are.
+0:56
+So one analogy you can use is that the primitive data types are the LEGO blocks, whereas the array, the composite data types, is kind of like the full LEGO model, for example, after you've built a little house with your LEGO blocks.
+1:10
+But anyway, you shouldn't worry too much about this if you find it a little bit abstract and complex.
+1:15
+As a developer, you don't go around thinking about, oh, is this a primitive data type or a complex data type?
+1:21
+It just becomes second nature and you don't even think about it.
+1:23
+and So you shouldn't be put off by this even though it's a little bit theoretical.
+1:28
+Instead, I think you should just practice.
+1:31
+Now I want you to create an array that describes yourself and use all the three primitive data types that you've learned so far.
+1:38
+So it should contain your name, which is a string, your age, which is a number, and whether or not you like pizza, which should be a boolean.
+1:46
+So go ahead and do this right now.
+1:48
+Boolean.
+1:53
+Okay.
+1:54
+Hopefully, that went well.
+1:55
+Now let's do it together.
+1:57
+I'm gonna create an array called pear, do and my name is pear Harold Borgan.
+2:04
+I am thirty five years old, and I do happen to like pizza.
+2:08
+And I especially like pizza with pineapple.
+2:10
+It's the best.
+2:12
+Though I know that a lot of you don't agree with me, so let's not get into a discussion about that.
+2:17
+Let's just move on with the course.
+2:15
+get into a discussion about that.
+2:17
+Let's just move on with the course.
