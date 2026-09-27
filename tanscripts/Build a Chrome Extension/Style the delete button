@@ -1,0 +1,55 @@
+Transcript
+0:00
+Now we need to fix the fact that we can't delete our leads, because obviously that's a feature we need.
+0:06
+Let's say that I'm a sales development representative and I'm gathering leads like this, I have four leads at this point, and now I want to go ahead and contact these people, or maybe move this data over into a spreadsheet for example, so that I again can go out to the world wide web and churn through leads on LinkedIn and save them to my Chrome extension, well then I obviously need to get rid of these existing leads, so that I get a clean slate to start with.
+0:29
+But now that's not possible, I can refresh this as many times as I want, it'll just continue to store my leads.
+0:36
+So we need a delete button, need something that looks like this, and that is what you are going to do in this challenge, you are going to style this delete button, and then later on we're going to write the code for its functionality as well.
+0:50
+But first, we have to create the button in the HTML, and I'm just going to do that for you, So like that, delete all, and as you can see if we render this out, you can see that it's actually looking pretty good already.
+1:04
+It has the default button styling that we have added in our CSS here, but we want it to be kind of the inverse of the save input button, so that you properly see that it's something different.
+1:17
+And in order to target that button, we need to give it an ID of delete btn, like that.
+1:25
+Now, before you start writing your code inside of the delete btn selector right here, I am going to do one change on the button as a whole, because actually, this button which you can see in the slide has slightly different styling than this one here, and that is that the border is actually not none.
+1:46
+It's actually one pixel solid and then this green color.
+1:53
+Like here.
+1:54
+I can see both buttons got one pixel added to its border.
+1:59
+If I remove this, you'll see that the buttons become slightly smaller, they shrink in slightly, like that with zero, and they come a bit larger if I do one, and let's just try a different color here, red, there you'll clearly see it with one pixel and with zero pixels.
+2:16
+We want one pixels of the green color, because that's needed to get this green border around this delete all button.
+2:26
+So now we are ready.
+2:28
+You are to style the button according to the provided design, and you're only going to apply the styles inside of this delete BTN ID selector.
+2:36
+So go ahead and do this, and then of course I will show you the solution as well when you return back to the screencast.
+2:45
+Okay.
+2:46
+Hopefully that went well.
+2:48
+Let's start.
+2:49
+The first obvious obvious thing is the background.
+2:52
+It should be white, not green.
+2:54
+So I'll do background, white, like that.
+2:58
+Okay.
+2:58
+Now we also seemingly lost the text, but that's not the case, it's just white, so it blends in with the background.
+3:05
+So we need to change the color as well, and for that we're going to use this green color up here, and paste it in and there we go.
+3:14
+It's easy as that.
+3:15
+With that, let's move on.
