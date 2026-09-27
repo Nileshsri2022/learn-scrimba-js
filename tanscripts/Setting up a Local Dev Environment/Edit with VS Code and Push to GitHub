@@ -1,0 +1,104 @@
+
+Transcript
+0:00
+Let's begin by downloading and installing Visual Studio Code.
+0:03
+You can click on the link or the image to go to code dot visual studio dot com.
+0:08
+Click on the arrow and choose the stable version for your operating system.
+0:12
+And that will download the files and take you to this getting started page where you can read or watch some introductory videos if that's what you would like to do.
+0:21
+So going back to the scenario that we discussed earlier, I have another challenge for you.
+0:25
+Let's imagine that a client or an employer would love to use your scoreboard project, but instead of the headers reading home and guest, they want the headers to read home and away.
+0:34
+Keeping that in mind, here's what I'd like you to do.
+0:36
+Open your project in Versus Code, change the guest header so that it reads away instead, And then in GitHub Desktop, write a commit message and commit and publish your change to GitHub.
+0:47
+Again, I have a couple of hints.
+0:48
+GitHub Desktop provides another helpful button to open your project in Versus Code.
+0:52
+So strongly suggest that you start there.
+0:54
+And your second hint is don't forget to save your changes in Versus Code.
+0:58
+This is something that I forget to do all the time, and then I waste a lot of time trying to figure out what's going on.
+1:04
+So don't be like me.
+1:05
+Remember to save your changes.
+1:07
+Okay.
+1:07
+Go ahead and pause the scrim and give this a try, and I will be right back to walk you through it.
+1:16
+Okay.
+1:16
+We're back.
+1:17
+Hopefully, that went well.
+1:18
+But if you found this confusing, please don't worry about it, especially if you haven't had a lot of experience with GitHub or GitHub desktop or version control.
+1:25
+This is a lot of new stuff and a lot of new terminology to wrap your brain around.
+1:30
+And it's also not super important to understand all of this conceptually quite yet.
+1:35
+It's totally okay this early in the game to see this process as just a series of steps to accomplish a task.
+1:41
+So again, try not to worry about it.
+1:43
+You'll learn much more later.
+1:44
+So I'm gonna go to GitHub Desktop and click on open in Visual Studio Code.
+1:49
+The first time that you open files in Visual Studio Code, it might ask you if you trust the authors.
+1:53
+I'm gonna say, yes, I trust the authors.
+1:55
+And then I can go to my index dot HTML file and make that change.
+1:59
+Now remembering to save, I will return to GitHub Desktop, and you can see that it has automatically detected the change that I made.
+2:05
+You can see that the line we deleted is recorded in red and the line that we added is recorded in green.
+2:11
+Before I can publish this change to GitHub, I will need to make a commit.
+2:14
+So I'm gonna come down here and write a nice descriptive message explaining the change that we've made.
+2:20
+So we've updated the score header, and now I can commit to main.
+2:24
+GitHub Desktop has very helpfully highlighted our next step.
+2:27
+It says you have one local commit waiting to be pushed to GitHub.
+2:30
+So you may be wondering what push origin means and what the difference is between a commit and a push.
+2:36
+So while GitHub Desktop will automatically detect when you make a change to a repo, in order to push it to GitHub, you must say to GitHub, please make an official record of these changes.
+2:46
+And the record of these changes is called a commit.
+2:49
+Push essentially means publish the commits I've made to GitHub.
+2:53
+And don't worry too much about what origin means.
+2:55
+It's basically another word for your remote repo.
+2:58
+So I will go ahead and push origin, and now we have no local changes.
+3:02
+There's nothing left to do.
+3:03
+We have pushed our commit up to GitHub.
+3:06
+And I would like to quickly point out that if you click on the History tab here you can see a record of all of the commits that I've made so far.
+3:13
+Now going back to the changes tab, I can click on view on GitHub, and if I click on our index dot HTML file, you see those changes are reflected in our remote repo on GitHub.
+3:24
+You've learned a ton about setting up a local environment to manage your coding projects outside of a scrim on your computer.
+3:30
+In the next scrim, we'll use Netlify to get your project deployed to the web.
+3:34
+I'll see you there.
