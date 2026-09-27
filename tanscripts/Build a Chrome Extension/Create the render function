@@ -1,0 +1,60 @@
+
+Transcript
+0:00
+Okay.
+0:00
+Now that we have many of the pieces of our app working, let's stitch them together so that when a user enters a lead and hits the save input button, it'll actually be rendered out opposed to us having to actually add the dummy data from the get go hard coding it here on line one.
+0:15
+So I'm gonna remove these lines and your job is split into two.
+0:20
+First, you are to wrap the code below that is from line thirteen to seventeen in a render leads function, and then you are to call render leads function inside of the event handler for the button clicks.
+0:31
+And I'm gonna remove this console log right here to make it a bit cleaner.
+0:34
+But just to talk through the logic here, what will happen is that when the user adds something into the input field and input hits the save input, this epic lead as you know will be pushed to the my leads array.
+0:47
+And then if we call the render leads and have this wrapped inside of that render leads function, it should according to our plan render out whatever items there are inside of the my leads array which would be much better than what we have now where simply I can hit the save input as much as I want, but nothing happens.
+1:04
+My lead just stays in the input field.
+1:06
+Not good.
+1:07
+So go ahead and try to knock this one out.
+1:09
+this Okay.
+1:15
+Hopefully, that went well.
+1:16
+Now let's do this.
+1:17
+I'll write function, render leads, and then the body of the function.
+1:23
+Inside of that, I will copy this code and also tab it out so that it's easier to read like this.
+1:30
+Looking good.
+1:31
+And then we are to call the render lead function.
+1:33
+We do that by doing render leads and adding the open and close parenthesis.
+1:37
+Now if we run the code, w w w dot epic lead dot com.
+1:42
+Save input.
+1:42
+Yes.
+1:43
+It works.
+1:44
+I did w w w dot awesome lead dot com.
+1:47
+Woo hoo.
+1:47
+It actually works.
+1:48
+Really good job.
+1:49
+Now we have stitched together the various pieces of our app, and we have what looks like a functional prototype.
+1:54
+You should be really proud of yourself reaching this far, so give yourself a pat on the back, and when you are ready, let's move on.
+1:59
+when you are ready, let's move on.
